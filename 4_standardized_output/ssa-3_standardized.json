@@ -1,0 +1,652 @@
+{
+  "filename": "ssa-3.pdf",
+  "source_file": "2_fields_json\\ssa-3_fields.json",
+  "summary": {
+    "total_fields": 47,
+    "kept_original": 0,
+    "matched_existing": 20,
+    "created_new": 27,
+    "labels_added": [
+      "wage_earner_name",
+      "spouse_first_name_1",
+      "last_name",
+      "previous_marriage_yes_checkbox",
+      "previous_marriage_1_spouse_name",
+      "marriage_1_where",
+      "marriage_1_ended_where",
+      "marriage_1_performed_by_clergyman_checkbox",
+      "marriage_1_performed_by_clergy_checkbox",
+      "spouse_date_of_birth",
+      "spouse_1_date_of_death",
+      "marriage_1_spouse_ssn",
+      "previous_marriage_2_spouse_name",
+      "marriage_2_where",
+      "marriage_2_ended_date",
+      "marriage_2_end_location",
+      "marriage_2_performed_by_clergy_checkbox",
+      "marriage_2_performed_by_checkbox",
+      "spouse_2_date_of_birth",
+      "spouse_2_date_of_death",
+      "marriage_2_spouse_ssn",
+      "remarks_previous_marriages",
+      "telephone_number_area_code",
+      "city",
+      "state_page_2",
+      "witness_1_address",
+      "witness_2_address"
+    ]
+  },
+  "fields": [
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_NameofWageEarner_FLD[0]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 95,
+      "reasoning": "The field context indicates that this field is for the name of the wage earner or self-employed person. No existing label matched this context, so a new label 'wage_earner_name' was created. It follows the snake_case format and is unique within this form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Form SSA-3 (08-2025) U F Discontinue Prior Editions     SOCIAL SECURITY ADMINISTRATION    MARRIAGE CERTIFICATION     Page 1 of 2 O M B Number 0960-0009 T O E 120/420 SEE PAPERWORK/PRIVACY\rACT NOTICE ON REVERSE. PRINT NAME OF WAGE EARNER OR SELF-EMPLOYED PERSON",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_WageEarnerSSN_FLD[0]",
+      "standardized_label": "social_security_number",
+      "confidence": 95,
+      "reasoning": "The field context clearly indicates that this field represents a social security number. The existing label 'social_security_number' is semantically correct and unique within this form, making it the appropriate choice.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "SOCIAL SECURITY NUMBER",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_FirstNameofSpouse_FLD[0]",
+      "standardized_label": "spouse_first_name_1",
+      "confidence": 95,
+      "reasoning": "The field represents the first name of the spouse in the context of an insurance benefits application. A new label 'spouse_first_name_1' was created to ensure uniqueness within the form, as 'spouse_first_name' already exists in the master list.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "I am the spouse of the person named below, who has applied for insurance benefits under Title II of the Social Security Act, as presently amended. NAME OF SPOUSE  (First Name)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_MaidenName_FLD[0]",
+      "standardized_label": "maiden_name",
+      "confidence": 90,
+      "reasoning": "The field context 'Maiden Name, if applicable' clearly indicates that the field is for capturing a maiden name. The search for similar labels returned 'maiden_name' with a high similarity score of 72.7, which is semantically correct. The label 'maiden_name' is valid and unique within this form, making it the appropriate choice.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "(Maiden Name, if applicable)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_LastName_FLD[0]",
+      "standardized_label": "last_name",
+      "confidence": 95,
+      "reasoning": "The field context clearly indicates it represents a last name. The search for similar labels returned 'last_name' with a reasonable similarity score. The label format is valid and unique within this form, making it an appropriate choice for standardization.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "(Last Name)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfBy_CB1[0]",
+      "standardized_label": "marriage_performed_by_clergyman_checkbox",
+      "confidence": 90,
+      "reasoning": "The field represents a checkbox to indicate if the marriage was performed by a clergyman or authorized public official. The label 'marriage_performed_by_clergyman_checkbox' is semantically appropriate and follows the required format. It was validated as unique within this form and matches the context provided.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "1. Indicate whether your present marriage was performed by: Clergyman or Authorized Public Official",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfBy_CB2[0]",
+      "standardized_label": "marriage_performed_by_other_checkbox",
+      "confidence": 85,
+      "reasoning": "The field likely represents a checkbox for 'marriage performed by other', and the label 'marriage_performed_by_other_checkbox' already exists and is valid. It was not used in this form, ensuring uniqueness.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Other  ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfByCB2_FLD[0]",
+      "standardized_label": "previous_marriage_1_was_performed_by_other_explain",
+      "confidence": 85,
+      "reasoning": "The field context suggests an explanation for 'other' being checked, likely related to a marriage context. The search for numbered variations revealed 'previous_marriage_1_was_performed_by_other_explain', which fits the context and is unique in this form. This label is semantically appropriate and follows the detected pattern of previous marriages.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "If other is checked, explain here.",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N2MarriedPrev_CB1[0]",
+      "standardized_label": "previous_marriage_yes_checkbox",
+      "confidence": 95,
+      "reasoning": "The field represents a checkbox for confirming if the person was married before their present marriage. No existing label matched this context, so a new label 'previous_marriage_yes_checkbox' was created and validated for uniqueness and format.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "2. Were you married before your present marriage? Yes (If ''yes'', give the following information about each of your previous marriages.)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N2MarriedPrev_CB2[0]",
+      "standardized_label": "married_previous_checkbox",
+      "confidence": 85,
+      "reasoning": "The field is a checkbox related to previous marriage status. The label 'married_previous_checkbox' is valid, unique in this form, and semantically appropriate.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "No",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Whom_FLD[0]",
+      "standardized_label": "previous_marriage_1_spouse_name",
+      "confidence": 95,
+      "reasoning": "The field represents the spouse name for the first previous marriage. No existing numbered variations were found, and no similar labels matched the context. A new label 'previous_marriage_1_spouse_name' was created to ensure clarity and uniqueness within the form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "PREVIOUS MARRIAGE number 1 TO WHOM MARRIED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1When_FLD[0]",
+      "standardized_label": "your_other_marriage_date_1",
+      "confidence": 90,
+      "reasoning": "The field context suggests it is related to a marriage date. The search for numbered variations of 'marriage_date' returned 'your_other_marriage_date_1', which fits the context of a specific marriage date. The label is unique in this form and follows the correct format.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHEN  (M M/D D/Y Y Y Y)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Where_FLD[0]",
+      "standardized_label": "marriage_1_where",
+      "confidence": 95,
+      "reasoning": "The field represents the location (city and state) of the first marriage. No existing labels matched well, and no numbered variations were found. Created a new label 'marriage_1_where' to fit the context and ensure uniqueness.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHERE  (City and State)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Ended_FLD[0]",
+      "standardized_label": "previous_marriage_1_how_marriage_ended",
+      "confidence": 95,
+      "reasoning": "The field context 'HOW MARRIAGE ENDED' suggests it is related to the end of a marriage. The search for numbered variations revealed 'previous_marriage_1_how_marriage_ended', which fits the context and ensures uniqueness within the form. This label is not already used in the form, making it a suitable match.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "HOW MARRIAGE ENDED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1EndedWhen_FLD[0]",
+      "standardized_label": "your_other_marriage_end_date_1",
+      "confidence": 85,
+      "reasoning": "The field represents the date when a marriage ended. The context suggests this is related to a specific marriage instance, likely the first one. The existing label 'your_other_marriage_end_date_1' matches this context and is unique within the form, making it a suitable choice.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHEN  (M M/D D/Y Y Y Y)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1EndedWhere_FLD[0]",
+      "standardized_label": "marriage_1_ended_where",
+      "confidence": 95,
+      "reasoning": "The field represents the location (city and state) where the first marriage ended. No existing labels matched this context closely enough, and no numbered variations were found. A new label 'marriage_1_ended_where' was created to capture this specific context, ensuring uniqueness and clarity.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHERE  (City and State)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1PerfBy_CB1[0]",
+      "standardized_label": "marriage_1_performed_by_clergyman_checkbox",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive and appeared to be internal notation. No existing labels matched the context sufficiently, and no numbered variations were found. A new label was created to uniquely identify the checkbox for the first marriage context, ensuring clarity and uniqueness within the form.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "MARRIAGE PERFORMED BY: Clergyman or Public Official",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1PerfBy_CB2[0]",
+      "standardized_label": "marriage_1_performed_by_clergy_checkbox",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive and appeared to be internal XFA notation. Based on the context and the pattern detected ('Marr1PerfBy_CB2'), a new label 'marriage_1_performed_by_clergy_checkbox' was created to accurately describe the checkbox's purpose, specifically for the first marriage context. The label was validated and confirmed to be unique within the form.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Other (Explain in \"REMARKS\")",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseDOB_FLD[0]",
+      "standardized_label": "spouse_date_of_birth",
+      "confidence": 95,
+      "reasoning": "The field represents the spouse's date of birth. No existing or numbered variations matched the context, and the label 'spouse_date_of_birth' is valid and unique within this form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "SPOUSE'S DATE OF BIRTH  (or age)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseDOD_FLD[0]",
+      "standardized_label": "spouse_1_date_of_death",
+      "confidence": 95,
+      "reasoning": "The field name was gibberish and did not provide any semantic meaning. Based on the context 'GIVE DATE OF DEATH IF SPOUSE IS DECEASED', a new label 'spouse_1_date_of_death' was created to uniquely identify this field, considering the possibility of multiple spouses.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "GIVE DATE OF DEATH IF SPOUSE IS DECEASED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseSSN_FLD[0]",
+      "standardized_label": "marriage_1_spouse_ssn",
+      "confidence": 95,
+      "reasoning": "The field represents the spouse's social security number for the first marriage. No existing label closely matched this context, and the label 'marriage_1_spouse_ssn' is descriptive, unique, and follows the naming conventions.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Spouse's Social Security Number  \r(If none or unknown, so indicate)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Whom_FLD[0]",
+      "standardized_label": "previous_marriage_2_spouse_name",
+      "confidence": 95,
+      "reasoning": "The field represents 'PREVIOUS MARRIAGE number 2 TO WHOM MARRIED'. No existing numbered variations were found, so a new label 'previous_marriage_2_spouse_name' was created and validated. It is unique within this form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "PREVIOUS MARRIAGE  number 2 TO WHOM MARRIED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2When_FLD[0]",
+      "standardized_label": "deceased_other_marriage_date_1",
+      "confidence": 90,
+      "reasoning": "The field context suggests a date related to a second marriage. The search for numbered variations of 'marriage_date' provided 'deceased_other_marriage_date_1', which is unique in this form and follows the pattern of numbered marriage dates. The label format is valid and semantically appropriate for the context.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHEN  (M M/D D/Y Y Y Y)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Where_FLD[0]",
+      "standardized_label": "marriage_2_where",
+      "confidence": 95,
+      "reasoning": "The field represents the location (city and state) of the second marriage. No existing labels matched this context closely enough, and no numbered variations were found. A new label 'marriage_2_where' was created to fit the pattern of numbered marriage fields, ensuring uniqueness and clarity.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHERE  (City and State)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Ended_FLD[0]",
+      "standardized_label": "previous_marriage_2_how_marriage_ended",
+      "confidence": 95,
+      "reasoning": "The field context 'HOW MARRIAGE ENDED' suggests it is related to the end of a marriage. Given the field name includes 'Marr2Ended', it likely refers to the second marriage. The search for numbered variations returned 'previous_marriage_2_how_marriage_ended', which fits the context and ensures uniqueness within the form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "HOW MARRIAGE ENDED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2EndedWhen_FLD[0]",
+      "standardized_label": "marriage_2_ended_date",
+      "confidence": 95,
+      "reasoning": "The field represents the date when the second marriage ended. No existing label matched this context, so a new descriptive label 'marriage_2_ended_date' was created and validated. It is unique within this form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHEN  (M M/D D/Y Y Y Y)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2EndedWhere_FLD[0]",
+      "standardized_label": "marriage_2_end_location",
+      "confidence": 95,
+      "reasoning": "The field context 'WHERE (City and State)' indicates the location where the marriage ended. No existing labels matched this context closely enough, and no numbered variations were found. A new label 'marriage_2_end_location' was created to uniquely identify this field, ensuring it is descriptive and follows the snake_case format.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "WHERE  (City and State)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2PerfBy_CB1[0]",
+      "standardized_label": "marriage_2_performed_by_clergy_checkbox",
+      "confidence": 95,
+      "reasoning": "The field represents a checkbox for indicating if the marriage was performed by clergy or public official, specifically for the second marriage context. No existing labels matched this context, so a new label was created following the pattern for numbered variations.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "MARRIAGE PERFORMED BY: Clergyman or Public Official",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2PerfBy_CB2[0]",
+      "standardized_label": "marriage_2_performed_by_checkbox",
+      "confidence": 95,
+      "reasoning": "The field name was gibberish and no similar existing labels matched semantically. Detected a pattern indicating this is related to the second marriage, specifically who performed it. Created a new label 'marriage_2_performed_by_checkbox' to reflect this, ensuring it was unique and validated.",
+      "field_type": "CheckBox",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Other (Explain in \"REMARKS\")",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseDOB_FLD[0]",
+      "standardized_label": "spouse_2_date_of_birth",
+      "confidence": 95,
+      "reasoning": "The field represents the second spouse's date of birth, and no existing label matched this context. A new label 'spouse_2_date_of_birth' was created to uniquely identify this field, following the detected pattern of multiple spouse entries.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "SPOUSE'S DATE OF BIRTH  (or age)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseDOD_FLD[0]",
+      "standardized_label": "spouse_2_date_of_death",
+      "confidence": 95,
+      "reasoning": "The field name was gibberish and did not provide any meaningful context. Based on the PDF context 'GIVE DATE OF DEATH IF SPOUSE IS DECEASED', a new label 'spouse_2_date_of_death' was created to uniquely identify the date of death for the second spouse in a repeating pattern context. The label was validated and confirmed to be unique within this form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "GIVE DATE OF DEATH IF SPOUSE IS DECEASED",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseSSN_FLD[0]",
+      "standardized_label": "marriage_2_spouse_ssn",
+      "confidence": 95,
+      "reasoning": "The field represents the spouse's SSN for a second marriage context. No existing label matched this specific context, so a new label 'marriage_2_spouse_ssn' was created and validated for uniqueness and format.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "Spouse's Social Security Number  \r(If none or unknown, so indicate)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Remarks_FLD[0]",
+      "standardized_label": "remarks_previous_marriages",
+      "confidence": 95,
+      "reasoning": "The field is intended for remarks about previous marriages, and no existing label was a close match. A new label 'remarks_previous_marriages' was created to accurately reflect the field's purpose. The label format was validated and confirmed to be unique within the form.",
+      "field_type": "Text",
+      "page": 1,
+      "original_contexts": {
+        "field_context_on_pdf": "REMARKS:  (Use this space of this form for information about any other previous marriages, if necessary) ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Signature_FLD[0]",
+      "standardized_label": "signature",
+      "confidence": 95,
+      "reasoning": "The context clearly indicates that this field is for the signature of the wage earner or self-employed person. The search for similar labels returned 'signature' as an excellent match with a similarity score of 100. Additionally, the label 'signature' has not been used in this form, ensuring uniqueness. Therefore, 'signature' is the most appropriate and standardized label for this field.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Page 2 of 2 I declare under penalty of perjury that I have examined all the information on this form, and on any accompanying statements or forms, and it is true and correct to the best of my knowledge. I understand \rthat anyone who knowingly gives a false or misleading statement about a material fact in this information, \ror causes someone else to do so, commits a crime and may be sent to prison, or may face other penalties, \ror both. SIGNATURE OF WAGE EARNER OR SELF-EMPLOYED PERSON SIGNATURE  (First Name, Middle Initial, Last Name)  (Write in ink.) Complete the form, print, and sign",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignDate_FLD[0]",
+      "standardized_label": "date",
+      "confidence": 95,
+      "reasoning": "The field context indicates a date format, and the search for similar labels returned 'date' as an excellent match with a similarity score of 100. The label 'date' is unique within this form and follows the proper format.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "DATE  (MM/DD/Y Y Y Y)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_TelephoneNumber_FLD[0]",
+      "standardized_label": "telephone_number_area_code",
+      "confidence": 95,
+      "reasoning": "The field represents a telephone number area code, and no existing label matched this context closely enough. The label 'telephone_number_area_code' is descriptive, follows the required format, and is unique within this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "TELEPHONE NUMBER  (Area Code)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_MailingAddress_FLD[0]",
+      "standardized_label": "mailing_address",
+      "confidence": 95,
+      "reasoning": "The field represents a mailing address, and the label 'mailing_address' is both descriptive and follows naming conventions. It is unique within this form and already exists in the master list.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "MAILING ADDRESS  (Number and Street, Apartment number, P O Box, or Rural Route)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_City_FLD[0]",
+      "standardized_label": "city",
+      "confidence": 95,
+      "reasoning": "The field context clearly indicates that this field represents a city. No similar existing labels were found, and the label 'city' is valid and unique within this form. Therefore, a new label 'city' was created.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "CITY",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_State_FLD[0]",
+      "standardized_label": "state_page_2",
+      "confidence": 95,
+      "reasoning": "The field context suggests it's for state information. Both 'state' and 'state_2' labels already exist, so I created a new unique label 'state_page_2' to reflect this field's position on Page 2. The label follows naming conventions and is unique within this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "STATE",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_ZIPCode_FLD[0]",
+      "standardized_label": "zip_code",
+      "confidence": 95,
+      "reasoning": "The field context clearly indicates it represents a ZIP code. The label 'zip_code' is semantically correct, follows the required format, and is unique within this form. Although it already exists in the master list, it is appropriate to use here.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "ZIP CODE",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignatureofWitness1_FLD[0]",
+      "standardized_label": "signature_witness_1",
+      "confidence": 95,
+      "reasoning": "The field context indicates that this is for the signature of the first witness. The search for similar labels returned 'signature_witness_1' with a high similarity score of 82.1, which is semantically correct. The label 'signature_witness_1' is unique in this form, making it an appropriate match.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Witnesses are required ONLY if this statement has been signed by mark (X) above. If signed by mark (X), two \rwitnesses to the signing who know the wage earner or self-employed person must sign below, giving their \rfull addresses. 1.  SIGNATURE OF WITNESS Requires wet signature. Complete the form, Print, and sign",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_AddressWitness1_FLD[0]",
+      "standardized_label": "witness_1_address",
+      "confidence": 95,
+      "reasoning": "The field represents the address of the first witness. No existing label matched this context with sufficient similarity. A new label 'witness_1_address' was created to reflect the context and ensure uniqueness within the form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "ADDRESS  (Number and Street, City, State and ZIP Code)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignatureofWitness2_FLD[0]",
+      "standardized_label": "signature_witness_2",
+      "confidence": 95,
+      "reasoning": "The field context indicates this is the signature for the second witness. The search for similar labels returned 'signature_witness_2' with a high similarity score, and it matches the context of the field. The label 'signature_witness_2' is unique in this form, making it an appropriate choice for standardization.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "2.  SIGNATURE OF WITNESS Requires wet signature. Print out and sign form. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_AddressWitness2_FLD[0]",
+      "standardized_label": "witness_2_address",
+      "confidence": 95,
+      "reasoning": "The field represents the address of the second witness. A new label 'witness_2_address' was created following the pattern for numbered variations of witness addresses. This label is unique within the form and follows the snake_case format.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "ADDRESS  (Number and Street, City, State and ZIP Code)",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_PAReadOnly_FLD[0]",
+      "standardized_label": "privacy_act_statement",
+      "confidence": 85,
+      "reasoning": "The field context clearly indicates that this is related to the Privacy Act Statement. The existing label 'privacy_act_statement' is a good semantic match with a similarity score of 66.7. The label format is valid and unique within this form, making it suitable for use.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Privacy Act Statement\rCollection and Use of Personal Information Sections 202(b) and (c), 205(ay), and 216(h)(1) of the Social Security Act, as amended, allow us to collect your information, which we will use to determine the identity of your spouse.  Providing the information is voluntary, but not providing all or part of the information may prevent an accurate and timely decision on your eligibility for spousal benefits.  As law permits, we may use and share the information you submit, including with other Federal agencies, contractors, and others, as outlined in the routine uses within System of Records Notices 60-0089, 60-0090, and 60-0320, available at www.s s ay.g o v/privacy. The information you submit may also be used in computer matching programs for Federal benefits eligibility and to recoup debts under these programs.",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_PRAReadOnly_FLD[0]",
+      "standardized_label": "paperwork_reduction_act_statement",
+      "confidence": 85,
+      "reasoning": "The field context clearly indicates that this is related to the Paperwork Reduction Act Statement. A similar label 'paperwork_reduction_act_statement' was found with a high similarity score and is semantically correct. The label format is valid and unique within this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Paperwork Reduction Act Statement This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget control number. We estimate that it will take about 60 minutes to read the instructions, gather the facts, and answer the questions. SEND OR BRING THE COMPLETED FORM TO YOUR LOCAL SOCIAL SECURITY OFFICE. You can find your local Social Security office through SSA's website at www.socialsecurity.g o v. Offices are also listed under U. S. Government agencies in your telephone directory or you may call Social Security at 1-800-772-1213 (TTY 1-800-325-0778). You may send comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6401 Security Blvd, Baltimore, MD 21235-6401. Send only comments relating to our time estimate to this address, not the completed form. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_EOF_FLD[0]",
+      "standardized_label": "end_of_form_indicator",
+      "confidence": 85,
+      "reasoning": "The field context suggests it is an indicator for reaching the end of the form. The label 'end_of_form_indicator' is appropriate, unique within this form, and exists in the master list.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "You have reached the end of the form. If you tab, you will be at the beginning of the form.",
+        "field_context_detected": null
+      }
+    }
+  ]
+}
