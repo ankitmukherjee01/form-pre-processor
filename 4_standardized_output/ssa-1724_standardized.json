@@ -1,0 +1,376 @@
+{
+  "filename": "ssa-1724.pdf",
+  "fields": [
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_DeceasedName_FLD[0]",
+      "standardized_label": "deceased_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'DeceasedName' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_DeceasedSSN_FLD[0]",
+      "standardized_label": "deceased_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'DeceasedSSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_NameOfWorker_FLD[0]",
+      "standardized_label": "worker_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'NameOfWorker' and shortened it to 'worker_name' for conciseness, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ClaimDeceasedName_FLD[0]",
+      "standardized_label": "deceased_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'DeceasedName' from 'ClaimDeceasedName' as the 'Claim' aspect is implicit to the form. Converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly states 'Enter name of deceased', reinforcing 'deceased_name'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ThisClaimWhoDiedOn_FLD[0]",
+      "standardized_label": "death_date",
+      "confidence": 90,
+      "reasoning": "The 'Context on PDF' explicitly states 'enter day of death'. Therefore, the most concise and semantically accurate label is 'death_date'. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ThisClaimMonth_FLD[0]",
+      "standardized_label": "death_month",
+      "confidence": 90,
+      "reasoning": "The 'Context on PDF' explicitly states 'month of death'. Therefore, the most concise and semantically accurate label is 'death_month'. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ThisClaimYear_FLD[0]",
+      "standardized_label": "death_year",
+      "confidence": 90,
+      "reasoning": "The 'Context on PDF' explicitly states 'year of death'. Therefore, the most concise and semantically accurate label is 'death_year'. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ThisClaimState_FLD[0]",
+      "standardized_label": "deceased_state_of_residence",
+      "confidence": 90,
+      "reasoning": "The 'Context on PDF' explicitly states 'enter state deceased lived in'. Therefore, the most concise and semantically accurate label is 'deceased_state_of_residence'. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ApplicantName_FLD[0]",
+      "standardized_label": "applicant_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'ApplicantName' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'PRINT NAME OF APPLICANT'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_ApplicantRelation_FLD[0]",
+      "standardized_label": "applicant_relationship_to_deceased",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'ApplicantRelation' and expanded it to 'applicant_relationship_to_deceased' for improved clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'RELATIONSHIP TO DECEASED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_SurvivingWidowerName_FLD[0]",
+      "standardized_label": "surviving_widower_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'SurvivingWidowerName' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'NAME OF SURVIVING WIDOW(ER)'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_SurvivingWidowerAdd_[0]",
+      "standardized_label": "surviving_widower_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'SurvivingWidowerAdd' and expanded 'Add' to 'address' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF SURVIVING WIDOW(ER)'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_WidowerSSN_FLD[0]",
+      "standardized_label": "widower_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'WidowerSSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'SOCIAL SECURITY NUMBER(S) OF WIDOW(ER)'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_WidowerSameHousehold_CB1[0]",
+      "standardized_label": "widower_same_household",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'WidowerSameHousehold' and converted it to lowercase snake_case. Removed page, subform, field type, and index identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_CB1[0]' as per rules. The label concisely represents the checkbox question about the widower living in the same household."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_WidowerSameHousehold_CB2[0]",
+      "standardized_label": "widower_not_same_household_checkbox",
+      "confidence": 90,
+      "reasoning": "This checkbox corresponds to the 'No' option for the question 'WAS THE WIDOW(ER) NAMED ABOVE LIVING IN THE SAME HOUSEHOLD WITH THE DECEASED AT THE TIME OF DEATH?'. Therefore, 'widower_not_same_household' is the appropriate standardized label. Removed page, subform, field type, and index identifiers as per rules. This explicitly differentiates it from the 'Yes' option (P1_WidowerSameHousehold_CB1)."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_EntitledToBenefit_CB1[0]",
+      "standardized_label": "widower_entitled_to_benefit",
+      "confidence": 90,
+      "reasoning": "The field refers to the widower's entitlement to a monthly benefit. Therefore, 'widower_entitled_to_benefit' accurately captures the meaning. Removed page, subform, field type, and index identifiers as per rules. The 'Context on PDF' explicitly confirms 'WAS HE OR SHE ENTITLED TO A MONTHLY BENEFIT' and the previous fields established the 'widower' context."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_EntitledToBenefit_CB2[0]",
+      "standardized_label": "widower_not_entitled_to_benefit_checkbox",
+      "confidence": 90,
+      "reasoning": "This checkbox corresponds to the 'No' option for the question 'WAS HE OR SHE ENTITLED TO A MONTHLY BENEFIT ON THE SAME EARNINGS RECORD AS THE DECEASED AT THE TIME OF DEATH?'. Therefore, 'widower_not_entitled_to_benefit' is the appropriate standardized label. Removed page, subform, field type, and index identifiers as per rules. This explicitly differentiates it from the 'Yes' option (P1_EntitledToBenefit_CB1)."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_NumberOfLivingChildren_FLD[0]",
+      "standardized_label": "number_of_living_children",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'NumberOfLivingChildren' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ENTER NUMBER OF LIVING CHILDREN OF THE DECEASED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child1Name_FLD[0]",
+      "standardized_label": "child_1_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child1Name' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'Name of child'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child1Address_FLD[0]",
+      "standardized_label": "child_1_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child1Address' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF CHILD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child1Relationship_FLD[0]",
+      "standardized_label": "child_1_relationship_to_deceased",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child1Relationship' and expanded it to 'child_1_relationship_to_deceased' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'RELATIONSHIP TO DECEASED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child1SSN_FLD[0]",
+      "standardized_label": "child_1_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child1SSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'SOCIAL SECURITY NUMBER OF CHILD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child2Name_FLD[0]",
+      "standardized_label": "child_2_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child2Name' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'NAME OF CHILD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child2Address_FLD[0]",
+      "standardized_label": "child_2_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child2Address' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF CHILD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child2Relationship_FLD[0]",
+      "standardized_label": "child_2_relationship_to_deceased",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child2Relationship' and expanded it to 'child_2_relationship_to_deceased' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'RELATIONSHIP TO DECEASED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Child2SSN_FLD[0]",
+      "standardized_label": "child_2_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Child2SSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage1[0].', 'P1_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'SOCIAL SECURITY NUMBER OF CHILD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_NumberOfLivingParents_FLD[0]",
+      "standardized_label": "number_of_living_parents",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'NumberOfLivingParents' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ENTER NUMBER OF LIVING PARENTS OF THE DECEASED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent1Name_FLD[0]",
+      "standardized_label": "parent_1_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent1Name' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'NAME OF LIVING PARENT'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent1Address_FLD[0]",
+      "standardized_label": "parent_1_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent1Address' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF LIVING PARENT'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent1SSN_FLD[0]",
+      "standardized_label": "parent_1_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent1SSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'SOCIAL SECURITY NUMBER OF PARENT NAMED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent2Name_FLD[0]",
+      "standardized_label": "parent_2_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent2Name' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'NAME OF LIVING PARENT'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent2Address_FLD[0]",
+      "standardized_label": "parent_2_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent2Address' and converted it to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF LIVING PARENT'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Parent2SSN_FLD[0]",
+      "standardized_label": "parent_2_social_security_number",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'Parent2SSN' and expanded 'SSN' to 'social_security_number' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'SOCIAL SECURITY NUMBER OF PARENT NAMED'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_EstateRepName_FLD[0]",
+      "standardized_label": "legal_representative_name",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'EstateRepName' and expanded it to 'legal_representative_name' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'NAME OF LEGAL REPRESENTATIVE'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_EstateRepAddress_FLD[0]",
+      "standardized_label": "legal_representative_address",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'EstateRepAddress' and expanded it to 'legal_representative_address' for clarity, then converted to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'ADDRESS OF LEGAL REPRESENTATIVE'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_ApplicantSignReadOnly_FLD[0]",
+      "standardized_label": "applicant_signature_name",
+      "confidence": 90,
+      "reasoning": "The field is described as 'ApplicantSignReadOnly_FLD' and the context mentions 'SIGNATURE (First name, middle initial, last name)'. This indicates it's for the name of the applicant signing. Therefore, 'applicant_signature_name' is the most appropriate and concise label. Removed page, subform, and field type identifiers as per rules. Despite 'ReadOnly' in the field name, its context clearly indicates it's for a signature name."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignDate_FLD[0]",
+      "standardized_label": "signature_date",
+      "confidence": 90,
+      "reasoning": "Extracted the core semantic meaning 'SignDate' and converted it to 'signature_date' for clarity, then to lowercase snake_case. Removed page, subform, and field type identifiers like 'topmostSubform[0].BodyPage2[0].', 'P2_', and '_FLD[0]' as per rules. The 'Context on PDF' explicitly confirms 'DATE (MM/DD/Y Y Y Y)' which relates to the signature date."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignPhone_FLD[0]",
+      "standardized_label": "applicant_phone_number",
+      "confidence": 90,
+      "reasoning": "The field 'SignPhone' implies it's the phone number associated with the signer/applicant. The context 'TELEPHONE NUMBER' reinforces this. Therefore, 'applicant_phone_number' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignAddress_FLD[0]",
+      "standardized_label": "applicant_mailing_address",
+      "confidence": 90,
+      "reasoning": "The field 'SignAddress' refers to the mailing address of the person who is signing the form (the applicant). The 'Context on PDF' explicitly confirms 'MAILING ADDRESS'. Therefore, 'applicant_mailing_address' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignCity_FLD[0]",
+      "standardized_label": "applicant_city",
+      "confidence": 90,
+      "reasoning": "The field 'SignCity' refers to the city of the person who is signing the form (the applicant), based on the preceding 'applicant_mailing_address' field. The 'Context on PDF' explicitly confirms 'CITY'. Therefore, 'applicant_city' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignState_FLD[0]",
+      "standardized_label": "applicant_state",
+      "confidence": 90,
+      "reasoning": "The field 'SignState' refers to the state of the person who is signing the form (the applicant), based on the preceding 'applicant_mailing_address' and 'applicant_city' fields. The 'Context on PDF' explicitly confirms 'STATE'. Therefore, 'applicant_state' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignCounty_FLD[0]",
+      "standardized_label": "applicant_county",
+      "confidence": 90,
+      "reasoning": "The field 'SignCounty' refers to the county of the person who is signing the form (the applicant), based on the preceding address fields. The 'Context on PDF' explicitly confirms 'NAME OF COUNTY'. Therefore, 'applicant_county' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignZip_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage2[0].P2_SignZip_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 6 column 17 (char 203)"
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_TypeOfAccount_CB1[0]",
+      "standardized_label": "direct_deposit_account_type_checking_checkbox",
+      "confidence": 90,
+      "reasoning": "This checkbox is for the 'Checking' option under 'Type of Account' for 'Direct Deposit'. The label 'direct_deposit_account_type_checking' captures this meaning concisely. Removed page, subform, field type, and index identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_TypeOfAccount_CB2[0]",
+      "standardized_label": "direct_deposit_account_type_savings",
+      "confidence": 90,
+      "reasoning": "This checkbox is for the 'Savings' option under 'Type of Account' for 'Direct Deposit'. The label 'direct_deposit_account_type_savings' captures this meaning concisely. Removed page, subform, field type, and index identifiers as per rules. This explicitly differentiates it from the 'Checking' option (P2_TypeOfAccount_CB1)."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_RoutingNumber_FLD[0]",
+      "standardized_label": "direct_deposit_routing_number",
+      "confidence": 90,
+      "reasoning": "The field 'RoutingNumber' is under the 'Direct Deposit Payment Address' section, as confirmed by the context. Therefore, 'direct_deposit_routing_number' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules. The 'Context on PDF' explicitly confirms 'Nine Digit Routing Number'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_AccountNumber_FLD[0]",
+      "standardized_label": "direct_deposit_account_number",
+      "confidence": 90,
+      "reasoning": "The field 'AccountNumber' is under the 'Direct Deposit Payment Address' section. Therefore, 'direct_deposit_account_number' is the most semantically accurate and concise label. Removed page, subform, and field type identifiers as per rules. The 'Context on PDF' explicitly confirms 'Account Number'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Witness1SignReadOnly_FLD[0]",
+      "standardized_label": "witness_1_signature_name",
+      "confidence": 90,
+      "reasoning": "The field 'Witness1SignReadOnly_FLD' is clearly for the signature of a witness. The context explicitly states 'SIGNATURE OF WITNESS'. Therefore, 'witness_1_signature_name' is the most appropriate and concise label. Removed page, subform, and field type identifiers as per rules. Despite 'ReadOnly' in the field name, its context clearly indicates it's for a signature name."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Witness1Address_FLD[0]",
+      "standardized_label": "witness_1_address",
+      "confidence": 90,
+      "reasoning": "The field 'Witness1Address' is for the address of the first witness, as indicated by its placement after 'SIGNATURE OF WITNESS' and the context 'ADDRESS'. Therefore, 'witness_1_address' is the most appropriate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Witness2SignReadOnly_FLD[0]",
+      "standardized_label": "witness_2_signature_name",
+      "confidence": 90,
+      "reasoning": "The field 'Witness2SignReadOnly_FLD' is clearly for the signature of a second witness. The context explicitly states 'SIGNATURE OF WITNESS'. Therefore, 'witness_2_signature_name' is the most appropriate and concise label. Removed page, subform, and field type identifiers as per rules. Despite 'ReadOnly' in the field name, its context clearly indicates it's for a signature name."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Witness2Address_FLD[0]",
+      "standardized_label": "witness_2_address",
+      "confidence": 90,
+      "reasoning": "The field 'Witness2Address' is for the address of the second witness, as indicated by its placement after 'SIGNATURE OF WITNESS' and the context 'ADDRESS'. Therefore, 'witness_2_address' is the most appropriate and concise label. Removed page, subform, and field type identifiers as per rules."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].P3_PAReadOnly_FLD[0]",
+      "standardized_label": "privacy_act_statement",
+      "confidence": 90,
+      "reasoning": "The field name 'P3_PAReadOnly_FLD' combined with the 'Context on PDF' explicitly stating 'Privacy Act Statement' indicates this field contains the text of the Privacy Act. The label 'privacy_act_statement' accurately and concisely describes its content. Removed page, subform, and field type identifiers as per rules. The 'ReadOnly' part of the original name is not included as it describes the field's functionality, not its content."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].P3_PRAReadOnly_FLD[0]",
+      "standardized_label": "paperwork_reduction_act_statement",
+      "confidence": 90,
+      "reasoning": "The field name 'P3_PRAReadOnly_FLD' combined with the 'Context on PDF' explicitly stating 'Paperwork Reduction Act Statement' indicates this field contains the text of the Paperwork Reduction Act. The label 'paperwork_reduction_act_statement' accurately and concisely describes its content. Removed page, subform, and field type identifiers as per rules. The 'ReadOnly' part of the original name is not included as it describes the field's functionality, not its content."
+    }
+  ]
+}

@@ -92,12 +92,12 @@ class PipelineOrchestrator:
                 dir_path.mkdir(parents=True, exist_ok=True)
         
         # Check OpenAI API key
-        if not os.getenv('OPENAI_API_KEY'):
-            self.log("OPENAI_API_KEY not found in environment", "ERROR")
+        if not os.getenv('GEMINI_API_KEY'):
+            self.log("GEMINI_API_KEY not found in environment", "ERROR")
             self.log("Please set your OpenAI API key:", "INFO")
-            self.log("  export OPENAI_API_KEY='your-api-key'  # Linux/Mac", "INFO")
-            self.log("  set OPENAI_API_KEY=your-api-key      # Windows CMD", "INFO")
-            self.log("  $env:OPENAI_API_KEY='your-api-key'   # Windows PowerShell", "INFO")
+            self.log("  export GEMINI_API_KEY='your-api-key'  # Linux/Mac", "INFO")
+            self.log("  set GEMINI_API_KEY=your-api-key      # Windows CMD", "INFO")
+            self.log("  $env:GEMINI_API_KEY='your-api-key'   # Windows PowerShell", "INFO")
             return False
         
         # Check label list exists

@@ -1,0 +1,1286 @@
+{
+  "filename": "ssa-2-bk.pdf",
+  "fields": [
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].Supplement-CB[0]",
+      "standardized_label": "supplement_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers (e.g., 'topmostSubform[0]', 'BodyPage1[0]', '[0]'). The core semantic component 'Supplement-CB' clearly indicates a checkbox related to the 'Supplement' section as described in the PDF context. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N1A_FLD[0]",
+      "standardized_label": "wage_earner_full_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context explicitly states 'PRINT Name of Wage Earner or Self- Employed Person FIRST NAME, MIDDLE INITIAL, LAST NAME', indicating this field is for the full name of the wage earner. 'N1A' likely refers to 'Name 1 A'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N1B_FLD[0]",
+      "standardized_label": "worker_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context explicitly states 'Enter Worker's Social Security Number', which directly translates to 'worker_social_security_number'. 'N1B' likely refers to 'Number 1 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N2Name_FLD[0]",
+      "standardized_label": "applicant_full_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Print your name FIRST NAME, MIDDLE INITIAL, LAST NAME' indicates this field is for the applicant's full name. 'N2Name' clearly points to 'Name 2'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N2B_FLD[0]",
+      "standardized_label": "applicant_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter your Social Security Number' directly indicates this field is for the applicant's SSN. 'N2B' aligns with 'Number 2 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N3Speak_FLD[0]",
+      "standardized_label": "preferred_spoken_language",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter the language you prefer to: speak' directly translates to 'preferred_spoken_language'. 'N3Speak' reinforces this meaning."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N3Write_FLD[0]",
+      "standardized_label": "preferred_written_language",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter the language you prefer to: write' directly indicates this field is for the preferred written language. 'N3Write' reinforces this meaning."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N4AMonth_FLD[0]",
+      "standardized_label": "applicant_birth_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter your date of birth MM/DD/Y Y Y Y' indicates this field is part of the applicant's birth date. 'N4AMonth' specifically points to the month component."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N4B_FLD[0]",
+      "standardized_label": "applicant_birth_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter name of city and state, or foreign country where you were born' clearly indicates this field is for the applicant's place of birth. 'N4B' aligns with 'Question 4 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N5A_CB1[0]",
+      "standardized_label": "us_citizen_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'Are you a U.S. citizen? Yes' clearly indicates this checkbox confirms U.S. citizenship. 'N5A_CB1' refers to Question 5A, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N5A_CB2[0]",
+      "standardized_label": "us_citizen_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'No (If 'No,' answer (b).)' directly indicates this checkbox means the applicant is not a U.S. citizen. 'N5A_CB2' refers to Question 5A, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N5B_CB1[0]",
+      "standardized_label": "lawfully_present_alien_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'Are you an alien lawfully present in U.S.? Yes' clearly indicates this checkbox confirms lawful presence as an alien in the U.S. 'N5B_CB1' refers to Question 5B, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N5B_CB2[0]",
+      "standardized_label": "lawfully_present_alien_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'No (If 'No', Go to item 6)' directly indicates this checkbox means the applicant is not an alien lawfully present in the U.S. 'N5B_CB2' refers to Question 5B, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N5C_FLD[0]",
+      "standardized_label": "date_lawfully_admitted_to_us",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'When were you lawfully admitted to the U.S.?' directly indicates this field is for the date of lawful admission to the U.S. 'N5C' aligns with 'Question 5 C'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N6AName_FLD[0]",
+      "standardized_label": "applicant_full_name_at_birth",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter your full name at birth if different from item 2(ay) FIRST NAME, MIDDLE INITIAL, LAST NAME' directly describes the field's purpose. 'N6AName' reinforces 'Name' for Question 6A."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N6B_CB1[0]",
+      "standardized_label": "used_other_names_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'Have you used any other name(s)? Yes' clearly indicates this checkbox confirms the use of other names. 'N6B_CB1' refers to Question 6B, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N6B_CB2[0]",
+      "standardized_label": "used_other_names_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'No (If 'No,' go to Item 7.)' directly indicates this checkbox means the applicant has not used other names. 'N6B_CB2' refers to Question 6B, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N6C_FLD[0]",
+      "standardized_label": "other_names_used",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context '(c) Other name(s) used.' directly describes the field's purpose. 'N6C' aligns with 'Question 6 C'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N7A_CB1[0]",
+      "standardized_label": "used_other_social_security_numbers_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'Have you used any other Social Security number(s)? Yes' clearly indicates this checkbox confirms the use of other SSNs. 'N7A_CB1' refers to Question 7A, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N7A_CB2[0]",
+      "standardized_label": "used_other_social_security_numbers_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '[0]'). The PDF context 'No' (following the question 'Have you used any other Social Security number(s)?') directly indicates this checkbox means the applicant has not used other SSNs. 'N7A_CB2' refers to Question 7A, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage1[0].N7B_FLD[0]",
+      "standardized_label": "other_social_security_numbers_used",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage1[0]', '_FLD', '[0]'). The PDF context 'Enter Social Security number(s) used.' directly describes the field's purpose. 'N7B' aligns with 'Question 7 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N8A_CB1[0]",
+      "standardized_label": "unable_to_work_due_to_illness_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Are you, or during the past 14 months have you been, unable to work because of illnesses, injuries or conditions? Yes' clearly indicates this checkbox confirms being unable to work due to illness/injury. 'N8A_CB1' refers to Question 8A, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N8A-CB-2[0]",
+      "standardized_label": "unable_to_work_due_to_illness_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'No (If 'No,' go to item 9.)' directly indicates this checkbox means the applicant is not unable to work due to illness/injury. 'N8A-CB-2' refers to Question 8A, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N8BDate_FLD[0]",
+      "standardized_label": "condition_severity_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'If “Yes” when do you believe your condition(s) became severe enough to keep you from working' directly explains the purpose of the field, which is a date. 'N8BDate' reinforces this meaning."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N9_CB1[0]",
+      "standardized_label": "worked_in_railroad_industry_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Did you, or your spouse, (or prior spouse) work in the railroad industry for 5 years or more? Yes' clearly indicates this checkbox confirms work in the railroad industry. 'N9_CB1' refers to Question 9, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N9_CB2[0]",
+      "standardized_label": "worked_in_railroad_industry_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'No' (following the question about working in the railroad industry) directly indicates this checkbox means the applicant/spouse did not work in the railroad industry. 'N9_CB2' refers to Question 9, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N10A_CB1[0]",
+      "standardized_label": "social_security_credits_from_another_country_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Do you have Social Security credits (for example, based on work or residence) under another country's Social Security system? Yes' clearly indicates this checkbox confirms foreign Social Security credits. 'N10A_CB1' refers to Question 10A, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N10A_CB2[0]",
+      "standardized_label": "social_security_credits_from_another_country_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'No (If 'No,' go to item 11.)' directly indicates this checkbox means the applicant does not have foreign Social Security credits. 'N10A_CB2' refers to Question 10A, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N10B_FLD[0]",
+      "standardized_label": "countries_with_social_security_credits",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'List the other country (ies).' (following a question about foreign Social Security credits) clearly indicates this field is for listing countries where those credits exist. 'N10B' aligns with 'Question 10 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpName-FLD[0]",
+      "standardized_label": "spouse_full_name_including_maiden",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '-FLD', '[0]'). The PDF context 'Spouse's name (including maiden name)' clearly describes the field's purpose. 'N11ASpName' stands for Question 11A, Spouse's Name."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpWhen-FLD[0]",
+      "standardized_label": "spouse_marriage_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '-FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' appears directly below the instruction 'Enter information about your marriage to the worker', making it clear this is the date of marriage to the worker (spouse). 'N11ASpWhen' stands for Question 11A, Spouse, When."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpWhere-FLD[0]",
+      "standardized_label": "spouse_marriage_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '-FLD', '[0]'). The PDF context 'Where (Name of City and State)' appears directly below the instruction 'Enter information about your marriage to the worker', making it clear this is the place of marriage to the worker (spouse). 'N11ASpWhere' stands for Question 11A, Spouse, Where."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11AHowMarEnd_FLD[0]",
+      "standardized_label": "marriage_termination_type",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'How marriage ended (If still in effect, write 'Not Ended.')' clearly describes the field's purpose: to state how the marriage to the worker ended, or if it's ongoing. 'N11AHowMarEnd' stands for Question 11A, How Marriage Ended."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11AWhenMarEnd_FLD[0]",
+      "standardized_label": "marriage_termination_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' directly follows 'How marriage ended', indicating this field is for the date the marriage ended. 'N11AWhenMarEnd' stands for Question 11A, When Marriage Ended."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11AWhereMarEnd_FLD[0]",
+      "standardized_label": "marriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Where (Name of City and State)' directly follows 'How marriage ended' and 'When', indicating this field is for the place the marriage ended. 'N11AWhereMarEnd' stands for Question 11A, Where Marriage Ended."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11AMarPer_CB1[0]",
+      "standardized_label": "marriage_performed_by_clergyman_or_official_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Marriage performed by: Clergyman or public official' clearly indicates this checkbox confirms the marriage officiant type. 'N11AMarPer_CB1' refers to Question 11A, Marriage Performed, CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11AMarPer_CB2[0]",
+      "standardized_label": "marriage_performed_by_other_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Other (explain in \"remarks\")' directly indicates this checkbox is for selecting 'other' as the marriage officiant type. 'N11AMarPer_CB2' refers to Question 11A, Marriage Performed, CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpDOB_FLD[0]",
+      "standardized_label": "spouse_date_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Spouse's date of birth (or age)' directly indicates this field is for the spouse's date of birth. 'N11ASpDOB' reinforces 'Spouse Date Of Birth' for Question 11A."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpDOD_FLD[0]",
+      "standardized_label": "spouse_date_of_death",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'If spouse deceased, give date of death' directly describes the field's purpose. 'N11ASpDOD' reinforces 'Spouse Date Of Death' for Question 11A."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11ASpSSN_FLD[0]",
+      "standardized_label": "spouse_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Spouse's Social Security Number (If none or unknown, so indicate)' directly describes the field's purpose. 'N11ASpSSN' reinforces 'Spouse Social Security Number' for Question 11A."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpName_FLD[0]",
+      "standardized_label": "remarriage_spouse_full_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'If you remarried after the divorce from the worker... Spouse's name (including maiden name)' clearly indicates this field is for the full name of a spouse from a remarriage after divorcing the worker. 'N11BSpName' reinforces 'Spouse Name' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpWhen_FLD[0]",
+      "standardized_label": "remarriage_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' directly follows the instruction 'If you remarried after the divorce from the worker, enter the marriage information.', indicating this field is for the date of that remarriage. 'N11BSpWhen' reinforces Question 11B, Spouse, When."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpWhere_FLD[0]",
+      "standardized_label": "remarriage_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Where (Name of City and State)' appears directly under the instruction for 'remarriage after the divorce from the worker', indicating this field is for the place of that remarriage. 'N11BSpWhere' reinforces Question 11B, Spouse, Where."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BHowMarEnd_FLD[0]",
+      "standardized_label": "remarriage_termination_type",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'How marriage ended' directly relates to the remarriage information requested in 11(b), indicating this field is for the type of termination for that remarriage. 'N11BHowMarEnd' reinforces 'How Marriage Ended' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BWhenMarEnd_FLD[0]",
+      "standardized_label": "remarriage_termination_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' directly follows 'How marriage ended' for the remarriage information requested in 11(b), indicating this field is for the date the remarriage ended. 'N11BWhenMarEnd' reinforces 'When Marriage Ended' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BWhereMarEnd_FLD[0]",
+      "standardized_label": "remarriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Where (Name of City and State)' directly follows 'How marriage ended' and 'When' for the remarriage information requested in 11(b), indicating this field is for the place the remarriage ended. 'N11BWhereMarEnd' reinforces 'Where Marriage Ended' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BMarPer_CB1[0]",
+      "standardized_label": "remarriage_performed_by_clergyman_or_official_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Marriage performed by: Clergyman or public official' clearly indicates this checkbox confirms the officiant type for the remarriage. 'N11BMarPer_CB1' refers to Question 11B, Marriage Performed, CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BMarPer_CB2[0]",
+      "standardized_label": "remarriage_performed_by_other_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '[0]'). The PDF context 'Other (Explain in \"Remarks\")' directly indicates this checkbox means the remarriage was performed by an 'other' officiant. 'N11BMarPer_CB2' refers to Question 11B, Marriage Performed, CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpDOB_FLD[0]",
+      "standardized_label": "remarriage_spouse_date_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Spouse's date of birth (or age)' combined with its location under Question 11B (remarriage information) indicates this field is for the date of birth of the spouse from the remarriage. 'N11BSpDOB' reinforces 'Spouse Date Of Birth' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpDOD_FLD[0]",
+      "standardized_label": "remarriage_spouse_date_of_death",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'If spouse deceased, give date of death' (within the section for remarriage information, N11B) clearly indicates this field is for the date of death of the spouse from a remarriage. 'N11BSpDOD' reinforces 'Spouse Date Of Death' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage2[0].N11BSpSSN_FLD[0]",
+      "standardized_label": "remarriage_spouse_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage2[0]', '_FLD', '[0]'). The PDF context 'Spouse's Social Security Number (If none or unknown, so indicate)' combined with its location under Question 11B (remarriage information) clearly indicates this field is for the Social Security Number of the spouse from a remarriage. 'N11BSpSSN' reinforces 'Spouse Social Security Number' for Question 11B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpName_FLD[0]",
+      "standardized_label": "prior_marriage_spouse_full_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context for 11(c) asks for 'information about any marriage' that is not listed in 11(a) or 11(b), and specifies 'Spouse's name (including maiden name)'. This indicates a prior/additional marriage spouse's full name."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpWhen_FLD[0]",
+      "standardized_label": "prior_marriage_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' appears under Question 11(c), which is about 'any marriage' not already listed. This field requests the date of that prior marriage. 'N11CSpWhen' stands for Question 11C, Spouse, When."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpWhere_FLD[0]",
+      "standardized_label": "prior_marriage_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Where (Name of City and State)' appears under Question 11(c), which is about 'any marriage' not already listed. This field requests the place of that prior marriage. 'N11CSpWhere' stands for Question 11C, Spouse, Where."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CHowMarEnd_FLD[0]",
+      "standardized_label": "prior_marriage_termination_type",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'How marriage ended' within Question 11(c) (which refers to other/prior marriages) clearly indicates this field is for the type of termination for such a marriage. 'N11CHowMarEnd' reinforces 'How Marriage Ended' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CWhenMarEnd_FLD[0]",
+      "standardized_label": "prior_marriage_termination_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'When (MM/DD/Y Y Y Y)' within Question 11(c) (which refers to other/prior marriages) and following 'How marriage ended', clearly indicates this field is for the date a prior marriage ended. 'N11CWhenMarEnd' reinforces 'When Marriage Ended' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CWhereMarEnd_FLD[0]",
+      "standardized_label": "prior_marriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Where (Name of City and State)' within Question 11(c) (which refers to other/prior marriages) and following 'How marriage ended' and 'When', clearly indicates this field is for the place a prior marriage ended. 'N11CWhereMarEnd' reinforces 'Where Marriage Ended' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CMarPer_CB1[0]",
+      "standardized_label": "prior_marriage_performed_by_clergyman_or_official_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '[0]'). The PDF context 'Marriage performed by: Clergyman or public official' within Question 11(c) (which refers to other/prior marriages) clearly indicates this checkbox confirms the officiant type for such a marriage. 'N11CMarPer_CB1' refers to Question 11C, Marriage Performed, CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CMarPer_CB2[0]",
+      "standardized_label": "prior_marriage_performed_by_other_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '[0]'). The PDF context 'Other (Explain in \"Remarks\")' within Question 11(c) (which refers to other/prior marriages) and following 'Marriage performed by:', clearly indicates this checkbox confirms the 'other' officiant type for such a marriage. 'N11CMarPer_CB2' refers to Question 11C, Marriage Performed, CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpDOB[0]",
+      "standardized_label": "prior_marriage_spouse_date_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '[0]'). The PDF context 'Spouse's date of birth (or age)' within Question 11(c) (which refers to other/prior marriages) clearly indicates this field is for the date of birth of the spouse from a prior marriage. 'N11CSpDOB' reinforces 'Spouse Date Of Birth' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpDOD_FLD[0]",
+      "standardized_label": "prior_marriage_spouse_date_of_death",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'If spouse deceased, give date of death' within Question 11(c) (which refers to other/prior marriages) clearly indicates this field is for the date of death of the spouse from a prior marriage. 'N11CSpDOD' reinforces 'Spouse Date Of Death' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N11CSpSSN_FLD[0]",
+      "standardized_label": "prior_marriage_spouse_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Spouse's Social Security number (If none or unknown, so indicate)' within Question 11(c) (which refers to other/prior marriages) clearly indicates this field is for the Social Security Number of the spouse from a prior marriage. 'N11CSpSSN' reinforces 'Spouse Social Security Number' for Question 11C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12HasAn_CB1[0]",
+      "standardized_label": "child_grandchild_lived_with_applicant_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '[0]'). The PDF context 'Has an unmarried child of the worker... or a dependent grandchild... who is under 16 or disabled lived with you... Yes' clearly indicates this checkbox confirms a child or grandchild lived with the applicant. 'N12HasAn_CB1' refers to Question 12, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12HasAn_CB2[0]",
+      "standardized_label": "child_grandchild_lived_with_applicant_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '[0]'). The PDF context 'No' (following the question 'Has an unmarried child... lived with you...') clearly indicates this checkbox confirms no such child or grandchild lived with the applicant. 'N12HasAn_CB2' refers to Question 12, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Name1_FLD[0]",
+      "standardized_label": "child_1_first_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context states 'Name of child is the first header' and then specifies 'First name of child' for this particular field. 'N12Name1' indicates this is the first name entry for the first child listed under Question 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Month1_FLD[0]",
+      "standardized_label": "child_1_months_lived_with_applicant",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Months child lived with you (if all, write 'All')' clearly describes the field's purpose. 'N12Month1' indicates this is the entry for months lived for the first child listed under Question 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Name2_FLD[0]",
+      "standardized_label": "child_2_first_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context explicitly states 'Second name of child', indicating this is the first name entry for the second child listed under Question 12. Changed 'name' to 'first_name' for clarity and consistency with 'N12Name1_FLD'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Month2_FLD[0]",
+      "standardized_label": "child_2_months_lived_with_applicant",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Months child lived with you (if all, write 'All')' clearly describes the field's purpose. 'N12Month2' indicates this is the entry for months lived for the second child listed under Question 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Name3_FLD[0]",
+      "standardized_label": "child_3_first_name",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context explicitly states 'third name of child', indicating this is the first name entry for the third child listed under Question 12. Changed 'name' to 'first_name' for clarity and consistency."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N12Month3_FLD[0]",
+      "standardized_label": "child_3_months_lived_with_applicant",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'Months child lived with you (if all, write 'All')' clearly describes the field's purpose. 'N12Month3' indicates this is the entry for months lived for the third child listed under Question 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13Name_FLD1[0]",
+      "standardized_label": "employer_1_name_and_address",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD1', '[0]'). The PDF context explicitly states 'Name and address of employer' and 'First name and address of employer' for this field, which is the first employer entry for Question 13. The field is expected to capture both the name and address."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegMM_FLD1[0]",
+      "standardized_label": "employer_1_work_began_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD1', '[0]'). The PDF context specifies 'First month date when work began MM', indicating this is the month component for the start date of work with the first employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegYY_FLD1[0]",
+      "standardized_label": "employer_1_work_began_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD1', '[0]'). The PDF context specifies 'first year date when work began Y Y Y Y', indicating this is the year component for the start date of work with the first employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndMM_FLD1[0]",
+      "standardized_label": "employer_1_work_ended_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD1', '[0]'). The PDF context specifies 'First month Work Ended (If still working, Show 'Not Ended') MM', indicating this is the month component for the end date of work with the first employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndYY_FLD1[0]",
+      "standardized_label": "employer_1_work_ended_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD1', '[0]'). The PDF context specifies 'First year that Work Ended (If still working, Show 'Not Ended') Y Y Y Y', indicating this is the year component for the end date of work with the first employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13Name_FLD2[0]",
+      "standardized_label": "employer_2_name_and_address",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD2', '[0]'). The PDF context explicitly states 'Second Name and address of employer' for this field, which is the second employer entry for Question 13. The field is expected to capture both the name and address."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegMM_FLD2[0]",
+      "standardized_label": "employer_2_work_began_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD2', '[0]'). The PDF context specifies 'month work began for the second employer MM', indicating this is the month component for the start date of work with the second employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegYY_FLD2[0]",
+      "standardized_label": "employer_2_work_began_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD2', '[0]'). The PDF context specifies 'Year work began for the second employer Y Y Y Y', indicating this is the year component for the start date of work with the second employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndMM_FLD2[0]",
+      "standardized_label": "employer_2_work_ended_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD2', '[0]'). The PDF context specifies 'month Work Ended (If still working, Show 'Not Ended') for second employer MM', indicating this is the month component for the end date of work with the second employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndYY_FLD2[0]",
+      "standardized_label": "employer_2_work_ended_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD2', '[0]'). The PDF context specifies 'year Work Ended (If still working, Show 'Not Ended') for second employer Y Y Y Y', indicating this is the year component for the end date of work with the second employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13Name_FLD3[0]",
+      "standardized_label": "employer_3_name_and_address",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD3', '[0]'). The PDF context explicitly states 'Name and Address of third employer', indicating this field is for the name and address of the third employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegMM_FLD3[0]",
+      "standardized_label": "employer_3_work_began_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD3', '[0]'). The PDF context specifies 'month work began for third employer MM', indicating this is the month component for the start date of work with the third employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkBegYY_FLD3[0]",
+      "standardized_label": "employer_3_work_began_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD3', '[0]'). The PDF context specifies 'year work began for third employer Y Y Y Y', indicating this is the year component for the start date of work with the third employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndMM_FLD3[0]",
+      "standardized_label": "employer_3_work_ended_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD3', '[0]'). The PDF context specifies 'month Work Ended (If still working, Show 'Not Ended') for third employer MM', indicating this is the month component for the end date of work with the third employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N13WorkEndYY_FLD3[0]",
+      "standardized_label": "employer_3_work_ended_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD3', '[0]'). The PDF context specifies 'year Work Ended (If still working, Show 'Not Ended') for third employer Y Y Y Y', indicating this is the year component for the end date of work with the third employer listed under Question 13."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14A_FLD[0]",
+      "standardized_label": "last_year_total_earnings",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context 'How much were your total earnings last year? $' directly describes the field's purpose. 'N14A' aligns with 'Question 14 A'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14B_FLD[0]",
+      "standardized_label": "exempt_months_monthly_earnings_limit_amount",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_FLD', '[0]'). The PDF context specifies 'Enter the appropriate monthly limit' for determining 'exempt months' based on earnings. 'N14B' aligns with Question 14B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BNone_CB[0]",
+      "standardized_label": "exempt_months_none_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB', '[0]'). The PDF context 'None' within the exempt months section clearly indicates this checkbox is for selecting 'None' if no months were exempt. 'N14BNone' reinforces this meaning for Question 14B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BAll_CB[0]",
+      "standardized_label": "exempt_months_all_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB', '[0]'). The PDF context 'All' within the exempt months section clearly indicates this checkbox is for selecting 'All' if all months were exempt. 'N14BAll' reinforces this meaning for Question 14B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB1[0]",
+      "standardized_label": "exempt_month_january_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB1', '[0]'). The PDF context 'January' under the 'exempt months' section clearly indicates this checkbox selects January as an exempt month. 'N14BMonths_CB1' refers to Question 14B, Month CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB2[0]",
+      "standardized_label": "exempt_month_february_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB2', '[0]'). The PDF context 'February' under the 'exempt months' section clearly indicates this checkbox selects February as an exempt month. 'N14BMonths_CB2' refers to Question 14B, Month CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB3[0]",
+      "standardized_label": "exempt_month_march_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB3', '[0]'). The PDF context 'March' under the 'exempt months' section clearly indicates this checkbox selects March as an exempt month. 'N14BMonths_CB3' refers to Question 14B, Month CheckBox 3."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB4[0]",
+      "standardized_label": "exempt_month_april_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB4', '[0]'). The PDF context 'April' under the 'exempt months' section clearly indicates this checkbox selects April as an exempt month. 'N14BMonths_CB4' refers to Question 14B, Month CheckBox 4."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB5[0]",
+      "standardized_label": "exempt_month_may_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB5', '[0]'). The PDF context 'May' under the 'exempt months' section clearly indicates this checkbox selects May as an exempt month. 'N14BMonths_CB5' refers to Question 14B, Month CheckBox 5."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB6[0]",
+      "standardized_label": "exempt_month_june_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB6', '[0]'). The PDF context 'June' under the 'exempt months' section clearly indicates this checkbox selects June as an exempt month. 'N14BMonths_CB6' refers to Question 14B, Month CheckBox 6."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB7[0]",
+      "standardized_label": "exempt_month_july_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB7', '[0]'). The PDF context 'July' under the 'exempt months' section clearly indicates this checkbox selects July as an exempt month. 'N14BMonths_CB7' refers to Question 14B, Month CheckBox 7."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB8[0]",
+      "standardized_label": "exempt_month_august_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB8', '[0]'). The PDF context 'August' under the 'exempt months' section clearly indicates this checkbox selects August as an exempt month. 'N14BMonths_CB8' refers to Question 14B, Month CheckBox 8."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB9[0]",
+      "standardized_label": "exempt_month_september_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB9', '[0]'). The PDF context 'September' under the 'exempt months' section clearly indicates this checkbox selects September as an exempt month. 'N14BMonths_CB9' refers to Question 14B, Month CheckBox 9."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB10[0]",
+      "standardized_label": "exempt_month_october_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB10', '[0]'). The PDF context 'October' under the 'exempt months' section clearly indicates this checkbox selects October as an exempt month. 'N14BMonths_CB10' refers to Question 14B, Month CheckBox 10."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB11[0]",
+      "standardized_label": "exempt_month_november_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB11', '[0]'). The PDF context 'November' under the 'exempt months' section clearly indicates this checkbox selects November as an exempt month. 'N14BMonths_CB11' refers to Question 14B, Month CheckBox 11."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage3[0].N14BMonths_CB12[0]",
+      "standardized_label": "exempt_month_december_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage3[0]', '_CB12', '[0]'). The PDF context 'December' under the 'exempt months' section clearly indicates this checkbox selects December as an exempt month. 'N14BMonths_CB12' refers to Question 14B, Month CheckBox 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15A_FLD[0]",
+      "standardized_label": "current_year_expected_total_earnings",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'How much do you expect your total earnings to be this year? $' directly describes the field's purpose: the applicant's expected total earnings for the current year. 'N15A' aligns with 'Question 15 A'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15B_FLD[0]",
+      "standardized_label": "current_year_exempt_months_monthly_earnings_limit_amount",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'Enter the appropriate monthly limit' for 'EACH MONTH of this year in which you did not or will not earn more than *$' to determine 'exempt months' clearly describes the field's purpose. 'N15B' aligns with 'Question 15 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BNone_CB[0]",
+      "standardized_label": "current_year_exempt_months_none_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'None' within the 'exempt months' section for 'this year' clearly indicates this checkbox is for selecting 'None' if no months are or will be exempt. 'N15BNone' reinforces this meaning for Question 15B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BAll_CB[0]",
+      "standardized_label": "current_year_exempt_months_all_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'All' within the 'exempt months' section for 'this year' clearly indicates this checkbox is for selecting 'All' if all months are or will be exempt. 'N15BAll' reinforces this meaning for Question 15B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB1[0]",
+      "standardized_label": "current_year_exempt_month_january_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB1', '[0]'). The PDF context 'January' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects January as an exempt month. 'N15BMonths_CB1' refers to Question 15B, Month CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB2[0]",
+      "standardized_label": "current_year_exempt_month_february_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB2', '[0]'). The PDF context 'February' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects February as an exempt month. 'N15BMonths_CB2' refers to Question 15B, Month CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB3[0]",
+      "standardized_label": "current_year_exempt_month_march_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB3', '[0]'). The PDF context 'March' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects March as an exempt month. 'N15BMonths_CB3' refers to Question 15B, Month CheckBox 3."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB4[0]",
+      "standardized_label": "current_year_exempt_month_april_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB4', '[0]'). The PDF context 'April' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects April as an exempt month. 'N15BMonths_CB4' refers to Question 15B, Month CheckBox 4."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB5[0]",
+      "standardized_label": "current_year_exempt_month_may_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB5', '[0]'). The PDF context 'May' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects May as an exempt month. 'N15BMonths_CB5' refers to Question 15B, Month CheckBox 5."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB6[0]",
+      "standardized_label": "current_year_exempt_month_june_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB6', '[0]'). The PDF context 'June' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects June as an exempt month. 'N15BMonths_CB6' refers to Question 15B, Month CheckBox 6."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB7[0]",
+      "standardized_label": "current_year_exempt_month_july_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB7', '[0]'). The PDF context 'July' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects July as an exempt month. 'N15BMonths_CB7' refers to Question 15B, Month CheckBox 7."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB8[0]",
+      "standardized_label": "current_year_exempt_month_august_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB8', '[0]'). The PDF context 'August' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects August as an exempt month. 'N15BMonths_CB8' refers to Question 15B, Month CheckBox 8."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB9[0]",
+      "standardized_label": "current_year_exempt_month_september_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB9', '[0]'). The PDF context 'September' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects September as an exempt month. 'N15BMonths_CB9' refers to Question 15B, Month CheckBox 9."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB10[0]",
+      "standardized_label": "current_year_exempt_month_october_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB10', '[0]'). The PDF context 'October' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects October as an exempt month. 'N15BMonths_CB10' refers to Question 15B, Month CheckBox 10."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB11[0]",
+      "standardized_label": "current_year_exempt_month_november_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB11', '[0]'). The PDF context 'November' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects November as an exempt month. 'N15BMonths_CB11' refers to Question 15B, Month CheckBox 11."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N15BMonths_CB12[0]",
+      "standardized_label": "current_year_exempt_month_december_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB12', '[0]'). The PDF context 'December' under the 'exempt months' section for 'this year' clearly indicates this checkbox selects December as an exempt month. 'N15BMonths_CB12' refers to Question 15B, Month CheckBox 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16A_FLD[0]",
+      "standardized_label": "next_year_expected_total_earnings",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'How much do you expect to earn next year? $' directly describes the field's purpose: the applicant's expected total earnings for the next year. 'N16A' aligns with 'Question 16 A'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16B_FLD[0]",
+      "standardized_label": "next_year_exempt_months_monthly_earnings_limit_amount",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'Enter the appropriate monthly limit' for 'EACH MONTH of next year in which you do not expect to earn more than *$' to determine 'exempt months' clearly describes the field's purpose. 'N16B' aligns with 'Question 16 B'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BNone_CB[0]",
+      "standardized_label": "next_year_exempt_months_none_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'None' within the 'exempt months' section for 'next year' clearly indicates this checkbox is for selecting 'None' if no months are expected to be exempt. 'N16BNone' reinforces this meaning for Question 16B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BAll_CB[0]",
+      "standardized_label": "next_year_exempt_months_all_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'All' within the 'exempt months' section for 'next year' clearly indicates this checkbox is for selecting 'All' if all months are expected to be exempt. 'N16BAll' reinforces this meaning for Question 16B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB1[0]",
+      "standardized_label": "next_year_exempt_month_january_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB1', '[0]'). The PDF context 'January' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects January as an exempt month. 'N16BMonths_CB1' refers to Question 16B, Month CheckBox 1."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB2[0]",
+      "standardized_label": "next_year_exempt_month_february_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB2', '[0]'). The PDF context 'February' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects February as an exempt month. 'N16BMonths_CB2' refers to Question 16B, Month CheckBox 2."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB3[0]",
+      "standardized_label": "next_year_exempt_month_march_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB3', '[0]'). The PDF context 'March' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects March as an exempt month. 'N16BMonths_CB3' refers to Question 16B, Month CheckBox 3."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB4[0]",
+      "standardized_label": "next_year_exempt_month_april_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB4', '[0]'). The PDF context 'April' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects April as an exempt month. 'N16BMonths_CB4' refers to Question 16B, Month CheckBox 4."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB5[0]",
+      "standardized_label": "next_year_exempt_month_may_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB5', '[0]'). The PDF context 'May' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects May as an exempt month. 'N16BMonths_CB5' refers to Question 16B, Month CheckBox 5."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB6[0]",
+      "standardized_label": "next_year_exempt_month_june_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB6', '[0]'). The PDF context 'June' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects June as an exempt month. 'N16BMonths_CB6' refers to Question 16B, Month CheckBox 6."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB7[0]",
+      "standardized_label": "next_year_exempt_month_july_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB7', '[0]'). The PDF context 'July' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects July as an exempt month. 'N16BMonths_CB7' refers to Question 16B, Month CheckBox 7."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB8[0]",
+      "standardized_label": "next_year_exempt_month_august_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB8', '[0]'). The PDF context 'August' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects August as an exempt month. 'N16BMonths_CB8' refers to Question 16B, Month CheckBox 8."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB9[0]",
+      "standardized_label": "next_year_exempt_month_september_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB9', '[0]'). The PDF context 'September' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects September as an exempt month. 'N16BMonths_CB9' refers to Question 16B, Month CheckBox 9."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB10[0]",
+      "standardized_label": "next_year_exempt_month_october_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB10', '[0]'). The PDF context 'October' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects October as an exempt month. 'N16BMonths_CB10' refers to Question 16B, Month CheckBox 10."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB11[0]",
+      "standardized_label": "next_year_exempt_month_november_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB11', '[0]'). The PDF context 'November' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects November as an exempt month. 'N16BMonths_CB11' refers to Question 16B, Month CheckBox 11."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16BMonths_CB12[0]",
+      "standardized_label": "next_year_exempt_month_december_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB12', '[0]'). The PDF context 'December' under the 'exempt months' section for 'next year' clearly indicates this checkbox selects December as an exempt month. 'N16BMonths_CB12' refers to Question 16B, Month CheckBox 12."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N16IfYouMonth_FLD[0]",
+      "standardized_label": "fiscal_year_end_month",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'If you use a fiscal year... enter here the month your fiscal year ends. Enter month' directly describes the field's purpose. 'N16IfYouMonth' aligns with Question 16 and 'Month'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N17A_CB[0]",
+      "standardized_label": "earliest_benefits_with_age_reduction_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'I want benefits beginning with the earliest possible month and will accept an age related reduction.' directly describes the purpose of this checkbox. 'N17A' aligns with Question 17A."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N17B_CB[0]",
+      "standardized_label": "earliest_benefits_no_permanent_reduction_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'I am full retirement age (or will be within 12 months) and want benefits beginning with the earliest possible month providing there is no permanent reduction in my ongoing monthly benefits.' directly describes the purpose of this checkbox. 'N17B' aligns with Question 17B."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N17C_CB[0]",
+      "standardized_label": "benefits_beginning_with_specific_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_CB', '[0]'). The PDF context 'I want benefits beginning with blank line' clearly indicates this checkbox is for selecting a specific start date for benefits. 'N17C' aligns with Question 17C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].N17C_FLD[0]",
+      "standardized_label": "benefits_beginning_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD', '[0]'). The PDF context 'Enter beginning date' associated with item 17(c) ('I want benefits beginning with...') directly describes the purpose of this field. 'N17C' aligns with Question 17C."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage4[0].ReadOnly_FLD1[0]",
+      "standardized_label": "medicare_information_read_only",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage4[0]', '_FLD1', '[0]'). The field name 'ReadOnly_FLD1' explicitly indicates it's a read-only field. The context on the PDF provides detailed 'MEDICARE INFORMATION', so the label reflects this content and its read-only nature."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].ReadOnly_FLD1[0]",
+      "standardized_label": "medicare_part_b_and_extra_help_information",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_FLD1', '[0]'). The field is identified as 'ReadOnly_FLD1', and the extensive context on the PDF clearly describes details about 'Medicare Part B' and 'Extra Help' for prescription drug costs, indicating its purpose is to provide this information. The label reflects the content and its read-only nature."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].ReadOnly_FLD2[0]",
+      "standardized_label": "medicare_part_b_penalty_and_part_d_information",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_FLD2', '[0]'). The field is read-only and the context explicitly provides information about 'Late Enrollment Penalty' for Medicare Part B and details about 'Medicare prescription drug plan (Part D)', hence the standardized label reflects these key informational aspects."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].N18_CB1[0]",
+      "standardized_label": "enroll_in_medicare_part_b_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_CB1', '[0]'). The PDF context 'Do you want to enroll in Medicare Part B (Medical Insurance)? Yes' clearly indicates this checkbox confirms the desire to enroll. 'N18_CB1' refers to Question 18, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].N18_CB2[0]",
+      "standardized_label": "enroll_in_medicare_part_b_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_CB2', '[0]'). The PDF context 'No' (following the question 'Do you want to enroll in Medicare Part B (Medical Insurance)?') clearly indicates this checkbox confirms the desire NOT to enroll. 'N18_CB2' refers to Question 18, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].N19_CB1[0]",
+      "standardized_label": "file_for_supplemental_security_income_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_CB1', '[0]'). The PDF context 'Do you want to file for Supplemental Security Income? Yes' clearly indicates this checkbox confirms the desire to file for SSI. 'N19_CB1' refers to Question 19, CheckBox 1, which is for 'Yes'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].N19_CB2[0]",
+      "standardized_label": "file_for_supplemental_security_income_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_CB2', '[0]'). The PDF context 'No' (following the question 'Do you want to file for Supplemental Security Income?') clearly indicates this checkbox confirms the desire NOT to file for SSI. 'N19_CB2' refers to Question 19, CheckBox 2, which is for 'No'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage5[0].Remarks_FLD[0]",
+      "standardized_label": "remarks",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage5[0]', '_FLD', '[0]'). The PDF context 'REMARKS (You may use this space for any explanations. If you need more space, attach a separate sheet.)' clearly identifies the field as a general remarks or comments section. 'Remarks' is a concise and semantically appropriate label."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].P6-Remarks-FLD[0]",
+      "standardized_label": "remarks_continued",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage6[0]', 'P6-', '-FLD', '[0]'). The PDF context 'REMARKS (continued)' clearly indicates this field is a continuation of the general remarks section from previous pages. 'Remarks_continued' is a concise and semantically appropriate label."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].P6-SignDate-FLD[0]",
+      "standardized_label": "applicant_signature_date",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage6[0]', 'P6-', '-FLD', '[0]'). The PDF context 'SIGNATURE OF APPLICANT Date (MM/DD/Y Y Y Y)' directly indicates this field is for the date the applicant signed the form. 'Applicant_signature_date' is concise and semantically accurate."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Sign_FLD[0]",
+      "standardized_label": "applicant_signature",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage6[0]', '_FLD', '[0]'). The PDF context 'SIGNATURE (First Name, Middle Initial , Last Name) (Write in ink) wet signature required. print out and sign' clearly identifies this field as the space for the applicant's signature. 'Applicant_signature' is a concise and semantically appropriate label."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].SignPhone_FLD[0]",
+      "standardized_label": "applicant_daytime_phone_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage6[0]', '_FLD', '[0]'). The PDF context 'Telephone number(s) at which you may be contacted during the day' explicitly describes the field's purpose: the applicant's daytime contact number. 'SignPhone' indicates this is the phone number associated with the signature block."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Routing_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Routing_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.668397523s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].AcctNum_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].AcctNum_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.225318231s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].TypeofAcct_CB1[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].TypeofAcct_CB1[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.799495167s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].TypeofAcct_CB2[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].TypeofAcct_CB2[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.384759301s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Direct_CB1[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Direct_CB1[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.956927268s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Direct_CB2[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Direct_CB2[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.532877928s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].AppAdd_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].AppAdd_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.10885809s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].AppCity_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].AppCity_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.678451684s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].AppZIP_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].AppZIP_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.276411159s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].AppCounty_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].AppCounty_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 52.790627954s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Witness1_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Witness1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 52.370945482s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Witness1Add_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Witness1Add_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.942078173s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].Witness2_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].Witness2_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.508106296s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage6[0].P6-Witness2Add-FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage6[0].P6-Witness2Add-FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.072748001s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].TeleBefore_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].TeleBefore_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.659605901s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].TeleAfter_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].TeleAfter_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.240672266s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].TeleOffice_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].TeleOffice_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.831940183s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].DateClaim_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].DateClaim_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.416851187s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].YourAppText1_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].YourAppText1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.020977825s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].Claimant_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].Claimant_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.619293859s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].Surname_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].Surname_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.212297259s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].SSN_FLD[0]",
+      "standardized_label": "social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage7[0]', '_FLD', '[0]'). The PDF context 'SOCIAL SECURITY NUMBER' and the field name 'SSN' clearly indicate this field is for a Social Security Number. Given this is on Page 7 without specific 'worker' or 'applicant' context in this immediate snippet, a general 'social_security_number' is appropriate, assuming it's a general entry field or a header, but if it's tied to a specific person on this page, that would be further refined."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].PA_FLD[0]",
+      "standardized_label": "topmostSubform[0].BodyPage7[0].PA_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 44.496626081s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage7[0].PRA_FLD[0]",
+      "standardized_label": "paperwork_reduction_act_statement",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage7[0]', '_FLD', '[0]'). The PDF context explicitly states 'Paperwork Reduction Act Statement', indicating this field contains the text of that statement. 'PRA' is a clear abbreviation for 'Paperwork Reduction Act'."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_FLD1[0]",
+      "standardized_label": "expected_earnings_reported_year",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_FLD1', '[0]'). The PDF context 'Work Changes - On your application you told us you expect total earnings for blank line year to be blank $ . Enter year' explicitly indicates this field is for the year associated with the reported expected earnings."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_FLD2[0]",
+      "standardized_label": "expected_earnings_reported_amount",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_FLD2', '[0]'). The PDF context 'enter dollar amount' directly follows the instruction regarding 'expected total earnings for [year]', clearly indicating this field is for the dollar amount of those reported expected earnings."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_CB1[0]",
+      "standardized_label": "earning_wages_over_limit_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_CB1', '[0]'). The PDF context 'You are earning wages of more than $ blank line a month.' clearly describes the condition this checkbox represents. This is part of 'Work Changes' to be reported."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_CB2[0]",
+      "standardized_label": "not_earning_wages_over_limit_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_CB2', '[0]'). The PDF context 'You are not earning wages of more than $ blank line a month.' clearly describes the condition this checkbox represents. This is part of 'Work Changes' to be reported."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_FLD3[0]",
+      "standardized_label": "monthly_wage_limit_amount",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_FLD3', '[0]'). The PDF context 'enter dollar amount' directly follows the phrase 'You are earning wages of more than $ blank line a month', indicating this field is for the monthly wage limit amount that triggers reporting requirements."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_CB3[0]",
+      "standardized_label": "self_employed_rendering_substantial_services_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_CB3', '[0]'). The PDF context 'You are self-employed rendering substantial services in your trade or business.' clearly describes the condition this checkbox represents. This is part of 'Work Changes' to be reported."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].Bullet5_CB4[0]",
+      "standardized_label": "not_self_employed_rendering_substantial_services_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'Bullet5_', '_CB4', '[0]'). The PDF context 'You are not self-employed rendering substantial services in your trade or business.' clearly describes the condition this checkbox represents. This is part of 'Work Changes' to be reported."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].ReadOnly1_FLD[0]",
+      "standardized_label": "reporting_requirements_earnings_test_and_benefit_guidance_read_only",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'ReadOnly1_', '_FLD', '[0]'). The field is explicitly marked as read-only. The extensive PDF context covers several key informational sections: 'CHANGES TO BE REPORTED AND HOW TO REPORT', detailed explanations of 'Work Changes' and the 'Monthly Earnings Test', and important 'MEDICARE INFORMATION' related to benefit entitlement and reduction. The standardized label encapsulates these major themes."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "topmostSubform[0].BodyPage8[0].ReadOnly2_FLD[0]",
+      "standardized_label": "end_of_form_navigation_message",
+      "confidence": 90,
+      "reasoning": "Removed structural identifiers ('topmostSubform[0]', 'BodyPage8[0]', 'ReadOnly2_', '_FLD', '[0]'). The field is explicitly marked as read-only. The PDF context 'You are at the end of the form. If you tab again you will be at the beginning of the form.' clearly indicates this field provides navigational guidance related to the form's end."
+    }
+  ]
+}

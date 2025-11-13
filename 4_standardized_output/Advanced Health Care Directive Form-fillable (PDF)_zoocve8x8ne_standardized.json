@@ -1,0 +1,488 @@
+{
+  "filename": "Advanced Health Care Directive Form-fillable (PDF)_zoocve8x8ne.pdf",
+  "fields": [
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[0].PrintButton1[0]",
+      "standardized_label": "print_form",
+      "confidence": 90,
+      "reasoning": "The field name contains 'PrintButton' and the context on the PDF is 'Print Form'. This clearly indicates the button's function. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[0].ResetButton1[0]",
+      "standardized_label": "reset_form",
+      "confidence": 90,
+      "reasoning": "The field name contains 'ResetButton' and the context on the PDF is 'Reset Form'. This directly indicates the button's function. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].agentname[0]",
+      "standardized_label": "agent_name",
+      "confidence": 90,
+      "reasoning": "The field name 'agentname' combined with the context '(name of individual you choose as agent)' clearly indicates that this field is for the name of the agent. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].address[0]",
+      "standardized_label": "agent_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Given the previous field was 'agentname', it's highly probable this address refers to the agent's address. Without more explicit context linking 'agentname' and 'address', it's not a 'high' confidence but still very likely. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].city[0]",
+      "standardized_label": "agent_city",
+      "confidence": 70,
+      "reasoning": "The field name is 'city' and the context is '(city)'. Following the 'agent_name' and 'agent_address' fields, it's highly probable this refers to the agent's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].state[0]",
+      "standardized_label": "agent_state",
+      "confidence": 70,
+      "reasoning": "The field name is 'state' and the context is '(state)'. Following the 'agent_name', 'agent_address', and 'agent_city' fields, it's highly probable this refers to the agent's state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].zipcode[0]",
+      "standardized_label": "agent_zip_code",
+      "confidence": 70,
+      "reasoning": "The field name is 'zipcode' and the context is '(ZIP Code)'. Following the 'agent_name', 'agent_address', 'agent_city', and 'agent_state' fields, it's highly probable this refers to the agent's ZIP code. Added 'code' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].homephone[0]",
+      "standardized_label": "agent_home_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'homephone' and the context is '(home phone)'. Following a sequence of agent-related fields (name, address, city, state, zip), it's highly probable this refers to the agent's home phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].workphone[0]",
+      "standardized_label": "agent_work_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'workphone' and the context is '(work phone)'. Following a sequence of agent-related fields, including 'agent_home_phone', it's highly probable this refers to the agent's work phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].firstalternateagent[0]",
+      "standardized_label": "first_alternate_agent_name",
+      "confidence": 90,
+      "reasoning": "The field name contains 'firstalternateagent' and the context explicitly states '(name of individual you choose as first alternate agent)'. This directly indicates the field's purpose. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].address[1]",
+      "standardized_label": "first_alternate_agent_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Given the immediate preceding field was 'first_alternate_agent_name', it is highly probable that this address belongs to the first alternate agent. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].city[1]",
+      "standardized_label": "first_alternate_agent_city",
+      "confidence": 70,
+      "reasoning": "The field name is 'city' and the context is '(city)'. Following the 'first_alternate_agent_name' and its associated 'address', it's highly probable this refers to the first alternate agent's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].state[1]",
+      "standardized_label": "first_alternate_agent_state",
+      "confidence": 70,
+      "reasoning": "The field name is 'state' and the context is '(state)'. Following the 'first_alternate_agent_name' and its address components, it's highly probable this refers to the first alternate agent's state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].zipcode[1]",
+      "standardized_label": "first_alternate_agent_zip_code",
+      "confidence": 70,
+      "reasoning": "The field name is 'zipcode' and the context is '(ZIP Code)'. Following the 'first_alternate_agent_name' and its address components, it's highly probable this refers to the first alternate agent's ZIP code. Added 'code' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].homephone[1]",
+      "standardized_label": "first_alternate_agent_home_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'homephone' and the context is '(home phone)'. Following a sequence of fields for the first alternate agent (name, address, city, state, zip), it's highly probable this refers to their home phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].workphone[1]",
+      "standardized_label": "first_alternate_agent_work_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'workphone' and the context is '(work phone)'. Following a sequence of fields for the first alternate agent, including 'first_alternate_agent_home_phone', it's highly probable this refers to their work phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].secondagentname[0]",
+      "standardized_label": "second_alternate_agent_name",
+      "confidence": 90,
+      "reasoning": "The field name contains 'secondagentname' and the context explicitly states '(name of individual you choose as second alternate agent)'. This directly indicates the field's purpose. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].address[2]",
+      "standardized_label": "second_alternate_agent_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Given the immediate preceding field was 'second_alternate_agent_name', it is highly probable that this address belongs to the second alternate agent. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].city[2]",
+      "standardized_label": "second_alternate_agent_city",
+      "confidence": 70,
+      "reasoning": "The field name is 'city' and the context is '(city)'. Following the 'second_alternate_agent_name' and its associated 'address', it's highly probable this refers to the second alternate agent's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].state[2]",
+      "standardized_label": "second_alternate_agent_state",
+      "confidence": 70,
+      "reasoning": "The field name is 'state' and the context is '(state)'. Following the 'second_alternate_agent_name' and its address components, it's highly probable this refers to the second alternate agent's state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].zipcode[2]",
+      "standardized_label": "second_alternate_agent_zip_code",
+      "confidence": 70,
+      "reasoning": "The field name is 'zipcode' and the context is '(ZIP Code)'. Following the 'second_alternate_agent_name' and its address components, it's highly probable this refers to the second alternate agent's ZIP code. Added 'code' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].homephone[2]",
+      "standardized_label": "second_alternate_agent_home_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'homephone' and the context is '(home phone)'. Following a sequence of fields for the second alternate agent (name, address, city, state, zip), it's highly probable this refers to their home phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].workphone[2]",
+      "standardized_label": "second_alternate_agent_work_phone",
+      "confidence": 70,
+      "reasoning": "The field name is 'workphone' and the context is '(work phone)'. Following a sequence of fields for the second alternate agent, including 'second_alternate_agent_home_phone', it's highly probable this refers to their work phone number. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].ResponseLine1_1\\\\.2[0]",
+      "standardized_label": "response_line1_1_2",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine1_1.2` and context `ResponseLine1_1.2` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].ResponseLine2_1\\\\.2[0]",
+      "standardized_label": "response_line2_1_2",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine2_1.2` and context `ResponseLine2_1.2` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].ResponseLine3_1\\\\.2[0]",
+      "standardized_label": "response_line3_1_2",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine3_1.2` and context `ResponseLine3_1.2` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[1].CheckBox_agentauthority[0]",
+      "standardized_label": "agent_authority_effective_immediately",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox related to 'agentauthority' and the context explicitly states 'my agent's authority to make health care decisions for me takes effect immediately'. This clearly defines the purpose of the checkbox. Removed structural identifiers and converted to lowercase snake_case, focusing on the specific condition of the agent's authority."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine1_1\\\\.5[0]",
+      "standardized_label": "response_line1_1_5",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine1_1.5` and context `ResponseLine1_1.5` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine2_1\\\\.5[0]",
+      "standardized_label": "response_line2_1_5",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine2_1.5` and context `ResponseLine2_1.5` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine3_1\\\\.5[0]",
+      "standardized_label": "response_line3_1_5",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine3_1.5` and context `ResponseLine3_1.5` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].CheckBox_NotProlongLife[0]",
+      "standardized_label": "choice_not_to_prolong_life_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox related to 'NotProlongLife' and the context explicitly states '(a) Choice Not to Prolong Life'. This directly indicates the purpose of the checkbox. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].CheckBox_ProlongLife[0]",
+      "standardized_label": "choice_to_prolong_life",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox related to 'ProlongLife' and the context explicitly states '(b) Choice to Prolong Life'. This directly indicates the purpose of the checkbox. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine1_2\\\\.2[0]",
+      "standardized_label": "response_line1_2_2",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine1_2.2` and context `ResponseLine1_2.2` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine2_2\\\\.2[0]",
+      "standardized_label": "response_line2_2_2",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine2_2.2` and context `ResponseLine2_2.2` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine1_2\\\\.3[0]",
+      "standardized_label": "response_line1_2_3",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine1_2.3` and context `ResponseLine1_2.3` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[2].ResponseLine2_2\\\\.3[0]",
+      "standardized_label": "response_line2_2_3",
+      "confidence": 70,
+      "reasoning": "The field name `ResponseLine2_2.3` and context `ResponseLine2_2.3` suggest an internal or generic identifier. Without further descriptive context, the most accurate standardization is to convert this identifier directly into lowercase snake_case, replacing the dot with an underscore to maintain snake_case format. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].CheckBox_3\\\\.1[0]",
+      "standardized_label": "checkbox_3_1_checkbox",
+      "confidence": 70,
+      "reasoning": "The field is a checkbox, and the field name and context both refer to '3.1'. This likely corresponds to a section or item on the form. Without more descriptive text, `checkbox_3_1` is the most direct and accurate standardization, replacing the dot with an underscore for snake_case. Removed structural identifiers."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].Restrictions[0]",
+      "standardized_label": "organ_donation_restrictions",
+      "confidence": 90,
+      "reasoning": "The field name is 'Restrictions' and the context explicitly asks to 'state your restriction' regarding 'donation of an organ, tissue, or part'. This clearly defines the field's purpose. Removed structural identifiers and converted to lowercase snake_case, adding 'organ_donation' for semantic clarity."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].physicianname[0]",
+      "standardized_label": "physician_name",
+      "confidence": 90,
+      "reasoning": "The field name 'physicianname' combined with the context '(name of physician)' clearly indicates that this field is for the physician's name. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].address[3]",
+      "standardized_label": "physician_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Given the immediate preceding field was 'physicianname', it's highly probable this address refers to the physician's address. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].city[3]",
+      "standardized_label": "physician_city",
+      "confidence": 70,
+      "reasoning": "The field name is 'city' and the context is '(city)'. Following the 'physician_name' and 'physician_address' fields, it's highly probable this refers to the physician's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].state[3]",
+      "standardized_label": "physician_state",
+      "confidence": 70,
+      "reasoning": "The field name is 'state' and the context is '(state)'. Following the 'physician_name' and its address components, it's highly probable this refers to the physician's state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].zipcode[3]",
+      "standardized_label": "physician_zip_code",
+      "confidence": 70,
+      "reasoning": "The field name is 'zipcode' and the context is '(ZIP Code)'. Following the 'physician_name' and its address components, it's highly probable this refers to the physician's ZIP code. Added 'code' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].phonenumber[0]",
+      "standardized_label": "physician_phone_number",
+      "confidence": 70,
+      "reasoning": "The field name is 'phonenumber' and the context is '(phone)'. Following a sequence of fields for the physician (name, address, city, state, zip), it's highly probable this refers to the physician's phone number. Added 'number' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].physicianname[1]",
+      "standardized_label": "second_physician_name",
+      "confidence": 70,
+      "reasoning": "The field name 'physicianname' and context '(name of physician)' are identical to a previous field, but this is the second instance on the page (indicated by `[1]`). This suggests it's for a second physician. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].address[4]",
+      "standardized_label": "second_physician_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Given the immediate preceding field was for a 'second_physician_name', it's highly probable this address refers to the second physician's address. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].city[4]",
+      "standardized_label": "second_physician_city",
+      "confidence": 70,
+      "reasoning": "The field name is 'city' and the context is '(city)'. Following the 'second_physician_name' and 'second_physician_address' fields, it's highly probable this refers to the second physician's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].state[4]",
+      "standardized_label": "second_physician_state",
+      "confidence": 70,
+      "reasoning": "The field name is 'state' and the context is '(state)'. Following the 'second_physician_name' and its address components, it's highly probable this refers to the second physician's state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].zipcode[4]",
+      "standardized_label": "second_physician_zip_code",
+      "confidence": 70,
+      "reasoning": "The field name is 'zipcode' and the context is '(ZIP Code)'. Following the 'second_physician_name' and its address components, it's highly probable this refers to the second physician's ZIP code. Added 'code' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[3].phonenumber[1]",
+      "standardized_label": "second_physician_phone_number",
+      "confidence": 70,
+      "reasoning": "The field name is 'phonenumber' and the context is '(phone)'. Following a sequence of fields for the second physician (name, address, city, state, zip), it's highly probable this refers to the second physician's phone number. Added 'number' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].printname[0]",
+      "standardized_label": "your_printed_name",
+      "confidence": 90,
+      "reasoning": "The field name 'printname' and the context '(print your name)' clearly indicate the purpose of this field. Used 'your_printed_name' for conciseness and clarity over just 'printed_name' to emphasize the user filling the form. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].address[5]",
+      "standardized_label": "your_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Preceded by a field for 'your_printed_name', it's highly probable this address refers to the person filling out the form (the principal). Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].city_state[0]",
+      "standardized_label": "your_city_state",
+      "confidence": 90,
+      "reasoning": "The field name `city_state` directly reflects the combined input of 'city' and 'state', and is immediately preceded by the 'your_address' field. This indicates it pertains to the principal's city and state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].firstwitnessname[0]",
+      "standardized_label": "first_witness_printed_name",
+      "confidence": 90,
+      "reasoning": "The field name 'firstwitnessname' combined with the context '(print name)' clearly indicates this field is for the printed name of the first witness. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].firstwitnessadd[0]",
+      "standardized_label": "first_witness_address",
+      "confidence": 90,
+      "reasoning": "The field name 'firstwitnessadd' (an abbreviation for address) and the context '(address)' directly following the 'first_witness_printed_name' field, clearly indicate this is for the first witness's address. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].firstwitnesscity[0]",
+      "standardized_label": "first_witness_city",
+      "confidence": 90,
+      "reasoning": "The field name 'firstwitnesscity' and the context '(city) (state)' directly following the 'first_witness_address' field, clearly indicate this is for the first witness's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].secondwitnessname[0]",
+      "standardized_label": "second_witness_printed_name",
+      "confidence": 90,
+      "reasoning": "The field name 'secondwitnessname' combined with the context '(print name)' clearly indicates this field is for the printed name of the second witness. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].secondwitnessadd[0]",
+      "standardized_label": "second_witness_address",
+      "confidence": 90,
+      "reasoning": "The field name 'secondwitnessadd' (an abbreviation for address) and the context '(address)' directly following the 'second_witness_printed_name' field, clearly indicate this is for the second witness's address. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].secondwitnesscity[0]",
+      "standardized_label": "second_witness_city",
+      "confidence": 90,
+      "reasoning": "The field name 'secondwitnesscity' and the context '(city) (state)' directly following the 'second_witness_address' field, clearly indicate this is for the second witness's city. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].DateTimeField1[0]",
+      "standardized_label": "date",
+      "confidence": 90,
+      "reasoning": "The field name 'DateTimeField1' and the context '(date)' clearly indicate this field is for a date. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[4].DateTimeField1[1]",
+      "standardized_label": "notary_date_checkbox",
+      "confidence": 70,
+      "reasoning": "The field name 'DateTimeField1' and context '(date)' are generic. However, its position in the form at the bottom right, typically where a notary would sign or date, suggests it's for the notary's date. The presence of a separate date field for the principal at `DateTimeField1[0]` also supports this distinction. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[5].printname[1]",
+      "standardized_label": "your_printed_name",
+      "confidence": 90,
+      "reasoning": "The field name 'printname' and the context '(print your name)' clearly indicate the purpose of this field. This is a repeated field from a previous page but the context remains the same, so the label should be consistent. Used 'your_printed_name' for conciseness and clarity over just 'printed_name' to emphasize the user filling the form. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[5].address[6]",
+      "standardized_label": "your_address",
+      "confidence": 70,
+      "reasoning": "The field name is 'address' and the context is '(address)'. Preceded by a field for 'your_printed_name' (replicated from a previous page), it's highly probable this address refers to the person filling out the form (the principal). This is a repeated address field in the context of the principal's signature block. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[5].city_state[1]",
+      "standardized_label": "your_city_state",
+      "confidence": 90,
+      "reasoning": "The field name `city_state` directly reflects the combined input of 'city' and 'state', and is immediately preceded by the 'your_address' field (replicated from a previous page). This indicates it pertains to the principal's city and state. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[6].CACounty[0]",
+      "standardized_label": "california_county",
+      "confidence": 90,
+      "reasoning": "The field name 'CACounty' combined with the context 'State of California, County of' clearly indicates this field is for the county within California. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[6].On_Date[0]",
+      "standardized_label": "notary_acknowledgment_date_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name 'On_Date' and the presence of 'On' in the context, typically preceding a date in an acknowledgment section, strongly suggest this is the date the notary's acknowledgment is made. This section is specifically for the notary public's certificate. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[6].BeforeMe[0]",
+      "standardized_label": "notary_name_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name 'BeforeMe' and the context 'before me,' within a notary acknowledgment section strongly suggest this is the name of the notary public before whom the document was signed. Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[6].PersonallyAppeared[0]",
+      "standardized_label": "person_personally_appeared",
+      "confidence": 90,
+      "reasoning": "The field name 'PersonallyAppeared' and the context 'personally appeared' indicate this field is for the name of the person whose appearance is being acknowledged by the notary (the principal). Removed structural identifiers and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field_name",
+      "original_field_name": "form1[0].#subform[6].TextField1[0]",
+      "standardized_label": "notary_signature_checkbox",
+      "confidence": 70,
+      "reasoning": "The field name 'TextField1' is generic, but the context 'Signature' and its placement within the notary certificate section strongly suggest this is where the notary public signs. Removed structural identifiers and converted to lowercase snake_case."
+    }
+  ]
+}

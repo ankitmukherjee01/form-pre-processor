@@ -1,0 +1,999 @@
+{
+  "filename": "f1040s.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_01[0]",
+      "standardized_label": "tax_year",
+      "confidence": 90,
+      "reasoning": "The original field name `f1_01` is generic, but the 'Detected Context' explicitly states 'For the year Jan. 1–Dec. 31, 2024, or other tax year beginning', clearly indicating the field is for the tax year. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_02[0]",
+      "standardized_label": "tax_year_end",
+      "confidence": 90,
+      "reasoning": "The original field name `f1_02` is generic. However, the 'Detected Context' states 'ending' immediately following 'tax year beginning' (from the previous context), indicating this field is for the ending date of the tax year. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_03[0]",
+      "standardized_label": "tax_year_end_year",
+      "confidence": 90,
+      "reasoning": "The original field name `f1_03` is generic. Following the previous fields (`f1_01` for tax year beginning and `f1_02` for tax year end month/day), the 'Detected Context' 'ending , 20' clearly indicates this field is for the year component of the tax year's ending date. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_04[0]",
+      "standardized_label": "taxpayer_first_name_middle_initial",
+      "confidence": 90,
+      "reasoning": "The field `f1_04` is generically named. However, its position at the top of the main form content, immediately following the tax year fields, and the 'Detected Context' mentioning 'If joint return, spouse’s first name and middle initial' strongly suggest this field is for the primary taxpayer's first name and middle initial, following typical tax form layout. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_05[0]",
+      "standardized_label": "spouse_first_name_middle_initial",
+      "confidence": 90,
+      "reasoning": "The field `f1_05` is generically named. However, the 'Detected Context' explicitly states 'If joint return spouse’s first name and middle initial', which clearly identifies this field as belonging to the spouse. This follows a common pattern on tax forms where the primary taxpayer's name is followed by the spouse's name for joint filers. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].YourSocial[0].f1_06[0]",
+      "standardized_label": "taxpayer_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path contains 'YourSocial', which strongly indicates this field is for the primary taxpayer's Social Security Number. The generic 'f1_06' is clarified by this parent context. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_07[0]",
+      "standardized_label": "taxpayer_last_name",
+      "confidence": 70,
+      "reasoning": "The field `f1_07` is generically named. Its position after the taxpayer's first name/middle initial and before the spouse's name (and likely SSN, based on typical form layout where last names follow first names) suggests it's for the taxpayer's last name. The 'Detected Context' is broad but mentions 'Home address' and 'Filing Status' which are common after names. Assuming standard form flow where last name follows first name. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_08[0]",
+      "standardized_label": "spouse_last_name",
+      "confidence": 90,
+      "reasoning": "The field `f1_08` is generically named. Based on its position (238.6, 112.0), it is directly below the 'spouse_first_name_middle_initial' field (`f1_05` at 238.6, 88.0) and to the right of the 'taxpayer_last_name' field (`f1_07` at 36.0, 112.0). This highly suggests it is for the spouse's last name, following the common layout of tax forms. The 'Detected Context' also references 'If joint return, spouse’s first name and middle initial', reinforcing that this section is about spouse information. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].SpousesSocial[0].f1_09[0]",
+      "standardized_label": "spouse_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path contains 'SpousesSocial', which unequivocally indicates this field is for the spouse's Social Security Number. The generic 'f1_09' is clarified by this parent context. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_10[0]",
+      "standardized_label": "home_address_street",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address', and the 'Detected Context' explicitly refers to 'Home address (number and street)'. This field's position on the form is consistent with where the primary street address would be entered after name and SSN fields. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_11[0]",
+      "standardized_label": "home_address_apartment_number",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' mentions 'Apt no', and the field's position is immediately to the right of where the street address would be entered, which is the typical location for an apartment, suite, or unit number. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_12[0]",
+      "standardized_label": "home_address_city",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' explicitly refers to 'City, town, or post office.' and the field's position is directly below the street address, which is the typical location for the city component of an address. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_13[0]",
+      "standardized_label": "home_address_state",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' mentions 'State' and the field's position is to the right of the city, which is the typical location for the state component of an address. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_14[0]",
+      "standardized_label": "home_address_zip_code",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' mentions 'ZIP' and the field's position is to the right of the state, which is the typical location for the ZIP code component of an address. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_15[0]",
+      "standardized_label": "foreign_country_name",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' mentions 'Foreign country name' and 'If you have a foreign address, also complete spaces below'. This field's position below the standard city/state/ZIP suggests it's for the foreign country name when a foreign address is applicable. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_16[0]",
+      "standardized_label": "foreign_province_state_county",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' mentions 'Foreign province/state/county' and is positioned to the right of the 'foreign_country_name' field, which is the logical placement for this information when providing a foreign address. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0].f1_17[0]",
+      "standardized_label": "foreign_postal_code",
+      "confidence": 90,
+      "reasoning": "The field path includes 'Address'. The 'Detected Context' references 'Foreign province/state/county' and the field is positioned to the right, which is the logical placement for a foreign postal code after the country and province/state. While 'postal code' isn't explicitly mentioned, it's the standard final component of a foreign address. Structural identifiers like 'topmostSubform', 'Page1', 'Address', and array indices '[0]' have been removed as per the rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_01[0]",
+      "standardized_label": "filing_status_single",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_01') and the 'Detected Context' mentions 'Filing Status Check only one box. Single Married filing jointly (even if only one had income) Head of household (HOH) Qualifying surviving spouse (QSS) Married filing separately (MFS)'. Given its position and the surrounding text on a tax form, this checkbox clearly corresponds to the 'Single' filing status. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_02[0]",
+      "standardized_label": "filing_status_married_filing_jointly",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_02'). The 'Detected Context' from surrounding text (previous field `c1_01`) indicates 'Filing Status Check only one box. Single Married filing jointly...'. Given its sequential position to the 'Single' checkbox, this checkbox most logically corresponds to 'Married filing jointly'. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_03[0]",
+      "standardized_label": "filing_status_married_filing_separately",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_03'). The 'Detected Context' from surrounding text (following 'Married filing jointly') clearly mentions 'Married filing separately (MFS)'. This checkbox corresponds to that specific filing status. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_03[1]",
+      "standardized_label": "filing_status_head_of_household",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c1_03[1]`). The 'Detected Context' explicitly mentions 'Head of household (HOH)'. This checkbox corresponds to that specific filing status, following the typical order of filing status options on a tax form. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' and '[1]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_03[2]",
+      "standardized_label": "filing_status_qualifying_surviving_spouse",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c1_03[2]`). The 'Detected Context' mentions 'Qualifying surviving spouse (QSS)', which directly corresponds to this filing status, following the typical order of filing status options on a tax form. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' and '[2]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_03[3]",
+      "standardized_label": "married_filing_separately_nonresident_alien_spouse_election_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c1_03[3]`). Based on previous fields, `c1_03[0]` was identified as 'married_filing_separately'. This field `c1_03[3]` is positioned directly below `c1_03[0]` (95.6, 212.0 vs 95.6, 200.0). Furthermore, a prior field's 'Detected Context' (`f1_07`) included 'If treating a nonresident alien or dual-status alien spouse as a U.S. resident, check box'. This strongly indicates that this checkbox is for the election related to treating a nonresident alien spouse when filing Married Filing Separately. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' and '[3]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_03[4]",
+      "standardized_label": "head_of_household_qualifying_person_is_not_dependent_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c1_03[4]`). This checkbox is positioned below the 'Head of household (HOH)' filing status option. A previous 'Detected Context' (`f1_04`) included text: 'If you checked the HOH box, enter the name if the qualifying person is a child but not your dependent:'. This checkbox likely corresponds to the condition for HOH where the qualifying person is not a dependent. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' and '[4]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_18[0]",
+      "standardized_label": "mfs_spouse_name",
+      "confidence": 90,
+      "reasoning": "The field `f1_18` is a text field. The 'Detected Context' explicitly states: 'If you checked the MFS box, enter the name of your spouse.' This directly correlates this field to capturing the spouse's name when filing as Married Filing Separately. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_04[0]",
+      "standardized_label": "head_of_household_qualifying_person_name",
+      "confidence": 90,
+      "reasoning": "The field `c1_04` is a checkbox. Based on the previous field's context (`c1_03[4]`) which indicated 'head_of_household_qualifying_person_is_not_dependent', and the general layout of tax forms, this field is likely related to entering the name of the qualifying person for Head of Household if they are not a dependent. The context 'name if the qualifying person is a child' from a previous field also supports this. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_19[0]",
+      "standardized_label": "nonresident_alien_spouse_name_checkbox",
+      "confidence": 90,
+      "reasoning": "The field `f1_19` is a text field. The 'Detected Context' explicitly states 'If treating a nonresident alien or dual-status alien spouse as a U.S. resident... enter their name'. This directly correlates this field to capturing the name of the nonresident/dual-status alien spouse if the election is made. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_05[0]",
+      "standardized_label": "digital_assets_transaction_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_05[0]') and is part of a Yes/No pair. The 'Detected Context' from a nearby broader context on the PDF states 'Digital Assets At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of (or a financial interest in a digital asset)? (See instructions)'. This checkbox is clearly for the 'Yes' option to this question. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_05[1]",
+      "standardized_label": "digital_assets_transaction_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_05[1]') and is part of a Yes/No pair. The 'Detected Context' from a nearby broader context on the PDF states 'Digital Assets At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of (or a financial interest in a digital asset)? (See instructions)'. This checkbox is clearly for the 'No' option to this question, positioned immediately after the 'Yes' option. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' and '[1]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_06[0]",
+      "standardized_label": "standard_deduction_claimed_as_dependent",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_06[0]'). The 'Detected Context' includes 'Standard Deduction Someone can claim: You as a dependent'. This checkbox corresponds to the option indicating the taxpayer can be claimed as a dependent by someone else, affecting their standard deduction amount. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_07[0]",
+      "standardized_label": "standard_deduction_spouse_claimed_as_dependent",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_07[0]'). The 'Detected Context' includes 'Your spouse as a dependent', following a similar option for the taxpayer. This checkbox corresponds to the option indicating the taxpayer's spouse can be claimed as a dependent by someone else, affecting their standard deduction amount. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_08[0]",
+      "standardized_label": "standard_deduction_spouse_itemizes",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_08[0]'). The 'Detected Context' explicitly states 'Spouse itemizes on a separate return'. This checkbox corresponds to the option indicating that the spouse itemizes deductions on a separate return, which impacts the taxpayer's standard deduction. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_09[0]",
+      "standardized_label": "taxpayer_born_before_january_2_1960",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_09[0]'). The 'Detected Context' explicitly states 'Were born before January 2, 1960'. This is a common checkbox on tax forms to determine eligibility for an additional standard deduction for age. Given its placement, this refers to the primary taxpayer. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_10[0]",
+      "standardized_label": "taxpayer_blind",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_10[0]'). The 'Detected Context' explicitly states 'Are blind'. This is a common checkbox on tax forms to determine eligibility for an additional standard deduction for blindness. Given its placement next to the age-related checkbox for the taxpayer, this refers to the primary taxpayer. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_11[0]",
+      "standardized_label": "spouse_born_before_january_2_1960",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_11[0]'). The 'Detected Context' explicitly states 'Was born before January 2, 1960'. This is a common checkbox on tax forms for an additional standard deduction for age. Given its position directly below the corresponding checkbox for the 'taxpayer' and the use of 'Was' (implying another person), this refers to the spouse. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].c1_12[0]",
+      "standardized_label": "spouse_blind",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox ('c1_12[0]'). The 'Detected Context' explicitly states 'Is blind'. This is a common checkbox on tax forms for an additional standard deduction for blindness. Given its position directly below the corresponding checkbox for the 'taxpayer' and the use of 'Is' (implying another person), this refers to the spouse. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dependents[0].c1_13[0]",
+      "standardized_label": "dependent_qualifying_child_for_child_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field path `Dependents[0]` indicates this checkbox belongs to the first dependent listed. On tax forms like Form 1040, the first checkbox associated with a dependent entry is typically to indicate if they are a qualifying child for the Child Tax Credit. The 'Detected Context' 'instructions an check here' is generic but doesn't contradict this common structure. Structural identifiers like 'topmostSubform', 'Page1', 'Dependents', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_20[0]",
+      "standardized_label": "dependent_1_first_name",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row1[0]` clearly indicates this is the first field in the first row of a table for dependents. On tax forms, the first column for dependents is typically 'First name and middle initial'. The 'Detected Context' 'If more than four' also points to a list of dependents. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_21[0]",
+      "standardized_label": "dependent_1_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row1[0]` indicates this is for the first dependent. On tax forms, the column immediately following the dependent's name is typically for their Social Security Number. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_22[0]",
+      "standardized_label": "dependent_1_relationship",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row1[0]` indicates this is for the first dependent. On tax forms, the column following the dependent's SSN is typically for their relationship to the taxpayer (e.g., 'son', 'daughter', 'niece'). Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].c1_14[0]",
+      "standardized_label": "dependent_1_qualifying_child_for_other_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row1[0]` indicates this is the first dependent. On tax forms, following the checkbox for the Child Tax Credit, there is often another checkbox to indicate if the dependent is a 'qualifying child for credit for other dependents'. This is the next logical checkbox in the sequence for a dependent. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].c1_15[0]",
+      "standardized_label": "dependent_1_qualifying_child_for_earned_income_credit",
+      "confidence": 70,
+      "reasoning": "The field path `DependentsTable[0].Row1[0]` indicates this is the first dependent. On tax forms, following checkboxes for other dependent credits (Child Tax Credit, Credit for Other Dependents), there is often a checkbox to indicate if the dependent is a 'qualifying child for earned income credit' (EIC). This is the next logical checkbox in the sequence for a dependent. The 'Detected Context' 'depe de s' is generic but aligns with the dependent context. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_23[0]",
+      "standardized_label": "dependent_2_first_name",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row2[0]` clearly indicates this is the first field in the second row of the dependents table. Following the pattern of the first row, this field is for the second dependent's first name and middle initial. The 'Detected Context' 'If more than four dependents, see instructions and' further confirms it's within the dependents section. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_24[0]",
+      "standardized_label": "dependent_2_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row2[0]` indicates this is the second row of the dependents table. Following the pattern of the first row, the field after the dependent's first name is typically for their Social Security Number. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_25[0]",
+      "standardized_label": "dependent_2_relationship",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row2[0]` indicates this is the second row of the dependents table. Following the pattern of the first row, the field after the dependent's SSN is typically for their relationship to the taxpayer. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].c1_16[0]",
+      "standardized_label": "dependent_2_qualifying_child_for_child_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row2[0]` indicates this is the second row of the dependents table. Following the pattern of the first row (`c1_13[0]`), this checkbox is for indicating if the second dependent is a qualifying child for the Child Tax Credit. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].c1_17[0]",
+      "standardized_label": "dependent_2_qualifying_child_for_other_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row2[0]` indicates this is the second row of the dependents table. Following the pattern of the first row (`c1_14[0]`), this checkbox is for indicating if the second dependent is a qualifying child for the 'credit for other dependents'. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_26[0]",
+      "standardized_label": "dependent_3_first_name",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row3[0]` clearly indicates this is the first field in the third row of the dependents table. Following the pattern of the previous rows, this field is for the third dependent's first name and middle initial. The 'Detected Context' 'dependents, see instructions and check here' confirms it's within the dependents section. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_27[0]",
+      "standardized_label": "dependent_3_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row3[0]` indicates this is the third row of the dependents table. Following the pattern of the previous rows, the field after the dependent's first name is typically for their Social Security Number. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_28[0]",
+      "standardized_label": "dependent_3_relationship",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row3[0]` indicates this is the third row of the dependents table. Following the pattern of the previous rows, the field after the dependent's SSN is typically for their relationship to the taxpayer. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].c1_18[0]",
+      "standardized_label": "dependent_3_qualifying_child_for_child_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row3[0]` indicates this is the third row of the dependents table. Following the pattern of the previous rows (`c1_13[0]`, `c1_16[0]`), this checkbox is for indicating if the third dependent is a qualifying child for the Child Tax Credit. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].c1_19[0]",
+      "standardized_label": "dependent_3_qualifying_child_for_earned_income_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row3[0]` indicates this is the third row of the dependents table. Following the pattern of previous rows, after checkboxes for the Child Tax Credit and Credit for Other Dependents, this checkbox is for indicating if the third dependent is a qualifying child for the Earned Income Credit. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_29[0]",
+      "standardized_label": "dependent_4_first_name",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row4[0]` clearly indicates this is the first field in the fourth row of the dependents table. Following the pattern of the previous rows, this field is for the fourth dependent's first name and middle initial. The 'Detected Context' 'instructions and check here' confirms it's within the dependents section. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row4', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_30[0]",
+      "standardized_label": "dependent_4_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row4[0]` indicates this is the fourth row of the dependents table. Following the pattern of the previous rows, the field after the dependent's first name is typically for their Social Security Number. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row4', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_31[0]",
+      "standardized_label": "dependent_4_relationship",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row4[0]` indicates this is the fourth row of the dependents table. Following the pattern of the previous rows, the field after the dependent's SSN is typically for their relationship to the taxpayer. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row4', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].c1_20[0]",
+      "standardized_label": "dependent_4_qualifying_child_for_child_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row4[0]` indicates this is the fourth row of the dependents table. Following the pattern of the previous rows (`c1_13[0]`, `c1_16[0]`, `c1_18[0]`), this checkbox is for indicating if the fourth dependent is a qualifying child for the Child Tax Credit. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row4', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].c1_21[0]",
+      "standardized_label": "dependent_4_qualifying_child_for_other_credit",
+      "confidence": 90,
+      "reasoning": "The field path `DependentsTable[0].Row4[0]` indicates this is the fourth row of the dependents table. Following the consistent pattern observed in previous rows (e.g., `c1_17[0]`), where the first checkbox for each dependent indicates eligibility for the Child Tax Credit (`c1_20[0]`), the second checkbox (at a similar horizontal position) indicates eligibility for the 'credit for other dependents'. Structural identifiers like 'topmostSubform', 'Page1', 'DependentsTable', 'Row4', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_32[0]",
+      "standardized_label": "dependents_more_than_four_checkbox",
+      "confidence": 70,
+      "reasoning": "The field `f1_32` is a text field located near the dependents section. The context 'If more than four dependents, see instructions and check here' (from a previous field) strongly suggests this text field is for the numerical input if there are more than four dependents, or perhaps a checkbox to indicate the presence of an attached statement for additional dependents. However, a text field for a checkbox is unusual. Given the numerical position '1a' which usually corresponds to a line number, and the context about 'more than four dependents', this is likely the placeholder where the 'number' of additional dependents might be entered or a checkbox to indicate additional dependents form is attached. Since the previous fields were checkboxes, it might be a summary checkbox. But without further context or the full form, 'dependents_more_than_four_checkbox' captures the intent based on related surrounding text. Let's assume it's a checkbox to simply indicate 'yes, more than four dependents', rather than a text field for a count. If it were a count it would be a number field. Given it is a Text field, it could be where one manually enters 'X' or some other indicator. So, I will classify it as a checkbox for now. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_33[0]",
+      "standardized_label": "wages_salaries_tips",
+      "confidence": 90,
+      "reasoning": "The field `f1_33` is a text field. The 'Detected Context' explicitly references 'Form(s) W-2' and the line number '1b'. On a typical tax form like Form 1040, Line 1b is designated for wages, salaries, and tips as reported on Form W-2. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_34[0]",
+      "standardized_label": "taxable_interest",
+      "confidence": 90,
+      "reasoning": "The field `f1_34` is a text field. The 'Detected Context' references 'instructions' and the line number '1c'. On a typical tax form like Form 1040, Line 1c is designated for taxable interest. This follows the natural progression of income lines on a tax return. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_35[0]",
+      "standardized_label": "ordinary_dividends",
+      "confidence": 90,
+      "reasoning": "The field `f1_35` is a text field. The 'Detected Context' references 'instructions' and the line number '1d'. On a typical tax form like Form 1040, Line 1d is designated for ordinary dividends. This follows the natural progression of income lines on a tax return. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_36[0]",
+      "standardized_label": "ira_pension_annuity_distributions",
+      "confidence": 90,
+      "reasoning": "The field `f1_36` is a text field. The 'Detected Context' references 'Form 2441, line 26' and the line number '1e'. On a typical tax form like Form 1040, Line 1e is designated for IRA distributions, pensions, and annuities. This follows the natural progression of income lines on a tax return. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_37[0]",
+      "standardized_label": "social_security_benefits",
+      "confidence": 90,
+      "reasoning": "The field `f1_37` is a text field. The 'Detected Context' references 'Form 8839, line 29' and the line number '1f'. On a typical tax form like Form 1040, Line 1f is designated for social security benefits. This follows the natural progression of income lines on a tax return. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_38[0]",
+      "standardized_label": "total_other_income",
+      "confidence": 90,
+      "reasoning": "The field `f1_38` is a text field. The line number '1g' and its position following several specific income types (wages, interest, dividends, pensions, social security) strongly suggests this is a catch-all line for 'other income' not specified elsewhere, or a summation of other income lines on a related schedule (which is common for forms like Form 1040, where 1g is usually 'Other income from Schedule 1, line 10'). Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_39[0]",
+      "standardized_label": "total_income",
+      "confidence": 90,
+      "reasoning": "The field `f1_39` is a text field and its line number is '1h'. On Form 1040, Line 1h is typically the sum of all preceding income lines (1a through 1g). Therefore, it represents the 'total income'. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_40[0]",
+      "standardized_label": "qbi_deduction_checkbox",
+      "confidence": 70,
+      "reasoning": "The field `f1_40` is a text field (likely acting as a checkbox) with a line number '1i'. The 'Detected Context' mentions 't pay election (see instructions)'. This context is somewhat ambiguous, but given its position after 'Total Income' and before adjustments, it's plausible this relates to the Qualified Business Income (QBI) deduction election, which is commonly found in this section of tax forms like Form 1040 (Line 1i sometimes refers to QBI deduction from Schedule 1, line 13, but this appears to be a checkbox). Without the exact form or more context, it's a best guess for a common deduction election. If it's a numeric field, 'qbi_deduction_amount' would be more appropriate. Given it is a text field, it could be where one manually enters 'X' or some other indicator for an election. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_41[0]",
+      "standardized_label": "adjusted_gross_income",
+      "confidence": 90,
+      "reasoning": "The field `f1_41` is a text field with line number '1z'. On tax forms like Form 1040, the 'Z' line (or similar designated letter) after all income and adjustments is typically for Adjusted Gross Income (AGI). This follows the standard flow of tax calculation. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_42[0]",
+      "standardized_label": "tax_exempt_interest",
+      "confidence": 90,
+      "reasoning": "The field `f1_42` is a text field. The 'Detected Context' explicitly states 'Tax-exempt interest' and the line number '2a'. This directly identifies the field's purpose. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_43[0]",
+      "standardized_label": "taxable_interest_from_schedule_b",
+      "confidence": 90,
+      "reasoning": "The field `f1_43` is a text field. The 'Detected Context' explicitly states 'Taxable interest' and the line number '2b'. On Form 1040, line 2b is typically for taxable interest *from Schedule B* (if required), which differentiates it from the primary taxable interest line earlier on the form. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_44[0]",
+      "standardized_label": "qualified_dividends",
+      "confidence": 90,
+      "reasoning": "The field `f1_44` is a text field. The 'Detected Context' explicitly states 'Qualified dividends' and the line number '3a'. This directly identifies the field's purpose. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_45[0]",
+      "standardized_label": "ordinary_dividends_from_schedule_b",
+      "confidence": 90,
+      "reasoning": "The field `f1_45` is a text field. The 'Detected Context' explicitly states 'Ordinary dividends' and the line number '3b'. On Form 1040, line 3b is typically for ordinary dividends *from Schedule B* (if required), which differentiates it from the primary ordinary dividends line earlier on the form. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_46[0]",
+      "standardized_label": "ira_distributions_gross",
+      "confidence": 90,
+      "reasoning": "The field `f1_46` is a text field. The 'Detected Context' explicitly states 'IRA distributions' and the line number '4a'. On Form 1040, line 4a typically refers to the gross amount of IRA distributions. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_47[0]",
+      "standardized_label": "ira_distributions_taxable_amount",
+      "confidence": 90,
+      "reasoning": "The field `f1_47` is a text field. The 'Detected Context' explicitly states 'Taxable amount' and the line number '4b'. This follows the typical pattern on tax forms where a gross amount (4a) is followed by the taxable portion (4b) for items like IRA distributions. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_48[0]",
+      "standardized_label": "pensions_annuities_gross",
+      "confidence": 90,
+      "reasoning": "The field `f1_48` is a text field. The 'Detected Context' explicitly states 'Pensions and annuities' and the line number '5a'. This directly identifies the field's purpose as the gross amount of pensions and annuities. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_49[0]",
+      "standardized_label": "pensions_annuities_taxable_amount",
+      "confidence": 90,
+      "reasoning": "The field `f1_49` is a text field. The 'Detected Context' explicitly states 'Taxable amount' and the line number '5b'. This follows the typical pattern on tax forms where a gross amount (5a) is followed by the taxable portion (5b) for items like pensions and annuities. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_50[0]",
+      "standardized_label": "social_security_benefits_gross",
+      "confidence": 90,
+      "reasoning": "The field `f1_50` is a text field. The 'Detected Context' explicitly states 'Social security benefits' and the line number '6a'. This directly identifies the field's purpose as the gross amount of social security benefits. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].f1_51[0]",
+      "standardized_label": "social_security_benefits_taxable_amount",
+      "confidence": 90,
+      "reasoning": "The field `f1_51` is a text field. The 'Detected Context' explicitly states 'Taxable amount' and the line number '6b'. This follows the typical pattern on tax forms where a gross amount (6a) is followed by the taxable portion (6b) for items like social security benefits. Structural identifiers like 'topmostSubform', 'Page1', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Line6c_ReadOrder[0].c1_22[0]",
+      "standardized_label": "lump_sum_social_security_election",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c1_22[0]`) and the field path includes 'Line6c'. The 'Detected Context' from the surrounding text (associated with line 6 of a tax form, specifically from a preceding field's context) explicitly mentions 'c If you elect to use the lump sum election method check here (see instructions)'. This clearly identifies the purpose of this checkbox. Structural identifiers like 'topmostSubform', 'Page1', 'Line6c_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Line7_ReadOrder[0].c2_01[0]",
+      "standardized_label": "total_income_from_schedule_1_checkbox",
+      "confidence": 70,
+      "reasoning": "The field is a checkbox (`c2_01[0]`) on 'Page2' and refers to 'Line7'. On a standard Form 1040, Line 7 is often associated with 'other income from Schedule 1' (or a similar aggregate line) and typically doesn't have a checkbox itself, but might have one to indicate an attached schedule. Given the lack of specific context, and that checkboxes often signify an election or an attached form, and 'SR' is often 'See instructions/reference', this could be a checkbox for indicating that there *is* 'other income' and a Schedule 1 is attached. Without more context, this is a plausible interpretation of 'Line7' with a checkbox. Structural identifiers like 'topmostSubform', 'Page2', 'Line7_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_01[0]",
+      "standardized_label": "capital_gain_or_loss",
+      "confidence": 90,
+      "reasoning": "The field `f2_01` is a text field on Page 2, and the 'Detected Context' references 'e D if required. If not required, . . . . . . . . . . . . . 7'. This strongly indicates 'Schedule D' (Capital Gains and Losses) and line 7, which is typically for capital gain or loss on Form 1040. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_02[0]",
+      "standardized_label": "schedule_1_total_other_income",
+      "confidence": 90,
+      "reasoning": "The field `f2_02` is a text field on Page 2, and the 'Detected Context' mentions 'e 10 . . . . . . . . . . . . 8'. This refers to line 8 on the main form, which is typically the sum of other income from Schedule 1, line 10. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_03[0]",
+      "standardized_label": "total_income",
+      "confidence": 90,
+      "reasoning": "The field `f2_03` is a text field on Page 2, and the 'Detected Context' explicitly states 'This is your total income . . 9'. Line 9 on a typical tax form like Form 1040 is indeed for total income after summing previous lines. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_04[0]",
+      "standardized_label": "adjustments_to_income",
+      "confidence": 90,
+      "reasoning": "The field `f2_04` is a text field on Page 2, and the 'Detected Context' references '1, line 26 . . . . . . . . . . 10'. This strongly suggests it refers to 'Schedule 1, line 26' and line 10 on the main form, which is typically where total adjustments to income are reported (from Schedule 1, Part II). Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_05[0]",
+      "standardized_label": "adjusted_gross_income_line_11",
+      "confidence": 90,
+      "reasoning": "The field `f2_05` is a text field on Page 2, and the 'Detected Context' explicitly states 'ur adjusted gross income . . . 11'. This clearly identifies the field as the Adjusted Gross Income (AGI) on line 11 of the form. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_06[0]",
+      "standardized_label": "itemized_deductions_from_schedule_a",
+      "confidence": 90,
+      "reasoning": "The field `f2_06` is a text field on Page 2, and the 'Detected Context' explicitly states 'uctions (from Schedule A) . . . 12'. This clearly indicates the field is for the total itemized deductions as calculated on Schedule A, and reported on line 12 of the main form. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_07[0]",
+      "standardized_label": "qbi_deduction_amount",
+      "confidence": 90,
+      "reasoning": "The field `f2_07` is a text field on Page 2, and the 'Detected Context' explicitly states 'rom Form 8995 or Form 8995-A . 13'. Form 8995 and 8995-A are used to calculate the Qualified Business Income (QBI) Deduction. Line 13 on a Form 1040 is typically where the QBI deduction amount is reported. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_08[0]",
+      "standardized_label": "total_deductions",
+      "confidence": 90,
+      "reasoning": "The field `f2_08` is a text field on Page 2 with line number '14'. On Form 1040, Line 14 is typically the summation of the standard or itemized deduction and the Qualified Business Income (QBI) deduction, representing 'Total Deductions'. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_09[0]",
+      "standardized_label": "taxable_income",
+      "confidence": 90,
+      "reasoning": "The field `f2_09` is a text field on Page 2 with line number '15'. The 'Detected Context' explicitly states 'This is your . . . . . . . . . . . . . . 15' (implicitly 'This is your taxable income') and instructions like 'o or less, enter 0'. This is the standard line for calculating 'Taxable Income' on Form 1040 (AGI minus total deductions). Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_02[0]",
+      "standardized_label": "tax_computation_form_8814_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c2_02[0]`) on 'Page2' and refers to 'Line16'. The 'Detected Context' explicitly mentions 'Form(s) 8814'. Line 16 on Form 1040 is typically for 'Tax', and often includes checkboxes or references to forms used for tax calculation, such as Form 8814 (Parents' Election To Report Child's Interest and Dividends). Structural identifiers like 'topmostSubform', 'Page2', 'Line16_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_03[0]",
+      "standardized_label": "tax_computation_form_4972_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c2_03[0]`) on 'Page2' and refers to 'Line16'. The 'Detected Context' explicitly mentions 'Form(s) 4972'. Line 16 on Form 1040 is typically for 'Tax', and often includes checkboxes or references to forms used for tax calculation, such as Form 4972 (Tax on Lump-Sum Distributions). Structural identifiers like 'topmostSubform', 'Page2', 'Line16_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_04[0]",
+      "standardized_label": "tax_computation_schedule_d_tax_worksheet_checkbox",
+      "confidence": 70,
+      "reasoning": "The field is a checkbox (`c2_04[0]`) on 'Page2' and refers to 'Line16'. Line 16 on Form 1040 is for 'Tax'. Often, if no special forms like 8814 or 4972 apply, taxpayers might use a Schedule D Tax Worksheet (or Qualified Dividends and Capital Gain Tax Worksheet) to figure their tax. This checkbox is positioned next to previous checkboxes related to tax calculation forms, making it a plausible indicator for using such a worksheet. Without more specific context, this is a reasonable interpretation of its purpose within the tax computation section. Structural identifiers like 'topmostSubform', 'Page2', 'Line16_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].f2_10[0]",
+      "standardized_label": "tax_computation_amount",
+      "confidence": 90,
+      "reasoning": "The field `f2_10` is a text field on 'Page2' and refers to 'Line16'. Line 16 on Form 1040 is explicitly for the 'Tax' amount. This field is positioned to capture the calculated tax after any worksheets or special forms. Structural identifiers like 'topmostSubform', 'Page2', 'Line16_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_11[0]",
+      "standardized_label": "total_tax",
+      "confidence": 90,
+      "reasoning": "The field `f2_11` is a text field on Page 2 with line number '16'. On Form 1040, Line 16 is designated for the 'Total Tax'. This field is positioned to capture the final calculated tax amount, following any checkboxes or specific tax computation methods. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_12[0]",
+      "standardized_label": "child_tax_credit_and_credit_for_other_dependents",
+      "confidence": 90,
+      "reasoning": "The field `f2_12` is a text field on Page 2 with line number '17'. On Form 1040, Line 17 is designated for the 'Child tax credit and credit for other dependents'. This is a common and clearly identifiable line item for these credits. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_13[0]",
+      "standardized_label": "education_credits_from_form_8863",
+      "confidence": 90,
+      "reasoning": "The field `f2_13` is a text field on Page 2 with line number '18'. On Form 1040, Line 18 is designated for 'Education credits (from Form 8863)'. This is a common and clearly identifiable line item. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_14[0]",
+      "standardized_label": "schedule_8812_additional_child_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field `f2_14` is a text field on Page 2 with line number '19'. The 'Detected Context' references 'dependents from Schedule 8812'. Schedule 8812 is specifically for the 'Additional Child Tax Credit'. Therefore, this line would be for that credit amount. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_15[0]",
+      "standardized_label": "earned_income_credit",
+      "confidence": 90,
+      "reasoning": "The field `f2_15` is a text field on Page 2 with line number '20'. On Form 1040, Line 20 is typically designated for the 'Earned income credit (EIC)'. This is a common and clearly identifiable credit. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_16[0]",
+      "standardized_label": "credit_for_other_dependents",
+      "confidence": 90,
+      "reasoning": "The field `f2_16` is a text field on Page 2 with line number '21'. While not explicitly stated in the context, line 21 on a Form 1040 is typically designated for the 'Credit for other dependents' or a similar placeholder for additional credits. Given previous credit lines (Child Tax, Education, EIC), this is the next logical credit line. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_17[0]",
+      "standardized_label": "total_credits",
+      "confidence": 90,
+      "reasoning": "The field `f2_17` is a text field on Page 2 with line number '22'. This line is typically where all previous credits (Child Tax, Education, EIC, etc.) are summed to arrive at the 'Total Credits' on a Form 1040. The context 'less, enter -0-' also implies a calculation result. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_18[0]",
+      "standardized_label": "other_taxes_from_schedule_2",
+      "confidence": 90,
+      "reasoning": "The field `f2_18` is a text field on Page 2 with line number '23'. The 'Detected Context' explicitly mentions 'other tax, from Schedule 2, line 21'. This clearly indicates the field is for other taxes as calculated on Schedule 2, Line 21, and reported on Line 23 of the main form. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_19[0]",
+      "standardized_label": "total_tax",
+      "confidence": 90,
+      "reasoning": "The field `f2_19` is a text field on Page 2 with line number '24'. The 'Detected Context' mentions 'total tax'. On Form 1040, Line 24 is typically the sum of the regular tax (line 16) and other taxes from Schedule 2 (line 23), resulting in the overall 'Total Tax'. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_20[0]",
+      "standardized_label": "federal_income_tax_withheld",
+      "confidence": 90,
+      "reasoning": "The field `f2_20` is a text field on Page 2, associated with line '25a'. On Form 1040, line 25a is designated for 'Federal income tax withheld from Forms W-2 and 1099'. This is a common and clearly identifiable line item for payments. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_21[0]",
+      "standardized_label": "estimated_tax_payments",
+      "confidence": 90,
+      "reasoning": "The field `f2_21` is a text field on Page 2, associated with line '25b'. On Form 1040, line 25b is designated for '2024 estimated tax payments and amount applied from 2023 return'. This is a common and clearly identifiable line item for payments. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_22[0]",
+      "standardized_label": "earned_income_credit_withholding_from_form_8801",
+      "confidence": 90,
+      "reasoning": "The field `f2_22` is a text field on Page 2, associated with line '25c'. On Form 1040, line 25c is designated for 'Earned income credit (EIC) withholding from Form 8801' (or a similar line for amounts from Form 8801). The context 'instructions' further supports this. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_23[0]",
+      "standardized_label": "total_payments_and_credits",
+      "confidence": 90,
+      "reasoning": "The field `f2_23` is a text field on Page 2, associated with line '25d'. On Form 1040, line 25d is typically the sum of the preceding payment and credit lines (25a, 25b, 25c), representing 'Total payments and credits'. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_24[0]",
+      "standardized_label": "overpayment_applied_to_estimated_tax",
+      "confidence": 90,
+      "reasoning": "The field `f2_24` is a text field on Page 2, associated with line '26'. The 'Detected Context' mentions 'amount applied from 2023 return'. On Form 1040, line 26 typically refers to the portion of an overpayment from the prior year's return that the taxpayer elected to have applied to their current year's estimated tax. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_25[0]",
+      "standardized_label": "excess_earned_income_credit",
+      "confidence": 90,
+      "reasoning": "The field `f2_25` is a text field on Page 2, associated with line '27'. The 'Detected Context' mentions 'credit (EIC)'. On Form 1040, line 27 is designated for the 'Excess earned income credit', which is the refundable portion of the EIC. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_26[0]",
+      "standardized_label": "additional_child_tax_credit_from_schedule_8812",
+      "confidence": 90,
+      "reasoning": "The field `f2_26` is a text field on Page 2, associated with line '28'. The 'Detected Context' explicitly mentions 'credit from Schedule 8812'. Schedule 8812 is specifically for the 'Additional Child Tax Credit'. Therefore, this line would be for that credit amount. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_27[0]",
+      "standardized_label": "american_opportunity_tax_credit_from_form_8863",
+      "confidence": 90,
+      "reasoning": "The field `f2_27` is a text field on Page 2, associated with line '29'. The 'Detected Context' mentions 'credit from Form 8863, line 8'. Form 8863 is for education credits, specifically the 'American Opportunity and Lifetime Learning Credits'. Line 8 on Form 8863 calculates the American Opportunity Tax Credit (AOTC). Therefore, this line likely represents the AOTC from that form. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_28[0]",
+      "standardized_label": "net_premium_tax_credit",
+      "confidence": 90,
+      "reasoning": "The field `f2_28` is a text field on Page 2, associated with line '30'. On Form 1040, line 30 is typically for the 'Net premium tax credit (from Form 8962)'. While 'Form 8962' isn't explicitly in the detected context, 'use' and its position among other credits makes this a strong inference. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_29[0]",
+      "standardized_label": "other_refundable_credits_from_schedule_3",
+      "confidence": 90,
+      "reasoning": "The field `f2_29` is a text field on Page 2, associated with line '31'. The 'Detected Context' explicitly mentions 'dule 3, line 15'. On Form 1040, line 31 is designated for 'Other refundable credits from Schedule 3, line 15'. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_30[0]",
+      "standardized_label": "total_payments_and_refundable_credits",
+      "confidence": 90,
+      "reasoning": "The field `f2_30` is a text field on Page 2, associated with line '32'. The 'Detected Context' mentions 'total other payments and' and its position after several payment and refundable credit lines (25d through 31) suggests this is the summation line. On Form 1040, line 32 is typically the total of all payments and refundable credits. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].f2_31[0]",
+      "standardized_label": "overpayment",
+      "confidence": 90,
+      "reasoning": "The field `f2_31` is a text field on Page 2, associated with line '33'. The 'Detected Context' mentions 'total payments' and its position following the total tax and total payments suggests this line calculates any 'overpayment' (where total payments exceed total tax). On Form 1040, line 33 is designated for overpayment. Structural identifiers like 'topmostSubform', 'Page2', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_01[0]",
+      "standardized_label": "overpayment_refunded_amount",
+      "confidence": 90,
+      "reasoning": "The field `f3_01` is a text field on Page 3, associated with line '34'. The 'Detected Context' states 'ct line 24 from line 33. This is the . . . . . . . . . . . . . . 34'. On Form 1040, line 33 is the total overpayment, and line 34 is where the taxpayer indicates how much of that overpayment they want to be refunded. This follows the logical flow of a tax return where an overpayment is either refunded or applied to next year's taxes. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Line34a_ReadOrder[0].c3_01[0]",
+      "standardized_label": "direct_deposit_routing_number_checkbox",
+      "confidence": 70,
+      "reasoning": "The field is a checkbox (`c3_01[0]`) on 'Page3', associated with 'Line34a'. On tax forms, line 34a typically relates to direct deposit information for refunds, specifically the routing number. The generic 'Detected Context' ', 35a' is not particularly helpful, but its position in the refund section and next to a line that is usually for the routing number strongly suggests this interpretation. This checkbox might indicate that direct deposit information is provided. Structural identifiers like 'topmostSubform', 'Page3', 'Line34a_ReadOrder', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_02[0]",
+      "standardized_label": "direct_deposit_routing_number",
+      "confidence": 90,
+      "reasoning": "The field `f3_02` is a text field on Page 3, associated with line '35a'. The 'Detected Context' mentions 'd to you. If Form 8888 is attached, . . . . . . . . . . . . . 35a'. Form 8888 is used for allocating a refund to multiple accounts. Line 35a on Form 1040 is specifically for the direct deposit 'Routing number'. This is a clear and identifiable line item for banking information for a refund. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].RoutingNo[0].f3_03[0]",
+      "standardized_label": "direct_deposit_account_number",
+      "confidence": 90,
+      "reasoning": "The field path includes 'RoutingNo', but the 'Detected Context' states 'Direct deposit? See b Routing number'. Line 35b on Form 1040 is typically for the 'Account number' for direct deposit. Since 'Routing number' is mentioned with 'b', and this field is `f3_03`, this is the next logical piece of banking information, referring to the account number. Structural identifiers like 'topmostSubform', 'Page3', 'RoutingNo', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].c3_02[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].c3_02[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.963574548s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].c3_02[1]",
+      "standardized_label": "topmostSubform[0].Page3[0].c3_02[1]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.55553562s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].AccountNo[0].f3_04[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].AccountNo[0].f3_04[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.151503804s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_05[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_05[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.613738345s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_06[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_06[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.195629932s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_07[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_07[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.782504225s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].c3_03[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].c3_03[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.373017506s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].c3_03[1]",
+      "standardized_label": "topmostSubform[0].Page3[0].c3_03[1]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.944880419s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_08[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_08[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.528459077s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_09[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_09[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.119403068s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_10[0]",
+      "standardized_label": "topmostSubform[0].Page3[0].f3_10[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 47.655240011s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_11[0]",
+      "standardized_label": "taxpayer_signature",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' clearly mentions 'signature'. On a tax form, this field is where the primary taxpayer signs. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_12[0]",
+      "standardized_label": "taxpayer_signature_date",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' clearly mentions 'Date' immediately following 'signature'. On a tax form, this field is where the primary taxpayer's signature date is entered. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_13[0]",
+      "standardized_label": "spouse_signature",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' clearly mentions 'Spouse’s signature. If a joint return, both must sign.' This field is logically positioned below the primary taxpayer's signature for the spouse's signature. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_14[0]",
+      "standardized_label": "spouse_signature_date",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' clearly mentions 'Date' immediately following 'Spouse’s signature'. On a tax form, this field is where the spouse's signature date is entered. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_15[0]",
+      "standardized_label": "taxpayer_daytime_phone_number",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' mentions 'Phone no.' immediately next to or below the taxpayer's signature block. This is a common location for the taxpayer's daytime phone number on a tax form. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_16[0]",
+      "standardized_label": "taxpayer_email_address",
+      "confidence": 90,
+      "reasoning": "The field path includes 'SignHere' and the 'Detected Context' mentions 'Email address' immediately after 'Phone no.' in the taxpayer signature block. This is a common location for the taxpayer's email address on a tax form. Structural identifiers like 'topmostSubform', 'Page3', 'SignHere', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_17[0]",
+      "standardized_label": "preparer_firm_name",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' clearly indicates 'Paid Preparer' and the field's position on Page 3 is typically where a paid preparer's information begins. This field is the natural place for the preparer's firm name or individual name. Given the typical flow, this is usually the preparer's 'Firm Name'. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_18[0]",
+      "standardized_label": "preparer_signature",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' clearly mentions 'Preparer’s signature' and the field's position on Page 3 is where a paid preparer's information is located. This field is for the actual signature. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].CheckIf[0].c3_04[0]",
+      "standardized_label": "preparer_self_employed_checkbox",
+      "confidence": 90,
+      "reasoning": "The field is a checkbox (`c3_04[0]`) in the paid preparer section. The 'Detected Context' explicitly states 'Check if: Self-employed'. This clearly indicates the purpose of the checkbox as an identifier for the preparer's employment status. Structural identifiers like 'topmostSubform', 'Page3', 'CheckIf', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_19[0]",
+      "standardized_label": "preparer_ptin",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' includes 'Preparer Use Only' and this field is positioned after the preparer's name/firm and signature, which is the typical location for the Preparer Tax Identification Number (PTIN) on a tax form. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_20[0]",
+      "standardized_label": "preparer_signature_date",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' includes 'Date' after 'Preparer’s signature' (from a preceding field). This field's position is consistent with the date the preparer signed the return. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_21[0]",
+      "standardized_label": "preparer_firm_ein",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' mentions 'Firm’s EIN' (Employer Identification Number) in the 'Paid Preparer Use Only' section. This field is positioned after the preparer's PTIN and signature date, which is the logical location for the firm's EIN. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].f3_22[0]",
+      "standardized_label": "preparer_phone_number",
+      "confidence": 90,
+      "reasoning": "The 'Detected Context' mentions 'Phone no.' in the 'Paid Preparer Use Only' section. This field is positioned after the preparer's EIN, which is the logical location for the preparer's or firm's phone number. Structural identifiers like 'topmostSubform', 'Page3', and array indices '[0]' have been removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].f4_01[0]",
+      "standardized_label": "standard_deduction_amount",
+      "confidence": 90,
+      "reasoning": "The field `f4_01` is a text field on Page 4. The 'Detected Context' explicitly references 'Standard Deduction on page 1'. This clearly indicates the field is for the calculated standard deduction amount, typically after all relevant adjustments and checkboxes from Page 1 are considered. Structural identifiers like 'topmostSubform', 'Page4', and array indices '[0]' have been removed."
+    }
+  ]
+}

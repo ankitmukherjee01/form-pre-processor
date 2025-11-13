@@ -113,10 +113,10 @@ def test_single_field():
     print("=" * 80)
     
     # Check API key
-    if not os.getenv('OPENAI_API_KEY'):
-        print("\n❌ Error: OPENAI_API_KEY not found")
+    if not os.getenv('GEMINI_API_KEY'):
+        print("\n❌ Error: GEMINI_API_KEY not found")
         print("Please make sure you have a .env file with:")
-        print("  OPENAI_API_KEY=your-api-key-here")
+        print("  GEMINI_API_KEY=your-api-key-here")
         print("\nGet your API key from: https://platform.openai.com/api-keys")
         return
     

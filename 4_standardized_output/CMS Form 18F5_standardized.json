@@ -1,0 +1,929 @@
+{
+  "filename": "CMS Form 18F5.pdf",
+  "fields": [
+    {
+      "action": "standardize_field",
+      "original_field_name": "1a. your social security number 1",
+      "standardized_label": "your_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric and alphanumeric identifiers ('1a.', '1') as per rule 3. Converted to lowercase snake_case to represent the core semantic meaning: 'your social security number'."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1a. your social security number 2",
+      "standardized_label": "your_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric and alphanumeric identifiers ('1a.', '2') as per rule 3. Although the context specifies 'middle 2 digits', the field name indicates it's part of 'your social security number'. The standardized label should represent the full semantic meaning of the number, not just a segment, making it 'your_social_security_number'."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1a. your social security number 3",
+      "standardized_label": "your_social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric and alphanumeric identifiers ('1a.', '3') as per rule 3. Although the context specifies 'last 4 digits', the field name indicates it's part of 'your social security number'. The standardized label should represent the full semantic meaning of the number, not just a segment, making it 'your_social_security_number'."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1b Your Name Last Name First Name Middle Name",
+      "standardized_label": "your_name",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1b' as per rule 3. The phrase 'Last Name First Name Middle Name' describes the components of 'Your Name' in this field, so the concise semantic meaning is simply 'your name'."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1c Name at birth if different than item 1b",
+      "standardized_label": "name_at_birth",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1c' and contextual reference 'if different than item 1b' as per rule 3. The core semantic meaning is 'name at birth', converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "Sex-male",
+      "standardized_label": "sex_male",
+      "confidence": 90,
+      "reasoning": "The field 'Sex-male' is a specific option for the 'Sex' category. The standardized label 'sex_male' directly captures this meaning in lowercase snake_case, representing the selection of 'male' for the 'sex' field. Removed the implicit '1d.' from context as per rule 3."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "Sex-female",
+      "standardized_label": "sex_female",
+      "confidence": 90,
+      "reasoning": "The field 'Sex-female' is a specific option for the 'Sex' category. The standardized label 'sex_female' directly captures this meaning in lowercase snake_case, representing the selection of 'female' for the 'sex' field."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1e. Date of birth-momth",
+      "standardized_label": "date_of_birth_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1e.' as per rule 3. Corrected the typo 'momth' to 'month'. The field name clearly indicates it represents the month component of the date of birth. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1e. Date of Birth-day",
+      "standardized_label": "date_of_birth_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1e.' as per rule 3. The field name clearly indicates it represents the day component of the date of birth. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "Date of birth-year",
+      "standardized_label": "date_of_birth_year",
+      "confidence": 90,
+      "reasoning": "The field name clearly indicates it represents the year component of the date of birth. Converted to lowercase snake_case. No page or index IDs to remove."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1f State or Country of Birth NO abbreviations",
+      "standardized_label": "state_or_country_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1f' and instructional text '(NO abbreviations)' as per rule 3. The core semantic meaning is 'state or country of birth', converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1g Mailing Address Number and Street PO Box or Route",
+      "standardized_label": "mailing_address_street",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1g' and descriptive components like 'Number and Street PO Box or Route' as per rule 3. The field is for the primary street address or PO box, so 'mailing_address_street' is the most concise semantic label. This allows for other address components (city, state, zip) to be separate fields."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1h Address of permanent residence if different from your mailing address",
+      "standardized_label": "permanent_residence_address",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1h' and conditional phrase 'if different from your mailing address' as per rule 3. The core semantic meaning is 'permanent residence address', converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1i. Phone number",
+      "standardized_label": "phone_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1i.' as per rule 3. The field name clearly indicates it's for a 'phone number'. The context '3 digit area code' is a formatting detail, not part of the core semantic meaning of the field itself. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1i. phone number",
+      "standardized_label": "phone_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1i.' as per rule 3. Although the context specifies 'next 3 digits', this field is part of a larger 'phone number' input, and the standardized label should capture the complete semantic meaning, not just a segment. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "1i. Phone number-4 digits",
+      "standardized_label": "phone_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '1i.' and descriptive text '-4 digits' as per rule 3. Although the context specifies 'last 4 digits', this field is part of a larger 'phone number' input, and the standardized label should capture the complete semantic meaning, not just a segment. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "2a. How much were your total earnings last year? If none, write “NONE.”",
+      "standardized_label": "last_year_total_earnings",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '2a.' and instructional text 'If none, write “NONE.”' as per rule 3. The core semantic meaning is 'total earnings last year'. Converted to lowercase snake_case for conciseness."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "2b How much do you expect your total earnings to be this year If none write NONE",
+      "standardized_label": "this_year_expected_total_earnings",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '2b' and instructional text 'If none write NONE' as per rule 3. The core semantic meaning is 'expected total earnings this year'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "2c.radio button-Y",
+      "standardized_label": "worked_in_railroad_industry_after_1937_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '2c.' and 'radio button' as per rule 3. The field name and context indicate a 'Yes' response to working in the railroad industry after January 1, 1937. Converted to lowercase snake_case to capture the full semantic meaning."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "2c.radio button-N",
+      "standardized_label": "worked_in_railroad_industry_after_1937_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '2c.' and 'radio button' as per rule 3. The field name and context indicate a 'No' response to working in the railroad industry after January 1, 1937. Converted to lowercase snake_case to capture the full semantic meaning."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3a.radio button-Y",
+      "standardized_label": "us_citizen_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3a.', 'radio button', and parenthetical instruction as per rule 3. The core semantic meaning is a 'Yes' response to being a 'US citizen'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3a.radio button-N",
+      "standardized_label": "us_citizen_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3a.' and 'radio button' as per rule 3. The core semantic meaning is a 'No' response to being a 'US citizen'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3b.radio button-Y",
+      "standardized_label": "lawfully_present_in_us_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3b.', 'radio button', and parenthetical instruction as per rule 3. Although the field name contains '3b.', the context clearly indicates it refers to question '3d. Are you lawfully present in the U.S.? Yes'. Therefore, the label reflects the context. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3b.radio button-N",
+      "standardized_label": "lawfully_present_in_us_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3b.' and 'radio button' as per rule 3. The field name and context indicate a 'No' response to being 'lawfully present in the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3c. When did you become lawfully present in the U.S.? (MM/DD/YYYY)-month",
+      "standardized_label": "date_became_lawfully_present_in_us_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3c.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'month' component of the date of becoming 'lawfully present in the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3c. When did you become lawfully present in the U.S.? (MM/DD/YYYY)-day",
+      "standardized_label": "date_became_lawfully_present_in_us_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3c.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'day' component of the date of becoming 'lawfully present in the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3c. When did you become lawfully present in the U.S.? (MM/DD/YYYY)-year",
+      "standardized_label": "date_became_lawfully_present_in_us_year",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3c.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'year' component of the date of becoming 'lawfully present in the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3d.radio button-Y",
+      "standardized_label": "current_us_resident_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3d.' and 'radio button' as per rule 3. The field name and context indicate a 'Yes' response to being a 'current resident of the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3d.radio button-N",
+      "standardized_label": "current_us_resident_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3d.' and 'radio button' as per rule 3. The field name and context indicate a 'No' response to being a 'current resident of the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3e. When did you become a resident of the U.S.? (MM/DD/YYYY)-month",
+      "standardized_label": "date_became_us_resident_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3e.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'month' component of the date of becoming a 'resident of the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3e. When did you become a resident of the U.S.? (MM/DD/YYYY)-day",
+      "standardized_label": "date_became_us_resident_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3e.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'day' component of the date of becoming a 'resident of the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3e. When did you become a resident of the U.S.? (MM/DD/YYYY)-year",
+      "standardized_label": "date_became_us_resident_year",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3e.' and parenthetical date format '(MM/DD/YYYY)' as per rule 3. The field name and context specify the 'year' component of the date of becoming a 'resident of the U.S.'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3f.radio button-Y",
+      "standardized_label": "resided_in_us_for_past_5_years_without_break_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3f.' and 'radio button' as per rule 3. The field name and context indicate a 'Yes' response to having 'resided in the U.S. without a break for the past 5 years'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3f.radio button-N",
+      "standardized_label": "resided_in_us_for_past_5_years_without_break_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3f.' and 'radio button' as per rule 3. The field name and context indicate a 'No' response to having 'resided in the U.S. without a break for the past 5 years'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Enter where you lived for the last 5 years and the dates you lived there",
+      "standardized_label": "places_lived_in_last_5_years_and_dates",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name directly describes its semantic meaning: 'places lived in the last 5 years and the dates'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Started living there-month",
+      "standardized_label": "residence_start_date_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'month' of when residence started. 'Started living there' is simplified to 'residence_start_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Started living there-day",
+      "standardized_label": "residence_start_date_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'day' of when residence started. 'Started living there' is simplified to 'residence_start_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Started living there-year",
+      "standardized_label": "residence_start_date_year",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'year' of when residence started. 'Started living there' is simplified to 'residence_start_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Stopped living there-month",
+      "standardized_label": "residence_end_date_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'month' of when residence stopped. 'Stopped living there' is simplified to 'residence_end_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Stoppedliving there-day",
+      "standardized_label": "residence_end_date_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'day' of when residence stopped. Corrected the typo 'Stoppedliving' to 'Stopped living' and simplified to 'residence_end_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "3g. Stopped living there-year",
+      "standardized_label": "residence_end_date_year",
+      "confidence": 90,
+      "reasoning": "Removed numeric identifier '3g.' as per rule 3. The field name and context indicate the 'year' of when residence stopped. 'Stopped living there' is simplified to 'residence_end_date'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "3h.radio button-Y",
+      "standardized_label": "3h.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "3h.radio button-N",
+      "standardized_label": "3h.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4a.radio button-Y",
+      "standardized_label": "4a.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4a.radio button-N",
+      "standardized_label": "4a.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4b Spouses name last name first name middle name",
+      "standardized_label": "4b Spouses name last name first name middle name",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 111 (char 110)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4c. Spouse's date of birth",
+      "standardized_label": "4c. Spouse's date of birth",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 89 (char 88)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4c. Spouse's date of birth- day",
+      "standardized_label": "4c. Spouse's date of birth- day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 94 (char 93)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4c. Spouse's date of birth-year",
+      "standardized_label": "4c. Spouse's date of birth-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 94 (char 93)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4d. spouse's social security number",
+      "standardized_label": "4d. spouse's social security number",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 98 (char 97)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4d. spouse's social security number-2",
+      "standardized_label": "4d. spouse's social security number-2",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4d. Spouse's social security number-4",
+      "standardized_label": "4d. Spouse's social security number-4",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4e. Date of marriage (MM/DD/YYYY)-month",
+      "standardized_label": "4e. Date of marriage (MM/DD/YYYY)-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 102 (char 101)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4e. Date of marriage-day",
+      "standardized_label": "4e. Date of marriage-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 87 (char 86)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4e.  Date of marriage-year",
+      "standardized_label": "4e.  Date of marriage-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 88 (char 87)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4f.radio button-Y",
+      "standardized_label": "4f.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4f.radio button-N",
+      "standardized_label": "4f.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4g Name of former spouse last name first name middle name",
+      "standardized_label": "4g Name of former spouse last name first name middle name",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 120 (char 119)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4h. Former spouse’s date of birth (MM/DD/YYYY)-month",
+      "standardized_label": "4h. Former spouse’s date of birth (MM/DD/YYYY)-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 115 (char 114)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4h. Former spouse’s date of birth-day",
+      "standardized_label": "4h. Former spouse’s date of birth-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4h. Former spouse’s date of birth-year",
+      "standardized_label": "4h. Former spouse’s date of birth-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 101 (char 100)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4i. spouse's social security number-3",
+      "standardized_label": "4i. spouse's social security number-3",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4i. spouse's social security number 2",
+      "standardized_label": "4i. spouse's social security number 2",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4i. Spouse's social security number-4",
+      "standardized_label": "4i. Spouse's social security number-4",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 100 (char 99)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4j. Date of former marriage (MM/DD/YYYY)-month",
+      "standardized_label": "4j. Date of former marriage (MM/DD/YYYY)-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 109 (char 108)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4j. Date of former marriage -day",
+      "standardized_label": "4j. Date of former marriage -day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 95 (char 94)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4j. Date of former marriage -year",
+      "standardized_label": "4j. Date of former marriage -year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 96 (char 95)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4k. Date former marriage ended (MM/DD/YYYY)-month",
+      "standardized_label": "4k. Date former marriage ended (MM/DD/YYYY)-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 112 (char 111)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4k. Date former marriage ended (MM/DD/YYYY) -day",
+      "standardized_label": "4k. Date former marriage ended (MM/DD/YYYY) -day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 111 (char 110)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4k. Date former marriage ended (MM/DD/YYYY)-year",
+      "standardized_label": "4k. Date former marriage ended (MM/DD/YYYY)-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 111 (char 110)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4l Date of former spouse’s death, if deceased-month",
+      "standardized_label": "4l Date of former spouse’s death, if deceased-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 114 (char 113)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4l Date of former spouse’s death, if deceased -day",
+      "standardized_label": "4l Date of former spouse’s death, if deceased -day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 113 (char 112)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4l Date of former spouse’s death, if deceased -year",
+      "standardized_label": "4l Date of former spouse’s death, if deceased -year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 114 (char 113)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4m.radio button-Y",
+      "standardized_label": "4m.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "4m.radio button-N",
+      "standardized_label": "4m.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "5a.radio button-Y",
+      "standardized_label": "5a.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "5a.radio button-N",
+      "standardized_label": "5a.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "5b.radio button-Y",
+      "standardized_label": "5b.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "5b.radio button-N",
+      "standardized_label": "5b.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6a.radio button-Y",
+      "standardized_label": "6a.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6a.radio button-N",
+      "standardized_label": "6a.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6b.radio button-Y",
+      "standardized_label": "6b.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6b.radio button-N",
+      "standardized_label": "6b.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6c.radio button-Y",
+      "standardized_label": "6c.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6c.radio button-N",
+      "standardized_label": "6c.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6d. start Date 1-month",
+      "standardized_label": "6d. start Date 1-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 85 (char 84)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Start date 1- day",
+      "standardized_label": "Start date 1- day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "start date 1-year",
+      "standardized_label": "start date 1-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6d. end date 1-month",
+      "standardized_label": "6d. end date 1-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 83 (char 82)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "end date 1 -day",
+      "standardized_label": "end date 1 -day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 78 (char 77)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "end date 1-year",
+      "standardized_label": "end date 1-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 78 (char 77)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Check Box1",
+      "standardized_label": "Check Box1",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 73 (char 72)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6d. Start date-2-month",
+      "standardized_label": "6d. Start date-2-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 85 (char 84)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Start date 2-day",
+      "standardized_label": "Start date 2-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 79 (char 78)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Start date 3-year",
+      "standardized_label": "Start date 3-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6d. end date2-month",
+      "standardized_label": "6d. end date2-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 82 (char 81)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "end date 2 -day",
+      "standardized_label": "end date 2 -day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 78 (char 77)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "end date 2-year",
+      "standardized_label": "end date 2-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 78 (char 77)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Check Box2",
+      "standardized_label": "Check Box2",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 73 (char 72)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6d.start date 3-month",
+      "standardized_label": "6d.start date 3-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 84 (char 83)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Start date 3-day",
+      "standardized_label": "Start date 3-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 79 (char 78)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Start date 3 -year",
+      "standardized_label": "Start date 3 -year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 81 (char 80)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "End date 3-month",
+      "standardized_label": "End date 3-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 79 (char 78)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "End date 3-day",
+      "standardized_label": "End date 3-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 77 (char 76)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "End date 3-year",
+      "standardized_label": "End date 3-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 78 (char 77)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Check Box3",
+      "standardized_label": "Check Box3",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 73 (char 72)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6e.radio button-Y",
+      "standardized_label": "6e.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6e.radio button-N",
+      "standardized_label": "6e.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6f Your OPM retirement claim number",
+      "standardized_label": "6f Your OPM retirement claim number",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 98 (char 97)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6g Your spouses OPM retirement claim number",
+      "standardized_label": "6g Your spouses OPM retirement claim number",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 106 (char 105)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6h.radio button-Y",
+      "standardized_label": "6h.radio button-Y",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "6h.radio button-N",
+      "standardized_label": "6h.radio button-N",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 80 (char 79)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7a. If you are completing this application for someone else, what’s your name and your relationship to the person applying?",
+      "standardized_label": "7a. If you are completing this application for someone else, what’s your name and your relationship to the person applying?",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 186 (char 185)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7c. date signed-month",
+      "standardized_label": "7c. date signed-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 84 (char 83)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7c. date signed-day",
+      "standardized_label": "7c. date signed-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 82 (char 81)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7c. Date signed -year",
+      "standardized_label": "7c. Date signed -year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 84 (char 83)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7e Signature of witness",
+      "standardized_label": "7e Signature of witness",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 86 (char 85)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7f. Date signed-month",
+      "standardized_label": "7f. Date signed-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 84 (char 83)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7f. Date signed-day",
+      "standardized_label": "7f. Date signed-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 82 (char 81)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7f. Date signed-year",
+      "standardized_label": "7f. Date signed-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 83 (char 82)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "7g. Extra Space for items 3g and 6d, if needed",
+      "standardized_label": "7g. Extra Space for items 3g and 6d, if needed",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 109 (char 108)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature- month",
+      "standardized_label": "signature- month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 79 (char 78)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature-day",
+      "standardized_label": "signature-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: Invalid control character at: line 1 column 76 (char 75)"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature-year",
+      "standardized_label": "signature-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.555428416s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Printed Name of Witness",
+      "standardized_label": "Printed Name of Witness",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.076518939s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature of witness-month",
+      "standardized_label": "signature of witness-month",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.640558361s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature of witness-day",
+      "standardized_label": "signature of witness-day",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.200194783s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "signature of witness-year",
+      "standardized_label": "signature of witness-year",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.772965612s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature2",
+      "standardized_label": "Signature2",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.32304433s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature3",
+      "standardized_label": "Signature3",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.879793419s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature4",
+      "standardized_label": "Signature4",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.437166385s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature1",
+      "standardized_label": "Signature1",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.006341331s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    }
+  ]
+}

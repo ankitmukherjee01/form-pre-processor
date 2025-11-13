@@ -1,0 +1,82 @@
+{
+  "filename": "ha-510.pdf",
+  "fields": [
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-Claimant-FLD[0]",
+      "standardized_label": "claimant",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'Claimant' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-ClaimFor-FLD[0]",
+      "standardized_label": "claim_for",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'ClaimFor' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-SSN-FLD[0]",
+      "standardized_label": "social_security_number",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). 'SSN' was expanded to 'social_security_number' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-WageEarner-FLD[0]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'WageEarner' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-Signature-FLD[0]",
+      "standardized_label": "signature",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'Signature' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-Address-FLD[0]",
+      "standardized_label": "address",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'Address' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-City-FLD[0]",
+      "standardized_label": "city",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'City' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-Phone-FLD[0]",
+      "standardized_label": "phone_number",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). 'Phone' was expanded to 'phone_number' for clarity and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage1[0].P1-Date-FLD[0]",
+      "standardized_label": "date",
+      "confidence": 95,
+      "reasoning": "Removed form structure ('form1[0].BodyPage1[0].'), page ID ('P1-'), and field type/index ('-FLD[0]'). The core semantic meaning 'Date' was extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage2[0].P2-ReadOnly1-FLD[0]",
+      "standardized_label": "read_only_text",
+      "confidence": 90,
+      "reasoning": "Removed form structure ('form1[0].BodyPage2[0].'), page ID ('P2-'), and field type/index ('-FLD[0]'). The 'ReadOnly' part indicates informational text, so 'read_only_text' is a descriptive and concise label. The number '1' was removed as it's an instance identifier."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].BodyPage2[0].P2-ReadOnly2-FLD[0]",
+      "standardized_label": "read_only_text",
+      "confidence": 90,
+      "reasoning": "Removed form structure ('form1[0].BodyPage2[0].'), page ID ('P2-'), and field type/index ('-FLD[0]'). The 'ReadOnly' part indicates informational text, so 'read_only_text' is a descriptive and concise label. The number '2' was removed as it's an instance identifier."
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "filename": "ha-510.pdf",
+  "filepath": "1_unlocked_pdfs\\ha-510.pdf",
+  "total_pages": 2,
+  "total_fields": 11,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-Claimant-FLD[0]",
+          "field_context_on_pdf": "Form H Ay-510 (04-2025) U F. Discontinue Prior Editions. Social Security Administration. Waiver of Timely Written Notice of Hearing. Page 1 of 2 O M B Number 0960-0671. In the case of: (Claimant)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.0,
+            "y0": 129.15,
+            "x1": 274.16,
+            "y1": 163.15,
+            "width": 256.16,
+            "height": 34.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-ClaimFor-FLD[0]",
+          "field_context_on_pdf": "Claim for:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 324.1,
+            "y0": 126.99,
+            "x1": 594.0,
+            "y1": 161.0,
+            "width": 269.9,
+            "height": 34.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-SSN-FLD[0]",
+          "field_context_on_pdf": "(Social Security Number)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 324.1,
+            "y0": 196.18,
+            "x1": 594.0,
+            "y1": 230.18,
+            "width": 269.9,
+            "height": 34.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-WageEarner-FLD[0]",
+          "field_context_on_pdf": "(Wage Earner) (Leave blank if same as above)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.0,
+            "y0": 196.18,
+            "x1": 274.16,
+            "y1": 230.19,
+            "width": 256.16,
+            "height": 34.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-Signature-FLD[0]",
+          "field_context_on_pdf": "Under 20 CFR 404.938 and/or 20 CFR 416.1438, where applicable, I am entitled to receive a 75 day advance written notice of the hearing in my case.  Having been fully advised of such right, I hereby waive the 75 day advance notice requirement. I must inform SSA about or submit all evidence known to me that relates to whether or not I am blind or disabled. I must do this at least 5 business days prior to the date of the hearing. I understand that the administrative law judge may not accept evidence that I inform SSA about or submit less than 5 days prior to the hearing unless I provide a good reason. (Signature). Ay wet signature is required. Complete the form and print to sign.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 324.1,
+            "y0": 400.5,
+            "x1": 594.0,
+            "y1": 434.5,
+            "width": 269.9,
+            "height": 34.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-Address-FLD[0]",
+          "field_context_on_pdf": "(Street Address)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 324.1,
+            "y0": 468.0,
+            "x1": 594.0,
+            "y1": 515.5,
+            "width": 269.9,
+            "height": 47.5
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-City-FLD[0]",
+          "field_context_on_pdf": "(City, State, and Zip Code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 324.1,
+            "y0": 549.0,
+            "x1": 594.0,
+            "y1": 596.5,
+            "width": 269.9,
+            "height": 47.5
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-Phone-FLD[0]",
+          "field_context_on_pdf": "(Area Code and Telephone Number)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 324.1,
+            "y0": 630.0,
+            "x1": 594.0,
+            "y1": 663.73,
+            "width": 269.9,
+            "height": 33.73
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1-Date-FLD[0]",
+          "field_context_on_pdf": "Date:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 65.82,
+            "y0": 710.51,
+            "x1": 284.36,
+            "y1": 744.24,
+            "width": 218.54,
+            "height": 33.74
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage2[0].P2-ReadOnly1-FLD[0]",
+          "field_context_on_pdf": "Page 2 of 2. Privacy Act Statement. Collection and Use of Personal Information. Sections 205(b), 205(d), and 1631(c) of the Social Security Act, as amended, allow us to collect this information. Furnishing us this information is voluntary. However, failing to provide all or part of the information may prevent us from completing the hearing process. We will use the information you provide to document your waiver of right to receive a written Notice of Hearing. We may also share the information for the following purposes, called routine uses: • To contractors and other Federal agencies, as necessary, for the purpose of assisting the Social Security Administration (SSA) in the efficient administration of its programs. We will disclose information under this routine use only in situations in which SSA may enter a contractual or similar agreement with a third party to assist in accomplishing an agency function relating to this system of records; and • To student volunteers and other workers, who technically do not have the status of Federal employees, when they are performing work for SSA as authorized by law, and they need access to personally identifiable information in SSA records in order to perform their assigned Agency functions. In addition, we may share this information in accordance with the Privacy Act and other Federal laws. For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person’s eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs. Ay list of additional routine uses is available in our Privacy Act System of Records Notices (S O R Ns) 6 0-0 0 0 5, Administrative Law Judge Working File on Claimant Cases, as published in the Federal Register (F R) on April 29, 2009, at 74 F R 1 9 6 1 7; 6 0-0 0 8 9, Claims Folder Systems, as published in the F R on October 31, 2019, at 84 F R 5 8 4 2 2; and 6 0-0 3 2 0, Electronic Disability (e D I B) Claim File, as published in the F R on June 4, 2020, at 85 F R 3 4 4 7 7. Additional information, and a full listing of all of our S O R Ns, is available on our website at w w w.s s ay.g o v/privacy.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 558.0,
+            "y0": 49.26,
+            "x1": 566.4,
+            "y1": 74.78,
+            "width": 8.4,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2-ReadOnly2-FLD[0]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement. This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number. We estimate that it will take about 2 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6 4 0 1 Security B l v d, Baltimore, M D 2 1 2 3 5-6 4 0 1.  You have reach the end of the form. if you tab out of this field you will return to the beginning of the form.  ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 571.5,
+            "y0": 535.42,
+            "x1": 587.71,
+            "y1": 560.93,
+            "width": 16.21,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

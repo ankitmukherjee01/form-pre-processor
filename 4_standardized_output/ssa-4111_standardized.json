@@ -1,0 +1,159 @@
+{
+  "filename": "ssa-4111.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q1Name_FLD[0]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q1Name_FLD` combined with the PDF context '1. Print Name of Wage Earner or Self-Employed Person (Hereafter called 'Worker')' clearly indicates that this field is for the name of the wage earner. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q1`, and `_FLD` are removed, and the remaining semantic meaning is converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q1SSN_FLD[0]",
+      "standardized_label": "wage_earner_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q1SSN_FLD` explicitly contains `SSN` and is reinforced by the PDF context 'Enter Wage Earner's Social Security Number'. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q1`, and `_FLD` are removed, and `SSN` is expanded to 'social security number' to form a clear and concise label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q2Name_FLD[0]",
+      "standardized_label": "applicant_full_name",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q2Name_FLD` combined with the PDF context '2. Print Your Full Name (First name, middle initial, last name)' clearly indicates this field is for the applicant's full name. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q2`, and `_FLD` are removed, and the remaining semantic meaning is converted to `applicant_full_name` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q2SSN_FLD[0]",
+      "standardized_label": "applicant_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q2SSN_FLD` contains `SSN`, and the PDF context 'Enter Your Social Security Number' clearly identifies this as the social security number for the applicant ('Your'). Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q2`, and `_FLD` are removed, and `SSN` is expanded to 'social security number' to create a clear, concise, lowercase snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_ReadOnly1_FLD[0]",
+      "standardized_label": "benefit_information",
+      "confidence": 90,
+      "reasoning": "The field name `P1_ReadOnly1_FLD` indicates it's a read-only field. The extensive 'Context on PDF' provides detailed information regarding reduced widow(er)'s and surviving divorced spouse's benefits, which makes it an informational text block about benefits. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `1`, and `_FLD` are removed, and the semantic meaning is captured as `benefit_information`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q3Month_FLD[0]",
+      "standardized_label": "benefit_start_month",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q3Month_FLD` clearly indicates a month, and the PDF context '3. I elect to accept permanently reduced benefits as provided in Section 202(q) of the Social Security Act, beginning with... Month' specifies this month is for the start of benefits. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q3`, and `_FLD` are removed, and the core meaning 'benefit start month' is used."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Q3Year_FLD[0]",
+      "standardized_label": "benefit_start_year",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Q3Year_FLD` explicitly indicates 'Year'. In conjunction with the preceding field (P1_Q3Month_FLD) and its context, this field represents the year for the election of reduced benefits. Therefore, it's the 'benefit start year'. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `Q3`, and `_FLD` are removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Signature_FLD[0]",
+      "standardized_label": "signature",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Signature_FLD` and the PDF context 'Signature (First name, middle initial, last name) (Write in ink)' clearly indicate this field is for the applicant's signature. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, leaving 'signature' which is then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SignDate_Date[0]",
+      "standardized_label": "signature_date",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SignDate_Date` clearly indicates a date related to a signature. The PDF context 'Date (Month, day, year)' confirms this is a date field. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_Date` are removed. `SignDate` is interpreted as 'signature date' and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SignPhone_FLD[0]",
+      "standardized_label": "applicant_phone_number",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SignPhone_FLD` indicates a phone number associated with the signatory. The PDF context 'Telephone Number (include area code)' confirms it's a phone number. Since it's on the same section as the signature, it refers to the applicant's phone number. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and `SignPhone` is semantically mapped to `applicant_phone_number`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Address_FLD[0]",
+      "standardized_label": "mailing_address",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Address_FLD` combined with the PDF context 'Mailing Address (Number and street, Apartment number., P.O. Box, or Rural Route)' clearly indicates this field is for the mailing address. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and 'Mailing Address' is directly translated to `mailing_address` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_City_FLD[0]",
+      "standardized_label": "city",
+      "confidence": 90,
+      "reasoning": "The field name `P1_City_FLD` and the PDF context 'City and State' clearly indicate this field is for the city part of an address. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and 'City' is converted to `city` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_Zip_FLD[0]",
+      "standardized_label": "zip_code",
+      "confidence": 90,
+      "reasoning": "The field name `P1_Zip_FLD` and the PDF context 'ZIP Code' clearly indicate this field is for the ZIP code. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and 'ZIP Code' is converted to `zip_code` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SigWitness1_FLD[0]",
+      "standardized_label": "witness_1_signature",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SigWitness1_FLD` clearly refers to the signature of a witness. The PDF context confirms this, stating '1. Signature of Witness'. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `_FLD`, and `[0]` are removed. `SigWitness1` is accurately mapped to `witness_1_signature`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SignWitnessAdd1_FLD[0]",
+      "standardized_label": "witness_1_address",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SignWitnessAdd1_FLD` indicates an address for a witness, specifically the first witness ('Add1'). The PDF context 'Address (Number and street, City, State and ZIP Code) for first witness' confirms this. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and `SignWitnessAdd1` is semantically mapped to `witness_1_address`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SigWitness2_FLD[0]",
+      "standardized_label": "witness_2_signature",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SigWitness2_FLD` clearly refers to the signature of the second witness. The PDF context '2. Signature of Witness' confirms this. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, `_FLD`, and `[0]` are removed. `SigWitness2` is accurately mapped to `witness_2_signature`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].P1_SignWitnessAdd2_FLD[0]",
+      "standardized_label": "witness_2_address",
+      "confidence": 90,
+      "reasoning": "The field name `P1_SignWitnessAdd2_FLD` indicates an address for a witness, specifically the second witness ('Add2'). The PDF context 'Address (Number and street, City, State and ZIP Code) for second witness' confirms this. Structural identifiers like `topmostSubform`, `Page1`, `P1_`, and `_FLD` are removed, and `SignWitnessAdd2` is semantically mapped to `witness_2_address`."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].P2_ReadOnly1_FLD[0]",
+      "standardized_label": "privacy_act_statement",
+      "confidence": 90,
+      "reasoning": "The field name `P2_ReadOnly1_FLD` indicates a read-only field. The extensive context provided begins with 'Privacy Act Statement. Collection and Use of Personal Information.', explicitly defining the content as a privacy act statement. Structural identifiers like `topmostSubform`, `Page2`, `P2_`, `1`, and `_FLD` are removed, and the core semantic meaning is extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].P2_Link1_Button[0]",
+      "standardized_label": "representation_link",
+      "confidence": 90,
+      "reasoning": "The field name `P2_Link1_Button` indicates a link button, and the PDF context 'Link to w w w.ssa.gov/representation web page.' explicitly states its purpose. Structural identifiers like `topmostSubform`, `Page2`, `P2_`, `1`, `_Button`, and `[0]` are removed, and the semantic meaning is captured as `representation_link` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].P2_ReadOnly2_FLD[0]",
+      "standardized_label": "paperwork_reduction_act_statement",
+      "confidence": 90,
+      "reasoning": "The field name `P2_ReadOnly2_FLD` indicates a read-only field, and the extensive context provided clearly begins with 'Paperwork Reduction Act Statement'. This directly identifies the content of the field. Structural identifiers like `topmostSubform`, `Page2`, `P2_`, `2`, and `_FLD` are removed, and the core semantic meaning is extracted and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].P2_Link2_Button[0]",
+      "standardized_label": "representation_link",
+      "confidence": 90,
+      "reasoning": "The field name `P2_Link2_Button` indicates a link button, and the PDF context 'Link to w w w.ssa.gov/representation web page.' explicitly states its purpose. Structural identifiers like `topmostSubform`, `Page2`, `P2_`, `2`, `_Button`, and `[0]` are removed, and the semantic meaning is captured as `representation_link` in lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].P2_EndofForm_FLD[0]",
+      "standardized_label": "end_of_form",
+      "confidence": 90,
+      "reasoning": "The field name `P2_EndofForm_FLD` and the PDF context 'You have reached the end of the form' clearly indicate this field signifies the end of the form. Structural identifiers like `topmostSubform`, `Page2`, `P2_`, and `_FLD` are removed, and the semantic meaning is converted to lowercase snake_case."
+    }
+  ]
+}

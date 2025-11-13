@@ -1,0 +1,1307 @@
+{
+  "filename": "ssa-5-bk.pdf",
+  "fields": [
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_TEL_CB[0]",
+      "standardized_label": "tel_checkbox",
+      "confidence": 5,
+      "reasoning": "Extracted 'TEL' and 'CB' (Checkbox) from the field name, removing structural and page identifiers. The context 'Check box for SSA use only. T E L.' confirms 'TEL' as the primary identifier for this internal checkbox."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q1a_FLD[0]",
+      "standardized_label": "deceased_wage_earner_full_name",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q1a_FLD` indicates it's related to question 1a. The context clearly states 'PRINT name of deceased wage earner... FIRST NAME, MIDDLE INITIAL, LAST NAME', which signifies the full name of the deceased wage earner. Removed page/index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q1bMale_CB[0]",
+      "standardized_label": "deceased_male_checkbox",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q1bMale_CB` clearly indicates it's a checkbox for 'Male' related to question 1b. The context 'Check (X) one for the deceased. Male.' confirms this is the checkbox for the deceased being male. Page and index identifiers have been removed."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q1bFemale_CB[0]",
+      "standardized_label": "deceased_female_checkbox",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q1bFemale_CB` combined with the context 'Female' clearly indicates this is the checkbox for the deceased being female. Structural and page identifiers have been removed."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q1c_FLD[0]",
+      "standardized_label": "deceased_social_security_number",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q1c_FLD` is associated with question 1c, and the context explicitly states 'Enter deceased's Social Security Number'. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q2a_FLD[0]",
+      "standardized_label": "applicant_full_name",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q2a_FLD` relates to question 2a. The context 'PRINT your name. FIRST NAME, MIDDLE INITIAL, LAST NAME.' indicates this field is for the applicant's full name. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q2b_FLD[0]",
+      "standardized_label": "applicant_social_security_number",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q2b_FLD` is for question 2b. The context 'Enter your Social Security Number.' clearly indicates this is the applicant's SSN. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q3_FLD[0]",
+      "standardized_label": "applicant_birth_name",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q3_FLD` relates to question 3. The context 'Enter your name at birth if different from item 2(ay).' directly specifies this field is for the applicant's name at birth. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q4a_FLD[0]",
+      "standardized_label": "applicant_date_of_birth",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q4a_FLD` corresponds to question 4a. The context 'Enter your date of birth. month, day, year.' clearly identifies this field as the applicant's date of birth. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q4b_FLD[0]",
+      "standardized_label": "applicant_place_of_birth",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q4b_FLD` relates to question 4b. The context 'Enter name of State or foreign country where you were born.' clearly indicates this field is for the applicant's place of birth. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Yes_CB[0]",
+      "standardized_label": "deceased_child_in_care_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5Yes_CB` is a checkbox for the 'Yes' answer to question 5. The context describes eligibility based on having 'in your care the deceased's child or dependent grandchild'. The question itself asks if a deceased's child has 'lived with you'. 'Deceased child in care' captures the essence of this question concisely. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5No_CB[0]",
+      "standardized_label": "deceased_child_in_care_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5No_CB` is a checkbox for the 'No' answer to question 5. The previous field `P1_Q5Yes_CB` established the question as being about having a 'deceased child in care'. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Name1_FLD[0]",
+      "standardized_label": "child_in_care_name_1",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q5Name1_FLD` indicates it's the first name associated with question 5. The context describes a table with 'Name of Child' as a header and explicitly says 'name of first child that lived with you'. This refers to the 'deceased's child' mentioned in question 5. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Months1_FLD[0]",
+      "standardized_label": "child_in_care_months_lived_1",
+      "confidence": 5,
+      "reasoning": "The field name `P1_Q5Months1_FLD` is for the months associated with the first child in question 5. The context explicitly states 'Months and year first child lived with you'. This directly maps to the duration the child lived with the applicant. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Name2_FLD[0]",
+      "standardized_label": "child_in_care_name_2",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5Name2_FLD` is for the second child listed under question 5. The context explicitly states 'name of second child that lived with you'. This follows the pattern established for the first child. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Months2_FLD[0]",
+      "standardized_label": "child_in_care_months_lived_2",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5Months2_FLD` is for the months associated with the second child in question 5. The context explicitly states 'Months and year second child lived with you'. This follows the pattern established for the first child. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Name3_FLD[0]",
+      "standardized_label": "child_in_care_name_3",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5Name3_FLD` is for the third child listed under question 5. The context explicitly states 'name of third child that lived with you'. This follows the pattern established for the previous children. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page1[0].P1_Q5Months3_FLD[0]",
+      "standardized_label": "child_in_care_months_lived_3",
+      "confidence": 5,
+      "reasoning": "The field `P1_Q5Months3_FLD` is for the months associated with the third child in question 5. The context explicitly states 'Months and year third child lived with you'. This follows the pattern established for the previous children. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q6aYes_CB[0]",
+      "standardized_label": "applicant_unable_to_work_illness_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q6aYes_CB` is a checkbox for the 'Yes' answer to question 6a. The question asks 'Are you, or during the past 14 months have you been, unable to work because of illnesses, injuries or conditions?'. This directly translates to `applicant_unable_to_work_illness`. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q6aNo_CB[0]",
+      "standardized_label": "applicant_unable_to_work_illness_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q6aNo_CB` is a checkbox for the 'No' answer to question 6a. The previous field `P2_Q6aYes_CB` established the question as being about the applicant's inability to work due to illness. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q6b_FLD[0]",
+      "standardized_label": "applicant_date_unable_to_work",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q6b_FLD` relates to question 6b. The context 'Enter the date you became unable to work.' explicitly defines this field as the date the applicant became unable to work. This follows from the previous question about being unable to work due to illness. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q7Yes_CB[0]",
+      "standardized_label": "applicant_railroad_industry_work_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q7Yes_CB` is a checkbox for the 'Yes' answer to question 7. The question asks 'Did you work in the railroad industry for 5 years or more?'. This clearly indicates the applicant's work history in the railroad industry. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q7No_CB[0]",
+      "standardized_label": "applicant_railroad_industry_work_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q7No_CB` is a checkbox for the 'No' answer to question 7. The previous field `P2_Q7Yes_CB` established the question as being about the applicant's work in the railroad industry. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q8aYes_CB[0]",
+      "standardized_label": "applicant_other_country_social_security_credits_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q8aYes_CB` is a checkbox for the 'Yes' answer to question 8a. The question asks 'Do you have Social Security credits ... under another country's Social Security system?'. This directly translates to `applicant_other_country_social_security_credits`. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q8aNo_CB[0]",
+      "standardized_label": "applicant_other_country_social_security_credits_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q8aNo_CB` is a checkbox for the 'No' answer to question 8a. The previous field `P2_Q8aYes_CB` established the question as being about the applicant having Social Security credits under another country's system. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q8_FLD[0]",
+      "standardized_label": "applicant_other_country_social_security_credits_countries",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q8_FLD` is a text field related to question 8. The context 'If 'Yes,' list the country(ies).' specifies that this field should contain the countries where the applicant has Social Security credits. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q9Yes_CB[0]",
+      "standardized_label": "deceased_surviving_parent_supported_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q9Yes_CB` is a checkbox for the 'Yes' answer to question 9. The question asks 'Is there a surviving parent (or parents) of the deceased who was receiving support from the deceased'. This clearly indicates `deceased_surviving_parent_supported`. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q9No_CB[0]",
+      "standardized_label": "deceased_surviving_parent_supported_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q9No_CB` is a checkbox for the 'No' answer to question 9. The previous field `P2_Q9Yes_CB` established the question as being about a surviving parent of the deceased who was receiving support. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aName_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_spouse_name",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aName_FLD` relates to question 10a, which is about the applicant's marriage to the deceased. The context explicitly asks for 'Spouse's Name (including maiden name)'. This makes the label clear and concise. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aWhen1_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_date",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aWhen1_FLD` is related to question 10a concerning the applicant's marriage to the deceased. The context 'When (Month, Day, Year)' clearly indicates this field is for the date of marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aWhere1_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_place",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aWhere1_FLD` is related to question 10a concerning the applicant's marriage to the deceased. The context 'Where (Name of City and State)' clearly indicates this field is for the place of marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aHowEnd_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_how_ended",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aHowEnd_FLD` is related to question 10a, specifically about the applicant's marriage to the deceased. The context 'How Marriage Ended' directly indicates the purpose of this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aWhen2_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_end_date",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aWhen2_FLD` is related to question 10a regarding the applicant's marriage to the deceased and its end. The context 'When (Month, Day, Year)' combined with the preceding 'How Marriage Ended' from `P2_Q10aHowEnd_FLD` indicates this is the date the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aWhere2_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_end_place",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aWhere2_FLD` is related to question 10a concerning the applicant's marriage to the deceased and its end. The context 'Where (Name of City and State)' combined with the preceding 'How Marriage Ended' indicates this is the place the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aClergy_CB[0]",
+      "standardized_label": "applicant_marriage_to_deceased_performed_by_clergyman_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aClergy_CB` relates to question 10a (applicant's marriage to deceased). The context 'Marriage performed by: Clergyman or public official.' explicitly identifies this as a checkbox for a marriage performed by a clergyman. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aOther_CB[0]",
+      "standardized_label": "applicant_marriage_to_deceased_performed_by_other_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aOther_CB` relates to question 10a (applicant's marriage to deceased). The context 'Other (Explain in 'Remarks')' directly follows a checkbox for 'Clergyman or public official', indicating this is for other methods of marriage performance. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aDOB_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_spouse_date_of_birth",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aDOB_FLD` is related to question 10a (applicant's marriage to deceased). The context 'Spouse's date of birth (or age)' clearly indicates the purpose of this field. This is specifically the deceased spouse's date of birth in the context of the applicant's marriage to them. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10aDOD_FLD[0]",
+      "standardized_label": "applicant_marriage_to_deceased_spouse_date_of_death",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10aDOD_FLD` is related to question 10a (applicant's marriage to deceased). The context 'Date of death' directly refers to the deceased spouse's date of death within the context of that marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bNone_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_none_indicator_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bNone_FLD` is related to question 10b, which asks for information about the applicant's last marriage if they remarried after the marriage to the deceased. The context 'If none, write 'NONE'' directly applies to this field, indicating it's an indicator if there are no further remarriages. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bName_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_spouse_name",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bName_FLD` is related to question 10b, asking about the applicant's last remarriage. The context 'Spouse's Name (including maiden name)' clearly identifies this field as for the name of the spouse from that last remarriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bWhen1_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_date",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bWhen1_FLD` is related to question 10b, asking for information about the applicant's last remarriage. The context 'When (Month, Day, Year)' clearly indicates this field is for the date of that marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bWhere1_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_place",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bWhere1_FLD` is related to question 10b, asking for information about the applicant's last remarriage. The context 'Where (Name of City and State)' clearly indicates this field is for the place of that marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bHowEnd_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_how_ended",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bHowEnd_FLD` is related to question 10b, regarding the applicant's last remarriage. The context 'How Marriage Ended (enter N/Ay if marriage has not ended)' explicitly defines the purpose of this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bWhen2_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_end_date",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bWhen2_FLD` is related to question 10b, regarding the applicant's last remarriage and its end. The context 'When (Month, Day, Year)' combined with the preceding 'How Marriage Ended' indicates this is the date the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bWhere2_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_end_place",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bWhere2_FLD` is related to question 10b, regarding the applicant's last remarriage and its end. The context 'Where (Name of City and State)' combined with the preceding 'How Marriage Ended' indicates this is the place the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bClergy_CB[0]",
+      "standardized_label": "applicant_last_remarriage_performed_by_clergyman_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bClergy_CB` relates to question 10b (applicant's last remarriage). The context 'Marriage performed by: Clergyman or public official.' explicitly identifies this as a checkbox for a marriage performed by a clergyman. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bOther_CB[0]",
+      "standardized_label": "applicant_last_remarriage_performed_by_other_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bOther_CB` relates to question 10b (applicant's last remarriage). The context 'Other (Explain in 'Remarks')' directly follows a checkbox for 'Clergyman or public official', indicating this is for other methods of marriage performance. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bDOB_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_spouse_date_of_birth",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bDOB_FLD` is related to question 10b (applicant's last remarriage). The context 'Spouse's date of birth (or age)' clearly indicates the purpose of this field, referring to the spouse in the last remarriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bDOD_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_spouse_date_of_death",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bDOD_FLD` is related to question 10b (applicant's last remarriage). The context 'If spouse deceased, give date of death' clearly indicates the purpose of this field, referring to the spouse in the last remarriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page2[0].P2_Q10bSSN_FLD[0]",
+      "standardized_label": "applicant_last_remarriage_spouse_social_security_number",
+      "confidence": 5,
+      "reasoning": "The field `P2_Q10bSSN_FLD` is related to question 10b (applicant's last remarriage). The context 'Spouse's Social Security Number' clearly indicates the purpose of this field, referring to the spouse in the last remarriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cNone_FLD[0]",
+      "standardized_label": "applicant_other_marriages_none_indicator_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cNone_FLD` is for indicating no other marriages. The context explicitly states 'If you had other marriages... (If none, write 'NONE'.)'. This clearly defines the field's purpose related to the applicant's other marriages. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cName_FLD[0]",
+      "standardized_label": "applicant_other_marriage_spouse_name_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cName_FLD` is for the first spouse's name in 'other marriages' as per question 10c. The context 'Spouse's Name (including maiden name)' confirms this. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cWhen1_FLD[0]",
+      "standardized_label": "applicant_other_marriage_date_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cWhen1_FLD` is for the date of the first 'other marriage' in question 10c. The context 'When (Month, Day, Year)' specifies it's a date. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cWhere1_FLD[0]",
+      "standardized_label": "applicant_other_marriage_place_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cWhere1_FLD` is for the place of the first 'other marriage' in question 10c. The context 'Where (Name of City and State)' specifies it's a location. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cHowEnd_FLD[0]",
+      "standardized_label": "applicant_other_marriage_how_ended_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cHowEnd_FLD` is for how the first 'other marriage' in question 10c ended. The context 'How Marriage Ended (enter N/Ay if marriage has not ended)' clearly defines its purpose. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cWhen2_FLD[0]",
+      "standardized_label": "applicant_other_marriage_end_date_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cWhen2_FLD` is for the end date of the first 'other marriage' in question 10c. The context 'When (Month, Day, Year)' combined with the preceding 'How Marriage Ended' indicates this is the date the marriage ended. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cWhere2_FLD[0]",
+      "standardized_label": "applicant_other_marriage_end_place_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cWhere2_FLD` is for the place where the first 'other marriage' in question 10c ended. The context 'Where (Name of City and State)' combined with the preceding 'How Marriage Ended' indicates this is the location the marriage ended. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cClergy_CB[0]",
+      "standardized_label": "applicant_other_marriage_performed_by_clergyman_checkbox_1_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cClergy_CB` relates to question 10c (applicant's other marriages). The context 'Marriage performed by: Clergyman or public official.' identifies this as a checkbox for a marriage performed by a clergyman. It's the first in a potential list of other marriages, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cOther_CB[0]",
+      "standardized_label": "applicant_other_marriage_performed_by_other_checkbox_1_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cOther_CB` relates to question 10c (applicant's other marriages). The context 'Other (Explain in 'Remarks')' directly follows a checkbox for 'Clergyman or public official', indicating this is for other methods of marriage performance. It's the first in a potential list of other marriages, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cDOB_FLD[0]",
+      "standardized_label": "applicant_other_marriage_spouse_date_of_birth_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cDOB_FLD` is related to question 10c (applicant's other marriages). The context 'Spouse's date of birth (or age)' clearly indicates the purpose of this field, referring to the spouse in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cDOD_FLD[0]",
+      "standardized_label": "applicant_other_marriage_spouse_date_of_death_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cDOD_FLD` is related to question 10c (applicant's other marriages). The context 'If spouse deceased, give date of death' clearly indicates the purpose of this field, referring to the spouse in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q10cSSN_FLD[0]",
+      "standardized_label": "applicant_other_marriage_spouse_social_security_number_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q10cSSN_FLD` is related to question 10c (applicant's other marriages). The context 'Spouse's Social Security Number' clearly indicates the purpose of this field, referring to the spouse in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aNone_FLD[0]",
+      "standardized_label": "deceased_last_marriage_none_indicator_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aNone_FLD` is for indicating no other marriages for the deceased. The context explicitly states 'If none, write 'NONE'.' in relation to the deceased's last marriage if it was after their marriage to the applicant. This clearly defines the field's purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aName_FLD[0]",
+      "standardized_label": "deceased_last_marriage_spouse_name",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aName_FLD` is related to question 11a, which concerns the deceased's last marriage after their marriage to the applicant. The context 'Spouse's Name (including maiden name)' clearly defines this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aWhen1_FLD[0]",
+      "standardized_label": "deceased_last_marriage_date",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aWhen1_FLD` is related to question 11a, concerning the deceased's last marriage. The context 'When (Month, Day, Year)' clearly indicates this field is for the date of that marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aWhere1_FLD[0]",
+      "standardized_label": "deceased_last_marriage_place",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aWhere1_FLD` is related to question 11a, concerning the deceased's last marriage. The context 'Where (Name of City and State)' clearly indicates this field is for the place of that marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aHowEnded_CB[0]",
+      "standardized_label": "deceased_last_marriage_how_ended",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aHowEnded_CB` relates to question 11a, regarding how the deceased's last marriage ended. The context 'How Marriage Ended' directly indicates the purpose of this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aWhen2_FLD[0]",
+      "standardized_label": "deceased_last_marriage_end_date",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aWhen2_FLD` is related to question 11a, concerning the end of the deceased's last marriage. The context 'When (Month, Day, Year)' combined with the preceding 'How Marriage Ended' indicates this is the date the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aWhere2_FLD[0]",
+      "standardized_label": "deceased_last_marriage_end_place",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aWhere2_FLD` is related to question 11a, concerning the end of the deceased's last marriage. The context 'Where (Name of City and State)' combined with the preceding 'How Marriage Ended' indicates this is the place the marriage ended. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aClergy_CB[0]",
+      "standardized_label": "deceased_last_marriage_performed_by_clergyman_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aClergy_CB` relates to question 11a (deceased's last marriage). The context 'Marriage performed by: Clergyman or public official.' explicitly identifies this as a checkbox for a marriage performed by a clergyman. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aOther_CB[0]",
+      "standardized_label": "deceased_last_marriage_performed_by_other_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aOther_CB` relates to question 11a (deceased's last marriage). The context 'Other (Explain in 'Remarks')' directly follows a checkbox for 'Clergyman or public official', indicating this is for other methods of marriage performance. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aDOB_FLD[0]",
+      "standardized_label": "deceased_last_marriage_spouse_date_of_birth",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aDOB_FLD` is related to question 11a (deceased's last marriage). The context 'Spouse's date of birth (or age)' clearly indicates the purpose of this field, referring to the spouse in the deceased's last marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aDOD_FLD[0]",
+      "standardized_label": "deceased_last_marriage_spouse_date_of_death",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aDOD_FLD` is related to question 11a (deceased's last marriage). The context 'If spouse deceased, give date of death' clearly indicates the purpose of this field, referring to the spouse in the deceased's last marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11aSSN_FLD[0]",
+      "standardized_label": "deceased_last_marriage_spouse_social_security_number",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11aSSN_FLD` is related to question 11a (deceased's last marriage). The context 'Spouse's Social Security Number' clearly indicates the purpose of this field, referring to the spouse in the deceased's last marriage. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bNone_FLD[0]",
+      "standardized_label": "deceased_other_marriage_none_indicator_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bNone_FLD` is for indicating no other marriages for the deceased (besides the last one already specified and excluding the marriage to the applicant). The context explicitly states 'If none, write 'NONE'.'. This clearly defines the field's purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bName_FLD[0]",
+      "standardized_label": "deceased_other_marriage_spouse_name_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bName_FLD` is for the first spouse's name in the deceased's 'other marriages' as per question 11b. The context 'Spouse's Name (including maiden name)' confirms this. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bWhen1_FLD[0]",
+      "standardized_label": "deceased_other_marriage_date_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bWhen1_FLD` is for the date of the first of the deceased's 'other marriages' in question 11b. The context 'When (Month, Day, Year)' specifies it's a date. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bWhere1_FLD[0]",
+      "standardized_label": "deceased_other_marriage_place_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bWhere1_FLD` is for the place of the first of the deceased's 'other marriages' in question 11b. The context 'Where (Name of City and State)' specifies it's a location. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bHowEnded_FLD[0]",
+      "standardized_label": "deceased_other_marriage_how_ended_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bHowEnded_FLD` is for how the first of the deceased's 'other marriages' in question 11b ended. The context 'How Marriage Ended' clearly defines its purpose. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bWhen2_FLD[0]",
+      "standardized_label": "deceased_other_marriage_end_date_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bWhen2_FLD` is for the end date of the first of the deceased's 'other marriages' in question 11b. The context 'When (Month, Day, Year)' combined with the preceding 'How Marriage Ended' indicates this is the date the marriage ended. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bWhere2_FLD[0]",
+      "standardized_label": "deceased_other_marriage_end_place_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bWhere2_FLD` is for the place where the first of the deceased's 'other marriages' in question 11b ended. The context 'Where (Name of City and State)' combined with the preceding 'How Marriage Ended' indicates this is the location the marriage ended. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bClergy_CB[0]",
+      "standardized_label": "deceased_other_marriage_performed_by_clergyman_checkbox_1_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bClergy_CB` relates to question 11b (deceased's other marriages). The context 'Marriage performed by: Clergyman or public official.' identifies this as a checkbox for a marriage performed by a clergyman. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bOther_CB[0]",
+      "standardized_label": "deceased_other_marriage_performed_by_other_checkbox_1_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bOther_CB` relates to question 11b (deceased's other marriages). The context 'Other (Explain in 'Remarks')' directly follows a checkbox for 'Clergyman or public official', indicating this is for other methods of marriage performance. It's the first in a potential list, so an index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bDOB_FLD[0]",
+      "standardized_label": "deceased_other_marriage_spouse_date_of_birth_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bDOB_FLD` is related to question 11b (deceased's other marriages). The context 'Spouse's date of birth (or age)' clearly indicates the purpose of this field, referring to the spouse in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bDOD_FLD[0]",
+      "standardized_label": "deceased_other_marriage_spouse_date_of_death_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bDOD_FLD` is related to question 11b (deceased's other marriages). The context 'Date of death' clearly indicates the purpose of this field, referring to the spouse's date of death in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page3[0].P3_Q11bSSN_FLD[0]",
+      "standardized_label": "deceased_other_marriage_spouse_social_security_number_1",
+      "confidence": 5,
+      "reasoning": "The field `P3_Q11bSSN_FLD` is related to question 11b (deceased's other marriages). The context 'Spouse's Social Security Number' clearly indicates the purpose of this field, referring to the spouse in the first of these other marriages. An index `_1` is appropriate. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12aYes_FLD[0]",
+      "standardized_label": "applicant_deceased_living_together_at_death_yes_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12aYes_FLD` is a checkbox for the 'Yes' answer to question 12a. The question asks 'Were you and the deceased living together at the same address when the deceased died?'. This directly translates to `applicant_deceased_living_together_at_death_yes`. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12aNo_FLD[0]",
+      "standardized_label": "applicant_deceased_living_together_at_death_no_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12aNo_FLD` is a checkbox for the 'No' answer to question 12a. The previous field `P4_Q12aYes_FLD` established the question as being about the applicant and deceased living together at the time of death. This checkbox is the negative response. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bYou_FLD[0]",
+      "standardized_label": "applicant_away_from_home_at_death_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bYou_FLD` is a checkbox related to question 12b. The question asks 'Who was away? You.' if either the applicant or deceased was away from home at the time of death. This checkbox refers specifically to the applicant. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bDeceased_FLD[0]",
+      "standardized_label": "deceased_away_from_home_at_death_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bDeceased_FLD` is a checkbox related to question 12b. The question asks 'Who was away?' and the context provides 'Deceased'. This checkbox refers specifically to the deceased being away from home at the time of death. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bAbsence_FLD[0]",
+      "standardized_label": "reason_absence_began",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bAbsence_FLD` is related to question 12b, concerning who was away from home at the time of death. The context 'Reason absence began' explicitly defines the purpose of this field. It applies to either the applicant or the deceased. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bDate_FLD[0]",
+      "standardized_label": "date_last_at_home",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bDate_FLD` is related to question 12b, concerning absence from home at the time of death. The context 'Date last at home' explicitly defines the purpose of this field. It applies to either the applicant or the deceased. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bReason_FLD[0]",
+      "standardized_label": "reason_apart_at_time_of_death",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bReason_FLD` is related to question 12b, specifically asking for the reason the applicant and deceased were apart. The context 'Reason you were apart at time of death' directly defines the purpose of this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q12bIllness_FLD[0]",
+      "standardized_label": "illness_or_disabling_condition_if_separated",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q12bIllness_FLD` is related to question 12b, specifically asking about reasons for being apart at death. The context 'If separated because of illness, enter nature of illness or disabling condition' directly defines the purpose of this field. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13a_FLD[0]",
+      "standardized_label": "applicant_last_year_total_earnings",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13a_FLD` relates to question 13a. The context 'How much were your total earnings last year?' directly asks for the applicant's total earnings from the previous year. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bAmt_FLD[0]",
+      "standardized_label": "applicant_last_year_monthly_earnings_limit_wage",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bAmt_FLD` is related to question 13b. The context 'Enter dollar amount you did not earn more than in wages' clearly indicates this field is for the monthly earnings limit. It relates to the applicant's last year's earnings. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bNone_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_months_none_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bNone_FLD` is a checkbox related to question 13b. The context 'If no months were exempt months, place an 'X' in 'NONE'.' clearly indicates this field is for marking 'none' for exempt months. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bAll_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_months_all_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bAll_FLD` is a checkbox related to question 13b. The context 'If all months were exempt months, place an 'X' in 'ALL.'' clearly indicates this field is for marking 'all' for exempt months. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bJan_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_january_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bJan_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'January' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bFeb_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_february_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bFeb_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'February' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bMar_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_march_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bMar_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'March' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bApr_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_april_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bApr_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'April' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bMay_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_may_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bMay_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'MAY' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bJun_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_june_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bJun_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'June' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bJul_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_july_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bJul_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'July' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bAug_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_august_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bAug_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'August' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bSept_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_september_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bSept_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'September' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bOct_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_october_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bOct_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'October' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bNov_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_november_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bNov_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'November' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q13bDec_FLD[0]",
+      "standardized_label": "applicant_last_year_exempt_month_december_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q13bDec_FLD` is a checkbox related to question 13b, specifically for indicating an exempt month. The context 'December' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14a_FLD[0]",
+      "standardized_label": "applicant_this_year_expected_total_earnings",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14a_FLD` relates to question 14a. The context 'How much do you expect your total earnings to be this year?' directly asks for the applicant's expected total earnings for the current year. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14aAmt_FLD[0]",
+      "standardized_label": "applicant_this_year_monthly_earnings_limit_wage",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14aAmt_FLD` is related to question 14b. The context 'Enter dollar amount you did not or will not earn more than in wages' clearly indicates this field is for the monthly earnings limit for the current year. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bNone_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_months_none_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bNone_FLD` is a checkbox related to question 14b. The context 'If no months are or will be exempt months, place an 'X' in 'NONE'.' clearly indicates this field is for marking 'none' for exempt months this year. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bAll_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_months_all_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bAll_FLD` is a checkbox related to question 14b. The context 'If all months are or will be exempt months, place an 'X' in 'ALL'.' clearly indicates this field is for marking 'all' for exempt months this year. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bJan_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_january_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bJan_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'January' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bFeb_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_february_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bFeb_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'February' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bMar_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_march_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bMar_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'March' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bApr_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_april_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bApr_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'April' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bMay_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_may_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bMay_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'MAY' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bJun_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_june_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bJun_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'June' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bJul_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_july_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bJul_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'July' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bAug_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_august_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bAug_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'August' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bSept_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_september_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bSept_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'September' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bOct_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_october_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bOct_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'October' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bNov_FLD[0]",
+      "standardized_label": "applicant_this_year_exempt_month_november_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P4_Q14bNov_FLD` is a checkbox related to question 14b, specifically for indicating an exempt month this year. The context 'November' identifies the month. Removed page and index identifiers."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q14bDec_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q14bDec_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 44.239497694s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15a_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15a_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.820175655s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bAmt_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bAmt_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.41782784s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bNone_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bNone_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.008996131s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bAll_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bAll_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 42.599261402s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bJan_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bJan_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 42.177256137s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bFeb_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bFeb_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 41.75990792s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 41\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bMar_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bMar_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 41.358594907s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 41\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bApr_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bApr_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 40.9335081s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bMay_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bMay_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 40.503018957s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bJun_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bJun_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 40.071987697s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bJul_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bJul_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 39.665684462s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 39\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bAug_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bAug_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 39.24419974s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 39\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bSept_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bSept_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 38.839106105s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bOct_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bOct_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 38.410018747s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bNov_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bNov_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 38.001319938s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bDec_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bDec_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 37.595526832s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q15bMonth_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q15bMonth_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 37.156543997s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page4[0].P4_Q16_FLD[0]",
+      "standardized_label": "form1[0].Page4[0].P4_Q16_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 36.740147871s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 36\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page5[0].P5_Remarks_FLD[0]",
+      "standardized_label": "form1[0].Page5[0].P5_Remarks_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 36.324221936s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 36\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page5[0].P5_RtgNum_FLD[0]",
+      "standardized_label": "form1[0].Page5[0].P5_RtgNum_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 35.888204335s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page5[0].P5_AcctNum_FLD[0]",
+      "standardized_label": "form1[0].Page5[0].P5_AcctNum_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 35.4819203s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page5[0].P5_Checking_CB[0]",
+      "standardized_label": "form1[0].Page5[0].P5_Checking_CB[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 35.054130251s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_Savings_CB[0]",
+      "standardized_label": "bank_account_type_savings_checkbox",
+      "confidence": 4,
+      "reasoning": "The field name `P5_Savings_CB` combined with the context 'Savings' strongly suggests this is a checkbox for a savings account type. Given the surrounding fields on the page would likely be related to bank account information (e.g., direct deposit), this is a reasonable assumption. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_EnrollDE_CB[0]",
+      "standardized_label": "enroll_direct_express_checkbox",
+      "confidence": 5,
+      "reasoning": "The field name `P5_EnrollDE_CB` and the context 'Enroll in Direct Express' clearly indicate this is a checkbox for enrolling in Direct Express. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_DDRefused_CB[0]",
+      "standardized_label": "direct_deposit_refused_checkbox",
+      "confidence": 5,
+      "reasoning": "The field name `P5_DDRefused_CB` and the context 'Direct Deposit Refused' clearly indicate this is a checkbox for refusing direct deposit. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_ReadOnly1_FLD[0]",
+      "standardized_label": "applicant_signature",
+      "confidence": 5,
+      "reasoning": "The field is explicitly labeled by the context as 'SIGNATURE OF APPLICANT. Signature (First Name, Middle Initial, Last Name) (Write in ink)'. The 'ReadOnly1' part of the original field name is a technical identifier and is discarded as per rule 3."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_Date_FLD[0]",
+      "standardized_label": "applicant_signature_date",
+      "confidence": 5,
+      "reasoning": "The field name `P5_Date_FLD` and the context 'Date (Month, Day, Year)' are associated with the preceding 'SIGNATURE OF APPLICANT' field. This clearly indicates it's the date the applicant signed the form. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_PhoneAC_FLD[0]",
+      "standardized_label": "applicant_phone_number_area_code",
+      "confidence": 5,
+      "reasoning": "The field name `P5_PhoneAC_FLD` and the context 'Telephone number(s) at which you may be contacted during the day. AREA CODE' clearly indicate this field is for the applicant's phone number area code. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_PhoneNum_FLD[0]",
+      "standardized_label": "applicant_phone_number_remaining_digits",
+      "confidence": 5,
+      "reasoning": "The field name `P5_PhoneNum_FLD` and the context 'Remaining seven digits of telephone number (do not include area code)' clearly indicate this field is for the remaining digits of the applicant's phone number. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_MailAdd_FLD[0]",
+      "standardized_label": "applicant_mailing_address_street",
+      "confidence": 5,
+      "reasoning": "The field name `P5_MailAdd_FLD` and the context 'Applicant's Mailing Address (Number and street, Apartment Number, P.O. Box, or Rural Route)' clearly indicate this field is for the street portion of the applicant's mailing address. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_CityState_FLD[0]",
+      "standardized_label": "applicant_mailing_address_city_state",
+      "confidence": 5,
+      "reasoning": "The field name `P5_CityState_FLD` and the context 'City and State' following the mailing address field clearly indicate this field is for the city and state of the applicant's mailing address. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_ZIPCode_FLD[0]",
+      "standardized_label": "applicant_mailing_address_zip_code",
+      "confidence": 5,
+      "reasoning": "The field name `P5_ZIPCode_FLD` and the context 'ZIP Code' following the mailing address city and state fields clearly indicate this field is for the ZIP code of the applicant's mailing address. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_County_FLD[0]",
+      "standardized_label": "applicant_residence_county",
+      "confidence": 5,
+      "reasoning": "The field name `P5_County_FLD` and the context 'County (if any) in which you now live' clearly indicate this field is for the county of the applicant's current residence. This is distinct from the mailing address if the residence address is different and provided elsewhere. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_ReadOnly2_FLD[0]",
+      "standardized_label": "witness_signature_1",
+      "confidence": 5,
+      "reasoning": "The field is explicitly labeled by the context as '1. Signature of witness'. The 'ReadOnly2' part of the original field name is a technical identifier and is discarded as per rule 3. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_WitAdd1_FLD[0]",
+      "standardized_label": "witness_address_1",
+      "confidence": 5,
+      "reasoning": "The field name `P5_WitAdd1_FLD` and the context 'Address (Number and Street, City, State and ZIP Code)' directly follows the 'Signature of witness' field. This clearly indicates it is for the first witness's address. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_ReadOnly3_FLD[0]",
+      "standardized_label": "witness_signature_2",
+      "confidence": 5,
+      "reasoning": "The field is explicitly labeled by the context as '2. Signature of witness'. The 'ReadOnly3' part of the original field name is a technical identifier and is discarded as per rule 3. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page5[0].P5_WitAdd2_FLD[0]",
+      "standardized_label": "witness_address_2",
+      "confidence": 5,
+      "reasoning": "The field name `P5_WitAdd2_FLD` and the context 'Address (Number and Street, City, State and ZIP Code)' directly follows the 'Signature of witness' field (for the second witness). This clearly indicates it is for the second witness's address. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page6[0].P6_BeforeAC_FLD[0]",
+      "standardized_label": "receipt_phone_number_before_award_notice_area_code_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P6_BeforeAC_FLD` is related to a phone number for questions 'Before You Receive A Notice of Award'. The context 'AREA CODE' specifies its purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page6[0].P6_BeforePhoneNum_FLD[0]",
+      "standardized_label": "receipt_phone_number_before_award_notice_remaining_digits_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P6_BeforePhoneNum_FLD` is related to a phone number for questions 'Before You Receive A Notice of Award'. The context 'Rest of phone number (not including area code)' specifies its purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page6[0].P6_AfterAC_FLD[0]",
+      "standardized_label": "receipt_phone_number_after_award_notice_area_code_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P6_AfterAC_FLD` is related to a phone number for questions 'AFTER YOU RECEIVE A NOTICE OF AWARD'. The context 'AREA CODE' specifies its purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "standardize_field",
+      "original_field_name": "form1[0].Page6[0].P6_AfterPhoneNum_FLD[0]",
+      "standardized_label": "receipt_phone_number_after_award_notice_remaining_digits_checkbox",
+      "confidence": 5,
+      "reasoning": "The field `P6_AfterPhoneNum_FLD` is related to a phone number for questions 'AFTER YOU RECEIVE A NOTICE OF AWARD'. The context 'Rest of phone number (not including area code)' specifies its purpose. Removed page and index identifiers."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_SSAOffice_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_SSAOffice_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.960135269s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_DateClaim_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_DateClaim_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.562270201s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_Days_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_Days_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.706286772s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_Claimant_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_Claimant_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.298776608s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_Surname_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_Surname_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.902913526s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_SSClaimNum_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_SSClaimNum_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.504313691s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_ReadOnly1_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_ReadOnly1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.10190745s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page6[0].P6_ReadOnly2_FLD[0]",
+      "standardized_label": "form1[0].Page6[0].P6_ReadOnly2_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 47.684291006s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_ReadOnly1_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_ReadOnly1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 47.301266951s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_ReadOnly2_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_ReadOnly2_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 46.900252473s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_Year_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_Year_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 46.50711929s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_Amt_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_Amt_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 46.091199826s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_YouAre1_CB[0]",
+      "standardized_label": "form1[0].Page7[0].P7_YouAre1_CB[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 45.688796466s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 45\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_YouAreNot1_CB[0]",
+      "standardized_label": "form1[0].Page7[0].P7_YouAreNot1_CB[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 45.272011273s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 45\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_AmtMonth_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_AmtMonth_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 44.874472565s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_YouAre2_CB[0]",
+      "standardized_label": "form1[0].Page7[0].P7_YouAre2_CB[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 44.462702471s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_YouAreNot2_CB[0]",
+      "standardized_label": "form1[0].Page7[0].P7_YouAreNot2_CB[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 44.058674318s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_ReadOnly3_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_ReadOnly3_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.669089961s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].Page7[0].P7_EndofForm_FLD[0]",
+      "standardized_label": "form1[0].Page7[0].P7_EndofForm_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.262957263s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    }
+  ]
+}

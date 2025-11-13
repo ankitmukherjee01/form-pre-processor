@@ -1,0 +1,4259 @@
+{
+  "filename": "ssa-7.pdf",
+  "filepath": "1_unlocked_pdfs\\ssa-7.pdf",
+  "total_pages": 6,
+  "total_fields": 147,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ReadOnly_FLD[0]",
+          "field_context_on_pdf": "Form S S Ay - 7 - F 6 (05-2025) U F \rDiscontinue Prior Editions \rSocial Security Administration  APPLICATION FOR SOCIAL SECURITY BENEFITS*  PARENT'S INSURANCE BENEFITS* Page 1 of 6 O M B Number 0960-0012 I apply for all insurance benefits for which I am eligible under Title 2 (Federal Old-Age, Survivors, and Disability Insurance) and Part AY of Title 18 (Health Insurance for the Aged and Disabled) of the Social Security Act, as presently amended. *This may also serve as an application for survivor benefits under the Railroad Retirement Act and for Veterans Administration payments under Title 38 U.S.C, Veterans Benefits, Chapter 13 (which is, as such, an application for other types of death benefits under Title 38.) For additional information about this application a factsheet to Form S S Ay - 7 is available at www.s s ay.g o v (Do not write in this space) ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 438.39,
+            "y0": 127.74,
+            "x1": 441.72,
+            "y1": 143.05,
+            "width": 3.33,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N1AName_FLD[0]",
+          "field_context_on_pdf": "1. (ay) PRINT name of deceased wage earner or self-employed person (herein referred to as the \"Deceased.\")  FIRST NAME, MIDDLE INITIAL, LAST NAME ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 245.53,
+            "y0": 230.82,
+            "x1": 591.16,
+            "y1": 253.67,
+            "width": 345.64,
+            "height": 22.85
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N1BSSN_FLD[0]",
+          "field_context_on_pdf": "(b) Enter Deceased's Social Security number.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 242.53,
+            "y0": 259.34,
+            "x1": 591.16,
+            "y1": 276.16,
+            "width": 348.64,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N2A_FLD[0]",
+          "field_context_on_pdf": "2.(ay) PRINT your name. FIRST NAME, MIDDLE INITIAL, LAST NAME",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 277.34,
+            "y0": 293.79,
+            "x1": 591.16,
+            "y1": 312.17,
+            "width": 313.83,
+            "height": 18.37
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N2B_FLD[0]",
+          "field_context_on_pdf": "(b) Enter your social security number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 274.56,
+            "y0": 317.83,
+            "x1": 591.16,
+            "y1": 334.67,
+            "width": 316.6,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N2C_FLD[0]",
+          "field_context_on_pdf": "(c) Enter your name at birth if different from item 2(ay). ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 274.56,
+            "y0": 340.33,
+            "x1": 591.16,
+            "y1": 361.66,
+            "width": 316.6,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N3_CB1[0]",
+          "field_context_on_pdf": "3. Select your relationship to the deceased. Natural Parent",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 38.45,
+            "y0": 381.97,
+            "x1": 48.45,
+            "y1": 391.97,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N3_CB2[0]",
+          "field_context_on_pdf": "Adoptive Parent",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 188.33,
+            "y0": 381.97,
+            "x1": 198.33,
+            "y1": 391.97,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N3CB2_FLD[0]",
+          "field_context_on_pdf": "Date of adoption",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 263.85,
+            "y0": 403.26,
+            "x1": 342.35,
+            "y1": 421.56,
+            "width": 78.51,
+            "height": 18.3
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N3_CB3[0]",
+          "field_context_on_pdf": "Step Parent",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 346.63,
+            "y0": 381.97,
+            "x1": 356.63,
+            "y1": 391.97,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N3CB3_FLD[0]",
+          "field_context_on_pdf": "Date of marriage to Deceased's parent",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 518.08,
+            "y0": 403.26,
+            "x1": 592.56,
+            "y1": 421.56,
+            "width": 74.48,
+            "height": 18.3
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N4A_CB1[0]",
+          "field_context_on_pdf": "4. (ay)  Were you receiving at least one-half of your support from the Deceased at the time the  Deceased became disabled under the Social Security law or at the time of death?  Yes (If \"Yes,\" \ranswer (b).)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 366.88,
+            "y0": 434.41,
+            "x1": 376.88,
+            "y1": 444.41,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N4A_CB2[0]",
+          "field_context_on_pdf": "No (If \"No,\" go on to item 5.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 515.07,
+            "y0": 434.41,
+            "x1": 525.07,
+            "y1": 444.41,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N4B_CB1[0]",
+          "field_context_on_pdf": "(b) Have you filed proof of this support with the Social Security Administration? Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 366.88,
+            "y0": 482.38,
+            "x1": 376.88,
+            "y1": 492.38,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N4B_CB2[0]",
+          "field_context_on_pdf": "no",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 515.07,
+            "y0": 482.38,
+            "x1": 525.07,
+            "y1": 492.38,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N5_FLD[0]",
+          "field_context_on_pdf": "PART 1 - INFORMATION ABOUT THE DECEASED 5. Enter date of birth of deceased. MONTH, DAY, YEAR",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 349.65,
+            "y0": 533.83,
+            "x1": 591.16,
+            "y1": 555.16,
+            "width": 241.51,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N6A_FLD[0]",
+          "field_context_on_pdf": "6 (ay)  Enter date of death. MONTH, DAY, YEAR",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 349.65,
+            "y0": 560.84,
+            "x1": 591.16,
+            "y1": 582.16,
+            "width": 241.51,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N6B_FLD[0]",
+          "field_context_on_pdf": "(b) Enter place of death. CITY AND STATE",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 349.65,
+            "y0": 587.84,
+            "x1": 591.16,
+            "y1": 627.16,
+            "width": 241.51,
+            "height": 39.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N7A_CB1[0]",
+          "field_context_on_pdf": "Answer Item 7 ONLY if the Deceased Died Within the Past 4 Months. 7. (ay) Was the Deceased unable to work because of a disabling condition at the time of death? yes (If \"Yes,\" answer (b).)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 366.88,
+            "y0": 669.5,
+            "x1": 376.88,
+            "y1": 679.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N7A_CB2[0]",
+          "field_context_on_pdf": "No (If \"No,\" go on to item 8.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 515.07,
+            "y0": 669.5,
+            "x1": 525.07,
+            "y1": 679.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_N7B_FLD[0]",
+          "field_context_on_pdf": "(b) Enter date disability began. MONTH, DAY, YEAR",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 349.65,
+            "y0": 709.34,
+            "x1": 591.16,
+            "y1": 730.67,
+            "width": 241.51,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N8A_FLD[0]",
+          "field_context_on_pdf": "Page 2 of 6 Answer Item 9 ONLY If Death Occurred Within the Last 2 Years. 8. (ay)  How much did the Deceased earn from employment and self-employment during the year of death?  Amount $",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 339.42,
+            "y0": 61.34,
+            "x1": 438.67,
+            "y1": 82.67,
+            "width": 99.24,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N8A_CB1[0]",
+          "field_context_on_pdf": "Unknown",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 476.03,
+            "y0": 69.59,
+            "x1": 486.03,
+            "y1": 79.59,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N8B_FLD[0]",
+          "field_context_on_pdf": "(b) About how much did the Deceased earn the year before death? Amount $",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 339.42,
+            "y0": 92.84,
+            "x1": 438.17,
+            "y1": 114.16,
+            "width": 98.74,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N8B_CB1[0]",
+          "field_context_on_pdf": "Unknown",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 476.03,
+            "y0": 100.08,
+            "x1": 486.03,
+            "y1": 110.08,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N9A_CB1[0]",
+          "field_context_on_pdf": "9. (ay) Did the Deceased have wages or self-employment income covered under Social Security in all years from 1978 through last year? Yes (If \"Yes,\" skip to item 11.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 125.01,
+            "x1": 345.83,
+            "y1": 135.01,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N9A_CB2[0]",
+          "field_context_on_pdf": "No (If \"No,\" answer (b).)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 125.01,
+            "x1": 494.34,
+            "y1": 135.01,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N9B_FLD[0]",
+          "field_context_on_pdf": "(b) List the years from 1978 through last year in which the Deceased did not have wages or self-employment income covered under Social Security.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 283.67,
+            "y0": 163.42,
+            "x1": 592.58,
+            "y1": 201.08,
+            "width": 308.92,
+            "height": 37.67
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N10_CB1[0]",
+          "field_context_on_pdf": "10. Check if applicable: I am not submitting evidence of the Deceased's earnings that are not yet on his/her earnings record. I understand that these earnings will be included automatically within 24 months, and any increase in my benefits will be paid with \rfull retroactivity.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 52.34,
+            "y0": 231.25,
+            "x1": 62.34,
+            "y1": 241.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N11A_FLD[0]",
+          "field_context_on_pdf": "PART 2 - INFORMATION ABOUT YOURSELF 11. (ay) Enter date of birth. MONTH, DAY, YEAR",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 390.46,
+            "y0": 290.83,
+            "x1": 591.16,
+            "y1": 307.67,
+            "width": 200.71,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N11B_FLD[0]",
+          "field_context_on_pdf": "(b) Enter name of State or Foreign country where you were born.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 284.01,
+            "y0": 313.34,
+            "x1": 591.16,
+            "y1": 339.17,
+            "width": 307.16,
+            "height": 25.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N12A_CB1[0]",
+          "field_context_on_pdf": "If you have already presented, or if you are now presenting, a public or religious record of your birth established before\ryou were age 5, go on to item 13. 12 (ay) (a) Are you an U.S. citizen?  Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 379.75,
+            "x1": 345.83,
+            "y1": 389.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N12A_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 379.75,
+            "x1": 494.34,
+            "y1": 389.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N12B_CB1[0]",
+          "field_context_on_pdf": "(b) Are you an alien lawfully present in the U.S.? Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 402.25,
+            "x1": 345.83,
+            "y1": 412.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N12B_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 402.25,
+            "x1": 494.34,
+            "y1": 412.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N12IfYes_FLD[0]",
+          "field_context_on_pdf": "If yes, when were you lawfully admitted to the U.S.?.  MONTH, DAY, YEAR",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 390.46,
+            "y0": 421.34,
+            "x1": 591.16,
+            "y1": 438.17,
+            "width": 200.71,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13A_CB1[0]",
+          "field_context_on_pdf": "13. (ay) Have you married since the death of the Deceased? Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 447.25,
+            "x1": 345.83,
+            "y1": 457.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13A_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 447.25,
+            "x1": 494.34,
+            "y1": 457.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BMarrWho_FLD[0]",
+          "field_context_on_pdf": "(b) Enter below the information requested about the marriage. To whom married",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 38.83,
+            "y0": 499.35,
+            "x1": 267.17,
+            "y1": 519.17,
+            "width": 228.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BMarrWhen_FLD[0]",
+          "field_context_on_pdf": "When (Month, day, year)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 272.83,
+            "y0": 499.35,
+            "x1": 384.17,
+            "y1": 519.17,
+            "width": 111.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BMarrWhere_FLD[0]",
+          "field_context_on_pdf": "Where (Name of City and State)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 389.83,
+            "y0": 499.35,
+            "x1": 591.16,
+            "y1": 519.17,
+            "width": 201.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEndedHow_FLD[0]",
+          "field_context_on_pdf": "How marriage ended (If still in effect, write \"Not ended\")",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 38.83,
+            "y0": 535.34,
+            "x1": 267.17,
+            "y1": 555.16,
+            "width": 228.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEndedWhen_FLD[0]",
+          "field_context_on_pdf": "When (Month, day, year)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 272.83,
+            "y0": 535.34,
+            "x1": 384.17,
+            "y1": 555.16,
+            "width": 111.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEndedWhere_FLD[0]",
+          "field_context_on_pdf": "Where (Name of City and State)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 389.83,
+            "y0": 535.34,
+            "x1": 591.16,
+            "y1": 555.16,
+            "width": 201.33,
+            "height": 19.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEMarrPerfBy_CB1[0]",
+          "field_context_on_pdf": "Marriage performed by: Clergyman or public official",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 38.83,
+            "y0": 577.75,
+            "x1": 48.83,
+            "y1": 587.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEMarrPerfBy_CB2[0]",
+          "field_context_on_pdf": "Other (Explain in \"Remarks\")",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 38.83,
+            "y0": 600.25,
+            "x1": 48.83,
+            "y1": 610.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseDOB_FLD[0]",
+          "field_context_on_pdf": "Spouse's date of birth (or age)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 245.84,
+            "y0": 589.21,
+            "x1": 384.17,
+            "y1": 613.67,
+            "width": 138.33,
+            "height": 24.45
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseDOD_FLD[0]",
+          "field_context_on_pdf": "If spouse deceased, give date of death",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 389.83,
+            "y0": 589.21,
+            "x1": 591.16,
+            "y1": 613.67,
+            "width": 201.33,
+            "height": 24.45
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseSSN_FLD[0]",
+          "field_context_on_pdf": "Spouse's Social Security Number (If \"None\" or \"Unknown,\" so indicate)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 357.83,
+            "y0": 619.34,
+            "x1": 591.16,
+            "y1": 640.67,
+            "width": 233.34,
+            "height": 21.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N14Railroad_CB1[0]",
+          "field_context_on_pdf": "14. Did you, your spouse, or the Deceased work in the railroad industry for 5 years or more? Yes ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 654.25,
+            "x1": 345.83,
+            "y1": 664.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N14Railroad_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 654.25,
+            "x1": 494.34,
+            "y1": 664.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N15A_CB1[0]",
+          "field_context_on_pdf": "15. (ay) (a) Do you have social security credits (for example,  based on work or residence) under another country's social security system? Yes (if \"yes\" answer (b).)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 678.5,
+            "x1": 345.83,
+            "y1": 688.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N15A_CB2[0]",
+          "field_context_on_pdf": "No (If \"No,\" go on to item 18.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 678.5,
+            "x1": 494.34,
+            "y1": 688.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N15B_FLD[0]",
+          "field_context_on_pdf": "(b) List the country(ies).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 284.3,
+            "y0": 718.33,
+            "x1": 591.16,
+            "y1": 735.16,
+            "width": 306.87,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N15C_CB1[0]",
+          "field_context_on_pdf": "(c) Are you filing for foreign Social Security benefits? Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 335.83,
+            "y0": 743.75,
+            "x1": 345.83,
+            "y1": 753.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_N15C_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 743.75,
+            "x1": 494.34,
+            "y1": 753.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16A_FLD[0]",
+          "field_context_on_pdf": "page 3 of 6 Answer Item 16 ONLY if the Deceased Died Before This Year. 16. (ay)  How much were your total earnings last year? $",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 440.02,
+            "y0": 61.34,
+            "x1": 591.16,
+            "y1": 73.67,
+            "width": 151.14,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 15,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16B_FLD[0]",
+          "field_context_on_pdf": "(b) Place an \"X\" in each block for EACH MONTH of last year in which you did not earn more than *$ blank in wages, and did not perform   substantial services in self-employment. These months are exempt months.  If no months were exempt months, place an \"X\" in \"NONE\". If all months were exempt months, place an \"X\" in \"ALL\". *Enter the appropriate monthly limit after reading the instructions,           \"How your earnings  Affects Your Benefits\".  $ in wages ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 114.68,
+            "y0": 87.04,
+            "x1": 153.01,
+            "y1": 103.37,
+            "width": 38.33,
+            "height": 16.34
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16None_CB1[0]",
+          "field_context_on_pdf": "You are at a checkbox table. There are 4 rows and the first row is selections None and All. The 3 additional rows are months January through December. None checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 438.5,
+            "y0": 75.25,
+            "x1": 463.5,
+            "y1": 100.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16ALL_CB1[0]",
+          "field_context_on_pdf": "All checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 519.5,
+            "y0": 75.25,
+            "x1": 544.5,
+            "y1": 100.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Jan_CB1[0]",
+          "field_context_on_pdf": "January",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 97.75,
+            "x1": 471.6,
+            "y1": 122.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Feb_CB1[0]",
+          "field_context_on_pdf": "February",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 97.75,
+            "x1": 512.1,
+            "y1": 122.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Mar_CB1[0]",
+          "field_context_on_pdf": "March",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 97.75,
+            "x1": 550.8,
+            "y1": 122.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Apr_CB1[0]",
+          "field_context_on_pdf": "April",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 97.75,
+            "x1": 586.8,
+            "y1": 122.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16May_CB1[0]",
+          "field_context_on_pdf": "may",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 120.25,
+            "x1": 471.6,
+            "y1": 145.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Jun_CB1[0]",
+          "field_context_on_pdf": "june",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 120.25,
+            "x1": 512.1,
+            "y1": 145.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Jul_CB1[0]",
+          "field_context_on_pdf": "july",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 120.25,
+            "x1": 550.8,
+            "y1": 145.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Aug_CB1[0]",
+          "field_context_on_pdf": "august ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 120.25,
+            "x1": 586.8,
+            "y1": 145.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Sep_CB1[0]",
+          "field_context_on_pdf": "September",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 142.75,
+            "x1": 471.6,
+            "y1": 167.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Oct_CB1[0]",
+          "field_context_on_pdf": "October",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 142.75,
+            "x1": 512.1,
+            "y1": 167.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Nov_CB1[0]",
+          "field_context_on_pdf": "November",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 142.75,
+            "x1": 550.8,
+            "y1": 167.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N16Dec_CB1[0]",
+          "field_context_on_pdf": "December",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 142.75,
+            "x1": 586.8,
+            "y1": 167.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17A_FLD[0]",
+          "field_context_on_pdf": "17. (ay) How much do you expect your total earnings to be this year? $",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 440.48,
+            "y0": 169.34,
+            "x1": 591.16,
+            "y1": 181.67,
+            "width": 150.68,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 15,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17B_FLD[0]",
+          "field_context_on_pdf": "(b) Place an \"X\" in each block for EACH MONTH of last year in which you did not earn or will not earn more than *$                in wages, and did not or will not perform substantial services in self-employment. These months are exempt months.  If no months are or will be exempt months, place an \"X\" in \"NONE\". If all months are or will be exempt months, place an \"X\" in \"ALL\". *Enter the appropriate monthly limit after reading the instructions, \"How Your Earnings Affect Your Benefits\".",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 173.84,
+            "y0": 193.5,
+            "x1": 212.17,
+            "y1": 209.84,
+            "width": 38.33,
+            "height": 16.34
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17None_CB1[0]",
+          "field_context_on_pdf": "You are at a checkbox table. There are 4 rows and the first row is selections None and All. The 3 additional rows are months January through December. None checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 437.6,
+            "y0": 183.25,
+            "x1": 462.6,
+            "y1": 208.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17ALL_CB1[0]",
+          "field_context_on_pdf": "All checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 518.93,
+            "y0": 183.25,
+            "x1": 543.93,
+            "y1": 208.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Jan_CB1[0]",
+          "field_context_on_pdf": "January",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 205.75,
+            "x1": 471.6,
+            "y1": 230.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Feb_CB1[0]",
+          "field_context_on_pdf": "February",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 205.75,
+            "x1": 512.1,
+            "y1": 230.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Mar_CB1[0]",
+          "field_context_on_pdf": "March",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 205.75,
+            "x1": 550.8,
+            "y1": 230.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Apr_CB1[0]",
+          "field_context_on_pdf": "April",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 205.75,
+            "x1": 586.8,
+            "y1": 230.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17May_CB1[0]",
+          "field_context_on_pdf": "may",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 228.25,
+            "x1": 471.6,
+            "y1": 253.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Jun_CB1[0]",
+          "field_context_on_pdf": "june",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 228.25,
+            "x1": 512.1,
+            "y1": 253.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Jul_CB1[0]",
+          "field_context_on_pdf": "P3_N17Jul_CB1",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 228.25,
+            "x1": 550.8,
+            "y1": 253.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Aug_CB1[0]",
+          "field_context_on_pdf": "august ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 228.25,
+            "x1": 586.8,
+            "y1": 253.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Sep_CB1[0]",
+          "field_context_on_pdf": "September",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 250.75,
+            "x1": 471.6,
+            "y1": 275.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Oct_CB1[0]",
+          "field_context_on_pdf": "October",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 250.75,
+            "x1": 512.1,
+            "y1": 275.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Nov_CB1[0]",
+          "field_context_on_pdf": "November",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 250.75,
+            "x1": 550.8,
+            "y1": 275.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N17Dec_CB1[0]",
+          "field_context_on_pdf": "December",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 250.75,
+            "x1": 586.8,
+            "y1": 275.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18A_FLD[0]",
+          "field_context_on_pdf": "Answer This Item ONLY if You Are Not in the Last 4 Months of Your Taxable Year (September October November and December, if Your Taxable Year is a Calendar Year). 18. (ay) How much do you expect to earn next year? $",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 441.3,
+            "y0": 304.34,
+            "x1": 591.16,
+            "y1": 316.67,
+            "width": 149.86,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 15,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18PlaceX_FLD[0]",
+          "field_context_on_pdf": "(b) Place an \"X\" in each block for EACH MONTH of next year in which you do not expect to earn more than *$                 in wages, and do not expect to perform substantial services in self-employment. These months will be exempt months. If no months are expected to be exempt months, place an \"X\" in \"NONE\". If all months are expected to be exempt months, place an \"X\" in \"ALL\". *Enter the appropriate monthly limit after reading the instructions, \"How Your Earnings Affect Your Benefits\".",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 149.68,
+            "y0": 328.5,
+            "x1": 188.96,
+            "y1": 344.84,
+            "width": 39.27,
+            "height": 16.34
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18None_CB1[0]",
+          "field_context_on_pdf": "You are at a checkbox table. There are 4 rows and the first row is selections None and All. The 3 additional rows are months January through December. None checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 437.6,
+            "y0": 318.25,
+            "x1": 462.6,
+            "y1": 343.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18ALL_CB1[0]",
+          "field_context_on_pdf": "All checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 518.6,
+            "y0": 318.25,
+            "x1": 543.6,
+            "y1": 343.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Jan_CB1[0]",
+          "field_context_on_pdf": "Jan. checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 340.75,
+            "x1": 471.6,
+            "y1": 365.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Feb_CB1[0]",
+          "field_context_on_pdf": "February",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 340.75,
+            "x1": 512.1,
+            "y1": 365.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Mar_CB1[0]",
+          "field_context_on_pdf": "March",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 340.75,
+            "x1": 550.8,
+            "y1": 365.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Apr_CB1[0]",
+          "field_context_on_pdf": "April",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 340.75,
+            "x1": 586.8,
+            "y1": 365.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18May_CB1[0]",
+          "field_context_on_pdf": "may",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 363.25,
+            "x1": 471.6,
+            "y1": 388.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Jun_CB1[0]",
+          "field_context_on_pdf": "june",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 363.25,
+            "x1": 512.1,
+            "y1": 388.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Jul_CB1[0]",
+          "field_context_on_pdf": "july",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 363.25,
+            "x1": 550.8,
+            "y1": 388.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Aug_CB1[0]",
+          "field_context_on_pdf": "august ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 363.25,
+            "x1": 586.8,
+            "y1": 388.25,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Sep_CB1[0]",
+          "field_context_on_pdf": "sept checkbox",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.6,
+            "y0": 385.75,
+            "x1": 471.6,
+            "y1": 410.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Oct_CB1[0]",
+          "field_context_on_pdf": "October",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 487.1,
+            "y0": 385.75,
+            "x1": 512.1,
+            "y1": 410.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Nov_CB1[0]",
+          "field_context_on_pdf": "November",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 525.8,
+            "y0": 385.75,
+            "x1": 550.8,
+            "y1": 410.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N18Dec_CB1[0]",
+          "field_context_on_pdf": "December",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 561.8,
+            "y0": 385.75,
+            "x1": 586.8,
+            "y1": 410.75,
+            "width": 25.0,
+            "height": 25.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_N19_FLD[0]",
+          "field_context_on_pdf": "19. If you use a fiscal year, that is, a taxable year that does not end December 31 (with \rincome tax return due April 15) enter here the month your fiscal year ends. month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 441.3,
+            "y0": 412.33,
+            "x1": 591.16,
+            "y1": 438.17,
+            "width": 149.86,
+            "height": 25.83
+          },
+          "text_format": 0,
+          "text_maxlen": 12,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_MedicareReadOnly_FLD[0]",
+          "field_context_on_pdf": "MEDICARE INFORMATION If this claim is approved and you are still entitled to benefits at age 65, or you are within 3 months of age 65 or older you could automatically receive Medicare Part A (Hospital Insurance) and Medicare Part B (Medical Insurance) coverage at age 65. If you are not eligible for automatic enrollment in Medicare Part B, you will need to contact Social Security to request enrollment. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 569.84,
+            "y0": 524.62,
+            "x1": 571.12,
+            "y1": 539.93,
+            "width": 1.29,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_MedicareReadOnly_FLD[0]",
+          "field_context_on_pdf": "Page 4 of 6 Complete Item 22 ONLY If You Are Within 3 Months of Age 65 or Older Medicare Part B (Medical Insurance) helps cover doctor's services and outpatient care. It also covers some other services that Medicare Part A doesn't cover, such as some of the services provided by physical and occupational therapists and some home health care. If you enroll in Medicare Part B, you will have to pay a monthly premium. The amount of your premium will be determined when your coverage begins. In some cases, your premium may be higher based on information about your income we receive from the Internal Revenue Service. Your premiums will be deducted from any monthly Social Security, Railroad Retirement, or Office of Personnel Management benefits you receive. If you do not receive any of these benefits, you will get a letter explaining how to pay your premiums. You will also get a letter if there is any change in the amount of your premium.\r \rLate Enrollment Penalty\rIf you do not sign up for Part B when you are first eligible, you may have to pay a late enrollment penalty for as long as you have Part B. Your monthly premium for Part B may go up 10% for each full 12-month period that you could have had Part B, but did not sign up for it. Also, you may have to wait until the General Enrollment Period (January 1 to March 31) to enroll in Part B, and coverage will start July 1 of that year. \r \rYou can also enroll in a Medicare prescription drug plan (Part D). To learn more about the Medicare prescription drug plans and when you can enroll visit www.medicare.g o v or call 1-800-MEDICARE (1-800-633-4227; TTY 1-877-486-2048). A Medicare Representative can also tell you about agencies in your area that can help you choose your prescription drug coverage.\r \rIf you have limited income and resources, we encourage you to apply for the Extra Help that is available to assist you with Medicare prescription drug costs. The Extra Help can pay the monthly premiums, annual deductibles, and prescription co-payments. To learn more or apply, please visit www.s s ay.g o v, call 1-800-772-1213 (TTY 1-800-325-0778) or visit the nearest Social Security office. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 586.51,
+            "y0": 59.94,
+            "x1": 587.85,
+            "y1": 75.25,
+            "width": 1.34,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_N20_CB1[0]",
+          "field_context_on_pdf": "20. Do you want to enroll in Medicare Part B (Medical Insurance)? \r\rSelect \"No\" if you are already enrolled under your own Social Security Number. Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 358.34,
+            "y0": 280.75,
+            "x1": 368.34,
+            "y1": 290.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_N20_CB2[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 484.34,
+            "y0": 280.75,
+            "x1": 494.34,
+            "y1": 290.75,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Remarks_FLD[0]",
+          "field_context_on_pdf": "REMARKS (You may use this space for any explanations. If you need more space, attach a separate sheet.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 20.83,
+            "y0": 325.66,
+            "x1": 591.16,
+            "y1": 396.08,
+            "width": 570.33,
+            "height": 70.42
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Date_FLD[0]",
+          "field_context_on_pdf": "I declare under penalty of perjury that I have examined all the information on this form, and on any accompanying statements or forms, and it is true and correct to the best of my knowledge. I understand that anyone who knowingly gives a false or misleading statement about a material fact in this information, or causes someone else to do so, commits a crime and may be subject to fine or imprisonment, or both.. SIGNATURE OF APPLICANT Date (Month, day, year)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 385.33,
+            "y0": 458.84,
+            "x1": 591.16,
+            "y1": 474.17,
+            "width": 205.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Signature_FLD[0]",
+          "field_context_on_pdf": "Signature (First Name, Middle Initial, Last Name) (Write in ink) sign here print the form and sign in  Black ink\r \rSIGN \rHERE (Write in ink)\r \rSIGN \rHERE. This form requires a wet signature. Print filled out form and sign in blue or black ink. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 93.18,
+            "y0": 504.99,
+            "x1": 342.07,
+            "y1": 520.3,
+            "width": 248.89,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Phone_FLD[0]",
+          "field_context_on_pdf": "Telephone number(s) at which you may be contacted during the day (AREA CODE) Phone number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 385.34,
+            "y0": 502.19,
+            "x1": 591.17,
+            "y1": 514.67,
+            "width": 205.83,
+            "height": 12.47
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Routing_FLD[0]",
+          "field_context_on_pdf": "FOR \rOFFICIAL \rUSE ONLY Direct Deposit Payment Address (Financial Institution) Routing Transit Number ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 92.83,
+            "y0": 557.84,
+            "x1": 213.16,
+            "y1": 573.16,
+            "width": 120.33,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_CS_FLD[0]",
+          "field_context_on_pdf": "c checking or s savings ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 218.84,
+            "y0": 557.84,
+            "x1": 235.67,
+            "y1": 573.16,
+            "width": 16.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_AccountNum_FLD[0]",
+          "field_context_on_pdf": "Depositor Account Number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 241.33,
+            "y0": 557.84,
+            "x1": 447.17,
+            "y1": 573.16,
+            "width": 205.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_DirectDeposit_CB1[0]",
+          "field_context_on_pdf": "No Account",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 457.34,
+            "y0": 547.26,
+            "x1": 467.34,
+            "y1": 557.26,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_DirectDeposit_CB2[0]",
+          "field_context_on_pdf": "Direct Deposit Refused",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 457.34,
+            "y0": 564.25,
+            "x1": 467.34,
+            "y1": 574.25,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_MailingAddressStreet_FLD[0]",
+          "field_context_on_pdf": "Applicant's Mailing Address (Number and street, Apartment Number, P.O. Box, or Rural Route) (Enter Residence Address in \"Remarks,\" if different.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 600.17,
+            "x1": 591.16,
+            "y1": 613.67,
+            "width": 570.33,
+            "height": 13.49
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_CityState_FLD[0]",
+          "field_context_on_pdf": "City and State",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 629.76,
+            "x1": 186.16,
+            "y1": 649.66,
+            "width": 165.33,
+            "height": 19.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_ZIP_FLD[0]",
+          "field_context_on_pdf": "ZIP Code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 191.84,
+            "y0": 629.76,
+            "x1": 271.67,
+            "y1": 649.66,
+            "width": 79.83,
+            "height": 19.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_County_FLD[0]",
+          "field_context_on_pdf": "County (if any) in which you now live",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 277.34,
+            "y0": 629.76,
+            "x1": 591.17,
+            "y1": 649.66,
+            "width": 313.83,
+            "height": 19.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Witness1Sign_FLD[0]",
+          "field_context_on_pdf": "Witnesses are required ONLY if this application has been signed by mark (X) above. If signed by mark (X), two witnesses who know the applicant must sign below, giving their full addresses. Also, print the applicant's name in the Signature block. 1. Signature of Witness ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 688.26,
+            "x1": 303.17,
+            "y1": 708.16,
+            "width": 282.33,
+            "height": 19.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Witness1Add_FLD[0]",
+          "field_context_on_pdf": "Address (Number and Street, City, State and ZIP Code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 20.83,
+            "y0": 724.26,
+            "x1": 303.17,
+            "y1": 771.16,
+            "width": 282.33,
+            "height": 46.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Witness2Sign_FLD[0]",
+          "field_context_on_pdf": "2. Signature of Witness",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 308.83,
+            "y0": 688.26,
+            "x1": 591.16,
+            "y1": 708.16,
+            "width": 282.33,
+            "height": 19.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        },
+        {
+          "field_name": "form1[0].BodyPage4[0].P4_Witness2Add_FLD[0]",
+          "field_context_on_pdf": "Address (Number and Street, City, State and ZIP Code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 308.83,
+            "y0": 724.26,
+            "x1": 591.16,
+            "y1": 771.16,
+            "width": 282.33,
+            "height": 46.9
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage5[0].P5_PA_FLD[0]",
+          "field_context_on_pdf": "Page 5 of 6 Privacy Act Statement\rCollection and Use of Personal Information Sections 202, 205, 223, 226, and 806 of the Act, as amended, allow us to collect this information. Furnishing us this information is voluntary. However, failing to provide all or part of the information may prevent us from making an accurate and timely decision on your entitlement to benefit payments as a surviving parent of a deceased worker. \r\rWe will use the information to determine eligibility for Social Security benefits and the amount of the benefits. We may also share your information for the following purposes, called routine uses: \r\r\t• To Federal, State, or local agencies (or agents on their behalf) for the purpose of validating Social Security  \r              numbers used in administering cash or non-cash income maintenance programs or health maintenance \r              programs (including programs under the Social Security Act); and \r\r\t• To specified business and other community members and Federal, State and local agencies for verification \r              of eligibility for benefits under section 1631(e) of the Social Security Act. \r\rIn addition, we may share this information in accordance with the Privacy Act and other Federal laws. For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person's eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs. \r\rA list of additional routine uses is available in our Privacy Act System of Records Notices (S O R N) 60-0059, entitled Earnings Recording and Self-Employment Income System, as published in the Federal Register (FR) on January 11, 2006, at 71 FR 1819; 60-0089, entitled Claims Folders System, as published in the FR on October 31, 2019, at 84 FR 58422; 60-0090, entitled Master Beneficiary Record, as published in the FR on January 11, 2006, at 71 FR 1826; and 60-0321, entitled Medicare Database (MDB) File, as published in FR on July 25, 2006, at 71 FR 42159. Additional information and a full listing of all our S O R Ns, is available on our website at www.s s ay.g o v/privacy. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 577.68,
+            "y0": 46.03,
+            "x1": 581.01,
+            "y1": 61.34,
+            "width": 3.33,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 5
+        },
+        {
+          "field_name": "form1[0].BodyPage5[0].P5_PRA_FLD[0]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement                                                                -                                                                 - This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number. We estimate that it will take about 15 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6401 Security Blvd, Baltimore, MD 21235-6401. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 20.83,
+            "y0": 583.34,
+            "x1": 24.17,
+            "y1": 598.65,
+            "width": 3.33,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_BeforeYouReceive_FLD[0]",
+          "field_context_on_pdf": "Page 6 of 6 RECEIPT FOR YOUR CLAIM FOR SOCIAL SECURITY PARENT'S INSURANCE BENEFITS TELEPHONE NUMBER(S) \rTO CALL IF YOU HAVE \rA QUESTION OR \rSOMETHING TO REPORT BEFORE YOU RECEIVE A \rNOTICE OF AWARD\r \rAREA CODE Phone number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 151.34,
+            "y0": 73.18,
+            "x1": 276.17,
+            "y1": 87.16,
+            "width": 124.83,
+            "height": 13.99
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_AfterYouReceive_FLD[0]",
+          "field_context_on_pdf": "AFTER YOU RECEIVE A  \rNOTICE OF AWARD\r \rAREA CODE Phone number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 151.96,
+            "y0": 128.84,
+            "x1": 276.14,
+            "y1": 141.16,
+            "width": 124.18,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_SSAOffice_FLD[0]",
+          "field_context_on_pdf": "SSA OFFICE",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 281.83,
+            "y0": 64.78,
+            "x1": 433.67,
+            "y1": 159.16,
+            "width": 151.83,
+            "height": 94.38
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_ClaimRecd_FLD[0]",
+          "field_context_on_pdf": "DATE CLAIM RECEIVED",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 439.15,
+            "y0": 64.78,
+            "x1": 591.16,
+            "y1": 159.16,
+            "width": 152.01,
+            "height": 94.38
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_WithinDays_FLD[0]",
+          "field_context_on_pdf": "Your application for Social Security benefits has been received and will be processed as quickly as possible.\r \rYou should hear from us within  blank line days after you \rhave given us all the information we requested. Some \rclaims may take longer if additional information is needed. \r \rIn the meantime, if you have a change of address, or if there is some other change that may affect your claim, you, or someone for you, should report the change. The changes to be reported are listed below. \r \rAlways give us your claim number when writing or telephoning about your claim. \r \rIf you have any questions about your claim, we will be glad to help you. Number of days",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 158.1,
+            "y0": 196.54,
+            "x1": 199.15,
+            "y1": 211.85,
+            "width": 41.05,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Claimant1_FLD[0]",
+          "field_context_on_pdf": "CLAIMANT 1",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 282.88,
+            "x1": 303.17,
+            "y1": 298.67,
+            "width": 282.33,
+            "height": 15.78
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_BNCNum1_FLD[0]",
+          "field_context_on_pdf": "BENEFICIARY NOTICE CONTROL (BNC) NUMBER",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 308.83,
+            "y0": 282.88,
+            "x1": 591.16,
+            "y1": 298.67,
+            "width": 282.33,
+            "height": 15.78
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Claimant2_FLD[0]",
+          "field_context_on_pdf": "CLAIMANT 2",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 304.34,
+            "x1": 303.17,
+            "y1": 321.17,
+            "width": 282.33,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_BNCNum2_FLD[0]",
+          "field_context_on_pdf": "BENEFICIARY NOTICE CONTROL (BNC) NUMBER",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 308.83,
+            "y0": 304.34,
+            "x1": 591.16,
+            "y1": 321.17,
+            "width": 282.33,
+            "height": 16.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_DeceasedName_FLD[0]",
+          "field_context_on_pdf": "DECEASED'S NAME (If surname differs from name of claimant)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 337.89,
+            "x1": 591.16,
+            "y1": 352.67,
+            "width": 570.33,
+            "height": 14.78
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Year_FLD[0]",
+          "field_context_on_pdf": "CHANGES TO BE REPORTED AND HOW TO REPORT\rFAILURE TO REPORT MAY RESULT IN OVERPAYMENTS THAT MUST BE REPAID, AND IN POSSIBLE MONETARY PENALTIES • You change your mailing address for checks or residence.  \r  (To avoid delay in receipt of checks you should ALSO file a \r  regular change of address notice with your post office.) • Your citizenship or immigration status changes.  • You go outside the U.S.A. for 30 consecutive days or longer. • Any beneficiary dies or becomes unable to handle benefits. • Work Changes - On your application you told us you \r   expect total earnings for  blank      to be $ blank  . total earnings for ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 138.13,
+            "y0": 487.44,
+            "x1": 166.61,
+            "y1": 502.75,
+            "width": 28.48,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_YearAmt_FLD[0]",
+          "field_context_on_pdf": "to be $ ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 205.46,
+            "y0": 487.44,
+            "x1": 233.94,
+            "y1": 502.75,
+            "width": 28.48,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Changes_CB1[0]",
+          "field_context_on_pdf": "\rYou      (are)  earning wages of more than $  a month. \rblank a month.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 39.74,
+            "y0": 511.22,
+            "x1": 49.74,
+            "y1": 521.22,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Changes_CB2[0]",
+          "field_context_on_pdf": "You      (are not)  earning wages of more than $  a month. \rblank a month. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 78.46,
+            "y0": 511.22,
+            "x1": 88.46,
+            "y1": 521.22,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_ChangesmoreAmt_CB1[0]",
+          "field_context_on_pdf": "$ a month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 267.64,
+            "y0": 506.81,
+            "x1": 295.13,
+            "y1": 522.12,
+            "width": 27.49,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Changes_CB3[0]",
+          "field_context_on_pdf": "You      (are)  self-employed rendering \rsubstantial services in a trade or business. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 40.14,
+            "y0": 541.57,
+            "x1": 50.14,
+            "y1": 551.57,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_Changes_CB4[0]",
+          "field_context_on_pdf": "You      (are not)  self-employed rendering \rsubstantial services in a trade or business.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 78.43,
+            "y0": 541.57,
+            "x1": 88.43,
+            "y1": 551.57,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6_ChangesReadOnly_FLD[0]",
+          "field_context_on_pdf": "(Report AT ONCE if this work pattern changes.) • You are confined to jail, prison, penal institution or    \r  correctional facility for more than 30 continuous days for a \r  conviction of a crime or you are confined for more than 30\r  continuous days to a public institution by court order in \r  connection with a crime. • You have an unsatisfied felony or arrest warrant for\r  more than 30 continuous days for flight to avoid prosecution\r  or confinement, escape from custody or flight escape. • Change of Marital Status - Marriage, divorce, annulment of  \r  marriage. You must report marriage even if you believe that \r  an exception applies. • Custody Change - Report if a person for whom you are \r  filing, or who is in your care dies, leaves your care or  \r  custody, or changes address. WORK AND EARNINGS For those under full retirement age, the law requires that a report of earnings be filed with SSA within 3 months and 15 days after the end of any taxable year in which you earn more than the annual exempt amount. You may contact SSA to file a report. Otherwise, SSA will use the earnings reported by your employer(s) and your self-employment tax return (if applicable) as the report of earnings required by law and adjust benefits under the earnings test. It is your responsibility to ensure that the information you give concerning your earnings is correct. You must furnish additional information as needed when your benefit adjustment is not correct based on the earnings \ron your record. HOW TO REPORT You can make your reports by telephone, mail, or in person, whichever you prefer. \r\rIf you are awarded benefits, and one or more of the above change(s) occur, you should report by:\r\r• Calling us TOLL FREE at 1-800-772-1213; \r• If you are deaf or hearing impaired, calling us TOLL FREE \r   at TTY 1-800-325-0778; or \r• Calling, visiting or writing your local social security office at \r   the phone number and address shown on your \r   claim receipt.\r\rFor general information about Social Security, visit our web site at www.s s ay.g o v.  ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 290.83,
+            "y0": 682.33,
+            "x1": 294.17,
+            "y1": 697.65,
+            "width": 3.33,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        },
+        {
+          "field_name": "form1[0].BodyPage6[0].P6EOF_FLD[0]",
+          "field_context_on_pdf": "This is the end of the form. If you tab you will be at the beginning of the form.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 587.84,
+            "y0": 754.34,
+            "x1": 591.16,
+            "y1": 769.65,
+            "width": 3.33,
+            "height": 15.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 6
+        }
+      ]
+    }
+  ]
+}

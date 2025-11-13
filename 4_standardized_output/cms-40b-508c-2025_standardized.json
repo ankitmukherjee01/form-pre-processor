@@ -1,0 +1,648 @@
+{
+  "filename": "cms-40b-508c-2025.pdf",
+  "source_file": "2_fields_json\\cms-40b-508c-2025_fields.json",
+  "summary": {
+    "total_fields": 47,
+    "kept_original": 10,
+    "matched_existing": 11,
+    "created_new": 26,
+    "labels_added": [
+      "middle_characters",
+      "last_4_characters",
+      "first_name_middle_name_last_name_suffix",
+      "mailing_address_number_and_street",
+      "city",
+      "zip_code",
+      "ssn_next_3_digits",
+      "ssn_last_4_digits",
+      "email_address",
+      "enrollment_in_medicare_part_b_yes_checkbox",
+      "select_no_checkbox",
+      "international_volunteer_yes_checkbox",
+      "select_no_checkbox_2",
+      "employment_start_date",
+      "year_4_digits",
+      "year_4_digits_2",
+      "not_ended_checkbox_3",
+      "previous_marriage_3_date_ended",
+      "year_4_digits_3",
+      "not_ended_checkbox_4",
+      "select_no_2_checkbox",
+      "explanation_and_proof_1",
+      "enrollment_first_day_checkbox"
+    ]
+  },
+  "fields": [
+    {
+      "action": "match_existing",
+      "original_field_name": "1-1-1",
+      "standardized_label": "medicare_number_first_4_characters",
+      "confidence": 85,
+      "reasoning": "The field context on the PDF specifies 'Medicare Number first 4 characters', which closely matches the existing label 'medicare_number_first_4_characters'. The label is valid, unique within this form, and follows the required format.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Section 1: Basic information. 1. Medicare Number first 4 characters",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-1-2",
+      "standardized_label": "middle_characters",
+      "confidence": 80,
+      "reasoning": "The field name '1-1-2' is gibberish, and the context 'middle 3 characters' is not very descriptive. No strong matches were found in existing labels, so a new label 'middle_characters' was created to reflect the limited context provided.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "middle 3 characters",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-1-3",
+      "standardized_label": "last_4_characters",
+      "confidence": 95,
+      "reasoning": "The field name '1-1-3' is not descriptive, and the context on the PDF indicates 'last 4 characters', likely referring to the last four digits of a social security number or similar identifier. No existing labels matched this context closely enough, so a new label 'last_4_characters' was created and validated.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "last 4 characters",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2",
+      "standardized_label": "first_name_middle_name_last_name_suffix",
+      "confidence": 95,
+      "reasoning": "The field name '1-2' is not descriptive and appears to be an internal notation. The context on the PDF clearly indicates that the field is for entering a combination of first name, middle name, last name, and suffix. No existing label matched this context closely enough, so a new label 'first_name_middle_name_last_name_suffix' was created and validated.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "2. First name, Middle name, Last name, Suffix",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-3-1",
+      "standardized_label": "mailing_address_number_and_street",
+      "confidence": 90,
+      "reasoning": "The field name '1-3-1' is gibberish and does not provide any descriptive information. The context on the PDF clearly indicates that this field is for 'Mailing address. Number and street, P.O. Box, or route'. A search for similar labels did not yield a strong match, but 'mailing_address_number_and_street' is a valid and unique label that accurately represents the field's purpose. The label format is valid and has not been used in this form, making it suitable for use.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "3. Mailing address. Number and street, P.O. Box, or route",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-3-2",
+      "standardized_label": "city",
+      "confidence": 95,
+      "reasoning": "The field name '1-3-2' is gibberish and does not provide any descriptive information. The context on the PDF clearly indicates that this field represents 'City'. The label 'city' is unique within this form, so it is appropriate to create a new label with this name.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "City",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-3-3",
+      "standardized_label": "state",
+      "confidence": 95,
+      "reasoning": "The field context on the PDF clearly indicates that this field represents a 'State' with a 2-letter abbreviation. The search for similar labels returned 'state' with a perfect similarity score of 100. The label 'state' is unique in this form, making it an appropriate match for standardization.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "State. 2 letter abbreviation",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-3-4",
+      "standardized_label": "zip_code",
+      "confidence": 95,
+      "reasoning": "The field name '1-3-4' is not descriptive and appears to be an internal notation. The context on the PDF indicates it represents a 5 digit ZIP code. No existing label matched with high similarity, so I created a new label 'zip_code', which is valid and unique in this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "5 digit ZIP code",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-4-1",
+      "standardized_label": "area_code",
+      "confidence": 90,
+      "reasoning": "The field context on PDF clearly indicates that this field is for a 3-digit area code of a phone number. The label 'area_code' is unique within this form and follows the standard naming conventions. Although the label already exists in the master list, it is appropriate for this context.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4. Phone number. 3 digit area code",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-4-2",
+      "standardized_label": "ssn_next_3_digits",
+      "confidence": 90,
+      "reasoning": "The field name was not descriptive, and the context 'next 3 digits' suggested a sequence related to an identifier like a social security number. No existing labels matched well, so a new label 'ssn_next_3_digits' was created and validated for uniqueness and format.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "next 3 digits",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-4-3",
+      "standardized_label": "ssn_last_4_digits",
+      "confidence": 90,
+      "reasoning": "The field name '1-4-3' is not descriptive and appears to be an internal notation. The context 'last 4 digits' suggests it relates to the last four digits of a social security number. No strong existing label match was found, so a new label 'ssn_last_4_digits' was created and validated.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "last 4 digits",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-5",
+      "standardized_label": "email_address",
+      "confidence": 95,
+      "reasoning": "The field name '1-5' is not descriptive and appears to be an internal notation. The context on the PDF clearly indicates that this field is for an email address. No existing label matched with high similarity, so I created a new label 'email_address' which is valid and unique in this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "5. Email address",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-1-1",
+      "standardized_label": "enrollment_in_medicare_part_b_yes_checkbox",
+      "confidence": 95,
+      "reasoning": "The field name 'CheckBox1-2-1-1' is not descriptive. Based on the context provided in the PDF, the field is related to enrollment in Medicare Part B and specifically selecting 'Yes' for having coverage through an employer or union group health plan. A search for similar labels did not yield a sufficiently similar match, so a new label 'enrollment_in_medicare_part_b_yes_checkbox' was created. This label is valid and unique within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Section 2: Enrollment in Medicare Part B. 1. Do you have (or did you have) coverage through an employer or union group health plan since you turned 65? (If yes, complete item 3.)  Select here for Yes",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-1-2",
+      "standardized_label": "select_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name was gibberish, and the context 'Select here for No' suggested a checkbox for a 'No' option. Created a new label 'select_no_checkbox' as it was unique and validated.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here for No. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-2-1",
+      "standardized_label": "international_volunteer_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name 'CheckBox1-2-2-1' is not descriptive. The context on PDF clearly indicates that this checkbox is for selecting 'Yes' to the question about being an international volunteer. A search for similar labels did not yield a sufficiently similar existing label, so a new label 'international_volunteer_yes_checkbox' was created. This label is valid and unique within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "2. Are you currently (or were you) an international volunteer for a non-profit organization that provided health coverage to you? (If yes, complete item 3.) Select here for Yes",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-2-2",
+      "standardized_label": "select_no_checkbox_2",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive, and the context 'Select here for No' suggests a yes/no checkbox. A new label 'select_no_checkbox_2' was created to ensure uniqueness, as 'select_no_checkbox' was already used. The new label is valid and unique within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here for No. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-1",
+      "standardized_label": "employment_start_date",
+      "confidence": 95,
+      "reasoning": "The field name '1-2-3-1' is not descriptive and appears to be an internal notation. The context on the PDF clearly indicates that this field is for the start date of employment or volunteer work that provided health coverage. No existing labels matched this context closely enough, so a new descriptive label 'employment_start_date' was created and validated for uniqueness within this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "3. Enter dates of employment (or volunteer work) and health coverage. Dates you (or your spouse) worked for an employer that provided health coverage. Start date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-2",
+      "standardized_label": "year_4_digits",
+      "confidence": 90,
+      "reasoning": "The field name was gibberish, and the context on the PDF indicated a generic 4-digit year. No existing labels matched this context closely, so a new label 'year_4_digits' was created to accurately represent the field's purpose.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-2-3-3",
+      "standardized_label": "date_ended",
+      "confidence": 90,
+      "reasoning": "The field name is gibberish and the context 'End date. 2 digit month' suggests an end date. The label 'date_ended' was found with a high similarity score of 77.8 and is unique in this form, making it a suitable match.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "End date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-4",
+      "standardized_label": "year_4_digits_2",
+      "confidence": 90,
+      "reasoning": "The original field name was gibberish, and the context on the PDF indicated it represents a 4-digit year. A new label 'year_4_digits_2' was created to ensure uniqueness within the form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "CheckBox1-2-3-5",
+      "standardized_label": "not_ended_checkbox",
+      "confidence": 95,
+      "reasoning": "The field name was gibberish, and the context on the PDF 'Select here if Not Ended' clearly indicates the purpose of the checkbox. The label 'not_ended_checkbox' is a valid and existing label that matches this context.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here if Not Ended",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-2-3-6",
+      "standardized_label": "dates_you_worked_as_a_volunteer_outside_the_u_s_start_date_2_digit_month",
+      "confidence": 90,
+      "reasoning": "The field name '1-2-3-6' is gibberish and does not provide any descriptive information. The context on the PDF clearly indicates that this field is for the start date of volunteering outside the U.S., specifically the 2-digit month. A search for similar labels and numbered variations revealed 'dates_you_worked_as_a_volunteer_outside_the_u_s_start_date_2_digit_month' as a suitable match, which is unique within this form. Therefore, this existing label is used.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Dates you worked as a volunteer outside the U.S. Start date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-7",
+      "standardized_label": "year_4_digits_2",
+      "confidence": 90,
+      "reasoning": "The field name was gibberish, and the context indicated a 4-digit year. No suitable existing label matched, so a new unique label 'year_4_digits_2' was created and validated.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-2-3-8",
+      "standardized_label": "previous_marriage_2_date_ended",
+      "confidence": 90,
+      "reasoning": "The field name '1-2-3-8' is gibberish, and the context 'End date. 2 digit month' suggests it is related to an end date. The label 'date_ended' was a good match but already used. Found a suitable numbered variation 'previous_marriage_2_date_ended' which fits the context and is unique in this form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "End date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-9",
+      "standardized_label": "year_4_digits_2",
+      "confidence": 90,
+      "reasoning": "The field name '1-2-3-9' is gibberish and the context indicates it represents a 4 digit year. The label 'year_4_digits' was already used, so a numbered variation 'year_4_digits_2' was created for uniqueness.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-3-10",
+      "standardized_label": "not_ended_checkbox_3",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive. The context on the PDF provided a clear indication of the checkbox's purpose. A new, unique label 'not_ended_checkbox_3' was created to reflect this purpose, ensuring it is distinct within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here if Not Ended",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-2-3-11",
+      "standardized_label": "dates_of_health_coverage_from_employer_or_non_profit_organization_start_date_2_digit_month",
+      "confidence": 85,
+      "reasoning": "The field name '1-2-3-11' is gibberish and does not provide any descriptive information. The context on the PDF indicates that this field is for the start date of health coverage from an employer, specifically the 2-digit month. A similar existing label 'dates_of_health_coverage_from_employer_or_non_profit_organization_start_date_2_digit_month' was found, which accurately describes the field's purpose. This label is unique within the form, making it suitable for use.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Dates of health coverage from employer (or non-profit organization).  Start date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-12",
+      "standardized_label": "year_4_digits_2",
+      "confidence": 90,
+      "reasoning": "The field name '1-2-3-12' is not descriptive and appears to be an internal notation. The context on PDF indicates it represents a '4 digit year'. A similar label 'year_4_digits' was already used in this form, so a unique label 'year_4_digits_2' was created to maintain uniqueness within the PDF.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-13",
+      "standardized_label": "previous_marriage_3_date_ended",
+      "confidence": 95,
+      "reasoning": "The field name '1-2-3-13' is gibberish and does not provide any descriptive information. The context on the PDF indicates 'End date. 2 digit month', which aligns with the concept of an end date for a marriage. The label 'date_ended' was already used in this form, and numbered variations for previous marriages were found. Therefore, a new label 'previous_marriage_3_date_ended' was created to maintain uniqueness and follow the detected pattern.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "End date. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-3-14",
+      "standardized_label": "year_4_digits_3",
+      "confidence": 90,
+      "reasoning": "The original field name was not descriptive, and no suitable existing labels were found. A new label 'year_4_digits_3' was created to represent the context of a 4-digit year, ensuring uniqueness within the form.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-3-15",
+      "standardized_label": "not_ended_checkbox_4",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive. Based on the PDF context 'Select here if Not Ended', a new label 'not_ended_checkbox_4' was created to ensure uniqueness within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here if Not Ended",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "CheckBox1-2-4-1",
+      "standardized_label": "employer_health_insurance_enroll_part_b_yes_checkbox",
+      "confidence": 85,
+      "reasoning": "The field name 'CheckBox1-2-4-1' is not descriptive. The context on the PDF clearly indicates that this checkbox is for selecting 'Yes' to the question about employer or health insurance provider requiring enrollment in Part B. A similar label 'employer_health_insurance_enroll_part_b_yes_checkbox' exists and is not used in this form, making it a suitable match.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4. Has an employer, health insurance provider, or other entity asked or required you to enroll in Part B? Select here for Yes",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-4-2",
+      "standardized_label": "select_no_2_checkbox",
+      "confidence": 95,
+      "reasoning": "The field name 'CheckBox1-2-4-2' is not descriptive. The context 'Select here for No' suggests a checkbox for a 'No' option. A similar label 'select_no_checkbox' was found but already used in the form. Created 'select_no_2_checkbox' to ensure uniqueness.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here for No. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "1-2-4-3",
+      "standardized_label": "explanation_and_proof_1",
+      "confidence": 90,
+      "reasoning": "The field name was gibberish, and the PDF context suggested a need for an explanation and proof. No existing labels matched well, so a new label 'explanation_and_proof_1' was created to ensure uniqueness and clarity.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "If yes, explain how and why in the space below, and include proof or documentation witht his form.",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "CheckBox1-2-4-4",
+      "standardized_label": "coverage_start_first_day_of_enroll_month_checkbox",
+      "confidence": 85,
+      "reasoning": "The field represents a checkbox for selecting the first day of the month you enroll as the coverage start date. The label 'coverage_start_first_day_of_enroll_month_checkbox' is a semantically correct match and is unique within this form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Choose your coverage start date. If you’re enrolling in Medicare while you’re still covered by a group health plan based on current employment (or during the first full month you’re not enrolled in the group health plan), you can choose when your Medicare coverage will start. Choose one. Select here for The first day of the month you enroll",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "create_new",
+      "original_field_name": "CheckBox1-2-4-5",
+      "standardized_label": "enrollment_first_day_checkbox",
+      "confidence": 95,
+      "reasoning": "The original field name was not descriptive, and there was no detected context. The PDF context provided a clear description of the checkbox's purpose, allowing for the creation of a new, descriptive label. The label was validated for format and confirmed to be unique within the form.",
+      "field_type": "CheckBox",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Select here for The first day of any of the 3 months after you enroll. ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "match_existing",
+      "original_field_name": "1-2-4-6",
+      "standardized_label": "coverage_start_month_year",
+      "confidence": 85,
+      "reasoning": "The field name '1-2-4-6' is gibberish and does not provide any descriptive information. The context on the PDF specifies that the field is for writing the month and year when coverage should start. The search for similar labels returned 'coverage_start_month_year' as a possible match with a reasonable similarity score. This label is unique in the form, making it a suitable choice.",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "Write the month and year you want coverage to start. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "1-2-4-7",
+      "standardized_label": "1-2-4-7",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 2,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature-1",
+      "standardized_label": "Signature-1",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Signature",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "Section 3: Signature(s). 1. Signature of applicant",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-3-2-1",
+      "standardized_label": "2-3-2-1",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "2. Date signed. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-3-2-2",
+      "standardized_label": "2-3-2-2",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "2 digit day",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-3-2-3",
+      "standardized_label": "2-3-2-3",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-3-3",
+      "standardized_label": "2-3-3",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "If this form has been signed by mark (X), a witness who knows the person applying must also sign. 3. Name of witness ",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "Signature-2",
+      "standardized_label": "Signature-2",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Signature",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "4. Signature of witness",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-5-1",
+      "standardized_label": "2-5-1",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "5. Date signed. 2 digit month",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-5-2",
+      "standardized_label": "2-5-2",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "2 digit day",
+        "field_context_detected": null
+      }
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "2-5-3",
+      "standardized_label": "2-5-3",
+      "confidence": 0,
+      "reasoning": "Agent failed to make decision - keeping original as fallback",
+      "field_type": "Text",
+      "page": 3,
+      "original_contexts": {
+        "field_context_on_pdf": "4 digit year",
+        "field_context_detected": null
+      }
+    }
+  ]
+}

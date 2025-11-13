@@ -1,0 +1,1266 @@
+{
+  "filename": "cms-40b-508c-2025.pdf",
+  "filepath": "1_unlocked_pdfs\\cms-40b-508c-2025.pdf",
+  "total_pages": 3,
+  "total_fields": 47,
+  "pages": [
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "1-1-1",
+          "field_context_on_pdf": "Section 1: Basic information. 1. Medicare Number first 4 characters",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 37.95,
+            "y0": 108.22,
+            "x1": 101.23,
+            "y1": 123.25,
+            "width": 63.28,
+            "height": 15.03
+          },
+          "text_format": 0,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-1-2",
+          "field_context_on_pdf": "middle 3 characters",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 105.05,
+            "y0": 108.05,
+            "x1": 152.49,
+            "y1": 123.41,
+            "width": 47.44,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 3,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-1-3",
+          "field_context_on_pdf": "last 4 characters",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 156.99,
+            "y0": 107.55,
+            "x1": 220.11,
+            "y1": 122.91,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2",
+          "field_context_on_pdf": "2. First name, Middle name, Last name, Suffix",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 140.76,
+            "x1": 575.88,
+            "y1": 156.6,
+            "width": 539.88,
+            "height": 15.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-3-1",
+          "field_context_on_pdf": "3. Mailing address. Number and street, P.O. Box, or route",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 171.76,
+            "x1": 575.88,
+            "y1": 187.6,
+            "width": 539.88,
+            "height": 15.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-3-2",
+          "field_context_on_pdf": "City",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 39.0,
+            "y0": 202.2,
+            "x1": 389.88,
+            "y1": 219.04,
+            "width": 350.88,
+            "height": 16.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-3-3",
+          "field_context_on_pdf": "State. 2 letter abbreviation",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 405.6,
+            "y0": 201.96,
+            "x1": 437.04,
+            "y1": 217.32,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-3-4",
+          "field_context_on_pdf": "5 digit ZIP code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 471.0,
+            "y0": 201.96,
+            "x1": 549.72,
+            "y1": 217.32,
+            "width": 78.72,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 5,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-4-1",
+          "field_context_on_pdf": "4. Phone number. 3 digit area code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 42.07,
+            "y0": 233.61,
+            "x1": 90.18,
+            "y1": 248.85,
+            "width": 48.11,
+            "height": 15.24
+          },
+          "text_format": 1,
+          "text_maxlen": 3,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-4-2",
+          "field_context_on_pdf": "next 3 digits",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 93.5,
+            "y0": 233.61,
+            "x1": 140.95,
+            "y1": 248.85,
+            "width": 47.45,
+            "height": 15.24
+          },
+          "text_format": 1,
+          "text_maxlen": 3,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-4-3",
+          "field_context_on_pdf": "last 4 digits",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 145.06,
+            "y0": 233.61,
+            "x1": 209.68,
+            "y1": 248.85,
+            "width": 64.62,
+            "height": 15.24
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-5",
+          "field_context_on_pdf": "5. Email address",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 252.96,
+            "y0": 234.92,
+            "x1": 575.28,
+            "y1": 250.76,
+            "width": 322.32,
+            "height": 15.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-1-1",
+          "field_context_on_pdf": "Section 2: Enrollment in Medicare Part B. 1. Do you have (or did you have) coverage through an employer or union group health plan since you turned 65? (If yes, complete item 3.)  Select here for Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 503.88,
+            "y0": 316.11,
+            "x1": 519.72,
+            "y1": 331.95,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-1-2",
+          "field_context_on_pdf": "Select here for No. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 541.22,
+            "y0": 316.61,
+            "x1": 557.06,
+            "y1": 332.45,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-2-1",
+          "field_context_on_pdf": "2. Are you currently (or were you) an international volunteer for a non-profit organization that provided health coverage to you? (If yes, complete item 3.) Select here for Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 503.88,
+            "y0": 358.44,
+            "x1": 519.72,
+            "y1": 374.28,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-2-2",
+          "field_context_on_pdf": "Select here for No. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 541.22,
+            "y0": 358.94,
+            "x1": 557.06,
+            "y1": 374.78,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-1",
+          "field_context_on_pdf": "3. Enter dates of employment (or volunteer work) and health coverage. Dates you (or your spouse) worked for an employer that provided health coverage. Start date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 89.77,
+            "y0": 427.58,
+            "x1": 121.21,
+            "y1": 442.94,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-2",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 125.91,
+            "y0": 427.46,
+            "x1": 189.03,
+            "y1": 442.82,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-3",
+          "field_context_on_pdf": "End date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 255.23,
+            "y0": 427.39,
+            "x1": 286.67,
+            "y1": 442.75,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-4",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 291.37,
+            "y0": 427.27,
+            "x1": 354.49,
+            "y1": 442.63,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-3-5",
+          "field_context_on_pdf": "Select here if Not Ended",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 363.38,
+            "y0": 431.38,
+            "x1": 372.62,
+            "y1": 440.95,
+            "width": 9.23,
+            "height": 9.57
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-6",
+          "field_context_on_pdf": "Dates you worked as a volunteer outside the U.S. Start date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 90.55,
+            "y0": 463.39,
+            "x1": 121.99,
+            "y1": 478.75,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-7",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 126.68,
+            "y0": 463.27,
+            "x1": 189.8,
+            "y1": 478.63,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-8",
+          "field_context_on_pdf": "End date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 255.55,
+            "y0": 464.02,
+            "x1": 286.99,
+            "y1": 479.38,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-9",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 291.68,
+            "y0": 463.9,
+            "x1": 354.8,
+            "y1": 479.26,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-3-10",
+          "field_context_on_pdf": "Select here if Not Ended",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 363.72,
+            "y0": 467.05,
+            "x1": 372.95,
+            "y1": 476.62,
+            "width": 9.23,
+            "height": 9.57
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-11",
+          "field_context_on_pdf": "Dates of health coverage from employer (or non-profit organization).  Start date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 89.9,
+            "y0": 499.39,
+            "x1": 121.34,
+            "y1": 514.75,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-12",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 126.04,
+            "y0": 499.27,
+            "x1": 189.16,
+            "y1": 514.63,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-13",
+          "field_context_on_pdf": "End date. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 255.9,
+            "y0": 500.02,
+            "x1": 287.34,
+            "y1": 515.38,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-3-14",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 291.04,
+            "y0": 499.9,
+            "x1": 354.16,
+            "y1": 515.26,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-3-15",
+          "field_context_on_pdf": "Select here if Not Ended",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 363.72,
+            "y0": 503.38,
+            "x1": 372.95,
+            "y1": 512.95,
+            "width": 9.23,
+            "height": 9.57
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-4-1",
+          "field_context_on_pdf": "4. Has an employer, health insurance provider, or other entity asked or required you to enroll in Part B? Select here for Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 503.75,
+            "y0": 544.08,
+            "x1": 519.59,
+            "y1": 559.92,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-4-2",
+          "field_context_on_pdf": "Select here for No. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 540.09,
+            "y0": 543.83,
+            "x1": 555.93,
+            "y1": 559.67,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "1-2-4-3",
+          "field_context_on_pdf": "If yes, explain how and why in the space below, and include proof or documentation witht his form.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 36.0,
+            "y0": 558.24,
+            "x1": 575.88,
+            "y1": 591.02,
+            "width": 539.88,
+            "height": 32.78
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-4-4",
+          "field_context_on_pdf": "Choose your coverage start date. If you’re enrolling in Medicare while you’re still covered by a group health plan based on current employment (or during the first full month you’re not enrolled in the group health plan), you can choose when your Medicare coverage will start. Choose one. Select here for The first day of the month you enroll",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 35.41,
+            "y0": 643.33,
+            "x1": 51.25,
+            "y1": 659.17,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "month#20you#20enroll"
+            ],
+            "down": [
+              "Off",
+              "month#20you#20enroll"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "CheckBox1-2-4-5",
+          "field_context_on_pdf": "Select here for The first day of any of the 3 months after you enroll. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 35.5,
+            "y0": 658.33,
+            "x1": 51.34,
+            "y1": 674.17,
+            "width": 15.84,
+            "height": 15.84
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "after#20you#20enroll"
+            ],
+            "down": [
+              "Off",
+              "after#20you#20enroll"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "1-2-4-6",
+          "field_context_on_pdf": "Write the month and year you want coverage to start. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 51.37,
+            "y0": 685.38,
+            "x1": 82.81,
+            "y1": 700.74,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "1-2-4-7",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 87.51,
+            "y0": 685.26,
+            "x1": 150.63,
+            "y1": 700.62,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "fields": [
+        {
+          "field_name": "Signature-1",
+          "field_context_on_pdf": "Section 3: Signature(s). 1. Signature of applicant",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Signature",
+          "field_type_code": 6,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 35.0,
+            "y0": 76.52,
+            "x1": 427.88,
+            "y1": 96.32,
+            "width": 392.88,
+            "height": 19.8
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-3-2-1",
+          "field_context_on_pdf": "2. Date signed. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 430.62,
+            "y0": 77.26,
+            "x1": 462.06,
+            "y1": 92.62,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-3-2-2",
+          "field_context_on_pdf": "2 digit day",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 466.14,
+            "y0": 77.26,
+            "x1": 497.58,
+            "y1": 92.62,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-3-2-3",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 501.42,
+            "y0": 77.14,
+            "x1": 564.54,
+            "y1": 92.5,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-3-3",
+          "field_context_on_pdf": "If this form has been signed by mark (X), a witness who knows the person applying must also sign. 3. Name of witness ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.6,
+            "y0": 139.2,
+            "x1": 573.56,
+            "y1": 159.16,
+            "width": 536.96,
+            "height": 19.96
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "Signature-2",
+          "field_context_on_pdf": "4. Signature of witness",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Signature",
+          "field_type_code": 6,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 35.0,
+            "y0": 170.7,
+            "x1": 426.0,
+            "y1": 190.5,
+            "width": 391.0,
+            "height": 19.8
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-5-1",
+          "field_context_on_pdf": "5. Date signed. 2 digit month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 430.62,
+            "y0": 173.26,
+            "x1": 462.06,
+            "y1": 188.62,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-5-2",
+          "field_context_on_pdf": "2 digit day",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 466.14,
+            "y0": 173.26,
+            "x1": 497.58,
+            "y1": 188.62,
+            "width": 31.44,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "2-5-3",
+          "field_context_on_pdf": "4 digit year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 29360128,
+          "rect": {
+            "x0": 501.42,
+            "y0": 173.14,
+            "x1": 564.54,
+            "y1": 188.5,
+            "width": 63.12,
+            "height": 15.36
+          },
+          "text_format": 1,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        }
+      ]
+    }
+  ]
+}

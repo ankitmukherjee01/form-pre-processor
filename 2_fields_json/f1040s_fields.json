@@ -1,0 +1,4448 @@
+{
+  "filename": "f1040s.pdf",
+  "filepath": "1_unlocked_pdfs\\f1040s.pdf",
+  "total_pages": 4,
+  "total_fields": 142,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "For the year Jan. 1–Dec. 31, 2024, or other tax year beginning",
+          "field_context_all_directions": {
+            "left": "For the year Jan. 1–Dec. 31, 2024, or other tax year beginning",
+            "right": ", 2024, ending , 20 See sepa",
+            "top": "Last name l Last name P.O. box, see instructions ss, also complete spaces Foreign provin ng jointly (even if o H) Qualifying enter the name of you s a child but not your ien or dual-status ali ( i t ti d",
+            "bottom": "Return for Seniors al Revenue Service"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 226.0,
+            "y0": 62.0,
+            "x1": 302.4,
+            "y1": 74.0,
+            "width": 76.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "r other tax year beginning , 2024, ending",
+          "field_context_all_directions": {
+            "left": "r other tax year beginning , 2024, ending",
+            "right": ", 20 See separate instructions.",
+            "top": "Ap State ZIP co ounty Foreign p had income) ng spouse (QSS) e. If you checked the ent: se as a U.S. residen t t t if i d",
+            "bottom": "024 OMB No. 1545-0074"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 348.4,
+            "y0": 62.0,
+            "x1": 424.8,
+            "y1": 74.0,
+            "width": 76.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ", 2024, ending , 20",
+          "field_context_all_directions": {
+            "left": ", 2024, ending , 20",
+            "right": "See separate instructions.",
+            "top": ". no. de ostal code Married HOH or Q for the e",
+            "bottom": "RS Use Only—"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 439.2,
+            "y0": 62.0,
+            "x1": 464.0,
+            "y1": 74.0,
+            "width": 24.8,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "If joint return, spouse’s first name and middle initial Home address (number and street). If you have a P.O. bo City, town, or post office. If you have a foreign address, als Foreign country name Filing Status Check only one box. Single Married filing joi Head of household (HOH) If you checked the MFS box, enter t name if the qualifying person is a ch",
+          "field_context_all_directions": {
+            "right": "Last name Last name",
+            "top": "If joint return, spouse’s first name and middle initial Home address (number and street). If you have a P.O. bo City, town, or post office. If you have a foreign address, als Foreign country name Filing Status Check only one box. Single Married filing joi Head of household (HOH) If you checked the MFS box, enter t name if the qualifying person is a ch If treating a nonresident alien o box and enter their name (see i Digital At any time during 2024, did yo i ) (b) l",
+            "bottom": "Form 1040-SR U.S. Income Tax Retu Department of the Treasury—Internal Reven For the year Jan. 1–Dec. 31, 2024, or other tax year beginning Your first name and middle initial"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 88.0,
+            "x1": 236.85,
+            "y1": 102.0,
+            "width": 200.85,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_05[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Your first name and middle initial If joint return spouse’s first name and middle initial",
+          "field_context_all_directions": {
+            "left": "Your first name and middle initial If joint return spouse’s first name and middle initial",
+            "right": "Your social security number Spouse’s social security number",
+            "top": "Last name S box, see instructions. Apt. no. also complete spaces below. State ZIP code Foreign province/state/county Foreign postal code s t y ointly (even if only one had income) Married f Qualifying surviving spouse (QSS) er the name of your spouse. If you checked the HOH or Q child but not your dependent: or dual-status alien spouse as a U.S. resident for the e e instructions and attach statement if required): you: (a) receive (as a reward, award, or payment ll h h i di f di i l",
+            "bottom": "2024 turn for Seniors evenue Service OMB No. 1545-0074 IRS Use Only— , 2024, ending , 20 Last name Y"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 238.6,
+            "y0": 88.0,
+            "x1": 467.25,
+            "y1": 102.0,
+            "width": 228.65,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].YourSocial[0].f1_06[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "me me",
+          "field_context_all_directions": {
+            "left": "me me",
+            "right": "r",
+            "top": "Spouse’s social security number e Presidential Election Campaign Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund. You Spouse d filing separately (MFS) QSS box, enter the child’s e entire tax year, check the nt for",
+            "bottom": "nly—Do not write or staple in this space. See separate instructions. Your social security number"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 468.0,
+            "y0": 88.0,
+            "x1": 576.0,
+            "y1": 102.0,
+            "width": 108.0,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_07[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Home address (number and street). If you have a P.O. bo City, town, or post office. If you have a foreign address, als Foreign country name Filing Status Check only one box. Single Married filing joi Head of household (HOH) If you checked the MFS box, enter t name if the qualifying person is a ch If treating a nonresident alien o box and enter their name (see i",
+          "field_context_all_directions": {
+            "right": "Last name box see instructions Apt",
+            "top": "Home address (number and street). If you have a P.O. bo City, town, or post office. If you have a foreign address, als Foreign country name Filing Status Check only one box. Single Married filing joi Head of household (HOH) If you checked the MFS box, enter t name if the qualifying person is a ch If treating a nonresident alien o box and enter their name (see i Digital Assets At any time during 2024, did yo property or services); or (b) sel (or a financial interest in a digit",
+            "bottom": "Form 1040-SR U.S. Income Tax Retu Department of the Treasury—Internal Reven For the year Jan. 1–Dec. 31, 2024, or other tax year beginning Your first name and middle initial If joint return, spouse’s first name and middle initial"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 112.0,
+            "x1": 236.85,
+            "y1": 126.0,
+            "width": 200.85,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_08[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "If joint return, spouse’s first name and middle initial Home address (number and street) If you have a P O b",
+          "field_context_all_directions": {
+            "left": "If joint return, spouse’s first name and middle initial Home address (number and street) If you have a P O b",
+            "right": "Spouse’s social security number C",
+            "top": "box, see instructions. Apt. no. also complete spaces below. State ZIP code Foreign province/state/county Foreign postal code s t y ointly (even if only one had income) Married f Qualifying surviving spouse (QSS) er the name of your spouse. If you checked the HOH or Q child but not your dependent: or dual-status alien spouse as a U.S. resident for the e e instructions and attach statement if required): you: (a) receive (as a reward, award, or payment sell, exchange, or otherwise dispose of a digital as gital asset)? (See instructions.) . . . . . . . .",
+            "bottom": "2024 turn for Seniors evenue Service OMB No. 1545-0074 IRS Use Only— , 2024, ending , 20 Last name Y Last name S"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 238.6,
+            "y0": 112.0,
+            "x1": 467.25,
+            "y1": 126.0,
+            "width": 228.65,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].SpousesSocial[0].f1_09[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "me instructions Apt no",
+          "field_context_all_directions": {
+            "left": "me instructions Apt no",
+            "right": "r",
+            "top": "e Presidential Election Campaign Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund. You Spouse d filing separately (MFS) QSS box, enter the child’s e entire tax year, check the nt for asset . . Yes No",
+            "bottom": "nly—Do not write or staple in this space. See separate instructions. Your social security number Spouse’s social security number"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 468.0,
+            "y0": 112.0,
+            "x1": 576.0,
+            "y1": 126.0,
+            "width": 108.0,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_10[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "City, town, or post office. If you have a foreign address, also complete spaces below. State ZIP Foreign country name Foreign province/state/county Foreign Filing Status Check only one box. Single Married filing jointly (even if only one had income) Head of household (HOH) Qualifying surviving spouse (QSS If you checked the MFS box, enter the name of your spouse. If you checked th name if the qualifying person is a child but not your dependent: If treating a nonresident alien or dual-status alien spouse as a U.S. reside box and enter their name (see instructions and attach statement if require Digital At any time during 2024, did you: (a) receive (as a reward, award, o",
+          "field_context_all_directions": {
+            "right": "Apt. no. P code Presidential Election Campaign Check here if you, or your spouse if filing jointly want $3",
+            "top": "City, town, or post office. If you have a foreign address, also complete spaces below. State ZIP Foreign country name Foreign province/state/county Foreign Filing Status Check only one box. Single Married filing jointly (even if only one had income) Head of household (HOH) Qualifying surviving spouse (QSS If you checked the MFS box, enter the name of your spouse. If you checked th name if the qualifying person is a child but not your dependent: If treating a nonresident alien or dual-status alien spouse as a U.S. reside box and enter their name (see instructions and attach statement if require Digital Assets At any time during 2024, did you: (a) receive (as a reward, award, o property or services); or (b) sell, exchange, or otherwise dispose of (or a financial interest in a digital asset)? (See instructions.) . . . . Standard Deduction Someone can claim: You as a dependent Your spouse a Spouse itemizes on a separate return or you were a dual-status",
+            "bottom": "Form 1040-SR 2024 U.S. Income Tax Return for Seniors Department of the Treasury—Internal Revenue Service OMB No. 1545-0074 For the year Jan. 1–Dec. 31, 2024, or other tax year beginning , 2024, ending Your first name and middle initial Last name If joint return, spouse’s first name and middle initial Last name Home address (number and street). If you have a P.O. box, see instructions. A"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 136.0,
+            "x1": 416.85,
+            "y1": 150.0,
+            "width": 380.85,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_11[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "P.O. box, see instructions. ess also complete spaces below State ZIP",
+          "field_context_all_directions": {
+            "left": "P.O. box, see instructions. ess also complete spaces below State ZIP",
+            "right": "Presidential Election Campaign Check here if you, or your spouse if filing jointly want $3",
+            "top": "P code eign postal code Married f SS) the HOH or Q dent for the e ired): or payment of a digital as . . . . . e as a depen s alien",
+            "bottom": ". 4 IRS Use Only— , 20 Apt. no."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 418.6,
+            "y0": 136.0,
+            "x1": 467.0,
+            "y1": 150.0,
+            "width": 48.4,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_12[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Foreign country name Foreign province/state/c Filing Status Check only one box. Single Married filing jointly (even if only one Head of household (HOH) Qualifying survivi If you checked the MFS box, enter the name of your spouse name if the qualifying person is a child but not your depend If treating a nonresident alien or dual-status alien spou box and enter their name (see instructions and attach s Digital Assets At any time during 2024, did you: (a) receive (as a r property or services); or (b) sell, exchange, or other (or a financial interest in a digital asset)? (See instru",
+          "field_context_all_directions": {
+            "right": "State ZIP code /county Foreign postal code spouse if filing jointl to go to this fund. C box below will not c your tax or refund",
+            "top": "Foreign country name Foreign province/state/c Filing Status Check only one box. Single Married filing jointly (even if only one Head of household (HOH) Qualifying survivi If you checked the MFS box, enter the name of your spouse name if the qualifying person is a child but not your depend If treating a nonresident alien or dual-status alien spou box and enter their name (see instructions and attach s Digital Assets At any time during 2024, did you: (a) receive (as a r property or services); or (b) sell, exchange, or other (or a financial interest in a digital asset)? (See instru Standard Deduction Someone can claim: You as a dependent Spouse itemizes on a separate return or you we Age/Blindness { You: Were born before J Spouse: Was born before J",
+            "bottom": "Form 1040-SR 20 U.S. Income Tax Return for Seniors Department of the Treasury—Internal Revenue Service For the year Jan. 1–Dec. 31, 2024, or other tax year beginning , 2024, endin Your first name and middle initial Last name If joint return, spouse’s first name and middle initial Last name Home address (number and street). If you have a P.O. box, see instructions. City, town, or post office. If you have a foreign address, also complete spaces below."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 160.0,
+            "x1": 337.65,
+            "y1": 174.0,
+            "width": 301.65,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_13[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ou have a foreign address, also complete spaces below. Foreign province/state/c",
+          "field_context_all_directions": {
+            "left": "ou have a foreign address, also complete spaces below. Foreign province/state/c",
+            "right": "ZIP code Foreign postal code spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund",
+            "top": "e/county Fo ne had income) ving spouse (Q use. If you checked ndent: ouse as a U.S. res h statement if req a reward, award erwise dispose tructions.) . . Your spous were a dual-stat e January 2, 19 January 2 196",
+            "bottom": "024 OMB N 1545-00 ding State"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 339.4,
+            "y0": 160.0,
+            "x1": 402.2,
+            "y1": 174.0,
+            "width": 62.8,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_14[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "address, also complete spaces below. State Foreign province/state/county F",
+          "field_context_all_directions": {
+            "left": "address, also complete spaces below. State Foreign province/state/county F",
+            "right": "spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund",
+            "top": "Foreign postal code e) Married f (QSS) ked the HOH or Q resident for the e equired): rd, or payment se of a digital as . . . . . . use as a depen atus alien 960 Are b 960 Is blin",
+            "bottom": "B No. -0074 IRS Use Only— , 20 Apt. no. ZIP code"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 404.2,
+            "y0": 160.0,
+            "x1": 467.0,
+            "y1": 174.0,
+            "width": 62.8,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_15[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Filing Status Check only one box. Single Married filing jointly Head of household (HOH) If you checked the MFS box, enter the name if the qualifying person is a child If treating a nonresident alien or du box and enter their name (see instr Digital Assets At any time during 2024, did you: property or services); or (b) sell, e (or a financial interest in a digital a Standard Deduction Someone can claim: You as Spouse itemizes on a separate",
+          "field_context_all_directions": {
+            "right": "Foreign province/state/county Foreign postal c tly (even if only one had income) Marr",
+            "top": "Filing Status Check only one box. Single Married filing jointly Head of household (HOH) If you checked the MFS box, enter the name if the qualifying person is a child If treating a nonresident alien or du box and enter their name (see instr Digital Assets At any time during 2024, did you: property or services); or (b) sell, e (or a financial interest in a digital a Standard Deduction Someone can claim: You as Spouse itemizes on a separate Age/Blindness { You: W Spouse: W Dependents ( ) Fi L",
+            "bottom": "Form 1040-SR U.S. Income Tax Return f Department of the Treasury—Internal Revenue S For the year Jan. 1–Dec. 31, 2024, or other tax year beginning Your first name and middle initial Last If joint return, spouse’s first name and middle initial Last Home address (number and street). If you have a P.O. box, s City, town, or post office. If you have a foreign address, also co Foreign country name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 36.0,
+            "y0": 184.0,
+            "x1": 251.25,
+            "y1": 198.0,
+            "width": 215.25,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_16[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "eign country name Single Married filing joint",
+          "field_context_all_directions": {
+            "left": "eign country name Single Married filing joint",
+            "right": "Foreign postal code your tax or refund. You Spouse me) Married filing separately (MFS)",
+            "top": "ntly (even if only one had income Qualifying surviving spouse (Q he name of your spouse. If you check ld but not your dependent: dual-status alien spouse as a U.S. r structions and attach statement if re u: (a) receive (as a reward, awar exchange, or otherwise dispos al asset)? (See instructions.) . . as a dependent Your spou ate return or you were a dual-sta Were born before January 2, 1 Was born before January 2, 19 (2) Social security number (3) Relationshi",
+            "bottom": "2024 n for Seniors e Service OMB 1545- , 2024, ending ast name ast name , see instructions. complete spaces below. State Foreign province/state/county"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 253.0,
+            "y0": 184.0,
+            "x1": 395.25,
+            "y1": 198.0,
+            "width": 142.25,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0].f1_17[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Foreign province/state/county d filing jointly (even if only one had income",
+          "field_context_all_directions": {
+            "left": "Foreign province/state/county d filing jointly (even if only one had income",
+            "right": "your tax or refund. You Spouse filing separately (MFS)",
+            "top": "me) Married f e (QSS) cked the HOH or Q S. resident for the e required): ward, or payment ose of a digital as . . . . . . . ouse as a depen status alien 1960 Are b 1960 Is blin ship to (4) Check the box",
+            "bottom": "MB No. 45-0074 IRS Use Only— , 20 Apt. no. ZIP code Foreign postal code"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 397.0,
+            "y0": 184.0,
+            "x1": 467.0,
+            "y1": 198.0,
+            "width": 70.0,
+            "height": 14.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "You Spouse",
+          "field_context_all_directions": {
+            "left": "ovince/state/county Foreign postal code y",
+            "right": "You Spouse",
+            "top": "sep box, e tax y Y t alifies f",
+            "bottom": "write o epara socia se’s so dentia k here se if fil to this elow w ax or"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 496.8,
+            "y0": 187.0,
+            "x1": 504.8,
+            "y1": 195.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Spouse",
+          "field_context_all_directions": {
+            "left": "e/county Foreign postal code y You",
+            "right": "Spouse",
+            "top": "tely r the r, che N ee instr",
+            "bottom": "le in thi struct urity n ecurit tion C u, or y ointly, d. Che ot cha d."
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 532.8,
+            "y0": 187.0,
+            "x1": 540.8,
+            "y1": 195.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Single Married filing jointly (even if o H d f h h ld (HOH) Q lif i",
+          "field_context_all_directions": {
+            "left": "Filing",
+            "right": "Single Married filing jointly (even if o H d f h h ld (HOH) Q lif i",
+            "top": "S If yo nam b At a pro (or Som S Age s : (1) F",
+            "bottom": "-S 1–Dec e and spous s (num post o ry nam"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 95.6,
+            "y0": 200.0,
+            "x1": 103.6,
+            "y1": 208.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_03[1]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Married filing jointly (even if only one had h ld (HOH) Q lif i i i",
+          "field_context_all_directions": {
+            "left": "Filing Single H d f h",
+            "right": "Married filing jointly (even if only one had h ld (HOH) Q lif i i i",
+            "top": "hous ed th ualify g a no enter e dur ser ial in can c item ness",
+            "bottom": "Inc ment of r other tial me a treet). have"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 153.2,
+            "y0": 200.0,
+            "x1": 161.2,
+            "y1": 208.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "2"
+            ],
+            "down": [
+              "2",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_03[2]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "p Married filing separately (MFS)",
+          "field_context_all_directions": {
+            "left": "ng jointly (even if only one had income) H) Q lif i i i (QSS",
+            "right": "p Married filing separately (MFS)",
+            "top": "SS) the H dent ired) or p of a . e as s ali 0 0 (4) C",
+            "bottom": "4 , 2 Apt P cod ign po"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 419.6,
+            "y0": 200.0,
+            "x1": 427.6,
+            "y1": 208.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "3"
+            ],
+            "down": [
+              "3",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_03[3]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Single Married filing jointly (even if o Head of household (HOH) Qualifying",
+          "field_context_all_directions": {
+            "left": "Filing Status",
+            "right": "Single Married filing jointly (even if o Head of household (HOH) Qualifying",
+            "top": "If yo nam b At a pro (or Som S Age s : (1) F",
+            "bottom": "-S 1–Dec e and spous s (num post o ry nam S"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 95.6,
+            "y0": 212.0,
+            "x1": 103.6,
+            "y1": 220.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "4"
+            ],
+            "down": [
+              "4",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_03[4]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "y (even if only one had income) Marri Qualifying surviving spouse (QSS)",
+          "field_context_all_directions": {
+            "left": "ling tatus Single Married filing join Head of household (HOH)",
+            "right": "y (even if only one had income) Marri Qualifying surviving spouse (QSS)",
+            "top": "Q the n hild b r dua nstru ou: ll, ex tal a as a rate W W",
+            "bottom": "rn fo nue Se Last n Last n ox, se o com F intly"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 246.8,
+            "y0": 212.0,
+            "x1": 254.8,
+            "y1": 220.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "5"
+            ],
+            "down": [
+              "5",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_18[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "the MFS box, enter the name of your spouse. If y lifying person is a child but not your dependent:",
+          "field_context_all_directions": {
+            "left": "the MFS box, enter the name of your spouse. If y lifying person is a child but not your dependent:",
+            "top": "as a U.S. resident for the entire tax year, check the tement if required): ward, award, or payment for se dispose of a digital asset ions.) . . . . . . . . . Yes No Your spouse as a dependent a dual-status alien nuary 2, 1960 Are blind uary 2, 1960 Is blind (3) Relationship to you (4) Check the box if qualifies for (see instructions): Child tax credit Credit for other dependents",
+            "bottom": "24 OMB No. 1545-0074 IRS Use Only—Do not write or staple in this space. , 20 See separate instructions. Your social security number Spouse’s social security number Apt. no. te ZIP code nty Foreign postal code Presidential Election Campaign Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund. You Spouse ad income) Married filing separately (MFS) spouse (QSS) f you checked the HOH or QSS box, enter the child’s"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 360.0,
+            "y0": 240.0,
+            "x1": 576.0,
+            "y1": 252.0,
+            "width": 216.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "If treating a nonresident alien or dual-status a b d t th i ( i t ti d",
+          "field_context_all_directions": {
+            "right": "If treating a nonresident alien or dual-status a b d t th i ( i t ti d",
+            "top": "b At a pro (or Som S Age s : (1) F 1a",
+            "bottom": "1–Dec e and spous s (num post o ry nam S If yo nam"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 95.6,
+            "y0": 260.0,
+            "x1": 103.6,
+            "y1": 268.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_19[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "or dual-status alien spouse as a U.S. resident fo instructions and attach statement if required):",
+          "field_context_all_directions": {
+            "left": "or dual-status alien spouse as a U.S. resident fo instructions and attach statement if required):",
+            "top": "payment for digital asset . . . . Yes No a dependent en Are blind Is blind heck the box if qualifies for (see instructions): Child tax credit Credit for other dependents . . . 1a 1b",
+            "bottom": "0 See separate instructions. Your social security number Spouse’s social security number . no. de ostal code Presidential Election Campaign Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund. You Spouse Married filing separately (MFS) HOH or QSS box, enter the child’s for the entire tax year, check the"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 439.2,
+            "y0": 270.0,
+            "x1": 576.0,
+            "y1": 282.0,
+            "width": 136.8,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_05[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Yes No",
+          "field_context_all_directions": {
+            "left": "e, or otherwise dispose of a digital asset See instructions.) . . . . . . . . .",
+            "right": "Yes No",
+            "top": "t alifies f Cred a b c d",
+            "bottom": "dentia k here se if fil to this elow w ax or Y sep box, e tax y"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 496.8,
+            "y0": 313.0,
+            "x1": 504.8,
+            "y1": 321.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_05[1]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "No",
+          "field_context_all_directions": {
+            "left": "herwise dispose of a digital asset tructions.) . . . . . . . . . Yes",
+            "right": "No",
+            "top": "ee instr other de",
+            "bottom": "tion C u, or y ointly, d. Che ot cha d. S tely r the r, che"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 532.8,
+            "y0": 313.0,
+            "x1": 540.8,
+            "y1": 321.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "2"
+            ],
+            "down": [
+              "2",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_06[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "a digital asset)? (See instructions.) . . . You as a dependent Your spouse a t t d l t t",
+          "field_context_all_directions": {
+            "left": "(or a financial interest in Standard Someone can claim: S it i",
+            "right": "a digital asset)? (See instructions.) . . . You as a dependent Your spouse a t t d l t t",
+            "top": "Y a se : use: e For yee w porte aym",
+            "bottom": "e a P. ddres filing HOH ox, en on is nt alie me (s 4, d or (b) n a d"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 210.8,
+            "y0": 326.0,
+            "x1": 218.8,
+            "y1": 334.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_07[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ctions.) . . . . . . . . . Your spouse as a dependent d l t t li",
+          "field_context_all_directions": {
+            "left": "ncial interest in a digital asset)? (See instru e can claim: You as a dependent it i t t",
+            "right": "ctions.) . . . . . . . . . Your spouse as a dependent d l t t li",
+            "top": "Y were e Jan Jan mber nstru For uctio orm(",
+            "bottom": "Sta e/coun ne ha ving se. If ndent ouse h sta a rew erwi ruct"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 340.4,
+            "y0": 326.0,
+            "x1": 348.4,
+            "y1": 334.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_08[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "omeone can claim: You as a depend Spouse itemizes on a separate return or",
+          "field_context_all_directions": {
+            "left": "Standard Deduction S",
+            "right": "omeone can claim: You as a depend Spouse itemizes on a separate return or",
+            "top": "S Age s : (1) F 1 a b c d e",
+            "bottom": "post o ry nam S If yo nam b At a pro (or Som"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 95.6,
+            "y0": 338.0,
+            "x1": 103.6,
+            "y1": 346.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_09[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Were born before January 2, 1960 A W b b f J 2 1960 I",
+          "field_context_all_directions": {
+            "left": "Age/Blindness { You: S",
+            "right": "Were born before January 2, 1960 A W b b f J 2 1960 I",
+            "top": "W W (s) W ages on nts n ben ption",
+            "bottom": "also c oint er the child or d e inst you ell, e gital ou as arat"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 239.6,
+            "y0": 356.0,
+            "x1": 247.6,
+            "y1": 364.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_10[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Are blind I bli d",
+          "field_context_all_directions": {
+            "left": "Were born before January 2, 1960 W b b f J 2 1960",
+            "right": "Are blind I bli d",
+            "top": "A Check Child . . . . . . truct . . . .",
+            "bottom": "ode postal Ma HOH nt for d): paym a dig . . s a d lien"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 434.0,
+            "y0": 356.0,
+            "x1": 442.0,
+            "y1": 364.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_11[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Were born before January 2, 1960 A Was born before January 2, 1960 I",
+          "field_context_all_directions": {
+            "left": "Age/Blindness { You: Spouse:",
+            "right": "Were born before January 2, 1960 A Was born before January 2, 1960 I",
+            "top": "W (s) W ages on nts n ben ption line",
+            "bottom": "oint er the child or d e inst you ell, e gital ou as arat W"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 239.6,
+            "y0": 368.0,
+            "x1": 247.6,
+            "y1": 376.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].c1_12[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Are blind Is blind",
+          "field_context_all_directions": {
+            "left": "Were born before January 2, 1960 Was born before January 2, 1960",
+            "right": "Are blind Is blind",
+            "top": "Check Child . . . . . . truct . . . .",
+            "bottom": "postal Ma HOH nt for d): paym a dig . . s a d lien A"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 434.0,
+            "y0": 368.0,
+            "x1": 442.0,
+            "y1": 376.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dependents[0].c1_13[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "instructions an check here",
+          "field_context_all_directions": {
+            "left": "instructions an check here",
+            "top": "e -2 rms ax not s.",
+            "bottom": "d on ents ions): four , see and"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 79.7,
+            "y0": 443.0,
+            "x1": 87.7,
+            "y1": 451.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_20[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "(see instructions): If more than four d d t",
+          "field_context_all_directions": {
+            "left": "(see instructions): If more than four d d t",
+            "right": "y Child tax c",
+            "top": "e 1 a Total amount from Form(s) W-2, b Household employee wages not c Tip income not reported on line d Medicaid waiver payments not r e Taxable dependent care benefit f Employer-provided adoption be g Wages from Form 8919, line 6 h Other earned income (see instru i Nontaxable combat pay election",
+            "bottom": "Single Married filing jointly (e Head of household (HOH) Qu If you checked the MFS box, enter the nam name if the qualifying person is a child but If treating a nonresident alien or dual-s box and enter their name (see instruct At any time during 2024, did you: (a) property or services); or (b) sell, exch (or a financial interest in a digital ass Someone can claim: You as a d Spouse itemizes on a separate re Age/Blindness { You: Wer Spouse: Was s ): ( (1) First name Last name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 94.35,
+            "y0": 408.0,
+            "x1": 265.65,
+            "y1": 420.0,
+            "width": 171.3,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_21[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "uctions): an four t ( ) s a e as a e",
+          "field_context_all_directions": {
+            "left": "uctions): an four t ( ) s a e as a e",
+            "right": "y Child tax credit Credit for other depe",
+            "top": "-2, box 1 (see instruc not reported on Form ne 1a (see instruction t reported on Form(s efits from Form 2441 benefits from Form 8 6 . . . . . . . tructions) . . . . on (see instructions",
+            "bottom": "(even if only one had Qualifying surviving name of your spouse. If but not your dependent: al-status alien spouse a uctions and attach state (a) receive (as a rewa xchange, or otherwis sset)? (See instructio a dependent Y return or you were a Were born before Jan Was born before Janu (2) Social security number ("
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 16777216,
+          "rect": {
+            "x0": 266.4,
+            "y0": 408.0,
+            "x1": 352.8,
+            "y1": 420.0,
+            "width": 86.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].f1_22[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "as a e",
+          "field_context_all_directions": {
+            "left": "as a e",
+            "right": "Child tax credit Credit for other dependents",
+            "top": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . . . . . . . . . ns) . 1i",
+            "bottom": "had income) g spouse (QSS If you checked th nt: e as a U.S. reside atement if require ward, award, o wise dispose of ctions.) . . . . Your spouse a e a dual-status anuary 2, 1960 nuary 2, 1960 r (3) Relationship to you (4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 353.8,
+            "y0": 408.0,
+            "x1": 416.85,
+            "y1": 420.0,
+            "width": 63.05,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].c1_14[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "c ed C ed o o e depe de s",
+          "field_context_all_directions": {
+            "left": "C d",
+            "right": "c ed C ed o o e depe de s",
+            "top": ". . . tions . . . .",
+            "bottom": "H or Q the men ital a . epe Are s bl k the b d tax c"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 453.8,
+            "y0": 410.0,
+            "x1": 461.8,
+            "y1": 418.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row1[0].c1_15[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "depe de s",
+          "field_context_all_directions": {
+            "left": "C d a c ed C ed o o",
+            "right": "depe de s",
+            "bottom": "y ( r the r, che N ee instr other de"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 533.0,
+            "y0": 410.0,
+            "x1": 541.0,
+            "y1": 418.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_23[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "If more than four dependents, see instructions and",
+          "field_context_all_directions": {
+            "left": "If more than four dependents, see instructions and",
+            "top": "1 a Total amount from Form(s) W-2, b Household employee wages not c Tip income not reported on line d Medicaid waiver payments not r e Taxable dependent care benefit f Employer-provided adoption be g Wages from Form 8919, line 6 h Other earned income (see instru i Nontaxable combat pay election z Add lines 1a through 1h . . .",
+            "bottom": "Head of household (HOH) Qu If you checked the MFS box, enter the nam name if the qualifying person is a child but If treating a nonresident alien or dual-s box and enter their name (see instruct At any time during 2024, did you: (a) property or services); or (b) sell, exch (or a financial interest in a digital ass Someone can claim: You as a d Spouse itemizes on a separate re Age/Blindness { You: Wer Spouse: Was s ): ( (1) First name Last name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 94.35,
+            "y0": 420.0,
+            "x1": 265.65,
+            "y1": 432.0,
+            "width": 171.3,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_24[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "an four nts, see ns and",
+          "field_context_all_directions": {
+            "left": "an four nts, see ns and",
+            "top": "-2, box 1 (see instruc not reported on Form ne 1a (see instruction t reported on Form(s efits from Form 2441 benefits from Form 8 6 . . . . . . . tructions) . . . . on (see instructions . . . . . . . .",
+            "bottom": "Qualifying surviving name of your spouse. If but not your dependent: al-status alien spouse a uctions and attach state (a) receive (as a rewa xchange, or otherwis sset)? (See instructio a dependent Y return or you were a Were born before Jan Was born before Janu (2) Social security number ("
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 16777216,
+          "rect": {
+            "x0": 266.4,
+            "y0": 420.0,
+            "x1": 352.8,
+            "y1": 432.0,
+            "width": 86.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].f1_25[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . .",
+          "field_context_all_directions": {
+            "top": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . . . . . . . . . ns) . 1i . . . . . . .",
+            "bottom": "g spouse (QSS If you checked th nt: e as a U.S. reside atement if require ward, award, o wise dispose of ctions.) . . . . Your spouse a e a dual-status anuary 2, 1960 nuary 2, 1960 r (3) Relationship to you (4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 353.8,
+            "y0": 420.0,
+            "x1": 416.85,
+            "y1": 432.0,
+            "width": 63.05,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].c1_16[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "men ital a . epe Are s bl k the b d tax c",
+          "field_context_all_directions": {
+            "top": ". . . tions . . . .",
+            "bottom": "H or Q the men ital a . epe Are s bl k the b d tax c"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 453.8,
+            "y0": 422.0,
+            "x1": 461.8,
+            "y1": 430.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row2[0].c1_17[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "N ee instr other de",
+          "field_context_all_directions": {
+            "bottom": "r the r, che N ee instr other de"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 533.0,
+            "y0": 422.0,
+            "x1": 541.0,
+            "y1": 430.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_26[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "dependents, see instructions and check here",
+          "field_context_all_directions": {
+            "left": "dependents, see instructions and check here",
+            "top": "1 a Total amount from Form(s) W-2, b Household employee wages not c Tip income not reported on line d Medicaid waiver payments not r e Taxable dependent care benefit f Employer-provided adoption be g Wages from Form 8919, line 6 h Other earned income (see instru i Nontaxable combat pay election z Add lines 1a through 1h . . . 2 T t i t t 2",
+            "bottom": "If you checked the MFS box, enter the nam name if the qualifying person is a child but If treating a nonresident alien or dual-s box and enter their name (see instruct At any time during 2024, did you: (a) property or services); or (b) sell, exch (or a financial interest in a digital ass Someone can claim: You as a d Spouse itemizes on a separate re Age/Blindness { You: Wer Spouse: Was s ): e ( (1) First name Last name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 94.35,
+            "y0": 432.0,
+            "x1": 265.65,
+            "y1": 444.0,
+            "width": 171.3,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_27[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "nts, see ns and re",
+          "field_context_all_directions": {
+            "left": "nts, see ns and re",
+            "top": "-2, box 1 (see instruc not reported on Form ne 1a (see instruction t reported on Form(s efits from Form 2441 benefits from Form 8 6 . . . . . . . tructions) . . . . on (see instructions . . . . . . . . b",
+            "bottom": "name of your spouse. If but not your dependent: al-status alien spouse a uctions and attach state (a) receive (as a rewa xchange, or otherwis sset)? (See instructio a dependent Y return or you were a Were born before Jan Was born before Janu (2) Social security number ("
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 16777216,
+          "rect": {
+            "x0": 266.4,
+            "y0": 432.0,
+            "x1": 352.8,
+            "y1": 444.0,
+            "width": 86.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].f1_28[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . .",
+          "field_context_all_directions": {
+            "top": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . . . . . . . . . ns) . 1i . . . . . . . b T bl i t",
+            "bottom": "If you checked th nt: e as a U.S. reside atement if require ward, award, o wise dispose of ctions.) . . . . Your spouse a e a dual-status anuary 2, 1960 nuary 2, 1960 r (3) Relationship to you (4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 353.8,
+            "y0": 432.0,
+            "x1": 416.85,
+            "y1": 444.0,
+            "width": 63.05,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].c1_18[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "men ital a . epe Are s bl k the b d tax c",
+          "field_context_all_directions": {
+            "top": ". . . tions . . . . .",
+            "bottom": "H or Q the men ital a . epe Are s bl k the b d tax c"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 453.8,
+            "y0": 434.0,
+            "x1": 461.8,
+            "y1": 442.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row3[0].c1_19[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "N ee instr other de",
+          "field_context_all_directions": {
+            "bottom": "r the r, che N ee instr other de"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 533.0,
+            "y0": 434.0,
+            "x1": 541.0,
+            "y1": 442.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_29[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "instructions and check here",
+          "field_context_all_directions": {
+            "left": "instructions and check here",
+            "top": "1 a Total amount from Form(s) W-2, b Household employee wages not c Tip income not reported on line d Medicaid waiver payments not r e Taxable dependent care benefit f Employer-provided adoption be g Wages from Form 8919, line 6 h Other earned income (see instru i Nontaxable combat pay election z Add lines 1a through 1h . . . 2a Tax-exempt interest . 2a",
+            "bottom": "name if the qualifying person is a child but If treating a nonresident alien or dual-s box and enter their name (see instruct At any time during 2024, did you: (a) property or services); or (b) sell, exch (or a financial interest in a digital ass Someone can claim: You as a d Spouse itemizes on a separate re Age/Blindness { You: Wer Spouse: Was s ): e ( (1) First name Last name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 94.35,
+            "y0": 444.0,
+            "x1": 265.65,
+            "y1": 455.99,
+            "width": 171.3,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_30[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ns and re",
+          "field_context_all_directions": {
+            "left": "ns and re",
+            "top": "-2, box 1 (see instruc not reported on Form ne 1a (see instruction t reported on Form(s efits from Form 2441 benefits from Form 8 6 . . . . . . . tructions) . . . . on (see instructions . . . . . . . . b",
+            "bottom": "but not your dependent: al-status alien spouse a uctions and attach state (a) receive (as a rewa xchange, or otherwis sset)? (See instructio a dependent Y return or you were a Were born before Jan Was born before Janu (2) Social security number ("
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 16777216,
+          "rect": {
+            "x0": 266.4,
+            "y0": 444.0,
+            "x1": 352.8,
+            "y1": 455.99,
+            "width": 86.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].f1_31[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . . . . . . . . .",
+          "field_context_all_directions": {
+            "top": "ructions) . . . orm(s) W-2 . . ons) . . . . m(s) W-2 (see ins 41, line 26 . . m 8839, line 29 . . . . . . . . . . . . . . ns) . 1i . . . . . . . b Taxable inte",
+            "bottom": "nt: e as a U.S. reside atement if require ward, award, o wise dispose of ctions.) . . . . Your spouse a e a dual-status anuary 2, 1960 nuary 2, 1960 r (3) Relationship to you (4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 353.8,
+            "y0": 444.0,
+            "x1": 416.85,
+            "y1": 455.99,
+            "width": 63.05,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].c1_20[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "men ital a . epe Are s bl k the b d tax c",
+          "field_context_all_directions": {
+            "top": ". . . tions . . . . . .",
+            "bottom": "the men ital a . epe Are s bl k the b d tax c"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 453.8,
+            "y0": 445.99,
+            "x1": 461.8,
+            "y1": 453.99,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DependentsTable[0].Row4[0].c1_21[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "N ee instr other de",
+          "field_context_all_directions": {
+            "bottom": "r, che N ee instr other de"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 533.0,
+            "y0": 445.99,
+            "x1": 541.0,
+            "y1": 453.99,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_32[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "(see instructions) . . . . . . . 1a",
+          "field_context_all_directions": {
+            "left": "(see instructions) . . . . . . . 1a",
+            "top": "b c d e b b",
+            "bottom": "ax year, check the Yes No ies for (see instructions): Credit for other dependents"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 462.0,
+            "x1": 576.0,
+            "y1": 474.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_33[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ted on Form(s) W-2 . . . . . . 1b",
+          "field_context_all_directions": {
+            "left": "ted on Form(s) W-2 . . . . . . 1b",
+            "top": "c d e b b b",
+            "bottom": "Yes No ies for (see instructions): Credit for other dependents"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 480.0,
+            "x1": 576.0,
+            "y1": 492.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_34[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e instructions) . . . . . . . . 1c",
+          "field_context_all_directions": {
+            "left": "e instructions) . . . . . . . . 1c",
+            "top": "d e b b b b",
+            "bottom": "Yes No ies for (see instructions): Credit for other dependents b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 498.0,
+            "x1": 576.0,
+            "y1": 510.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_35[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "d on Form(s) W-2 (see instructions) 1d",
+          "field_context_all_directions": {
+            "left": "d on Form(s) W-2 (see instructions) 1d",
+            "top": "e b b b b b",
+            "bottom": "Yes No ies for (see instructions): Credit for other dependents b c"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 516.0,
+            "x1": 576.0,
+            "y1": 528.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_36[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Form 2441, line 26 . . . . . . 1e",
+          "field_context_all_directions": {
+            "left": "Form 2441, line 26 . . . . . . 1e",
+            "top": "b b b b b",
+            "bottom": "ies for (see instructions): Credit for other dependents b c d"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 534.0,
+            "x1": 576.0,
+            "y1": 546.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_37[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "from Form 8839, line 29 . . . . 1f",
+          "field_context_all_directions": {
+            "left": "from Form 8839, line 29 . . . . 1f",
+            "top": "b b b b b Form 1040-SR (2024)",
+            "bottom": "ies for (see instructions): Credit for other dependents b c d e"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 552.0,
+            "x1": 576.0,
+            "y1": 564.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_38[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 1g",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 1g",
+            "top": "b b b b b Form 1040-SR (2024)",
+            "bottom": "ies for (see instructions): Credit for other dependents b c d e"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 570.0,
+            "x1": 576.0,
+            "y1": 582.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_39[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ") . . . . . . . . . . . . . . 1h",
+          "field_context_all_directions": {
+            "left": ") . . . . . . . . . . . . . . 1h",
+            "top": "b b b b b Form 1040-SR (2024)",
+            "bottom": "ies for (see instructions): Credit for other dependents b c d e"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 588.0,
+            "x1": 576.0,
+            "y1": 600.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_40[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "t pay election (see instructions) . 1i",
+          "field_context_all_directions": {
+            "left": "t pay election (see instructions) . 1i",
+            "top": ". . . . . . interest . . y dividends . amount . . amount . . amount . . k here (see . . . . . Cat. No. 71930F",
+            "bottom": ". . . . . . . . . . . . . . . . . . e instructions) . . . . . . 29 . . . . . . . . . . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 606.0,
+            "x1": 481.65,
+            "y1": 618.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_41[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 1z",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 1z",
+            "top": "b b b b b Form 1040-SR (2024)",
+            "bottom": "b c d e"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 624.0,
+            "x1": 576.0,
+            "y1": 636.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_42[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e B 2a Tax-exempt interest . 2a",
+          "field_context_all_directions": {
+            "left": "e B 2a Tax-exempt interest . 2a",
+            "right": "b Taxable interest . . 2b",
+            "top": "-sum election m . . . . . . . otice, see separate instr",
+            "bottom": "-2, box 1 (see ins not reported on F ne 1a (see instruc t reported on For efits from Form 24 benefits from For 6 . . . . . . tructions) . . . on (see instructio . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 266.4,
+            "y0": 642.0,
+            "x1": 337.65,
+            "y1": 654.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_43[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "b Taxable interest . . 2b",
+          "field_context_all_directions": {
+            "left": "b Taxable interest . . 2b",
+            "top": "b b b b Form 1040-SR (2024)",
+            "bottom": "b c d e"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 642.0,
+            "x1": 576.0,
+            "y1": 654.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_44[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e B ed. 3a Qualified dividends . . 3a",
+          "field_context_all_directions": {
+            "left": "e B ed. 3a Qualified dividends . . 3a",
+            "right": "b Ordinary dividends . 3b",
+            "top": "-sum election m . . . . . . . otice, see separate instr",
+            "bottom": "-2, box 1 (see ins not reported on F ne 1a (see instruc t reported on For efits from Form 24 benefits from For 6 . . . . . . tructions) . . . on (see instructio . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 266.4,
+            "y0": 660.0,
+            "x1": 337.65,
+            "y1": 672.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_45[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "b Ordinary dividends . 3b",
+          "field_context_all_directions": {
+            "left": "b Ordinary dividends . 3b",
+            "top": "b b b Form 1040-SR (2024)",
+            "bottom": "b c d e b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 660.0,
+            "x1": 576.0,
+            "y1": 672.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_46[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "4a IRA distributions . . . 4a",
+          "field_context_all_directions": {
+            "left": "4a IRA distributions . . . 4a",
+            "right": "b Taxable amount . . 4b",
+            "top": "-sum election m . . . . . . . otice, see separate instr",
+            "bottom": "not reported on F ne 1a (see instruc t reported on For efits from Form 24 benefits from For 6 . . . . . . tructions) . . . on (see instructio . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 266.4,
+            "y0": 678.0,
+            "x1": 337.65,
+            "y1": 690.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_47[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "b Taxable amount . . 4b",
+          "field_context_all_directions": {
+            "left": "b Taxable amount . . 4b",
+            "top": "b b Form 1040-SR (2024)",
+            "bottom": "b c d e b b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 678.0,
+            "x1": 576.0,
+            "y1": 690.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_48[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "5a Pensions and annuities 5a",
+          "field_context_all_directions": {
+            "left": "5a Pensions and annuities 5a",
+            "right": "b Taxable amount . . 5b",
+            "top": "-sum election m . . . . . . . otice, see separate instr",
+            "bottom": "ne 1a (see instruc t reported on For efits from Form 24 benefits from For 6 . . . . . . tructions) . . . on (see instructio . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 266.4,
+            "y0": 696.0,
+            "x1": 337.65,
+            "y1": 708.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_49[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "b Taxable amount . . 5b",
+          "field_context_all_directions": {
+            "left": "b Taxable amount . . 5b",
+            "top": "b Form 1040-SR (2024)",
+            "bottom": "c d e b b b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 696.0,
+            "x1": 576.0,
+            "y1": 708.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_50[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "6a Social security benefits . 6a c If you elect to use the lump s",
+          "field_context_all_directions": {
+            "left": "6a Social security benefits . 6a c If you elect to use the lump s",
+            "right": "b Taxable amount . . 6b method check here (see",
+            "top": "-sum election m . . . . . . . otice, see separate instr",
+            "bottom": "t reported on For efits from Form 24 benefits from For 6 . . . . . . tructions) . . . on (see instructio . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 266.4,
+            "y0": 714.0,
+            "x1": 337.65,
+            "y1": 726.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].f1_51[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "b Taxable amount . . 6b ection method check here (see",
+          "field_context_all_directions": {
+            "left": "b Taxable amount . . 6b ection method check here (see",
+            "top": "Form 1040-SR (2024)",
+            "bottom": "d e b b b b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 714.0,
+            "x1": 576.0,
+            "y1": 726.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Line6c_ReadOrder[0].c1_22[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "0 0 SR",
+          "field_context_all_directions": {
+            "left": "sum election method, check here (see . . . . . . . . . . . . . . . . .",
+            "right": "0 0 SR",
+            "bottom": ". . . . . . . . . . e"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 465.2,
+            "y0": 740.0,
+            "x1": 473.2,
+            "y1": 748.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page2[0].Line7_ReadOrder[0].c2_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "7",
+          "field_context_all_directions": {
+            "left": "q q , . . . . . . . . . . . . . . . . .",
+            "right": "7",
+            "top": ". . . . . . . our . ."
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 465.2,
+            "y0": 67.0,
+            "x1": 473.2,
+            "y1": 75.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e D if required. If not required, . . . . . . . . . . . . . 7",
+          "field_context_all_directions": {
+            "left": "e D if required. If not required, . . . . . . . . . . . . . 7",
+            "top": "0 2 3 4 5 6",
+            "bottom": "Page 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 66.0,
+            "x1": 576.0,
+            "y1": 78.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e 10 . . . . . . . . . . . . 8",
+          "field_context_all_directions": {
+            "left": "e 10 . . . . . . . . . . . . 8",
+            "top": "0 2 3 4 5 6 8",
+            "bottom": "Page 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 84.0,
+            "x1": 576.0,
+            "y1": 96.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "d 8. This is your total income . . 9",
+          "field_context_all_directions": {
+            "left": "d 8. This is your total income . . 9",
+            "top": "0 2 3 4 5 6 8 9",
+            "bottom": "Page 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 102.0,
+            "x1": 576.0,
+            "y1": 114.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "1, line 26 . . . . . . . . . . 10",
+          "field_context_all_directions": {
+            "left": "1, line 26 . . . . . . . . . . 10",
+            "top": "2 3 4 5 6 8 9 0",
+            "bottom": "Page 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 120.0,
+            "x1": 576.0,
+            "y1": 132.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_05[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ur adjusted gross income . . . 11",
+          "field_context_all_directions": {
+            "left": "ur adjusted gross income . . . 11",
+            "top": "2 3 4 5 6 8 9 0",
+            "bottom": "Page 2 0"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 138.0,
+            "x1": 576.0,
+            "y1": 150.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_06[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "uctions (from Schedule A) . . . 12",
+          "field_context_all_directions": {
+            "left": "uctions (from Schedule A) . . . 12",
+            "top": "3 4 5 6 8 9 0 2",
+            "bottom": "Page 2 0"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 156.0,
+            "x1": 576.0,
+            "y1": 168.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_07[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "rom Form 8995 or Form 8995-A . 13",
+          "field_context_all_directions": {
+            "left": "rom Form 8995 or Form 8995-A . 13",
+            "top": "4 5 6 8 9 0 2 3",
+            "bottom": "Page 2 0 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 174.0,
+            "x1": 576.0,
+            "y1": 186.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_08[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 14",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 14",
+            "top": "5 6 8 9 0 2 3 4",
+            "bottom": "Page 2 0 2 3"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 192.0,
+            "x1": 576.0,
+            "y1": 204.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_09[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "o or less, enter 0 . This is your . . . . . . . . . . . . . . 15",
+          "field_context_all_directions": {
+            "left": "o or less, enter 0 . This is your . . . . . . . . . . . . . . 15",
+            "top": "6 8 9 0 2 3 4",
+            "bottom": "Page 2 0 2 3 4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 222.0,
+            "x1": 576.0,
+            "y1": 234.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Form(s) 8814 2 Form(s) 4972 3",
+          "field_context_all_directions": {
+            "left": "Credits 1",
+            "right": "Form(s) 8814 2 Form(s) 4972 3",
+            "top": "mou dd li hild mou dd li ubtra ther dd li eder orm( orm(",
+            "bottom": "apita heck dditi dd li djus ubtra tand ualif dd li ubtra axab ax (s"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 129.6,
+            "y0": 259.0,
+            "x1": 137.6,
+            "y1": 267.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Form(s) 4972 3 . . .",
+          "field_context_all_directions": {
+            "left": "Credits 1 Form(s) 8814 2",
+            "right": "Form(s) 4972 3 . . .",
+            "top": "ule 2 . edit ule 3 . line g se This withh . .",
+            "bottom": "). At . om S 4b, me fr line or com . m li . ). Ch"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 223.2,
+            "y0": 259.0,
+            "x1": 231.2,
+            "y1": 267.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].c2_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . 16",
+          "field_context_all_directions": {
+            "left": "1 Form(s) 8814 2 Form(s) 4972 3",
+            "right": ". . . . . . . 16",
+            "top": "3 . . . . den . . . . ess, tax, ax . . . .",
+            "bottom": "D if . . 10 8. Th , line adju ction om F . . or . . m:"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 317.3,
+            "y0": 259.0,
+            "x1": 325.3,
+            "y1": 267.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].f2_10[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Form(s) 8814 2 Form(s) 4972 3",
+          "field_context_all_directions": {
+            "left": "Form(s) 8814 2 Form(s) 4972 3",
+            "right": ". . . . . . . 16",
+            "top": ". . . . . . . . . . nts from Sche . . . . . . . . . . , enter -0- . , from Schedu . . . . . . . . . 2 . . . . 2",
+            "bottom": "if required. If . . . . . . . . . . This is your tot ne 26 . . . justed gross ons (from Sche Form 8995 or . . . . . less, enter - . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 331.2,
+            "y0": 258.0,
+            "x1": 388.8,
+            "y1": 270.0,
+            "width": 57.6,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_11[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "3 . . . . . . . 16",
+          "field_context_all_directions": {
+            "left": "3 . . . . . . . 16",
+            "top": "8 9 0 2 3 4",
+            "bottom": "0 2 3 4 5"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 258.0,
+            "x1": 576.0,
+            "y1": 270.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_12[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 17",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 17",
+            "top": "8 9 0 2 3 4",
+            "bottom": "0 2 3 4 5 6"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 276.0,
+            "x1": 576.0,
+            "y1": 288.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_13[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 18",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 18",
+            "top": "9 0 2 3 4 d",
+            "bottom": "0 2 3 4 5 6"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 294.0,
+            "x1": 576.0,
+            "y1": 306.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_14[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "endents from Schedule 8812 . . 19",
+          "field_context_all_directions": {
+            "left": "endents from Schedule 8812 . . 19",
+            "top": "0 2 3 4 d 6",
+            "bottom": "0 2 3 4 5 6 8"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 312.0,
+            "x1": 576.0,
+            "y1": 324.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_15[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 20",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 20",
+            "top": "2 3 4 d 6",
+            "bottom": "2 3 4 5 6 8 9"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 330.0,
+            "x1": 576.0,
+            "y1": 342.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_16[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 21",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 21",
+            "top": "2 3 4 d 6",
+            "bottom": "2 3 4 5 6 8 9 0"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 348.0,
+            "x1": 576.0,
+            "y1": 360.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_17[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "less, enter -0- . . . . . . . . 22",
+          "field_context_all_directions": {
+            "left": "less, enter -0- . . . . . . . . 22",
+            "top": "3 4 d 6",
+            "bottom": "3 4 5 6 8 9 0"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 366.0,
+            "x1": 576.0,
+            "y1": 378.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_18[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "t tax, from Schedule 2, line 21 . . 23",
+          "field_context_all_directions": {
+            "left": "t tax, from Schedule 2, line 21 . . 23",
+            "top": "4 d 6",
+            "bottom": "4 5 6 8 9 0 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 384.0,
+            "x1": 576.0,
+            "y1": 396.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_19[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "tax . . . . . . . . . . . . 24",
+          "field_context_all_directions": {
+            "left": "tax . . . . . . . . . . . . 24",
+            "top": "d 6",
+            "bottom": "5 6 8 9 0 2 3"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 402.0,
+            "x1": 576.0,
+            "y1": 414.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_20[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 25a",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 25a",
+            "top": "b c . . . . . . 2 23 return . . 8 9 0 yments and . . . . . .",
+            "bottom": ". . . . . . . . . . . . . . . . . . ule 8812 . . . . . . . . . . . . . . . . . . . . 2, line 21 . . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 438.0,
+            "x1": 481.65,
+            "y1": 450.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_21[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 25b",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 25b",
+            "top": "c . . . . . . 2 23 return . . 8 9 0 yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . . . . . . . . . . . . . ule 8812 . . . . . . . . . . . . . . . . . . . . 2, line 21 . . . . . . . . a"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 456.0,
+            "x1": 481.65,
+            "y1": 468.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_22[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "structions) . . . . . . . . . . 25c",
+          "field_context_all_directions": {
+            "left": "structions) . . . . . . . . . . 25c",
+            "top": ". . . . . . 2 23 return . . 8 9 0 yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . . . . . . . ule 8812 . . . . . . . . . . . . . . . . . . . . 2, line 21 . . . . . . . . a b"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 474.0,
+            "x1": 481.65,
+            "y1": 486.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_23[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ". . . . . . . . . . . . . . 25d",
+          "field_context_all_directions": {
+            "left": ". . . . . . . . . . . . . . 25d",
+            "top": "6 2 3 Form 1040-SR (2024)",
+            "bottom": "8 9 0 2 3 4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 492.0,
+            "x1": 576.0,
+            "y1": 504.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_24[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ount applied from 2023 return . . 26",
+          "field_context_all_directions": {
+            "left": "ount applied from 2023 return . . 26",
+            "top": "2 3 Form 1040-SR (2024)",
+            "bottom": "9 0 2 3 4 d"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 510.0,
+            "x1": 576.0,
+            "y1": 522.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_25[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "dit (EIC) . . . . . . . . . . . 27",
+          "field_context_all_directions": {
+            "left": "dit (EIC) . . . . . . . . . . . 27",
+            "top": "8 9 0 yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . . . . . . . . . . . . . 2, line 21 . . . . . . . . a b c . . . . . . 2 23 return . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 528.0,
+            "x1": 481.65,
+            "y1": 540.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_26[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "credit from Schedule 8812 . . . 28",
+          "field_context_all_directions": {
+            "left": "credit from Schedule 8812 . . . 28",
+            "top": "9 0 yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . . . . . . . 2, line 21 . . . . . . . . a b c . . . . . . 2 23 return . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 546.0,
+            "x1": 481.65,
+            "y1": 558.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_27[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ity credit from Form 8863, line 8 . 29",
+          "field_context_all_directions": {
+            "left": "ity credit from Form 8863, line 8 . 29",
+            "top": "0 yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . 2, line 21 . . . . . . . . a b c . . . . . . 2 23 return . . 8"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 564.0,
+            "x1": 481.65,
+            "y1": 576.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_28[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "use . . . . . . . . . . . . 30",
+          "field_context_all_directions": {
+            "left": "use . . . . . . . . . . . . 30",
+            "top": "yments and . . . . . . . . . . . .",
+            "bottom": "2, line 21 . . . . . . . . a b c . . . . . . 2 23 return . . 8 9"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 582.0,
+            "x1": 481.65,
+            "y1": 594.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_29[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "dule 3, line 15 . . . . . . . . 31",
+          "field_context_all_directions": {
+            "left": "dule 3, line 15 . . . . . . . . 31",
+            "top": "yments and . . . . . . . . . . . .",
+            "bottom": ". . . . . . a b c . . . . . . 2 23 return . . 8 9 0"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 600.0,
+            "x1": 481.65,
+            "y1": 612.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_30[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e your total other payments and . . . . . . . . . . . . . . 32",
+          "field_context_all_directions": {
+            "left": "e your total other payments and . . . . . . . . . . . . . . 32",
+            "top": "3 Form 1040-SR (2024)",
+            "bottom": "d 6"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 630.0,
+            "x1": 576.0,
+            "y1": 642.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].f2_31[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "our total payments . . . . . . 33",
+          "field_context_all_directions": {
+            "left": "our total payments . . . . . . 33",
+            "top": "Form 1040-SR (2024)",
+            "bottom": "d 6 2"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 648.0,
+            "x1": 576.0,
+            "y1": 660.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ct line 24 from line 33. This is the . . . . . . . . . . . . . . 34",
+          "field_context_all_directions": {
+            "left": "ct line 24 from line 33. This is the . . . . . . . . . . . . . . 34",
+            "top": "a ow. No n",
+            "bottom": "Page 3"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 66.0,
+            "x1": 576.0,
+            "y1": 78.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].Line34a_ReadOrder[0].c3_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": ", 35a",
+          "field_context_all_directions": {
+            "left": "y . . . . . . . . . . . . . . . . .",
+            "right": ", 35a",
+            "top": "ings ons omple dentif IN) nd sta taxpa",
+            "bottom": "the . ed,"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 465.2,
+            "y0": 98.0,
+            "x1": 473.2,
+            "y1": 106.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "d to you. If Form 8888 is attached, . . . . . . . . . . . . . 35a",
+          "field_context_all_directions": {
+            "left": "d to you. If Form 8888 is attached, . . . . . . . . . . . . . 35a",
+            "top": "ow. No n nts, and to the best s based on all",
+            "bottom": "Page 3 4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 96.0,
+            "x1": 576.0,
+            "y1": 108.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].RoutingNo[0].f3_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Direct deposit? See b Routing number",
+          "field_context_all_directions": {
+            "left": "Direct deposit? See b Routing number",
+            "right": "c Type: Checking Savings",
+            "top": "ne 34 you want applied to x . . . . . . . . . . . 33 from line 24. This is the am how to pay, go to www.irs.go x penalty (see instructions) . w another person to discuss this ret . . . . . . . . . . . Phone no. ury, I declare that I have examined this belief, they are true, correct, and comple reparer has any knowledge. Date",
+            "bottom": "more than line 24, subtract li overpaid . . . . . . . . e 34 you want refunded to . . . . . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 187.2,
+            "y0": 114.0,
+            "x1": 316.8,
+            "y1": 126.0,
+            "width": 129.6,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 9,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].c3_02[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Checking Savings",
+          "field_context_all_directions": {
+            "left": "er c Type:",
+            "right": "Checking Savings",
+            "top": "25 . owe nts o . IRS? . . comp on of p ation",
+            "bottom": "m lin . . rm 8 . ."
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 376.4,
+            "y0": 116.5,
+            "x1": 384.4,
+            "y1": 124.5,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].c3_02[1]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Savings",
+          "field_context_all_directions": {
+            "left": "c Type: Checking",
+            "right": "Savings",
+            "top": "struc Yes. Person umbe edule ther th",
+            "bottom": "This . . atta . ."
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 434.0,
+            "y0": 116.5,
+            "x1": 442.0,
+            "y1": 124.5,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "2"
+            ],
+            "down": [
+              "2",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].AccountNo[0].f3_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "See instructions. d Account number",
+          "field_context_all_directions": {
+            "left": "See instructions. d Account number",
+            "top": "ne 34 you want applied to your 2025 x . . . . . . . . . . . . . . . . 36 33 from line 24. This is the amount you owe. how to pay, go to www.irs.gov/Payments or see instr x penalty (see instructions) . . . . . . 38 w another person to discuss this return with the IRS? See . . . . . . . . . . . . . . . . . . Y Phone no. Pers num ury, I declare that I have examined this return and accompanying sched belief, they are true, correct, and complete. Declaration of preparer (othe reparer has any knowledge. Date Your occupation oint return, both must sign. Date Spouse’s occupation",
+            "bottom": "more than line 24, subtract line 24 from line 33. Thi overpaid . . . . . . . . . . . . . . . . . . e 34 you want refunded to you. If Form 8888 is at . . . . . . . . . . . . . . . . . . . . . c Type: Checking"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 187.2,
+            "y0": 132.0,
+            "x1": 432.0,
+            "y1": 144.0,
+            "width": 244.8,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 17,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_05[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "you want applied to your 2025 . . . . . . . . . . . . . . 36",
+          "field_context_all_directions": {
+            "left": "you want applied to your 2025 . . . . . . . . . . . . . . 36",
+            "top": "ee instructions 8 ee Yes. Complete Personal identifica number (PIN) ng schedules and state arer (other than taxpaye If the IR Protect (see ins If the IR Identity (see ins",
+            "bottom": "33. This is the . . . . . . 88 is attached, . . . . . 3 cking Savings"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 168.0,
+            "x1": 481.65,
+            "y1": 180.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_06[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e amount you owe. rs.gov/Payments or see instructions 37",
+          "field_context_all_directions": {
+            "left": "e amount you owe. rs.gov/Payments or see instructions 37",
+            "top": "ow. No n nts, and to the best s based on all ent you an Identity PIN, enter it here ent your spouse an otection PIN, enter it here Check if: Self-employed",
+            "bottom": "Page 3 4 a"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 504.0,
+            "y0": 198.0,
+            "x1": 576.0,
+            "y1": 210.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_07[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "lty (see instructions) . . . . . . 38 di hi i h h IRS? S",
+          "field_context_all_directions": {
+            "left": "lty (see instructions) . . . . . . 38 di hi i h h IRS? S",
+            "top": "ee Yes. Complete Personal identifica number (PIN) ng schedules and state arer (other than taxpaye If the IR Protect (see ins If the IR Identity (see ins e PTIN Phone Firm’s",
+            "bottom": "33. This is the . . . . . . 88 is attached, . . . . . 3 cking Savings 6 ee instructions"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 410.4,
+            "y0": 216.0,
+            "x1": 481.65,
+            "y1": 228.0,
+            "width": 71.25,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].c3_03[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Yes. Complete below. No",
+          "field_context_all_directions": {
+            "left": "person to discuss this return with the IRS? See . . . . . . . . . . . . . . .",
+            "right": "Yes. Complete below. No",
+            "top": "Pe nu sche er (oth",
+            "bottom": "3. Th . is a . ng inst"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 419.6,
+            "y0": 241.75,
+            "x1": 427.6,
+            "y1": 249.75,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].c3_03[1]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "No",
+          "field_context_all_directions": {
+            "left": "rn with the IRS? See . . . . . . Yes. Complete below.",
+            "right": "No",
+            "top": "d to t d on an Ide ter it h r spou PIN, e eck if: Self-e 040-"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 527.6,
+            "y0": 241.75,
+            "x1": 535.6,
+            "y1": 249.75,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "2"
+            ],
+            "down": [
+              "2",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_08[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Designee instructions Designee’s name Si Under penal",
+          "field_context_all_directions": {
+            "left": "Designee instructions Designee’s name Si Under penal",
+            "right": ". . . . . . . . . . Yes. Complete b Phone no. Personal identifica number (PIN) mined this return and accompanying schedules and state",
+            "top": "alties of perjury, I declare that I have examin wledge and belief, they are true, correct, and n of which preparer has any knowledge. ture Date gnature. If a joint return, both must sign. Date Emai name Preparer’s signatu e ress 0SR for instructions and the latest informatio",
+            "bottom": "e 33 is more than line 24, subt unt you overpaid . . . . . . unt of line 34 you want refunde k here . . . . . . . . . . ng number unt number unt of line 34 you want appli mated tax . . . . . . . . . ract line 33 from line 24. This is t details on how to pay, go to www mated tax penalty (see instructio ant to allow another person to discuss ns . . . . . . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 144.0,
+            "y0": 252.0,
+            "x1": 288.0,
+            "y1": 276.0,
+            "width": 144.0,
+            "height": 24.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_09[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ctions . . . . . . . . . . . . . . nee’s Phone no. penalties of perjury I declare that I have examined this r",
+          "field_context_all_directions": {
+            "left": "ctions . . . . . . . . . . . . . . nee’s Phone no. penalties of perjury I declare that I have examined this r",
+            "right": "Yes. Complete below. No Personal identification number (PIN) schedules and statements and to the best",
+            "top": "s return and accompanying sc lete. Declaration of preparer ( Your occupation Spouse’s occupation s Date",
+            "bottom": "ine 24 from line 33. . . . . . . . . . you. If Form 8888 is . . . . . . . . . c Type: Checking o your 2025 . . . . . 36 mount you owe. ov/Payments or see in . . . . . 38 eturn with the IRS? See . . . . . . ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 324.0,
+            "y0": 252.0,
+            "x1": 417.6,
+            "y1": 276.0,
+            "width": 93.6,
+            "height": 24.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_10[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "hone . Personal identification number (PIN) d this return and accompanying schedules and statement",
+          "field_context_all_directions": {
+            "left": "hone . Personal identification number (PIN) d this return and accompanying schedules and statement",
+            "top": "nts, and to the best s based on all ent you an Identity PIN, enter it here ent your spouse an otection PIN, enter it here Check if: Self-employed Form 1040-SR (2024)",
+            "bottom": "4 a ow. No n"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 504.0,
+            "y0": 264.0,
+            "x1": 576.0,
+            "y1": 276.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 5,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_11[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "ignature Date e’s signature If a joint return both must sign Date",
+          "field_context_all_directions": {
+            "left": "ignature Date e’s signature If a joint return both must sign Date",
+            "right": "If the IRS sent you an Identity Protection PIN, enter it here (see inst.) If the IRS sent o r spo se an",
+            "top": "Spouse’s occupation s Date PTIN",
+            "bottom": "c Type: Checking Savin o your 2025 . . . . . 36 mount you owe. ov/Payments or see instruction . . . . . 38 eturn with the IRS? See . . . . . . . Yes. Com Personal ide number (PIN return and accompanying schedules and lete. Declaration of preparer (other than ta Your occupation"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 325.0,
+            "y0": 318.0,
+            "x1": 460.05,
+            "y1": 336.0,
+            "width": 135.05,
+            "height": 18.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_12[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Protection P (see inst.) Spouse’s occupation If the IRS sen",
+          "field_context_all_directions": {
+            "left": "Protection P (see inst.) Spouse’s occupation If the IRS sen",
+            "top": "ent your spouse an otection PIN, enter it here Check if: Self-employed Form 1040-SR (2024)",
+            "bottom": "ow. No n nts, and to the best s based on all ent you an Identity PIN, enter it here"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 504.0,
+            "y0": 324.0,
+            "x1": 576.0,
+            "y1": 336.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 6,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_13[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "e s signature. If a joint return, both must sign. Date no Email address",
+          "field_context_all_directions": {
+            "left": "e s signature. If a joint return, both must sign. Date no Email address",
+            "right": "If the IRS sent your spouse an Identity Protection PIN, enter it here (see inst.)",
+            "top": "s Date PTIN",
+            "bottom": "o your 2025 . . . . . 36 mount you owe. ov/Payments or see instruction . . . . . 38 eturn with the IRS? See . . . . . . . Yes. Com Personal ide number (PIN return and accompanying schedules and lete. Declaration of preparer (other than ta Your occupation Spouse’s occupation"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 325.0,
+            "y0": 348.0,
+            "x1": 460.05,
+            "y1": 366.0,
+            "width": 135.05,
+            "height": 18.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_14[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Identity Prote (see inst.) ddress",
+          "field_context_all_directions": {
+            "left": "Identity Prote (see inst.) ddress",
+            "top": "Check if: Self-employed Form 1040-SR (2024)",
+            "bottom": "ow. No n nts, and to the best s based on all ent you an Identity PIN, enter it here ent your spouse an otection PIN, enter it here"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 504.0,
+            "y0": 354.0,
+            "x1": 576.0,
+            "y1": 366.0,
+            "width": 72.0,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 6,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_15[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Phone no. Preparer’s",
+          "field_context_all_directions": {
+            "left": "Phone no. Preparer’s",
+            "right": "(se Email address gnature Date PTIN",
+            "top": "’s name Preparer’s sign me dress 040SR for instructions and the latest inform",
+            "bottom": "imated tax . . . . . . . . btract line 33 from line 24. This details on how to pay, go to w imated tax penalty (see instruc want to allow another person to disc ions . . . . . . . . . . . e’s enalties of perjury, I declare that I have ex owledge and belief, they are true, correct on of which preparer has any knowledge. nature D signature. If a joint return, both must sign. D"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 136.8,
+            "y0": 366.0,
+            "x1": 273.6,
+            "y1": 378.0,
+            "width": 136.8,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].SignHere[0].f3_16[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "no. Email address er’s name Preparer’s signature",
+          "field_context_all_directions": {
+            "left": "no. Email address er’s name Preparer’s signature",
+            "top": "Date PTIN Check if: Self-employed Phone no. Firm’s EIN Form 1040-SR (2024)",
+            "bottom": ". . . . . 36 mount you owe. ov/Payments or see instructions 37 . . . . . 38 turn with the IRS? See . . . . . . . Yes. Complete below. No Personal identification number (PIN) return and accompanying schedules and statements, and to the best ete. Declaration of preparer (other than taxpayer) is based on all Your occupation If the IRS sent you an Identity Protection PIN, enter it here (see inst.) Spouse’s occupation If the IRS sent your spouse an Identity Protection PIN, enter it here (see inst.)"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 325.6,
+            "y0": 366.0,
+            "x1": 576.0,
+            "y1": 378.0,
+            "width": 250.4,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_17[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Paid Preparer",
+          "field_context_all_directions": {
+            "left": "Paid Preparer",
+            "right": "Preparer s signature Date",
+            "top": "Firm’s name Firm’s address gov/Form1040SR for instructions and t",
+            "bottom": "37 Subtract line 33 from lin For details on how to pa 38 Estimated tax penalty ( Do you want to allow another pe instructions . . . . . . Designee’s name Under penalties of perjury, I declare of my knowledge and belief, they ar information of which preparer has a Your signature Spouse’s signature. If a joint return, bot Phone no. Preparer’s name"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 93.6,
+            "y0": 390.0,
+            "x1": 222.45,
+            "y1": 402.0,
+            "width": 128.85,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_18[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "arer s signature Date",
+          "field_context_all_directions": {
+            "left": "arer s signature Date",
+            "right": "Check if: Self-employed",
+            "top": "Phone no. Firm’s EIN Form",
+            "bottom": "uctions 37 s. Complete below onal identification ber (PIN) ules and statements r than taxpayer) is b If the IRS sent Protection PIN (see inst.) If the IRS sent Identity Protec (see inst.) PTIN"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 446.4,
+            "y0": 390.0,
+            "x1": 504.0,
+            "y1": 402.0,
+            "width": 57.6,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 11,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].CheckIf[0].c3_04[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "heck if: Self-employed",
+          "field_context_all_directions": {
+            "left": "PTIN C",
+            "right": "heck if: Self-employed",
+            "top": "rm 10",
+            "bottom": "w. s, and based nt you N, ent t your ction P Che"
+          },
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "Off",
+          "field_flags": 0,
+          "rect": {
+            "x0": 511.2,
+            "y0": 392.0,
+            "x1": 519.2,
+            "y1": 400.0,
+            "width": 8.0,
+            "height": 8.0
+          },
+          "is_checked": "Off",
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_19[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Preparer Use Only Firm’s name Fi ’ dd",
+          "field_context_all_directions": {
+            "left": "Preparer Use Only Firm’s name Fi ’ dd",
+            "right": "Self-employed Phone no. Fi ’ EIN",
+            "top": "ess 0SR for instructions and the latest information.",
+            "bottom": "etails on how to pay, go to www.irs.gov/Payments or see instruction mated tax penalty (see instructions) . . . . . . 38 ant to allow another person to discuss this return with the IRS? See ns . . . . . . . . . . . . . . . . . . . . . Yes. Com Phone no. Personal ide number (PIN alties of perjury, I declare that I have examined this return and accompanying schedules and wledge and belief, they are true, correct, and complete. Declaration of preparer (other than ta of which preparer has any knowledge. ture Date Your occupation gnature. If a joint return, both must sign. Date Spouse’s occupation Email address name Preparer’s signature Date PTIN"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 145.6,
+            "y0": 402.0,
+            "x1": 460.05,
+            "y1": 414.0,
+            "width": 314.45,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_20[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Phone no. Fi ’ EIN",
+          "field_context_all_directions": {
+            "left": "Phone no. Fi ’ EIN",
+            "top": "N Form 1040-SR (2024)",
+            "bottom": "7 ow. No n ents, and to the best is based on all sent you an Identity PIN, enter it here sent your spouse an otection PIN, enter it here Check if: Self-employed"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 502.8,
+            "y0": 402.0,
+            "x1": 576.0,
+            "y1": 414.0,
+            "width": 73.2,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_21[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Use Only Firm s name Firm’s address G t i /F 1040SR",
+          "field_context_all_directions": {
+            "left": "Use Only Firm s name Firm’s address G t i /F 1040SR",
+            "right": "Phone no. Firm’s EIN 1040 SR",
+            "top": "R for instructions and the latest information.",
+            "bottom": "ted tax penalty (see instructions) . . . . . . 38 t to allow another person to discuss this return with the IRS? See . . . . . . . . . . . . . . . . . . . . . Yes. Com Phone no. Personal ide number (PIN es of perjury, I declare that I have examined this return and accompanying schedules and dge and belief, they are true, correct, and complete. Declaration of preparer (other than ta f which preparer has any knowledge. re Date Your occupation ature. If a joint return, both must sign. Date Spouse’s occupation Email address ame Preparer’s signature Date PTIN"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 153.6,
+            "y0": 414.0,
+            "x1": 460.05,
+            "y1": 426.0,
+            "width": 306.45,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "topmostSubform[0].Page3[0].f3_22[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "Phone no. Firm’s EIN",
+          "field_context_all_directions": {
+            "left": "Phone no. Firm’s EIN",
+            "top": "Form 1040-SR (2024)",
+            "bottom": "ow. No n ents, and to the best is based on all sent you an Identity PIN, enter it here sent your spouse an otection PIN, enter it here Check if: Self-employed ."
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 502.8,
+            "y0": 414.0,
+            "x1": 576.0,
+            "y1": 426.0,
+            "width": 73.2,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 10,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page4[0].f4_01[0]",
+          "field_context_on_pdf": null,
+          "field_context_detected": "f Standard Deduction on page 1 . . . . .",
+          "field_context_all_directions": {
+            "left": "f Standard Deduction on page 1 . . . . .",
+            "bottom": "Page 4"
+          },
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 547.2,
+            "y0": 68.0,
+            "x1": 576.0,
+            "y1": 80.0,
+            "width": 28.8,
+            "height": 12.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 4
+        }
+      ]
+    }
+  ]
+}

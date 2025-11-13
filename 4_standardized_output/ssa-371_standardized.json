@@ -1,0 +1,166 @@
+{
+  "filename": "ssa-371.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_ClaimantsName_FLD[0]",
+      "standardized_label": "claimants_name",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The core 'ClaimantsName' was converted to lowercase snake_case. The PDF context 'Claimant's Name' confirms this interpretation."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_SSN_FLD[0]",
+      "standardized_label": "social_security_number",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The abbreviation 'SSN' was expanded to 'social_security_number' as confirmed by the PDF context 'Social Security Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Tabbodytextfield__FLD[0]",
+      "standardized_label": "reinstatement_declaration",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The original name 'Tabbodytextfield' is generic. The extensive PDF context details a declaration of understanding regarding the reinstatement of Social Security Disability Benefits, Medicare coverage, and review processes. Therefore, 'reinstatement_declaration' provides a concise and semantically meaningful label reflecting the content and purpose."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Signature_FLD[0]",
+      "standardized_label": "signature",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The core 'Signature' was converted to lowercase snake_case. The PDF context explicitly states 'Signature', confirming the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Datesig_Date[0]",
+      "standardized_label": "signature_date",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and index '[0]'. The original field name 'Datesig_Date' combined with the PDF context 'Date' and its proximity to a 'Signature' field strongly suggests it's the date the signature was provided. Therefore, 'signature_date' is a precise and concise label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_AreaCode_FLD[0]",
+      "standardized_label": "daytime_phone_area_code",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The core 'AreaCode' was extracted. The PDF context 'Area Code and Telephone Number Where You can be reached During the Day' indicates this is specifically for a daytime contact number, leading to the more descriptive 'daytime_phone_area_code'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Address_FLD[0]",
+      "standardized_label": "street_address",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The original 'Address' was refined to 'street_address' because the PDF context specifies 'Address (Number and Street)', indicating it's not a full address block but specifically the street part."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_City_FLD[0]",
+      "standardized_label": "city",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The core 'City' was directly converted to lowercase snake_case. The PDF context 'City and State' confirms the meaning."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Cityzip_FLD[0]",
+      "standardized_label": "zip_code",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The original 'Cityzip' combined with the PDF context 'ZIP Code' clearly indicates this field is for the ZIP code. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_1Sig_FLD[0]",
+      "standardized_label": "witness_1_signature",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The '1Sig' combined with the PDF context '1. Signature of Witness.' clearly indicates this field is for the first witness's signature. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_1Sigaddress_FLD[0]",
+      "standardized_label": "witness_1_address",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The '1Sigaddress' combined with the PDF context 'Address (Number and Street, City, State and ZIP Code)' and its preceding 'witness_1_signature' field clearly identifies this as the full address for the first witness. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_2Sig_FLD[0]",
+      "standardized_label": "witness_2_signature",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The '2Sig' combined with the PDF context '2. Signature of Witness.' clearly indicates this field is for the second witness's signature. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_sig2address_FLD[0]",
+      "standardized_label": "witness_2_address",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P1_', and field type suffix '_FLD[0]'. The 'sig2address' combined with the PDF context 'Address (Number and Street, City, State and ZIP Code)' and its preceding 'witness_2_signature' field clearly identifies this as the full address for the second witness. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_YourTitle_FLD[0]",
+      "standardized_label": "representative_payee_title_or_relationship",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'YourTitle' is understood in the context of 'REPRESENTATIVE PAYEE' and the explicit text 'Your Title or Relationship to the Claimant'. Therefore, 'representative_payee_title_or_relationship' is the most accurate and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_AreaCode_FLD[0]",
+      "standardized_label": "representative_payee_daytime_phone_area_code",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'AreaCode' is qualified by the PDF context 'Area Code and Telephone Number Where You Can Be Reached During the Day'. Given this section is for 'REPRESENTATIVE PAYEE', the label specifies this context to avoid ambiguity, resulting in 'representative_payee_daytime_phone_area_code'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_Address_FLD[0]",
+      "standardized_label": "representative_payee_street_address",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The original 'Address' was refined to 'street_address' because the PDF context specifies 'Address (Number and Street)', indicating it's not a full address block but specifically the street part. Given this section is for 'REPRESENTATIVE PAYEE', the label specifies this context to avoid ambiguity, resulting in 'representative_payee_street_address'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_City_FLD[0]",
+      "standardized_label": "representative_payee_city",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'City' was extracted. Given this section is for 'REPRESENTATIVE PAYEE' and the PDF context confirms 'City and State', the label specifies this context to avoid ambiguity, resulting in 'representative_payee_city'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_ZIP_FLD[0]",
+      "standardized_label": "representative_payee_zip_code",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'ZIP' was expanded to 'zip_code'. Given this section is for 'REPRESENTATIVE PAYEE' and the PDF context confirms 'ZIP Code', the label specifies this context to avoid ambiguity, resulting in 'representative_payee_zip_code'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_Yourfullname_FLD[0]",
+      "standardized_label": "representative_payee_full_name",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'Yourfullname' combined with the PDF context 'Your full name (First name, middle initial, last name)' indicates this is the full name. Given this section is for 'REPRESENTATIVE PAYEE', the label specifies this context to avoid ambiguity, resulting in 'representative_payee_full_name'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_Signature_FLD[0]",
+      "standardized_label": "representative_payee_signature",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The core 'Signature' was extracted. Given that this section is specifically for 'REPRESENTATIVE PAYEE' as indicated by the page context, the label is made more precise by including 'representative_payee_'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_Sigdate_Date[0]",
+      "standardized_label": "representative_payee_signature_date",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_Date[0]'. The original 'Sigdate' combined with the PDF context 'Date' and its proximity to the 'representative_payee_signature' field strongly suggests it's the date the representative payee signed. Therefore, 'representative_payee_signature_date' is a precise and concise label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_PAStatement_FLD[0]",
+      "standardized_label": "privacy_act_statement",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The original 'PAStatement' is an abbreviation for 'Privacy Act Statement', which is fully detailed in the provided PDF context. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_PRA_FLD[0]",
+      "standardized_label": "paperwork_reduction_act_statement",
+      "confidence": 90,
+      "reasoning": "Removed form/subform structure, page indicator 'P2_', and field type suffix '_FLD[0]'. The original 'PRA' is an abbreviation for 'Paperwork Reduction Act', which is fully detailed in the provided PDF context. Converted to lowercase snake_case."
+    }
+  ]
+}

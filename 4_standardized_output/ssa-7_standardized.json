@@ -1,0 +1,1034 @@
+{
+  "filename": "ssa-7.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ReadOnly_FLD[0]",
+      "standardized_label": "read_only",
+      "confidence": 90,
+      "reasoning": "The field name `P1_ReadOnly_FLD` explicitly indicates that it is a read-only field. Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N1AName_FLD[0]",
+      "standardized_label": "deceased_wage_earner_name",
+      "confidence": 90,
+      "reasoning": "The PDF context clearly indicates this field is for the 'name of deceased wage earner or self-employed person.' Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N1BSSN_FLD[0]",
+      "standardized_label": "deceased_social_security_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter Deceased's Social Security number.' The 'SSN' in the original field name aligns with this. Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N2A_FLD[0]",
+      "standardized_label": "applicant_name",
+      "confidence": 90,
+      "reasoning": "The PDF context clearly indicates this field is for 'your name', referring to the applicant. Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N2B_FLD[0]",
+      "standardized_label": "applicant_social_security_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter your social security number', referring to the applicant's SSN. Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N2C_FLD[0]",
+      "standardized_label": "applicant_name_at_birth",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter your name at birth if different from item 2(ay).', referring to the applicant's birth name. Page identifiers (`P1_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N3_CB1[0]",
+      "standardized_label": "relationship_to_deceased_natural_parent",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Select your relationship to the deceased. Natural Parent'. The 'CB1' clearly denotes it as a checkbox for the 'natural parent' option. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N3_CB2[0]",
+      "standardized_label": "relationship_to_deceased_adoptive_parent",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Adoptive Parent', which is a relationship to the deceased. The 'CB2' clearly denotes it as a checkbox for the 'adoptive parent' option. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N3CB2_FLD[0]",
+      "standardized_label": "date_of_adoption",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Date of adoption'. The 'P1_' page identifier, and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label. The 'N3CB2' likely refers to the second checkbox under item 3 related to 'Adoptive Parent'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N3_CB3[0]",
+      "standardized_label": "relationship_to_deceased_step_parent",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Step Parent', which is a relationship to the deceased. The 'CB3' clearly denotes it as a checkbox for the 'step parent' option. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N3CB3_FLD[0]",
+      "standardized_label": "date_of_marriage_to_deceased_parent",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Date of marriage to Deceased's parent'. The 'P1_' page identifier, and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label. The 'N3CB3' likely refers to the third checkbox under item 3 related to 'Step Parent'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N4A_CB1[0]",
+      "standardized_label": "received_half_support_from_deceased_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 4(a), which asks 'Were you receiving at least one-half of your support from the Deceased...'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N4A_CB2[0]",
+      "standardized_label": "received_half_support_from_deceased_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 4(a), which asks 'Were you receiving at least one-half of your support from the Deceased...'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N4B_CB1[0]",
+      "standardized_label": "filed_proof_of_support_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 4(b), which asks 'Have you filed proof of this support with the Social Security Administration?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N4B_CB2[0]",
+      "standardized_label": "filed_proof_of_support_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 4(b), which asks 'Have you filed proof of this support with the Social Security Administration?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N5_FLD[0]",
+      "standardized_label": "deceased_date_of_birth",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter date of birth of deceased.' The 'P1_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N6A_FLD[0]",
+      "standardized_label": "date_of_death",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter date of death.' The 'P1_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N6B_FLD[0]",
+      "standardized_label": "place_of_death_city_state",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter place of death. CITY AND STATE'. The 'P1_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label, including the specified format 'city_state'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N7A_CB1[0]",
+      "standardized_label": "deceased_unable_to_work_due_to_disability_at_death_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 7(a), which asks 'Was the Deceased unable to work because of a disabling condition at the time of death?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N7A_CB2[0]",
+      "standardized_label": "deceased_unable_to_work_due_to_disability_at_death_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 7(a), which asks 'Was the Deceased unable to work because of a disabling condition at the time of death?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P1_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_N7B_FLD[0]",
+      "standardized_label": "date_disability_began",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter date disability began.' This question is dependent on the previous question (7a) about the deceased's disability. The 'P1_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N8A_FLD[0]",
+      "standardized_label": "deceased_earnings_year_of_death_amount",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'How much did the Deceased earn from employment and self-employment during the year of death? Amount $'. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label. It's important to capture that this is about the deceased's earnings and the specific time frame (year of death)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N8A_CB1[0]",
+      "standardized_label": "deceased_earnings_year_of_death_unknown_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Unknown' in response to question 8(a) regarding 'How much did the Deceased earn...'. The 'CB1' denotes it as a checkbox option. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N8B_FLD[0]",
+      "standardized_label": "deceased_earnings_year_before_death_amount",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'About how much did the Deceased earn the year before death? Amount $'. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label. It's important to capture that this is about the deceased's earnings and the specific time frame ('year before death')."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N8B_CB1[0]",
+      "standardized_label": "deceased_earnings_year_before_death_unknown_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Unknown' in response to question 8(b) regarding 'About how much did the Deceased earn the year before death?'. The 'CB1' denotes it as a checkbox option. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N9A_CB1[0]",
+      "standardized_label": "deceased_social_security_covered_income_1978_through_last_year_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 9(a), which asks 'Did the Deceased have wages or self-employment income covered under Social Security in all years from 1978 through last year?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label that captures the full meaning of the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N9A_CB2[0]",
+      "standardized_label": "deceased_social_security_covered_income_1978_through_last_year_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 9(a), which asks 'Did the Deceased have wages or self-employment income covered under Social Security in all years from 1978 through last year?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label that captures the full meaning of the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N9B_FLD[0]",
+      "standardized_label": "deceased_years_without_social_security_covered_income_1978_to_last_year",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'List the years from 1978 through last year in which the Deceased did not have wages or self-employment income covered under Social Security.' The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label that captures the full meaning of the question."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N10_CB1[0]",
+      "standardized_label": "not_submitting_evidence_of_deceased_earnings_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox with the text 'I am not submitting evidence of the Deceased's earnings that are not yet on his/her earnings record.'. The 'CB1' denotes it as a checkbox option. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the essence of the statement being checked."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N11A_FLD[0]",
+      "standardized_label": "applicant_date_of_birth",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter date of birth.' and is within 'PART 2 - INFORMATION ABOUT YOURSELF'. This indicates it's the applicant's date of birth. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N11B_FLD[0]",
+      "standardized_label": "applicant_place_of_birth_state_or_country",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Enter name of State or Foreign country where you were born.' This refers to the applicant's place of birth. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label, including the detail 'state_or_country'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N12A_CB1[0]",
+      "standardized_label": "applicant_us_citizen_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 12(a), which asks 'Are you an U.S. citizen?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N12A_CB2[0]",
+      "standardized_label": "applicant_us_citizen_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 12(a), which asks 'Are you an U.S. citizen?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N12B_CB1[0]",
+      "standardized_label": "applicant_lawfully_present_alien_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 12(b), which asks 'Are you an alien lawfully present in the U.S.?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N12B_CB2[0]",
+      "standardized_label": "applicant_lawfully_present_alien_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 12(b), which asks 'Are you an alien lawfully present in the U.S.?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N12IfYes_FLD[0]",
+      "standardized_label": "date_lawfully_admitted_to_us",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'If yes, when were you lawfully admitted to the U.S.?. MONTH, DAY, YEAR'. This field is conditional on an affirmative answer to question 12(b) about being a lawfully present alien. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label capturing the meaning."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13A_CB1[0]",
+      "standardized_label": "married_since_deceased_death_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 13(a), which asks 'Have you married since the death of the Deceased?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13A_CB2[0]",
+      "standardized_label": "married_since_deceased_death_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 13(a), which asks 'Have you married since the death of the Deceased?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BMarrWho_FLD[0]",
+      "standardized_label": "marriage_to_whom",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'To whom married' under question 13(b) 'Enter below the information requested about the marriage'. This field captures the name of the person the applicant married. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BMarrWhen_FLD[0]",
+      "standardized_label": "marriage_date",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'When (Month, day, year)' under question 13(b) related to marriage information. This field captures the date of the marriage. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BMarrWhere_FLD[0]",
+      "standardized_label": "marriage_place_city_state",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Where (Name of City and State)' under question 13(b) related to marriage information. This field captures the location of the marriage. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label, including the detail 'city_state'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEndedHow_FLD[0]",
+      "standardized_label": "marriage_ended_how",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'How marriage ended (If still in effect, write 'Not ended')' under question 13(b) related to marriage information. This field captures how a marriage concluded. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEndedWhen_FLD[0]",
+      "standardized_label": "marriage_ended_date",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'When (Month, day, year)' under question 13(b) related to how a marriage ended. This field captures the date the marriage ended. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEndedWhere_FLD[0]",
+      "standardized_label": "marriage_ended_place_city_state",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Where (Name of City and State)' under question 13(b) related to how a marriage ended. This field captures the location where the marriage ended. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label, including the detail 'city_state'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEMarrPerfBy_CB1[0]",
+      "standardized_label": "marriage_performed_by_clergyman_or_public_official",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Marriage performed by: Clergyman or public official' under question 13(b) related to marriage information. The 'CB1' denotes it as a checkbox option. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the specific detail about who performed the marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEMarrPerfBy_CB2[0]",
+      "standardized_label": "marriage_performed_by_other",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Other (Explain in 'Remarks')' under question 13(b) related to who performed the marriage. The 'CB2' denotes it as a checkbox option. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the specific detail that the marriage was performed by 'other' means."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseDOB_FLD[0]",
+      "standardized_label": "spouse_date_of_birth",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Spouse's date of birth (or age)' under question 13(b) related to marriage information. This field captures the spouse's date of birth. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseDOD_FLD[0]",
+      "standardized_label": "spouse_date_of_death",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'If spouse deceased, give date of death' under question 13(b) related to marriage information. This field captures the spouse's date of death if applicable. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N13BEMarrSpouseSSN_FLD[0]",
+      "standardized_label": "spouse_social_security_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Spouse's Social Security Number (If 'None' or 'Unknown,' so indicate)' under question 13(b) related to marriage information. This field captures the spouse's SSN. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N14Railroad_CB1[0]",
+      "standardized_label": "applicant_spouse_or_deceased_worked_in_railroad_industry_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 14, which asks 'Did you, your spouse, or the Deceased work in the railroad industry for 5 years or more?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N14Railroad_CB2[0]",
+      "standardized_label": "applicant_spouse_or_deceased_worked_in_railroad_industry_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 14, which asks 'Did you, your spouse, or the Deceased work in the railroad industry for 5 years or more?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N15A_CB1[0]",
+      "standardized_label": "applicant_has_foreign_social_security_credits_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 15(a), which asks 'Do you have social security credits (...) under another country's social security system?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N15A_CB2[0]",
+      "standardized_label": "applicant_has_foreign_social_security_credits_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 15(a), which asks 'Do you have social security credits (...) under another country's social security system?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N15B_FLD[0]",
+      "standardized_label": "applicant_foreign_social_security_countries",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'List the country(ies)' under question 15(b), which follows the question about having foreign social security credits. This field is for listing the countries. The 'P2_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N15C_CB1[0]",
+      "standardized_label": "applicant_filing_for_foreign_social_security_benefits_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 15(c), which asks 'Are you filing for foreign Social Security benefits?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_N15C_CB2[0]",
+      "standardized_label": "applicant_filing_for_foreign_social_security_benefits_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 15(c), which asks 'Are you filing for foreign Social Security benefits?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P2_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16A_FLD[0]",
+      "standardized_label": "applicant_total_earnings_last_year_amount",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'How much were your total earnings last year? $'. This refers to the applicant's earnings, and is conditional on the deceased's death date. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label capturing the applicant's total earnings for the last year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16B_FLD[0]",
+      "standardized_label": "applicant_exempt_wage_limit_last_year",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this field is for entering the monthly wage limit ('*Enter the appropriate monthly limit...$ in wages') used to determine exempt months in the previous year. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label that captures its purpose within question 16(b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16None_CB1[0]",
+      "standardized_label": "applicant_exempt_months_last_year_none_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'None' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16ALL_CB1[0]",
+      "standardized_label": "applicant_exempt_months_last_year_all",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'All' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Jan_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_january",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'January' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Feb_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_february",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'February' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Mar_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_march",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'March' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Apr_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_april",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'April' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16May_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_may",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'May' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Jun_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_june",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'June' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Jul_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_july",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'July' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Aug_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_august",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'August' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Sep_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_september",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'September' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Oct_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_october",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'October' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Nov_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_november_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'November' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N16Dec_CB1[0]",
+      "standardized_label": "applicant_exempt_month_last_year_december",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'December' related to question 16(b) about exempt months for the applicant's earnings last year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17A_FLD[0]",
+      "standardized_label": "applicant_expected_total_earnings_this_year_amount",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'How much do you expect your total earnings to be this year? $'. This refers to the applicant's expected earnings. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label capturing the applicant's expected total earnings for the current year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17B_FLD[0]",
+      "standardized_label": "applicant_expected_exempt_wage_limit_this_year",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this field is for entering the monthly wage limit ('*Enter the appropriate monthly limit...') used to determine exempt months for the current year. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label that captures its purpose within question 17(b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17None_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_months_this_year_none_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'None' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17ALL_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_months_this_year_all",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'All' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Jan_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_january",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'January' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Feb_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_february",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'February' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Mar_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_march",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'March' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Apr_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_april",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'April' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17May_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_may",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'May' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Jun_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_june",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'June' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Jul_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_july",
+      "confidence": 90,
+      "reasoning": "Based on the pattern of preceding fields (P3_N17Jan_CB1, P3_N17Feb_CB1, etc.) which are checkboxes for months under question 17(b) concerning the applicant's expected exempt months for earnings this year, 'Jul' is clearly an abbreviation for 'July'. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Aug_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_august",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'August' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Sep_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_september",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'September' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Oct_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_october",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'October' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Nov_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_november_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'November' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N17Dec_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_this_year_december",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'December' related to question 17(b) about expected exempt months for the applicant's earnings this year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18A_FLD[0]",
+      "standardized_label": "applicant_expected_total_earnings_next_year_amount",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'How much do you expect to earn next year? $'. This refers to the applicant's expected earnings for the upcoming year. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label capturing the applicant's expected total earnings for next year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18PlaceX_FLD[0]",
+      "standardized_label": "applicant_expected_exempt_wage_limit_next_year",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this field is for entering the monthly wage limit ('*Enter the appropriate monthly limit...') used to determine expected exempt months for the next year. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label that captures its purpose within question 18(b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18None_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_months_next_year_none_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'None' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18ALL_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_months_next_year_all",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'All' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Jan_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_january",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Jan.' (January) related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Feb_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_february",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'February' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Mar_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_march",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'March' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Apr_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_april",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'April' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18May_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_may",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'May' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Jun_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_june",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'June' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Jul_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_july",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'July' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Aug_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_august",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'August' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Sep_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_september",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Sept' (September) related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Oct_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_october",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'October' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Nov_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_november_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'November' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N18Dec_CB1[0]",
+      "standardized_label": "applicant_expected_exempt_month_next_year_december",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'December' related to question 18(b) about expected exempt months for the applicant's earnings next year. The 'CB1' denotes it as a checkbox option. Page identifiers (`P3_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_N19_FLD[0]",
+      "standardized_label": "fiscal_year_ends_month",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'enter here the month your fiscal year ends. month'. This field captures the ending month of a fiscal year if it differs from a calendar year. The 'P3_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_MedicareReadOnly_FLD[0]",
+      "standardized_label": "medicare_read_only",
+      "confidence": 90,
+      "reasoning": "The field name `P3_MedicareReadOnly_FLD` explicitly indicates it contains read-only Medicare information. Page identifiers (`P3_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_MedicareReadOnly_FLD[0]",
+      "standardized_label": "medicare_read_only",
+      "confidence": 90,
+      "reasoning": "The field name `P4_MedicareReadOnly_FLD` explicitly indicates it contains read-only Medicare information. Page identifiers (`P4_`) and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_N20_CB1[0]",
+      "standardized_label": "enroll_in_medicare_part_b_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'Yes' option to question 20, which asks 'Do you want to enroll in Medicare Part B (Medical Insurance)?'. The 'CB1' denotes it as the first checkbox. Page identifiers (`P4_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'Yes' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_N20_CB2[0]",
+      "standardized_label": "enroll_in_medicare_part_b_no_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for the 'No' option to question 20, which asks 'Do you want to enroll in Medicare Part B (Medical Insurance)?'. The 'CB2' denotes it as the second checkbox. Page identifiers (`P4_`) and index IDs (`[0]`) are removed to create a concise, semantic snake_case label capturing the full meaning of the question and the 'No' answer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Remarks_FLD[0]",
+      "standardized_label": "remarks",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly labels this field as 'REMARKS' and indicates it's for explanations. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Date_FLD[0]",
+      "standardized_label": "applicant_signature_date",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this field is for the 'Date (Month, day, year)' immediately following 'SIGNATURE OF APPLICANT'. This clearly refers to the date the applicant signs the form. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Signature_FLD[0]",
+      "standardized_label": "applicant_signature",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly indicates this field is for the 'SIGNATURE OF APPLICANT'. The field name also contains 'Signature'. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Phone_FLD[0]",
+      "standardized_label": "applicant_phone_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Telephone number(s) at which you may be contacted during the day (AREA CODE) Phone number'. This refers to the applicant's contact phone. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Routing_FLD[0]",
+      "standardized_label": "direct_deposit_routing_transit_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Direct Deposit Payment Address (Financial Institution) Routing Transit Number'. This field is clearly for the bank's routing number for direct deposit. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_CS_FLD[0]",
+      "standardized_label": "direct_deposit_account_type",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly indicates 'c checking or s savings', following the routing number and preceding the account number. This field is for selecting the type of direct deposit account. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_AccountNum_FLD[0]",
+      "standardized_label": "direct_deposit_account_number",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Depositor Account Number' within the 'Direct Deposit Payment Address' section. This field is clearly for the direct deposit account number. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_DirectDeposit_CB1[0]",
+      "standardized_label": "direct_deposit_no_account_checkbox",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'No Account' within the direct deposit section. This implies the applicant does not have an account for direct deposit. The 'P4_' page identifier and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_DirectDeposit_CB2[0]",
+      "standardized_label": "direct_deposit_refused",
+      "confidence": 90,
+      "reasoning": "The PDF context indicates this is a checkbox for 'Direct Deposit Refused' within the direct deposit section. This implies the applicant is refusing direct deposit. The 'P4_' page identifier and index IDs (`[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_MailingAddressStreet_FLD[0]",
+      "standardized_label": "applicant_mailing_address_street",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'Applicant's Mailing Address (Number and street, Apartment Number, P.O. Box, or Rural Route)'. This field captures the street portion of the mailing address. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_CityState_FLD[0]",
+      "standardized_label": "applicant_mailing_address_city_state",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'City and State' within the 'Applicant's Mailing Address' section. This field captures the city and state of the mailing address. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_ZIP_FLD[0]",
+      "standardized_label": "applicant_mailing_address_zip_code",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'ZIP Code' within the 'Applicant's Mailing Address' section. This field captures the ZIP code of the mailing address. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_County_FLD[0]",
+      "standardized_label": "applicant_residence_county",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states 'County (if any) in which you now live'. This refers to the applicant's current residence county. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Witness1Sign_FLD[0]",
+      "standardized_label": "witness_1_signature",
+      "confidence": 90,
+      "reasoning": "The PDF context explicitly states '1. Signature of Witness' within the section for witnesses. The 'P4_' page identifier and field type suffixes (`_FLD`, `[0]`) are removed to create a concise, semantic snake_case label, clearly identifying it as the first witness's signature."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Witness1Add_FLD[0]",
+      "standardized_label": "form1[0].BodyPage4[0].P4_Witness1Add_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 835.317591ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Witness2Sign_FLD[0]",
+      "standardized_label": "form1[0].BodyPage4[0].P4_Witness2Sign_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 430.998018ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage4[0].P4_Witness2Add_FLD[0]",
+      "standardized_label": "form1[0].BodyPage4[0].P4_Witness2Add_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 19.242929ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage5[0].P5_PA_FLD[0]",
+      "standardized_label": "form1[0].BodyPage5[0].P5_PA_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.616069921s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage5[0].P5_PRA_FLD[0]",
+      "standardized_label": "form1[0].BodyPage5[0].P5_PRA_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.214997173s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_BeforeYouReceive_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_BeforeYouReceive_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.792546243s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_AfterYouReceive_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_AfterYouReceive_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.380376516s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_SSAOffice_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_SSAOffice_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 57.959342636s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_ClaimRecd_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_ClaimRecd_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 57.533666148s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_WithinDays_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_WithinDays_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 57.118269462s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Claimant1_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Claimant1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.699106468s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_BNCNum1_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_BNCNum1_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.278513417s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Claimant2_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Claimant2_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.862719822s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_BNCNum2_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_BNCNum2_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.440582629s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_DeceasedName_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_DeceasedName_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.028594946s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Year_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Year_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.618293901s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_YearAmt_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_YearAmt_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.200261595s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Changes_CB1[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Changes_CB1[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.78688775s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Changes_CB2[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Changes_CB2[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.379398744s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_ChangesmoreAmt_CB1[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_ChangesmoreAmt_CB1[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 52.962001375s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Changes_CB3[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Changes_CB3[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 52.530669231s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_Changes_CB4[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_Changes_CB4[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 52.114127456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6_ChangesReadOnly_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6_ChangesReadOnly_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.701785127s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "form1[0].BodyPage6[0].P6EOF_FLD[0]",
+      "standardized_label": "form1[0].BodyPage6[0].P6EOF_FLD[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 51.276386518s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+    }
+  ]
+}

@@ -1,0 +1,1048 @@
+{
+  "filename": "fe-6_1-11-17_unlocked.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I1[0].death[0]",
+      "standardized_label": "death_certificate",
+      "confidence": 90,
+      "reasoning": "The core semantic part of the field name is 'death'. The provided context 'If you are sending a death certificate with this claim form' clearly indicates that this checkbox pertains to the submission of a death certificate. All page and index IDs like `topmostSubform[0].Page1[0].List4[0].I1[0]` are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I2[0].directpay[0]",
+      "standardized_label": "direct_payment_authorization",
+      "confidence": 90,
+      "reasoning": "The field name `directpay` combined with the context 'authorizing payment directly to the funeral home' clearly indicates this checkbox relates to an authorization for direct payment. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I3[0].policereport[0]",
+      "standardized_label": "police_report",
+      "confidence": 90,
+      "reasoning": "The core semantic part of the field name is 'policereport'. The provided context 'If you are sending police reports and other supporting documents' directly confirms that this checkbox refers to a police report. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I4[0].filingclaim[0]",
+      "standardized_label": "court_appointment_papers",
+      "confidence": 90,
+      "reasoning": "The field name `filingclaim` is a bit generic, but the provided context 'If you are sending a copy of the appointment papers issued by the court with this claim form' clarifies that the checkbox is specifically for 'court appointment papers'. This is more precise than just 'filing claim'. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I5[0].trust[0]",
+      "standardized_label": "trust_document",
+      "confidence": 90,
+      "reasoning": "The core semantic part of the field name is 'trust'. The provided context 'If you are sending a copy of the trust document' directly confirms that this checkbox refers to a trust document. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].List4[0].I6[0].poweratt[0]",
+      "standardized_label": "power_of_attorney_appointment_papers",
+      "confidence": 90,
+      "reasoning": "The field name `poweratt` is a clear abbreviation for 'power of attorney'. The context 'appointment papers naming you as the attorney in fact for the beneficiary' confirms this meaning. To be concise and clear, 'power_of_attorney_appointment_papers' is suitable. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].yourname1[0]",
+      "standardized_label": "your_name",
+      "confidence": 90,
+      "reasoning": "The field name `yourname1` combined with the explicit context 'Enter your name' directly indicates the purpose of the field. The number '1' and all page/index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].lastname[0]",
+      "standardized_label": "insured_last_name",
+      "confidence": 90,
+      "reasoning": "The core semantic part of the field name is 'lastname'. The context 'Enter Insured's full name (Last)' specifies that this field is for the last name of the insured person. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].birthdate[0]",
+      "standardized_label": "insured_date_of_birth",
+      "confidence": 90,
+      "reasoning": "The field name `birthdate` combined with the context 'Enter insured's date of birth' clearly indicates the field's purpose. It is specifically for the 'insured' person's date of birth. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].deathdate[0]",
+      "standardized_label": "insured_date_of_death",
+      "confidence": 90,
+      "reasoning": "The field name `deathdate` combined with the context 'Enter insured's date of death' clearly indicates the field's purpose. It is specifically for the 'insured' person's date of death. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].SocSecNo[0]",
+      "standardized_label": "insured_social_security_number",
+      "confidence": 90,
+      "reasoning": "The field name `SocSecNo` is an abbreviation for 'Social Security Number'. The context 'Enter Insured's Social Security number' clearly specifies that this is for the insured's social security number. The mention of 'FEGLI claim number' is an alternative, but the primary and most common identifier from the field name is SSN. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredcity[0]",
+      "standardized_label": "insured_city_of_residence_at_death",
+      "confidence": 90,
+      "reasoning": "The field name `insuredcity` combined with the context 'Enter insured's legal City of residence at time of death' clearly indicates the purpose. We need to include 'of residence at death' for specificity as per the context. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredstate[0]",
+      "standardized_label": "insured_state_of_residence_at_death",
+      "confidence": 90,
+      "reasoning": "The field name `insuredstate` combined with the context 'Enter or select the insured's legal State of residence at time of death' clearly indicates the purpose. We need to include 'of residence at death' for specificity as per the context. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].agency[0]",
+      "standardized_label": "insured_last_employed_agency",
+      "confidence": 90,
+      "reasoning": "The field name `agency` combined with the context 'Enter department or agency in which the insured was last employed' clearly indicates the purpose. To provide clear semantic meaning, 'insured_last_employed_agency' is appropriate. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredcityemp[0]",
+      "standardized_label": "insured_last_employed_city",
+      "confidence": 90,
+      "reasoning": "The field name `insuredcityemp` indicates 'insured city employment'. The context 'Enter the name of the City where the insured was last employed' confirms this is for the city of the insured's last employment. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredstateemp[0]",
+      "standardized_label": "insured_last_employed_state",
+      "confidence": 90,
+      "reasoning": "The field name `insuredstateemp` indicates 'insured state employment'. The context 'Enter or select the State where the insured was last employed' confirms this is for the state of the insured's last employment. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredszip[0]",
+      "standardized_label": "insured_last_employed_zip_code",
+      "confidence": 90,
+      "reasoning": "The field name `insuredszip` refers to the insured's zip code. The context 'Enter the Zip code where the insured was last employed' specifies this is for the zip code of the insured's last employment. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].yes8[0]",
+      "standardized_label": "insured_retired_federal_civilian_system_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `yes8` is generic but the context 'If the insured was retired under any Federal civilian retirement system' clearly describes the purpose of the checkbox. The label should reflect that this is an indicator for the insured's retirement status under a federal civilian system. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].no8[0]",
+      "standardized_label": "insured_not_retired_federal_civilian_system_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `no8` is generic but the context 'If the insured was not retired under any Federal civilian retirement system' clearly describes the purpose of the checkbox. The label should reflect that this is an indicator for the insured's retirement status under a federal civilian system, specifically for 'no'. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].unknow8[0]",
+      "standardized_label": "insured_retirement_status_federal_civilian_system_unknown_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `unknow8` is a clear abbreviation for 'unknown'. The context 'If it is unknown if the insured was retired under any Federal civilian retirement system' clearly describes the purpose. The label reflects the unknown status regarding the insured's retirement under a federal civilian system. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].claimno[0]",
+      "standardized_label": "claim_number",
+      "confidence": 90,
+      "reasoning": "The field name `claimno` is a clear abbreviation for 'claim number'. The context 'Enter claim number' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].yes9[0]",
+      "standardized_label": "insured_receiving_federal_workers_compensation_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `yes9` is generic, but the context 'If at the time of death, the insured was receiving Federal Worker’s Compensation benefits' clearly describes the purpose of the checkbox. The label reflects that this is an indicator for the insured receiving federal workers' compensation benefits. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].no9[0]",
+      "standardized_label": "insured_not_receiving_federal_workers_compensation_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `no9` is generic, but the context 'If at the time of death, the insured was not receiving Federal Worker’s Compensation benefits' clearly describes the purpose of the checkbox. The label reflects that this is an indicator for the insured not receiving federal workers' compensation benefits. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].unknow9[0]",
+      "standardized_label": "insured_receiving_federal_workers_compensation_unknown_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `unknow9` is an abbreviation for 'unknown'. The context 'If at the time of death, it is unknown if the insured was receiving Federal Worker’s Compensation benefits' clearly describes the purpose. The label reflects the unknown status regarding the insured receiving federal workers' compensation benefits. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].dateofFederal[0]",
+      "standardized_label": "date_of_federal_workers_compensation_benefits",
+      "confidence": 90,
+      "reasoning": "The field name `dateofFederal` combined with the context 'Enter date of Federal Worker's Compensation Benefits' clearly indicates the purpose. The label directly reflects this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row1[0].timesmarried[0]",
+      "standardized_label": "insured_number_of_marriages",
+      "confidence": 90,
+      "reasoning": "The field name `timesmarried` combined with the context 'Enter how many times the insured was married' clearly indicates the field's purpose. It refers to the number of marriages for the insured person. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row1[0].spouse1[0]",
+      "standardized_label": "spouse_name_1",
+      "confidence": 90,
+      "reasoning": "The field name `spouse1` combined with the context 'Enter name of spouse' clearly indicates the field's purpose. The '1' signifies it's the first spouse's name, so it's kept to differentiate if there are multiple spouses listed. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row1[0].sub1[0].death1[0]",
+      "standardized_label": "marriage_ended_by_death_1_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death1` combined with the context 'If marriage ended in death' and the association with `spouse1` (from a prior field) clearly indicates this checkbox refers to the first spouse's marriage ending in death. The '1' is retained for consistency with spouse_name_1. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row1[0].sub1[0].div1[0]",
+      "standardized_label": "marriage_ended_by_divorce_1_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div1` combined with the context 'If marriage ended in divorce' and the association with `spouse1` (from a prior field) clearly indicates this checkbox refers to the first spouse's marriage ending in divorce. The '1' is retained for consistency with spouse_name_1. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row1[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_1",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` combined with the context 'Enter date marriage ended' and its association with a specific spouse (indicated by '1') clearly defines its purpose. The '1' is retained for consistency. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row2[0].spouse2[0]",
+      "standardized_label": "spouse_name_2",
+      "confidence": 90,
+      "reasoning": "The field name `spouse2` combined with the context 'Enter name of spouse' clearly indicates the field's purpose. The '2' signifies it's the second spouse's name, so it's kept to differentiate if there are multiple spouses listed. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row2[0].sub2[0].death2[0]",
+      "standardized_label": "marriage_ended_by_death_2_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death2` combined with the context 'If marriage ended in death' and the association with `spouse2` (from a prior field) clearly indicates this checkbox refers to the second spouse's marriage ending in death. The '2' is retained for consistency with spouse_name_2. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row2[0].sub2[0].div2[0]",
+      "standardized_label": "marriage_ended_by_divorce_2_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div2` combined with the context 'If marriage ended in divorce' and the association with `spouse2` (from a prior field) clearly indicates this checkbox refers to the second spouse's marriage ending in divorce. The '2' is retained for consistency with spouse_name_2. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row2[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_2",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended2` given the row is `Row2` and it follows `spouse2`) combined with the context 'Enter date marriage ended' and its position in the second row strongly implies it refers to the second spouse's marriage end date. Correcting the implied index to '2' for consistency with the pattern observed for other spouse-related fields. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row3[0].spouse3[0]",
+      "standardized_label": "spouse_name_3",
+      "confidence": 90,
+      "reasoning": "The field name `spouse3` combined with the context 'Enter name of spouse' clearly indicates the field's purpose. The '3' signifies it's the third spouse's name, so it's kept to differentiate if there are multiple spouses listed. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row3[0].sub3[0].death3[0]",
+      "standardized_label": "marriage_ended_by_death_3_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death3` combined with the context 'If marriage ended in death' and the association with `spouse3` (from a prior field) clearly indicates this checkbox refers to the third spouse's marriage ending in death. The '3' is retained for consistency with spouse_name_3. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row3[0].sub3[0].div3[0]",
+      "standardized_label": "marriage_ended_by_divorce_3_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div3` combined with the context 'If marriage ended in divorce' and the association with `spouse3` (from a prior field) clearly indicates this checkbox refers to the third spouse's marriage ending in divorce. The '3' is retained for consistency with spouse_name_3. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row3[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_3",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended3` given the row is `Row3` and it follows `spouse3`) combined with the context 'Enter date marriage ended' and its position in the third row strongly implies it refers to the third spouse's marriage end date. Correcting the implied index to '3' for consistency with the pattern observed for other spouse-related fields. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row4[0].spouse4[0]",
+      "standardized_label": "spouse_name_4",
+      "confidence": 90,
+      "reasoning": "The field name `spouse4` combined with the context 'Enter name of spouse' clearly indicates the field's purpose. The '4' signifies it's the fourth spouse's name, so it's kept to differentiate if there are multiple spouses listed. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row4[0].sub4[0].death4[0]",
+      "standardized_label": "marriage_ended_by_death_4_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death4` combined with the context 'If marriage ended in death' and the association with `spouse4` (from a prior field) clearly indicates this checkbox refers to the fourth spouse's marriage ending in death. The '4' is retained for consistency with spouse_name_4. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row4[0].sub4[0].div4[0]",
+      "standardized_label": "marriage_ended_by_divorce_4_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div4` combined with the context 'If marriage ended in divorce' and the association with `spouse4` (from a prior field) clearly indicates this checkbox refers to the fourth spouse's marriage ending in divorce. The '4' is retained for consistency with spouse_name_4. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table1[0].Row4[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_4",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended4` given the row is `Row4` and it follows `spouse4`) combined with the context 'Enter date marriage ended' and its position in the fourth row strongly implies it refers to the fourth spouse's marriage end date. Correcting the implied index to '4' for consistency with the pattern observed for other spouse-related fields. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].dateofmarriage[0]",
+      "standardized_label": "date_of_marriage",
+      "confidence": 90,
+      "reasoning": "The field name `dateofmarriage` combined with the context 'Enter date of marriage' clearly indicates the purpose. The label directly reflects this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].marriagecity[0]",
+      "standardized_label": "marriage_city",
+      "confidence": 90,
+      "reasoning": "The field name `marriagecity` combined with the context 'Enter name of the city where married' clearly indicates the purpose. The label directly reflects this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].marriedstate[0]",
+      "standardized_label": "marriage_state",
+      "confidence": 90,
+      "reasoning": "The field name `marriedstate` combined with the context 'Enter or select the name of the state where married' clearly indicates the purpose. The label directly reflects this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].clergy[0]",
+      "standardized_label": "marriage_performed_by_clergy_or_justice_of_peace_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `clergy` is concise, but the context 'If marriage was performed by clergy or justice of the peace' provides the full semantic meaning. The label should clearly indicate this specific condition regarding who performed the marriage. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].other[0]",
+      "standardized_label": "marriage_performed_by_other_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `other` is generic, but the context 'If marriage was performed by other' specifies that this checkbox is for indicating if the marriage was performed by someone other than clergy or justice of the peace. The label should reflect this. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredyes[0]",
+      "standardized_label": "divorced_from_insured_at_death_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `insuredyes` is very generic. However, the context 'If divorced from insured at the time of death' clearly states the condition this checkbox signifies. The label should fully capture this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].insuredno[0]",
+      "standardized_label": "not_divorced_from_insured_at_death_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `insuredno` is very generic. However, the context 'If not divorced from insured at the time of death' clearly states the condition this checkbox signifies. The label should fully capture this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].dateofdiv[0]",
+      "standardized_label": "date_of_divorce",
+      "confidence": 90,
+      "reasoning": "The field name `dateofdiv` is an abbreviation for 'date of divorce'. The context 'Enter the date of divorce' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "reasoning": "The field name `placediv` is a clear abbreviation for 'place of divorce'. The context 'Enter the place of divorce' directly confirms its purpose. All page and index IDs are removed as per rules.",
+      "standardized_label": "place_of_divorce",
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].placediv[0]",
+      "confidence": 90
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row1[0].timesmarried[0]",
+      "standardized_label": "insured_number_of_marriages",
+      "confidence": 90,
+      "reasoning": "The field name `timesmarried` combined with the context 'Enter how many times the insured was married' clearly indicates the field's purpose. It refers to the number of marriages for the insured person. All page, table, and row IDs are removed as per rules. This field appears to be a duplicate or re-ask of an earlier question about the insured's marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row1[0].spouse1[0]",
+      "standardized_label": "spouse_name_1_current",
+      "confidence": 70,
+      "reasoning": "The field name `spouse1` combined with the context 'Enter name of spouse' indicates the field's purpose. Since this is in `Table2` and likely a separate section or repeating block, and `Table1` also had `spouse1`, adding `_current` helps differentiate it if it's meant for a current spouse or a different context, although the context alone doesn't explicitly state 'current'. The '1' is retained for consistency. All page, table, and row IDs are removed as per rules. Confidence is medium because while `spouse_name_1` is straightforward, the addition of `_current` is an inference based on the form structure, assuming `Table2` represents current or a different set of marriage details, but not explicitly stated in this single field's context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row1[0].sub81[0].death81[0]",
+      "standardized_label": "marriage_ended_by_death_1_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death81` combined with the context 'If marriage ended in death' clearly indicates the purpose of the checkbox. Given its location in `Table2.Row1` and in conjunction with the previously standardized `spouse_name_1_current` field in the same row, it refers to the first spouse listed in this section. The '81' in `death81` is treated as an internal identifier and removed, and '1' is used to denote the first spouse in this 'current' marriage table. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row1[0].sub81[0].div81[0]",
+      "standardized_label": "marriage_ended_by_divorce_1_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div81` combined with the context 'If marriage ended in divorce' clearly indicates the purpose of the checkbox. Given its location in `Table2.Row1` and in conjunction with the previously standardized `spouse_name_1_current` field in the same row, it refers to the first spouse listed in this section. The '81' in `div81` is treated as an internal identifier and removed, and '1' is used to denote the first spouse in this 'current' marriage table. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row1[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_1_current",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` combined with the context 'Enter date marriage ended' and its position in `Table2.Row1` indicates it refers to the first spouse's marriage end date within this specific table. The '1' is retained, and `_current` is added for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row2[0].spouse2[0]",
+      "standardized_label": "spouse_name_2_current",
+      "confidence": 90,
+      "reasoning": "The field name `spouse2` combined with the context 'Enter name of spouse' and its position in `Table2.Row2` clearly indicates it refers to the second spouse's name within this specific table. The '2' is retained, and `_current` is added for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row2[0].sub82[0].death82[0]",
+      "standardized_label": "marriage_ended_by_death_2_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death82` combined with the context 'If marriage ended in death' and its location in `Table2.Row2` and in conjunction with `spouse2` (from the same row) clearly indicates this checkbox refers to the second spouse's marriage ending in death within this section. The '82' in `death82` is treated as an internal identifier and removed, and '2' is used to denote the second spouse in this 'current' marriage table. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row2[0].sub82[0].div82[0]",
+      "standardized_label": "marriage_ended_by_divorce_2_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div82` combined with the context 'If marriage ended in divorce' and its location in `Table2.Row2` and in conjunction with `spouse2` (from the same row) clearly indicates this checkbox refers to the second spouse's marriage ending in divorce within this section. The '82' in `div82` is treated as an internal identifier and removed, and '2' is used to denote the second spouse in this 'current' marriage table. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row2[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_2_current",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended2` given the row is `Row2` and it follows `spouse2` from a prior field in this table) combined with the context 'Enter date marriage ended' and its position in `Table2.Row2` strongly implies it refers to the second spouse's marriage end date within this section. Correcting the implied index to '2' for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row3[0].spouse3[0]",
+      "standardized_label": "spouse_name_3_current",
+      "confidence": 90,
+      "reasoning": "The field name `spouse3` combined with the context 'Enter name of spouse' and its position in `Table2.Row3` clearly indicates it refers to the third spouse's name within this specific table. The '3' is retained, and `_current` is added for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row3[0].sub84[0].death83[0]",
+      "standardized_label": "marriage_ended_by_death_3_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death83` combined with the context 'If marriage ended in death' and its location in `Table2.Row3` and in conjunction with `spouse3` (from the same row) clearly indicates this checkbox refers to the third spouse's marriage ending in death within this section. The '83' in `death83` is treated as an internal identifier and removed, and '3' is used to denote the third spouse in this 'current' marriage table. The subform `sub84` also appears to be an internal ID. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row3[0].sub84[0].div83[0]",
+      "standardized_label": "marriage_ended_by_divorce_3_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div83` combined with the context 'If marriage ended in divorce' and its location in `Table2.Row3` and in conjunction with `spouse3` (from the same row) clearly indicates this checkbox refers to the third spouse's marriage ending in divorce within this section. The '83' in `div83` is treated as an internal identifier and removed, and '3' is used to denote the third spouse in this 'current' marriage table. The subform `sub84` also appears to be an internal ID. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row3[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_3_current",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended3` given the row is `Row3` and it follows `spouse3` from a prior field in this table) combined with the context 'Enter date marriage ended' and its position in `Table2.Row3` strongly implies it refers to the third spouse's marriage end date within this section. Correcting the implied index to '3' for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row4[0].spouse4[0]",
+      "standardized_label": "spouse_name_4_current",
+      "confidence": 90,
+      "reasoning": "The field name `spouse4` combined with the context 'Enter name of spouse' and its position in `Table2.Row4` clearly indicates it refers to the fourth spouse's name within this specific table. The '4' is retained, and `_current` is added for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row4[0].sub87[0].death84[0]",
+      "standardized_label": "marriage_ended_by_death_4_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `death84` combined with the context 'If marriage ended in death' and its location in `Table2.Row4` and in conjunction with `spouse4` (from the same row) clearly indicates this checkbox refers to the fourth spouse's marriage ending in death within this section. The '84' in `death84` is treated as an internal identifier and removed, and '4' is used to denote the fourth spouse in this 'current' marriage table. The subform `sub87` also appears to be an internal ID. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row4[0].sub87[0].div84[0]",
+      "standardized_label": "marriage_ended_by_divorce_4_current_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `div84` combined with the context 'If marriage ended in divorce' and its location in `Table2.Row4` and in conjunction with `spouse4` (from the same row) clearly indicates this checkbox refers to the fourth spouse's marriage ending in divorce within this section. The '84' in `div84` is treated as an internal identifier and removed, and '4' is used to denote the fourth spouse in this 'current' marriage table. The subform `sub87` also appears to be an internal ID. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Table2[0].Row4[0].dateended1[0]",
+      "standardized_label": "marriage_end_date_4_current",
+      "confidence": 90,
+      "reasoning": "The field name `dateended1` (which should logically be `dateended4` given the row is `Row4` and it follows `spouse4` from a prior field in this table) combined with the context 'Enter date marriage ended' and its position in `Table2.Row4` strongly implies it refers to the fourth spouse's marriage end date within this section. Correcting the implied index to '4' for consistency with the pattern established for other fields in `Table2`. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].yourname2[0]",
+      "standardized_label": "your_name_page_4",
+      "confidence": 70,
+      "reasoning": "The field name `yourname2` and context 'Enter your name' are clear. While `your_name` was used for `yourname1` on Page 3, this is `yourname2` on Page 4. To differentiate, 'page_4' is appended, assuming it's a separate signature or identification section on a different page. Without more context, it's safer to distinguish it by page rather than assuming it's the exact same data point being collected again without a specific reason. All page and index IDs are removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].livingyes[0]",
+      "standardized_label": "insured_had_living_children_before_death_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `livingyes` is generic. However, the context 'If the insured had any living children before his/her date of death' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].livingno[0]",
+      "standardized_label": "insured_had_no_living_children_before_death_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `livingno` is generic. However, the context 'If the insured did not have any living children before his/her date of death' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].livingchild[0]",
+      "standardized_label": "insured_number_of_living_children_at_death",
+      "confidence": 90,
+      "reasoning": "The field name `livingchild` combined with the context 'Enter how many living children the insured had on the date of his/her death' clearly indicates the purpose. The label directly reflects this meaning, including the specificity of 'at death'. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row1[0].name1[0]",
+      "standardized_label": "child_name_1",
+      "confidence": 90,
+      "reasoning": "The field name `name1` is generic, but its position within `Table3` (which follows questions about living children) and in `Row1` strongly suggests it refers to the name of the first child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row1[0].age1[0]",
+      "standardized_label": "child_age_1",
+      "confidence": 90,
+      "reasoning": "The field name `age1` combined with the context 'Enter age' and its position in `Table3.Row1` after `name1` clearly indicates it refers to the age of the first child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row1[0].relation1[0]",
+      "standardized_label": "child_relationship_to_insured_1",
+      "confidence": 90,
+      "reasoning": "The field name `relation1` combined with the context 'Enter relationship to the insured' and its position in `Table3.Row1` after child's name and age clearly indicates it refers to the relationship of the first child to the insured. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row1[0].fulladd1[0]",
+      "standardized_label": "child_full_address_1",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd1` (full address 1) combined with the context 'Enter full address' and its position in `Table3.Row1` after other child details clearly indicates it refers to the full address of the first child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row2[0].name2[0]",
+      "standardized_label": "child_name_2",
+      "confidence": 90,
+      "reasoning": "The field name `name2` is generic, but its position within `Table3` (which follows questions about living children) and in `Row2` strongly suggests it refers to the name of the second child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row2[0].age2[0]",
+      "standardized_label": "child_age_2",
+      "confidence": 90,
+      "reasoning": "The field name `age2` combined with the context 'Enter age' and its position in `Table3.Row2` after `name2` clearly indicates it refers to the age of the second child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row2[0].relation2[0]",
+      "standardized_label": "child_relationship_to_insured_2",
+      "confidence": 90,
+      "reasoning": "The field name `relation2` combined with the context 'Enter relationship to the insured' and its position in `Table3.Row2` after other child details clearly indicates it refers to the relationship of the second child to the insured. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row2[0].fulladd2[0]",
+      "standardized_label": "child_full_address_2",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd2` (full address 2) combined with the context 'Enter full address' and its position in `Table3.Row2` after other child details clearly indicates it refers to the full address of the second child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row3[0].name3[0]",
+      "standardized_label": "child_name_3",
+      "confidence": 90,
+      "reasoning": "The field name `name3` is generic, but its position within `Table3` (which follows questions about living children) and in `Row3` strongly suggests it refers to the name of the third child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row3[0].age3[0]",
+      "standardized_label": "child_age_3",
+      "confidence": 90,
+      "reasoning": "The field name `age3` combined with the context 'Enter age' and its position in `Table3.Row3` after `name3` clearly indicates it refers to the age of the third child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row3[0].relation3[0]",
+      "standardized_label": "child_relationship_to_insured_3",
+      "confidence": 90,
+      "reasoning": "The field name `relation3` combined with the context 'Enter relationship to the insured' and its position in `Table3.Row3` after other child details clearly indicates it refers to the relationship of the third child to the insured. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row3[0].fulladd3[0]",
+      "standardized_label": "child_full_address_3",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd3` (full address 3) combined with the context 'Enter full address' and its position in `Table3.Row3` after other child details clearly indicates it refers to the full address of the third child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row4[0].name4[0]",
+      "standardized_label": "child_name_4",
+      "confidence": 90,
+      "reasoning": "The field name `name4` is generic, but its position within `Table3` (which follows questions about living children) and in `Row4` strongly suggests it refers to the name of the fourth child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row4[0].age4[0]",
+      "standardized_label": "child_age_4",
+      "confidence": 90,
+      "reasoning": "The field name `age4` combined with the context 'Enter age' and its position in `Table3.Row4` after `name4` clearly indicates it refers to the age of the fourth child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row4[0].relation4[0]",
+      "standardized_label": "child_relationship_to_insured_4",
+      "confidence": 90,
+      "reasoning": "The field name `relation4` combined with the context 'Enter relationship to the insured' and its position in `Table3.Row4` after other child details clearly indicates it refers to the relationship of the fourth child to the insured. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table3[0].Row4[0].fulladd4[0]",
+      "standardized_label": "child_full_address_4",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd4` (full address 4) combined with the context 'Enter full address' and its position in `Table3.Row4` after other child details clearly indicates it refers to the full address of the fourth child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].diedyes[0]",
+      "standardized_label": "insured_had_children_died_before_death_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `diedyes` is generic. However, the context 'If the insured had any children who died before his/her date of death' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].diedno[0]",
+      "standardized_label": "insured_had_no_children_died_before_death_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `diedno` is generic. The provided context 'If the insured had any children who died before his/her date of death' is identical to the 'yes' option, which is a common error in PDF contexts. Based on the field name `diedno`, it logically represents the negative condition 'not had children who died before death'. The label reflects this inferred meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].howmany[0]",
+      "standardized_label": "number_of_children_died_before_insured",
+      "confidence": 90,
+      "reasoning": "The field name `howmany` is generic, but the context 'Enter how many children died before the insured' clearly specifies the purpose of the field. The label directly reflects this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row1[0].name1[0]",
+      "standardized_label": "deceased_child_name_1",
+      "confidence": 90,
+      "reasoning": "The field name `name1` is generic, but its position within `Table4` (which follows questions about children who died before the insured) and in `Row1` strongly suggests it refers to the name of the first deceased child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row1[0].age1[0]",
+      "standardized_label": "deceased_child_age_1",
+      "confidence": 90,
+      "reasoning": "The field name `age1` combined with the context 'Enter age' and its position in `Table4.Row1` after `name1` (referring to a deceased child) clearly indicates it refers to the age of the first deceased child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row1[0].sub1[0].child1[0]",
+      "standardized_label": "deceased_child_relationship_is_child_1_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `child1` combined with the context 'If the relationship to the insured is child' and its position in `Table4.Row1` after `name1` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the first deceased child. The '1' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row1[0].sub1[0].descendant1[0]",
+      "standardized_label": "deceased_child_relationship_is_descendant_1_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `descendant1` combined with the context 'If the relationship to the insured is descendant' and its position in `Table4.Row1` after `name1` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the first deceased child. The '1' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row1[0].fulladd1[0]",
+      "standardized_label": "deceased_child_full_address_1",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd1` (full address 1) combined with the context 'Enter full address' and its position in `Table4.Row1` after other deceased child details clearly indicates it refers to the full address of the first deceased child. The '1' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row2[0].name2[0]",
+      "standardized_label": "deceased_child_name_2",
+      "confidence": 90,
+      "reasoning": "The field name `name2` is generic, but its position within `Table4` (which follows questions about children who died before the insured) and in `Row2` strongly suggests it refers to the name of the second deceased child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row2[0].age2[0]",
+      "standardized_label": "deceased_child_age_2",
+      "confidence": 90,
+      "reasoning": "The field name `age2` combined with the context 'Enter age' and its position in `Table4.Row2` after `name2` (referring to a deceased child) clearly indicates it refers to the age of the second deceased child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row2[0].sub2[0].child2[0]",
+      "standardized_label": "deceased_child_relationship_is_child_2_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `child2` combined with the context 'If the relationship to the insured is child' and its position in `Table4.Row2` after `name2` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the second deceased child. The '2' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row2[0].sub2[0].descendant2[0]",
+      "standardized_label": "deceased_child_relationship_is_descendant_2_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `descendant2` combined with the context 'If the relationship to the insured is descendant' and its position in `Table4.Row2` after `name2` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the second deceased child. The '2' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row2[0].fulladd2[0]",
+      "standardized_label": "deceased_child_full_address_2",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd2` (full address 2) combined with the context 'Enter full address' and its position in `Table4.Row2` after other deceased child details clearly indicates it refers to the full address of the second deceased child. The '2' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row3[0].name3[0]",
+      "standardized_label": "deceased_child_name_3",
+      "confidence": 90,
+      "reasoning": "The field name `name3` is generic, but its position within `Table4` (which follows questions about children who died before the insured) and in `Row3` strongly suggests it refers to the name of the third deceased child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row3[0].age3[0]",
+      "standardized_label": "deceased_child_age_3",
+      "confidence": 90,
+      "reasoning": "The field name `age3` combined with the context 'Enter age' and its position in `Table4.Row3` after `name3` (referring to a deceased child) clearly indicates it refers to the age of the third deceased child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row3[0].sub3[0].child3[0]",
+      "standardized_label": "deceased_child_relationship_is_child_3_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `child3` combined with the context 'If the relationship to the insured is child' and its position in `Table4.Row3` after `name3` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the third deceased child. The '3' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row3[0].sub3[0].descendant3[0]",
+      "standardized_label": "deceased_child_relationship_is_descendant_3_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `descendant3` combined with the context 'If the relationship to the insured is descendant' and its position in `Table4.Row3` after `name3` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the third deceased child. The '3' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row3[0].fulladd3[0]",
+      "standardized_label": "deceased_child_full_address_3",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd3` (full address 3) combined with the context 'Enter full address' and its position in `Table4.Row3` after other deceased child details clearly indicates it refers to the full address of the third deceased child. The '3' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[0].name4[0]",
+      "standardized_label": "deceased_child_name_4",
+      "confidence": 90,
+      "reasoning": "The field name `name4` is generic, but its position within `Table4` (which follows questions about children who died before the insured) and in `Row4` strongly suggests it refers to the name of the fourth deceased child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[0].age4[0]",
+      "standardized_label": "deceased_child_age_4",
+      "confidence": 90,
+      "reasoning": "The field name `age4` combined with the context 'Enter age' and its position in `Table4.Row4` after `name4` (referring to a deceased child) clearly indicates it refers to the age of the fourth deceased child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[0].sub4[0].child4[0]",
+      "standardized_label": "deceased_child_relationship_is_child_4_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `child4` combined with the context 'If the relationship to the insured is child' and its position in `Table4.Row4` after `name4` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the fourth deceased child. The '4' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[0].sub4[0].descendant4[0]",
+      "standardized_label": "deceased_child_relationship_is_descendant_4_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `descendant4` combined with the context 'If the relationship to the insured is descendant' and its position in `Table4.Row4` after `name4` (referring to a deceased child) clearly indicates this checkbox refers to the relationship of the fourth deceased child. The '4' is retained for differentiation. All page, table, row, and subform IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[0].fulladd4[0]",
+      "standardized_label": "deceased_child_full_address_4",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd4` (full address 4) combined with the context 'Enter full address' and its position in `Table4.Row4` after other deceased child details clearly indicates it refers to the full address of the fourth deceased child. The '4' is retained for differentiation of multiple children. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[1].name4[0]",
+      "standardized_label": "deceased_child_name_5",
+      "confidence": 90,
+      "reasoning": "The field name `name4` is generic, but its position within `Table4` in a new row (implied fifth row due to `Row4[1]` index, following `Row4[0]`) suggests it refers to the name of the fifth deceased child. The internal index `[1]` for `Row4` indicates it's a repeating instance of `Row4`, so the logical numerical suffix for the child should increment. All page, table, and row IDs are removed as per rules."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[1].age4[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[1].age4[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.700118423s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[1].sub5[0].child5[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[1].sub5[0].child5[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 50.275389335s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[1].sub5[0].descendant5[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[1].sub5[0].descendant5[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.862415878s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[1].fulladd4[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[1].fulladd4[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.428936924s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[2].name4[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[2].name4[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 49.03111989s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[2].age4[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[2].age4[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.612054019s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[2].sub6[0].child6[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[2].sub6[0].child6[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 48.202487968s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[2].sub6[0].descendant6[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].Table4[0].Row4[2].sub6[0].descendant6[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 47.800023305s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Table4[0].Row4[2].fulladd4[0]",
+      "standardized_label": "deceased_child_full_address_7",
+      "confidence": 90,
+      "reasoning": "The field name `fulladd4` (full address 4) is confusing due to its index. Given its position in `Table4.Row4[2]`, following `Row4[0]` (child 4) and `Row4[1]` (child 5), this logically corresponds to the seventh deceased child. The internal index `[2]` for `Row4` indicates it's a third instance of a repeated row, hence the '7'. All page, table, and row IDs are removed as per rules. The '4' in `fulladd4` is likely an internal identifier that doesn't correspond to the sequential numbering of children."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page4[0].guardian[0]",
+      "standardized_label": "topmostSubform[0].Page4[0].guardian[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 43.905590934s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].guardianadd[0]",
+      "standardized_label": "guardian_address",
+      "confidence": 90,
+      "reasoning": "The field name `guardianadd` is a clear abbreviation for 'guardian address'. The context 'Enter the guardian's address' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].guardcity[0]",
+      "standardized_label": "guardian_city",
+      "confidence": 90,
+      "reasoning": "The field name `guardcity` is an abbreviation for 'guardian city'. The context 'Enter name of the guardian's city' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].guardstate[0]",
+      "standardized_label": "guardian_state",
+      "confidence": 90,
+      "reasoning": "The field name `guardstate` is an abbreviation for 'guardian state'. The context 'Enter or select the guardian's state' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].guardzip[0]",
+      "standardized_label": "guardian_zip_code",
+      "confidence": 90,
+      "reasoning": "The field name `guardzip` is an abbreviation for 'guardian zip code'. The context 'Enter the guardian's Zip code' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].executor[0]",
+      "standardized_label": "executor_name",
+      "confidence": 90,
+      "reasoning": "The field name `executor` combined with the context 'Enter executor's name' directly confirms the purpose of the field. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].execadd[0]",
+      "standardized_label": "executor_address",
+      "confidence": 90,
+      "reasoning": "The field name `execadd` is an abbreviation for 'executor address'. The context 'Enter the executor's address' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].execcity[0]",
+      "standardized_label": "executor_city",
+      "confidence": 90,
+      "reasoning": "The field name `execcity` is an abbreviation for 'executor city'. The context 'Enter name of the executor's city' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].execstate[0]",
+      "standardized_label": "executor_state",
+      "confidence": 90,
+      "reasoning": "The field name `execstate` is an abbreviation for 'executor state'. The context 'Enter or select the executor's state' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].execzip[0]",
+      "standardized_label": "executor_zip_code",
+      "confidence": 90,
+      "reasoning": "The field name `execzip` is an abbreviation for 'executor zip code'. The context 'Enter the executor's Zip code' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].signedyes[0]",
+      "standardized_label": "funeral_home_direct_payment_authorization_signed_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `signedyes` is generic. However, the context 'If you have signed a document with a funeral home that authorizes us to make a payment directly to them' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].signedno[0]",
+      "standardized_label": "funeral_home_direct_payment_authorization_not_signed_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `signedno` is generic. However, the context 'If you have not signed a document with a funeral home that authorizes us to make a payment directly to them' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].claimyes[0]",
+      "standardized_label": "claiming_accidental_death_benefits_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `claimyes` is generic. However, the context 'If you are claiming accidental death benefits' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].claimno[0]",
+      "standardized_label": "not_claiming_accidental_death_benefits_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `claimno` is generic. However, the context 'If you are not claiming accidental death benefits' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].total[0]",
+      "standardized_label": "payment_method_total_control_account_indicator",
+      "confidence": 90,
+      "reasoning": "The field name `total` is generic, but the context 'If method of payment is total control account (TCA)' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].check[0]",
+      "standardized_label": "payment_method_check_indicator_checkbox",
+      "confidence": 90,
+      "reasoning": "The field name `check` is concise, and the context 'If method of payment is check' clearly describes the specific condition this checkbox indicates. The label fully captures this meaning. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].yourname[0]",
+      "standardized_label": "your_name_page_5",
+      "confidence": 70,
+      "reasoning": "The field name `yourname` and context 'Enter your name' are clear. Similar to `yourname2` on Page 4, this field appears on a new page (Page 5). To differentiate from `your_name` (Page 3) and `your_name_page_4`, 'page_5' is appended, assuming it's a separate signature or identification section. All page and index IDs are removed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].yourrelation[0]",
+      "standardized_label": "your_relationship",
+      "confidence": 90,
+      "reasoning": "The field name `yourrelation` is a clear abbreviation for 'your relationship'. The context 'Enter your relationship' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].datepatissued[0]",
+      "standardized_label": "your_date_of_birth",
+      "confidence": 90,
+      "reasoning": "The field name `datepatissued` is confusing, but the context 'Enter your date of birth, in a 2 digit month / 2 digit day / 4 digit year format' explicitly clarifies that this field is for the user's date of birth. The format details are omitted as they are implementation specifics. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].youraddress[0]",
+      "standardized_label": "your_address",
+      "confidence": 90,
+      "reasoning": "The field name `youraddress` combined with the context 'Enter your address' directly confirms its purpose. All page and index IDs are removed as per rules."
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].yourcity[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].yourcity[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 1.301717713s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].yourstate[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].yourstate[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 882.849153ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].yourzip[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].yourzip[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 463.574786ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].SocSecNo[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].SocSecNo[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 40.541426ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].yourID[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].yourID[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.622554298s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].dayphone[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].dayphone[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.217762007s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].email[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].email[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.786812879s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+    },
+    {
+      "action": "keep_original",
+      "original_field_name": "topmostSubform[0].Page5[0].todaysdate[0]",
+      "standardized_label": "topmostSubform[0].Page5[0].todaysdate[0]",
+      "confidence": 0,
+      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.374392862s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+    }
+  ]
+}
