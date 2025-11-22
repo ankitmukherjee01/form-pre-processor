@@ -1,0 +1,201 @@
+{
+  "filename": "ha-4631.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].ClaimantName_FLD[0]",
+      "standardized_label": "claimant_name",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].ClaimantSSN_FLD[0]",
+      "standardized_label": "claimant_ssn",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].WageEarnerName_FLD[0]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].WageEarnerSSN_FLD[0]",
+      "standardized_label": "wage_earner_social_security_number",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case. | auto-fixed wage_earner_ssn → wage_earner_social_security_number"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Thelasttime_FLD[0]",
+      "standardized_label": "the_last_time",
+      "confidence": 95,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, splitting 'Thelasttime' for better readability based on context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Q1CheckYes_CB[0]",
+      "standardized_label": "q1_check_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Q1CheckNo_CB[0]",
+      "standardized_label": "q1_check_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].DrName1_FLD[0]",
+      "standardized_label": "dr_name_1",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].DrName2_FLD[0]",
+      "standardized_label": "dr_name_2",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].DrName3_FLD[0]",
+      "standardized_label": "dr_name_3",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].DrName4_FLD[0]",
+      "standardized_label": "dr_name_4",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Addresses1_FLD[0]",
+      "standardized_label": "addresses_1",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Addresses2_FLD[0]",
+      "standardized_label": "addresses_2",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Addresses3_FLD[0]",
+      "standardized_label": "addresses_3",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Addresses4_FLD[0]",
+      "standardized_label": "addresses_4",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Dates1_FLD[0]",
+      "standardized_label": "dates_1",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Dates2_FLD[0]",
+      "standardized_label": "dates_2",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Dates3_FLD[0]",
+      "standardized_label": "dates_3",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Dates4_FLD[0]",
+      "standardized_label": "dates_4",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Q2Condition_FLD[0]",
+      "standardized_label": "q2_condition",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Q3Yes_CB[0]",
+      "standardized_label": "q3_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].Q3No_CB[0]",
+      "standardized_label": "q3_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].NameOfHospital_FLD[0]",
+      "standardized_label": "name_of_hospital",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].hospitaladdress_FLD[0]",
+      "standardized_label": "hospital_address",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case, splitting 'hospitaladdress' for readability."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].HospReason_FLD[0]",
+      "standardized_label": "hosp_reason",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].TreatmentReceived_FLD[0]",
+      "standardized_label": "treatment_received",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page2[0].ReadOnly1_FLD[0]",
+      "standardized_label": "read_only_1",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case. This appears to be a field containing static, read-only text as indicated by the context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page2[0].ReadOnly2_FLD[0]",
+      "standardized_label": "read_only_2",
+      "confidence": 100,
+      "reasoning": "Removed form, page, and index tokens, converted to lowercase snake_case. This appears to be a field containing static, read-only text as indicated by the context."
+    }
+  ]
+}

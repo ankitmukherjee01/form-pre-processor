@@ -1,0 +1,746 @@
+{
+  "filename": "ha-4631.pdf",
+  "filepath": "1_unlocked_pdfs\\ha-4631.pdf",
+  "total_pages": 2,
+  "total_fields": 28,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "form1[0].Page1[0].ClaimantName_FLD[0]",
+          "field_context_on_pdf": "Form H ay-46 31 (08-20 25) U F. Discontinue Prior Editions. Social Security Administration. Office of Disability Adjudication. CLAIMANT'S RECENT MEDICAL TREATMENTS. Page 1 of 2. O M B Number 0 9 6 0-0 3 0 0. ay. To be completed by Hearing Office Claimant Name",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 24.24,
+            "y0": 139.94,
+            "x1": 199.11,
+            "y1": 153.79,
+            "width": 174.87,
+            "height": 13.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].ClaimantSSN_FLD[0]",
+          "field_context_on_pdf": "Claimant Social Security Number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 73.74,
+            "y0": 155.77,
+            "x1": 149.79,
+            "y1": 169.61,
+            "width": 76.04,
+            "height": 13.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].WageEarnerName_FLD[0]",
+          "field_context_on_pdf": "Wage Earner Name (Leave blank if same as claimant)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 209.07,
+            "y0": 155.77,
+            "x1": 383.94,
+            "y1": 169.61,
+            "width": 174.87,
+            "height": 13.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].WageEarnerSSN_FLD[0]",
+          "field_context_on_pdf": "Wage Earner Social Security Number (Leave blank if same as claimant)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 386.39,
+            "y0": 155.77,
+            "x1": 462.43,
+            "y1": 169.61,
+            "width": 76.05,
+            "height": 13.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Thelasttime_FLD[0]",
+          "field_context_on_pdf": "The last time we brought your case up-to-date was:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 489.46,
+            "y0": 155.77,
+            "x1": 571.86,
+            "y1": 169.61,
+            "width": 82.4,
+            "height": 13.84
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Q1CheckYes_CB[0]",
+          "field_context_on_pdf": "B. To Be Completed By the Claimant. Please Print. Please Answer the following questions 1. Have you been treated or examined by a doctor (other than a doctor at a hospital) since the above date? Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 380.83,
+            "y0": 234.4,
+            "x1": 390.83,
+            "y1": 244.4,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Q1CheckNo_CB[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 488.83,
+            "y0": 234.4,
+            "x1": 498.83,
+            "y1": 244.4,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].DrName1_FLD[0]",
+          "field_context_on_pdf": "The following is a table with three columns and four rows. The column headers are DOCTORS NAME(S), Address(es) and Telephone Number(s), and Date(s). Row one. doctor name(s).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.72,
+            "y0": 274.94,
+            "x1": 161.28,
+            "y1": 301.16,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].DrName2_FLD[0]",
+          "field_context_on_pdf": "Row two. doctor name(s).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.72,
+            "y0": 302.6,
+            "x1": 161.28,
+            "y1": 328.82,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].DrName3_FLD[0]",
+          "field_context_on_pdf": "Row three. doctor name(s).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.72,
+            "y0": 330.26,
+            "x1": 161.28,
+            "y1": 356.48,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].DrName4_FLD[0]",
+          "field_context_on_pdf": "Row four. doctor name(s).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.72,
+            "y0": 357.92,
+            "x1": 161.28,
+            "y1": 384.14,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Addresses1_FLD[0]",
+          "field_context_on_pdf": "ADDRESS(ES) & TELEPHONE Number(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 162.72,
+            "y0": 274.94,
+            "x1": 449.28,
+            "y1": 301.16,
+            "width": 286.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Addresses2_FLD[0]",
+          "field_context_on_pdf": "ADDRESS(ES) & TELEPHONE Number(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 162.72,
+            "y0": 302.6,
+            "x1": 449.28,
+            "y1": 328.82,
+            "width": 286.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Addresses3_FLD[0]",
+          "field_context_on_pdf": "ADDRESS(ES) & TELEPHONE Number(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 162.72,
+            "y0": 330.26,
+            "x1": 449.28,
+            "y1": 356.48,
+            "width": 286.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Addresses4_FLD[0]",
+          "field_context_on_pdf": "ADDRESS(ES) & TELEPHONE Number(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 162.72,
+            "y0": 357.92,
+            "x1": 449.28,
+            "y1": 384.14,
+            "width": 286.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Dates1_FLD[0]",
+          "field_context_on_pdf": "DATE(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 450.72,
+            "y0": 274.94,
+            "x1": 593.28,
+            "y1": 301.16,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Dates2_FLD[0]",
+          "field_context_on_pdf": "DATE(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 450.72,
+            "y0": 302.6,
+            "x1": 593.28,
+            "y1": 328.82,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Dates3_FLD[0]",
+          "field_context_on_pdf": "DATE(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 450.72,
+            "y0": 330.26,
+            "x1": 593.28,
+            "y1": 356.48,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Dates4_FLD[0]",
+          "field_context_on_pdf": "DATE(S)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 450.72,
+            "y0": 357.92,
+            "x1": 593.28,
+            "y1": 384.14,
+            "width": 142.56,
+            "height": 26.22
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Q2Condition_FLD[0]",
+          "field_context_on_pdf": "2. What have these doctors told you about your condition?",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.0,
+            "y0": 409.16,
+            "x1": 594.0,
+            "y1": 542.91,
+            "width": 576.0,
+            "height": 133.75
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Q3Yes_CB[0]",
+          "field_context_on_pdf": "3. Have you been hospitalized since the above date? (If yes, please list the name of and address of the hospital. Also explain why you were hospitalized and what treatment you received.) Yes",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 380.83,
+            "y0": 562.35,
+            "x1": 390.83,
+            "y1": 572.35,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].Q3No_CB[0]",
+          "field_context_on_pdf": "No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 488.83,
+            "y0": 562.35,
+            "x1": 498.83,
+            "y1": 572.35,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].NameOfHospital_FLD[0]",
+          "field_context_on_pdf": "Name of Hospital:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 605.25,
+            "x1": 305.28,
+            "y1": 642.12,
+            "width": 286.56,
+            "height": 36.87
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].hospitaladdress_FLD[0]",
+          "field_context_on_pdf": "Address of Hospital (Include ZIP Code):",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 306.72,
+            "y0": 605.25,
+            "x1": 593.28,
+            "y1": 642.12,
+            "width": 286.56,
+            "height": 36.87
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].HospReason_FLD[0]",
+          "field_context_on_pdf": "Reason for hospitalization:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.94,
+            "y0": 658.51,
+            "x1": 593.28,
+            "y1": 678.44,
+            "width": 574.34,
+            "height": 19.93
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].TreatmentReceived_FLD[0]",
+          "field_context_on_pdf": "Treatment Received. If more space is needed, use additional sheets.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.94,
+            "y0": 694.28,
+            "x1": 593.28,
+            "y1": 755.29,
+            "width": 574.34,
+            "height": 61.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "form1[0].Page2[0].ReadOnly1_FLD[0]",
+          "field_context_on_pdf": "Page 2 of 2. Privacy Act Statement Collection and Use of Personal Information Sections. 205(b), 205(d), and 1631(c) of the Social Security Act, as amended, allow us to collect this information. Furnishing us this information is voluntary. However, failing to provide all or part of the information may prevent us from completing the hearing process. \rWe will use the information you provide to document your waiver of right to receive a written Notice of Hearing. We may also share the information for the following purposes, called routine uses: Bullet. To contractors and other Federal agencies, as necessary, for the purpose of assisting the Social Security Administration (S S Ay) in the efficient administration of its programs. We will disclose information under this routine use only in situations in which S S Ay may enter a contractual or similar agreement with a third party to assist in accomplishing an agency function relating to this system of records; and \r\r• To student volunteers and other workers, who technically do not have the status of Federal employees, when they are performing work for S S Ay as authorized by law, and they need access to personally identifiable information in SSA records in order to perform their assigned Agency functions. \r\rIn addition, we may share this information in accordance with the Privacy Act and other Federal laws. For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person’s eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs. \r\rA list of additional routine uses is available in our Privacy Act System of Records Notices (SORNs) 60-0005, Administrative Law Judge Working File on Claimant Cases, as published in the Federal Register (F R) on April 29, 2009, at 74 F R 19617; 60-0089, Claims Folder Systems, as published in the F R on October 31, 2019, at 84 F R 58422; and 60-0320, Electronic Disability (eDIB) Claim File, as published in the F R on June 4, 2020, at 85 F R 34477. Additional information, and a full listing of all of our SORNs, is available on our website at www.ssa.gov/privacy.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 579.93,
+            "y0": 72.01,
+            "x1": 594.0,
+            "y1": 97.52,
+            "width": 14.07,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].Page2[0].ReadOnly2_FLD[0]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement.                                                This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number. We estimate that it will take about 2 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6 4 0 1 Security B l v d, Baltimore, M D 2 1 2 3 5-6 4 0 1. You are at the end of the form. If you tab again, you will be at the beginning of the form. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 579.93,
+            "y0": 638.32,
+            "x1": 594.0,
+            "y1": 663.83,
+            "width": 14.07,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

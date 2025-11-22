@@ -1,0 +1,1377 @@
+{
+  "filename": "ssa-10.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Name[0]",
+      "standardized_label": "deceased_name",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. Used context 'name of deceased wage earner' to specify 'deceased_name' and converted to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q1CdeceasedSSN[0]",
+      "standardized_label": "deceased_ssn",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q1C). The remaining 'deceasedSSN' directly translates to 'deceased_ssn' in snake_case, confirmed by context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q2AName[0]",
+      "standardized_label": "applicant_name",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q2A). Used context 'PRINT your name' to identify this as the applicant's name, then converted to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q2bSSN[0]",
+      "standardized_label": "applicant_ssn",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q2b). Used context 'Enter your Social Security Number' to identify this as the applicant's SSN, then converted to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q2CnameIfDifferent[0]",
+      "standardized_label": "applicant_name_at_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q2C). The remaining 'nameIfDifferent' combined with context 'Enter your name at birth if different' clearly indicates 'applicant_name_at_birth', converted to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q3DOB[0]",
+      "standardized_label": "deceased_date_of_birth",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q3). The field 'DOB' combined with context 'date of birth of deceased' clearly indicates 'deceased_date_of_birth', converted to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q3DateOfDeath[0]",
+      "standardized_label": "date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens, index, and internal question identifier (Q3). The field 'DateOfDeath' directly translates to 'date_of_death' in snake_case, confirmed by context 'Enter date of death'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q4PlaceOfDeath[0]",
+      "standardized_label": "place_of_death",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, index, and question identifier (Q4). The remaining 'PlaceOfDeath' directly translates to 'place_of_death' in snake_case, confirmed by context 'Enter place of death'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[0]",
+      "standardized_label": "claimant_ssn",
+      "confidence": 100,
+      "reasoning": "Started with context 'CLAIMANT SSN' and converted to lowercase. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q7No[0]",
+      "standardized_label": "q7_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q7No' clearly indicates the 'No' option for question 7, and it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].Q7Yes[0]",
+      "standardized_label": "q7_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q7Yes' clearly indicates the 'Yes' option for question 7, and it's a checkbox. Context confirms it refers to question 7."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[1]",
+      "standardized_label": "claimant_claim_number",
+      "confidence": 100,
+      "reasoning": "Started with context '3. CLAIMANT CLAIM NUMBER, IF DIFFERENT' and converted to lowercase. Removed numerical prefix. Removed phrase ', if different'. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[2]",
+      "standardized_label": "deceased_earnings_year_of_death",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context: 'About how much did the deceased earn... during the year of death?'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[3]",
+      "standardized_label": "deceased_earnings_year_before_death",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context: 'About how much did the deceased earn the year before death?'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox10no[0]",
+      "standardized_label": "q8_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox10no' suggests question 10, but the context clearly states it's for '8. circled (ay) Did the deceased have wages...'. Prioritized the context's question number."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox10yes[0]",
+      "standardized_label": "q8_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox10yes' suggests question 10, but the context clearly states it's for '8. circled (ay) Did the deceased have wages...'. Prioritized the context's question number."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[4]",
+      "standardized_label": "deceased_years_without_ss_income",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. Used context 'List the years... in which the deceased did not have wages or self-employment income covered under Social Security' to create a concise label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox1[0]",
+      "standardized_label": "q9_not_submitting_earnings_evidence_checkbox",
+      "confidence": 99,
+      "reasoning": "Removed form structure tokens and index. The context 'I am not submitting evidence of the deceased's earnings' for question 9 clearly defines the checkbox's purpose, appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[5]",
+      "standardized_label": "deceased_last_marriage_spouse_name",
+      "confidence": 97,
+      "reasoning": "Removed form structure tokens and index. Context 'Spouse's Name (including maiden name)' combined with the introductory text for item 10, 'If the deceased married after his or her marriage to you, enter the information on the last marriage', indicates this field refers to the deceased's last spouse."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[6]",
+      "standardized_label": "deceased_last_marriage_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' immediately follows the 'Spouse's Name' field for the deceased's last marriage, thus indicating the date of that marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[7]",
+      "standardized_label": "deceased_last_marriage_place",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'Where (Name of City and State)' immediately follows the 'When' field for the deceased's last marriage, thus indicating the place of that marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[8]",
+      "standardized_label": "deceased_last_marriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The context 'Where (Name of City and State)' appears in a subsequent block to the marriage details, and the next field's context is 'How Marriage Ended', indicating this refers to the place where the deceased's last marriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[9]",
+      "standardized_label": "deceased_last_marriage_termination_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' appears in a subsequent block to the marriage details, and the next field's context is 'How Marriage Ended', indicating this refers to the date when the deceased's last marriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[10]",
+      "standardized_label": "deceased_last_marriage_how_ended",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'How Marriage Ended' directly and unambiguously indicates the label, referring to the termination method of the deceased's last marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].Q12AClergy[0]",
+      "standardized_label": "q12a_marriage_by_clergy_or_public_official_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q12AClergy' combined with the context 'Marriage performed by Clergyman or public official' clearly indicates the label. Appended '_checkbox' as it is a CheckBox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].Q12AOther[0]",
+      "standardized_label": "q12a_marriage_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q12AOther' combined with the context 'Other (Explain in Remarks)' clearly indicates the label. Appended '_checkbox' as it is a CheckBox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[11]",
+      "standardized_label": "deceased_last_marriage_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's date of birth (or age)' and its position following the deceased's last marriage details, indicating the spouse of that marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[12]",
+      "standardized_label": "deceased_last_marriage_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If spouse deceased, give date of death' and its position, indicating the date of death for the spouse of the deceased's last marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[13]",
+      "standardized_label": "deceased_last_marriage_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's Social Security Number' and its position, indicating the SSN for the spouse of the deceased's last marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[14]",
+      "standardized_label": "deceased_other_marriage_spouse_name",
+      "confidence": 97,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(b) If the deceased had any other marriages... Spouse's Name'. This indicates a separate entry for other marriages, distinct from the most recent one."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[15]",
+      "standardized_label": "deceased_other_marriage_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'When (Month, Day, and Year)' and its position immediately following the spouse's name for 'other marriages'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[16]",
+      "standardized_label": "ssa_ssn",
+      "confidence": 100,
+      "reasoning": "Context 'Page 2 of 3 FOR USE OF SOCIAL SECURITY ADMINISTRATION S S N:' clearly indicates this is an SSN field specifically for administrative use. Converted to lowercase snake_case. Removed page indicator and introductory phrase. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[17]",
+      "standardized_label": "additional_remarks",
+      "confidence": 100,
+      "reasoning": "Context 'Additional Remarks:' is straightforward. Converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[18]",
+      "standardized_label": "deceased_other_marriage_termination_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' for the termination of a 'How Marriage Ended' field from previous entries, indicating the date of termination for the deceased's 'other' marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[19]",
+      "standardized_label": "deceased_other_marriage_how_ended",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'How Marriage Ended' directly and unambiguously indicates the label, referring to the termination method of the deceased's 'other' marriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].Q12BClergy[0]",
+      "standardized_label": "q12b_marriage_by_clergy_or_public_official_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q12BClergy' combined with the context 'Marriage performed by Clergyman or public official' clearly indicates the label. Appended '_checkbox' as it is a CheckBox field. This refers to the 'other' marriages section."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].Q12BOther[0]",
+      "standardized_label": "q12b_marriage_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q12BOther' combined with the context 'Other (Explain in Remarks)' clearly indicates the label. Appended '_checkbox' as it is a CheckBox field. This refers to the 'other' marriages section."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[20]",
+      "standardized_label": "deceased_other_marriage_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's date of birth (or age)' and its position within the section for 'other' marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[21]",
+      "standardized_label": "deceased_other_marriage_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If spouse deceased, give date of death' and its position within the section for 'other' marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[22]",
+      "standardized_label": "deceased_other_marriage_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's Social Security Number' and its position within the section for 'other' marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox1[1]",
+      "standardized_label": "q11_surviving_parent_receiving_support_checkbox",
+      "confidence": 99,
+      "reasoning": "Removed form structure tokens and index. The context 'Is there a surviving parent (or parents) who was receiving support from the deceased' clearly indicates the purpose for question 11, and it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[23]",
+      "standardized_label": "applicant_state_or_country_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' is clarified by the context '12. (ay) Enter name of State or foreign country where you were born.' which refers to the applicant."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox14byes[0]",
+      "standardized_label": "q13a_us_citizen_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name appears to be misnumbered (14b instead of 13a), so context '13. (ay) Are you a U.S. citizen yes' was prioritized to form the label for question 13(a) 'yes' option."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox14bno[0]",
+      "standardized_label": "q13a_us_citizen_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. This 'No' checkbox is clearly associated with the preceding 'Yes' checkbox for question 13(a) 'Are you a U.S. citizen'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox14cyes[0]",
+      "standardized_label": "q13b_alien_lawfully_present_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name appears to be misnumbered (14c instead of 13b), so context '(b) Are you an alien lawfully present in the U.S.?' was prioritized to form the label for question 13(b) 'yes' option."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].CheckBox14cno[0]",
+      "standardized_label": "q13b_alien_lawfully_present_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. This 'No' checkbox is clearly associated with the preceding 'Yes' checkbox for question 13(b) 'Are you an alien lawfully present in the U.S.?'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[24]",
+      "standardized_label": "date_lawfully_admitted_to_us",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' is clarified by the context 'If yes, when were you lawfully admitted into the U.S.?' which follows question 13(b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[25]",
+      "standardized_label": "applicant_marriage_to_deceased_spouse_name",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' is clarified by context '14. (ay) Enter information about your marriage to the deceased. Spouse's Name (including maiden name)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[26]",
+      "standardized_label": "applicant_marriage_to_deceased_date",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'When (Month, Day, and Year)' and its position under 'Enter information about your marriage to the deceased'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[27]",
+      "standardized_label": "applicant_marriage_to_deceased_place",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Where (Name of City and State)' and its position under 'Enter information about your marriage to the deceased'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[28]",
+      "standardized_label": "applicant_marriage_to_deceased_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The context 'Where (Name of City and State)' appears in a sequence that implies the place where the marriage (of the applicant to the deceased) ended."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[29]",
+      "standardized_label": "applicant_marriage_to_deceased_termination_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' appears immediately before 'How Marriage Ended', indicating the date when the marriage (of the applicant to the deceased) ended."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[30]",
+      "standardized_label": "applicant_marriage_to_deceased_how_ended",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'How Marriage Ended' directly and unambiguously indicates the label, referring to the termination method of the applicant's marriage to the deceased."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15aClergy[0]",
+      "standardized_label": "q15a_marriage_by_clergy_or_public_official_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15aClergy' combined with the context 'Marriage performed by Clergyman or public official' for question 15(a) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15aOther[0]",
+      "standardized_label": "q15a_marriage_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15aOther' combined with the context 'Other (Explain in Remarks)' for question 15(a) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[31]",
+      "standardized_label": "deceased_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's date of birth (or age)' within the section detailing the applicant's marriage to the deceased, referring to the deceased as the spouse."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[32]",
+      "standardized_label": "deceased_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If spouse deceased, give date of death' in the section about the applicant's marriage to the deceased, referring to the deceased as the spouse."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[33]",
+      "standardized_label": "deceased_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's Social Security Number' in the section about the applicant's marriage to the deceased, referring to the deceased as the spouse."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[34]",
+      "standardized_label": "applicant_last_remarriage_spouse_name",
+      "confidence": 97,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(b) If you remarried after the marriage shown in 15.(a). enter information about the last marriage. Spouse's Name'. This refers to the applicant's subsequent marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[35]",
+      "standardized_label": "applicant_last_remarriage_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'When (Month, Day, and Year)' and its position immediately following the spouse's name for the applicant's last remarriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[36]",
+      "standardized_label": "applicant_last_remarriage_place",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Where (Name of City and State)' and its position following the date for the applicant's last remarriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[37]",
+      "standardized_label": "applicant_last_remarriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The context 'Where (Name of City and State)' appears again after the initial marriage details, followed by 'How Marriage Ended', indicating the place where the applicant's last remarriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[38]",
+      "standardized_label": "applicant_last_remarriage_termination_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' appears again before 'How Marriage Ended', indicating the date when the applicant's last remarriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[39]",
+      "standardized_label": "applicant_last_remarriage_how_ended",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'How Marriage Ended' directly and unambiguously indicates the label, referring to the termination method of the applicant's last remarriage."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15BClergy[0]",
+      "standardized_label": "q15b_marriage_by_clergy_or_public_official_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15BClergy' combined with the context 'Marriage performed by Clergyman or public official' for question 15(b) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15BOther[0]",
+      "standardized_label": "q15b_marriage_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15BOther' combined with the context 'Other (Explain in Remarks)' for question 15(b) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[40]",
+      "standardized_label": "applicant_last_remarriage_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's date of birth (or age)' within the section for the applicant's last remarriage (Question 15b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[41]",
+      "standardized_label": "applicant_last_remarriage_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If spouse deceased, give date of death' within the section for the applicant's last remarriage (Question 15b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[42]",
+      "standardized_label": "applicant_last_remarriage_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's Social Security Number' within the section for the applicant's last remarriage (Question 15b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[43]",
+      "standardized_label": "applicant_other_marriage_spouse_name",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(c) Enter information about any other marriage you may have had... Spouse's Name', specifying the applicant's other marriages."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[44]",
+      "standardized_label": "applicant_other_marriage_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'When (Month, Day, and Year)' immediately following the spouse's name for the applicant's other marriages (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[45]",
+      "standardized_label": "applicant_other_marriage_place",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Where (Name of City and State)' immediately following the date for the applicant's other marriages (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[46]",
+      "standardized_label": "applicant_other_marriage_termination_place",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The context 'Where (Name of City and State)' appears again after the initial marriage details for 'other' marriages, followed by 'How Marriage Ended', indicating the place where the applicant's other marriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[47]",
+      "standardized_label": "applicant_other_marriage_termination_date",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The context 'When (Month, Day, and Year)' appears again before 'How Marriage Ended', indicating the date when the applicant's other marriage was terminated."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[48]",
+      "standardized_label": "applicant_other_marriage_how_ended",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'How Marriage Ended' directly and unambiguously indicates the label, referring to the termination method of the applicant's other marriage (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15CClergy[0]",
+      "standardized_label": "q15c_marriage_by_clergy_or_public_official_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15CClergy' combined with the context 'Marriage performed by Clergyman or public official' for question 15(c) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Q15COther[0]",
+      "standardized_label": "q15c_marriage_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. 'Q15COther' combined with the context 'Other (Explain in Remarks)' for question 15(c) clearly indicates the label. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[49]",
+      "standardized_label": "applicant_other_marriage_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's date of birth (or age)' within the section for the applicant's other marriages (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[50]",
+      "standardized_label": "applicant_other_marriage_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If spouse deceased, give date of death' within the section for the applicant's other marriages (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[51]",
+      "standardized_label": "applicant_other_marriage_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Spouse's Social Security Number' within the section for the applicant's other marriages (Question 15c)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].CheckBox16no[0]",
+      "standardized_label": "q15a_living_together_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox16no' conflicts with the context which labels it as question '15. (ay) ... No'. Prioritized the context's question number and appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].CheckBox16yes[0]",
+      "standardized_label": "q15a_living_together_yes_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox16yes' conflicts with the context which labels it as question '15. (ay) ... Yes'. Prioritized the context's question number and appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].CheckBox16bsurv[0]",
+      "standardized_label": "q15b_who_was_away_surviving_spouse_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox16bsurv' is part of question 15(b) as per the preceding context, 'Who was away? Surviving Spouse'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].CheckBox16bdec[0]",
+      "standardized_label": "q15b_who_was_away_deceased_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox16bdec' is part of question 15(b) as per the preceding context, 'Who was away? Deceased'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[52]",
+      "standardized_label": "q15b_date_last_at_home",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Date last at home:' which directly follows the 'Who was away?' section (Q15b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[53]",
+      "standardized_label": "q15b_reason_absence_began",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Reason absence began:' which directly follows the 'Date last at home' field (Q15b)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[54]",
+      "standardized_label": "q15b_reason_apart_at_time_of_death",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Reason you were apart at time of death:' which is part of the Q15b section."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[55]",
+      "standardized_label": "q15b_nature_of_illness_if_separated",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'If separated because of illness, enter nature of illness or disabling condition.' which directly follows the reasons for separation in Q15b."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].TextField1[56]",
+      "standardized_label": "applicant_date_became_unable_to_work",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(b) Enter the date you became unable to work.' This refers to the applicant's inability to work, following question 16a."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox18no[0]",
+      "standardized_label": "q16a_unable_to_work_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox18no' appears to be misnumbered. The context refers to question '16. (ay) Are you... unable to work?', making it 'q16a_unable_to_work_no_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox18yes[0]",
+      "standardized_label": "q16a_unable_to_work_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox18yes' appears to be misnumbered. The context refers to question '16. (ay) Are you... unable to work? Yes', making it 'q16a_unable_to_work_yes_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox20no[0]",
+      "standardized_label": "q17_worked_in_railroad_industry_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox20no' appears to be misnumbered. The context refers to question '17. Did you or the deceased work in the railroad industry... No', making it 'q17_worked_in_railroad_industry_no_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox20yes[0]",
+      "standardized_label": "q17_worked_in_railroad_industry_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox20yes' appears to be misnumbered. The context refers to question '17. Did you or the deceased work in the railroad industry... Yes', making it 'q17_worked_in_railroad_industry_yes_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox21no[0]",
+      "standardized_label": "q18a_foreign_social_security_credits_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox21no' appears to be misnumbered. The context refers to question '18. (ay) Did you or the deceased have Social Security credits... No', making it 'q18a_foreign_social_security_credits_no_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox21yes[0]",
+      "standardized_label": "q18a_foreign_social_security_credits_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox21yes' appears to be misnumbered. The context refers to question '18. (ay) Did you or the deceased have Social Security credits... Yes', making it 'q18a_foreign_social_security_credits_yes_checkbox'. Prioritized context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].TextField1[57]",
+      "standardized_label": "q18b_foreign_social_security_countries",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(b) If \"Yes,\" list the country(ies)', referring to question 18b about foreign social security credits."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox22no[0]",
+      "standardized_label": "q19a_government_pension_expected_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox22no' is likely misnumbered; context from the following 'yes' option clearly indicates it is the 'no' choice for question 19a 'Have you qualified for, or do you expect to qualify for, a pension or annuity...'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox22yes[0]",
+      "standardized_label": "q19a_government_pension_expected_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox22yes' is likely misnumbered; context '19. (ay) Have you qualified for, or do you expect to qualify for, a pension or annuity... Yes' clearly indicates it is the 'yes' choice for question 19a. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].Q22b1[0]",
+      "standardized_label": "q19b_receive_government_pension_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q22b1' is likely misnumbered; context '(b) I receive a government pension or annuity.' clearly indicates it is the first option for question 19b. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].Q22b2[0]",
+      "standardized_label": "q19b_received_lump_sum_in_place_of_pension_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q22b2' is likely misnumbered; context 'I received a lump sum in place of a government pension or annuity.' clearly indicates it is the second option for question 19b. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].Q22b3[0]",
+      "standardized_label": "q19b_awaiting_pension_or_lump_sum_decision_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q22b3' is likely misnumbered; context 'I applied for and am awaiting a decision on my pension or lump sum.' clearly indicates it is the third option for question 19b. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].Q22b4[0]",
+      "standardized_label": "q19b_expect_to_receive_pension_or_annuity_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q22b4' is likely misnumbered; context 'I have not applied for but I expect to begin receiving my pension or annuity:' clearly indicates it is the fourth option for question 19b. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].TextField1[58]",
+      "standardized_label": "q19b_expected_pension_annuity_start_date",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(Month, day, year)' which immediately follows the checkbox 'I expect to begin receiving my pension or annuity', clearly indicating the start date for this expected pension/annuity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox23no[0]",
+      "standardized_label": "q20a_currently_married_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox23no' is likely misnumbered. Based on typical form structure for SSA-10, this 'No' checkbox corresponds to question 20 (a) 'Are you currently married?'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].CheckBox23yes[0]",
+      "standardized_label": "q20_enroll_medicare_part_b_yes_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox23yes' is misnumbered; the context clearly indicates it refers to question '20. Do you want to enroll in the Medicare Part B... Yes'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[3].TextField1[59]",
+      "standardized_label": "q18c_filing_foreign_social_security_benefits_answer",
+      "confidence": 75,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' has context 'Are you filing for foreign Social Security benefits?'. As a text field, it's likely for a 'Yes/No' answer in text or an explanation, following question 18. Confidence is lower due to ambiguity of text field for a yes/no type question."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[60]",
+      "standardized_label": "q21a_applicant_total_earnings_last_year",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '21. (ay) How much were your total earnings last year? $'. This refers to the applicant's earnings."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[61]",
+      "standardized_label": "q21b_exempt_months_monthly_wage_limit",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '*Enter the appropriate monthly limit... Enter the amount of wages.' relating to question 21(b) about exempt months."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bJan[0]",
+      "standardized_label": "q21b_january_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bJan' is misnumbered; based on surrounding context (Q21b, 'exempt months'), it is the 'January' checkbox for question 21(b). Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bFeb[0]",
+      "standardized_label": "q21b_february_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bFeb' is misnumbered; based on surrounding context (Q21b, 'exempt months'), it is the 'February' checkbox for question 21(b). Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bApr[0]",
+      "standardized_label": "q21b_april_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bApr' is misnumbered; based on surrounding context (Q21b, 'exempt months'), it is the 'April' checkbox for question 21(b). Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bMar[0]",
+      "standardized_label": "q21b_march_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bMar' is misnumbered; based on surrounding context (Q21b, 'exempt months'), it is the 'March' checkbox for question 21(b). Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bNone[0]",
+      "standardized_label": "q21b_none_exempt_months_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bNone' is misnumbered; based on the surrounding context (previous Q21b entries for months and the exempt months description), it should refer to question 21(b) 'None' option. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bMay[0]",
+      "standardized_label": "q21b_may_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bMay' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'May'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bJun[0]",
+      "standardized_label": "q21b_june_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bJun' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'June'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bAug[0]",
+      "standardized_label": "q21b_august_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bAug' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'August'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bJul[0]",
+      "standardized_label": "q21b_july_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bJul' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'July'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bSept[0]",
+      "standardized_label": "q21b_september_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bSept' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'September'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bOct[0]",
+      "standardized_label": "q21b_october_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bOct' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'October'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bDec[0]",
+      "standardized_label": "q21b_december_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bDec' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'December'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bNov[0]",
+      "standardized_label": "q21b_november_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bNov' is misnumbered; based on the surrounding context (previous Q21b entries for months), it should refer to question 21(b) for 'November'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q24bAll[0]",
+      "standardized_label": "q21b_all_exempt_months_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q24bAll' is misnumbered; based on the surrounding context (previous Q21b entries for months and the 'ALL' option description), it should refer to question 21(b) for 'ALL'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[62]",
+      "standardized_label": "q22a_applicant_expected_earnings_this_year",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '22. (ay) How much do you expect your total earnings to be this year? $'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[63]",
+      "standardized_label": "q22b_exempt_months_monthly_wage_limit",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '*Enter the appropriate monthly limit... Enter wages' relating to question 22(b) about exempt months for this year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25bJan[0]",
+      "standardized_label": "q22b_january_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25bJan' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year), it should refer to question 22(b) for 'January'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25bFeb[0]",
+      "standardized_label": "q22b_february_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25bFeb' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year), it should refer to question 22(b) for 'February'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25Apr[0]",
+      "standardized_label": "q22b_april_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25Apr' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year), it should refer to question 22(b) for 'April'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25Mar[0]",
+      "standardized_label": "q22b_march_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25Mar' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year), it should refer to question 22(b) for 'March'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bNone[0]",
+      "standardized_label": "form1_0_subform_4_q25b_none_0_checkbox",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bMay[0]",
+      "standardized_label": "form1_0_subform_4_q25b_may_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bJun[0]",
+      "standardized_label": "form1_0_subform_4_q25b_jun_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bAug[0]",
+      "standardized_label": "form1_0_subform_4_q25b_aug_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bJul[0]",
+      "standardized_label": "form1_0_subform_4_q25b_jul_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25Sept[0]",
+      "standardized_label": "form1_0_subform_4_q25_sept_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bOct\\.[0]",
+      "standardized_label": "form1_0_subform_4_q25b_oct_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "form1[0].#subform[4].Q25bDec[0]",
+      "standardized_label": "form1_0_subform_4_q25b_dec_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25bNov[0]",
+      "standardized_label": "q22b_november_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25bNov' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year and previous 'Q25b' fields), it should refer to question 22(b) for 'November'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q25bAll[0]",
+      "standardized_label": "q22b_all_exempt_months_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q25bAll' is misnumbered; based on the surrounding context (Q22b description about exempt months for this year and previous 'Q25b' fields), it should refer to question 22(b) for 'ALL'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[64]",
+      "standardized_label": "q23a_applicant_expected_earnings_next_year",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '23. (ay) How much do you expect to earn next year? $'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[65]",
+      "standardized_label": "q23b_exempt_months_next_year_monthly_wage_limit",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '*Enter the appropriate monthly limit... Enter wages' relating to question 23(b) about exempt months for next year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bJan[0]",
+      "standardized_label": "q23b_january_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bJan' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year), it should refer to question 23(b) for 'January'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bFeb[0]",
+      "standardized_label": "q23b_february_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bFeb' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year), it should refer to question 23(b) for 'February'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bApr[0]",
+      "standardized_label": "q23b_april_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bApr' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year), it should refer to question 23(b) for 'April'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bMar[0]",
+      "standardized_label": "q23b_march_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bMar' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year), it should refer to question 23(b) for 'March'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bNone[0]",
+      "standardized_label": "q23b_none_exempt_months_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bNone' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'None'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bMay[0]",
+      "standardized_label": "q23b_may_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bMay' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'May'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bJun[0]",
+      "standardized_label": "q23b_june_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bJun' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'June'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bAug[0]",
+      "standardized_label": "q23b_august_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bAug' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'August'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bJul[0]",
+      "standardized_label": "q23b_july_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bJul' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'July'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bSept[0]",
+      "standardized_label": "q23b_september_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bSept' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'September'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bOct[0]",
+      "standardized_label": "q23b_october_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bOct' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'October'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bDec\\.[0]",
+      "standardized_label": "q23b_december_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens, index, and extraneous characters. The field name 'Q26bDec' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'December'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bNov[0]",
+      "standardized_label": "q23b_november_exempt_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bNov' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'November'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q26bAll[0]",
+      "standardized_label": "q23b_all_exempt_months_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q26bAll' is misnumbered; based on the surrounding context (Q23b description about exempt months for next year and previous 'Q26b' fields), it should refer to question 23(b) for 'ALL'. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[66]",
+      "standardized_label": "q24_fiscal_year_end_month",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '24. ... enter here the month your fiscal year ends. Month', clearly indicating the label for question 24."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q28a[0]",
+      "standardized_label": "q25a_benefits_earliest_possible_month_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q28a' is misnumbered; context '25. (ay) ... I want benefits beginning with the earliest possible month.' indicates it is the 'a' option for question 25. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q28b[0]",
+      "standardized_label": "q25b_benefits_earliest_possible_month_no_reduction_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q28b' is misnumbered; context '(b) I am full retirement age...and I want benefits beginning with the earliest possible month, providing that there is no permanent reduction...' indicates it is the 'b' option for question 25. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].Q28c[0]",
+      "standardized_label": "q25c_benefits_start_date_not_taking_higher_amount_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. The field name 'Q28c' is misnumbered; context '(c) I want benefits beginning with blank... but I choose not to take it.' indicates it is the 'c' option for question 25. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].TextField1[67]",
+      "standardized_label": "q25c_benefits_start_date",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '(c) I want benefits beginning with.' which directly follows the checkbox for option (c) of question 25, indicating the start date for benefits."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].CheckBox29no[0]",
+      "standardized_label": "q26_use_month_of_election_as_filing_no_checkbox",
+      "confidence": 85,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox29no' is misnumbered. Based on the typical flow of an SSA-10 form, this 'No' checkbox likely corresponds to question 26 'Do you want to use the month of election as your month of filing?'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[4].CheckBox29yes[0]",
+      "standardized_label": "q26_apply_for_own_retirement_benefits_yes_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The field name 'CheckBox29yes' is misnumbered; context '26. Do you wish this application to be considered an application for retirement benefits on your own earnings record?' clearly indicates it is the 'Yes' option for question 26. Prioritized context for question number. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[68]",
+      "standardized_label": "remarks",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'REMARKS (You may use this space for any explanations.'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[69]",
+      "standardized_label": "direct_deposit_routing_transit_number",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Direct Deposit Payment Address (Financial Institution) Routing Transit Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[70]",
+      "standardized_label": "direct_deposit_account_number",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Account Number', immediately following the routing number field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].CheckBox1[2]",
+      "standardized_label": "direct_deposit_account_type_checking_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'CheckBox1' was clarified by the context 'Checking', indicating the type of account for direct deposit. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].CheckBox1[3]",
+      "standardized_label": "direct_deposit_account_type_savings_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'CheckBox1' was clarified by the context 'Savings', indicating the type of account for direct deposit. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].CheckBox1[4]",
+      "standardized_label": "enroll_in_direct_express_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'CheckBox1' was clarified by the context 'Enroll in Direct Express'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].CheckBox1[5]",
+      "standardized_label": "direct_deposit_refused_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'CheckBox1' was clarified by the context 'Direct Deposit Refused'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[71]",
+      "standardized_label": "applicant_signature",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'SIGNATURE OF APPLICANT'. Even though it's a Text field, the context indicates where the signature is placed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[72]",
+      "standardized_label": "signature_date",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Date (Month, day, year)' immediately following the applicant's signature field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[73]",
+      "standardized_label": "applicant_daytime_phone_number",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Telephone number(s) at which you may be contacted during the day'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[74]",
+      "standardized_label": "applicant_mailing_address_street",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Applicant's Mailing Address (Number and street, Apt. No., P.O. Box, or Rural Route)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[75]",
+      "standardized_label": "applicant_mailing_address_city_state",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'City and State', following the street address field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[76]",
+      "standardized_label": "applicant_mailing_address_zip_code",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'ZIP Code', following the city and state field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[77]",
+      "standardized_label": "applicant_country_of_residence",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Country (if any) in which you now live', following the mailing address details."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[78]",
+      "standardized_label": "witness_1_signature",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context '1. Signature of Witness'. Even though it's a Text field, the context indicates where the signature is placed."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[79]",
+      "standardized_label": "witness_1_address",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. Context 'Address' directly follows '1. Signature of Witness' from previous field, clearly indicating the address for Witness 1."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[80]",
+      "standardized_label": "witness_2_address",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. Context 'Address' directly follows '2. Signature of Witness', clearly indicating the address for Witness 2."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[5].TextField1[81]",
+      "standardized_label": "witness_2_signature",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. Context '2. Signature of Witness' directly indicates the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[82]",
+      "standardized_label": "phone_number_before_award_notice_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. Context clearly specifies 'TELEPHONE NUMBER(S) TO CALL... BEFORE YOU RECEIVE A NOTICE OF AWARD'. | auto-fixed phone_number_before_award_notice → phone_number_before_award_notice_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[83]",
+      "standardized_label": "ssa_office",
+      "confidence": 90,
+      "reasoning": "Removed form structure tokens and index. Context 'SSA OFFICE' directly indicates the label for general SSA office information."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[84]",
+      "standardized_label": "phone_number_after_award_notice_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. Context 'AFTER YOU RECEIVE A NOTICE OF AWARD' clearly indicates the label for a contact number, especially in relation to the prior field about before the award. | auto-fixed phone_number_after_award_notice → phone_number_after_award_notice_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[85]",
+      "standardized_label": "claim_received_date",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. Context 'DATE CLAIM RECEIVED' directly indicates the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[86]",
+      "standardized_label": "days_to_hear_back",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. Context 'Enter amount of days' for when the applicant should hear back, clearly defining the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[87]",
+      "standardized_label": "receipt_claimant_name",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Claimant' in the receipt section, indicating where the claimant's name is to be written."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[88]",
+      "standardized_label": "deceased_surname_if_different",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'DECEASED'S SURNAME IF DIFFERENT FROM CLAIMANT'S' directly provides the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[89]",
+      "standardized_label": "beneficiary_notice_control_number_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. The context 'BENEFICIARY NOTICE CONTROL (BNC) NUMBER' directly provides the label. | auto-fixed beneficiary_notice_control_number → beneficiary_notice_control_number_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[6].TextField1[90]",
+      "standardized_label": "omb_control_number",
+      "confidence": 80,
+      "reasoning": "Removed form structure tokens and index. The text field is small and located within a 'Paperwork Reduction Act Statement' and contains numbers, strongly suggesting it's the OMB control number, rather than a user input field. The text '0960-0004' is common for OMB numbers."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].TextField1[91]",
+      "standardized_label": "monthly_wage_limit_amount",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'You are earning wages of more than blank a month. $ amount a month.' indicating a numerical input for a monthly limit related to work changes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].CheckBox1are[0]",
+      "standardized_label": "earning_wages_over_monthly_limit_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The checkbox with context 'You are earning wages of more than blank a month.' clearly describes its purpose. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].TextField1[92]",
+      "standardized_label": "expected_earnings_year_for_work_changes",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Work Changes - On your application you told us you expect total earnings for blank. to be $ blank. Enter total earnings for', which is asking for the year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].TextField1[93]",
+      "standardized_label": "expected_earnings_amount_for_work_changes",
+      "confidence": 98,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' was clarified by the context 'Enter amount to be $', directly following the year for expected earnings under the 'Work Changes' section."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].CheckBox1arenot[0]",
+      "standardized_label": "not_earning_wages_over_monthly_limit_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. Context 'You are not earning wages of more than blank a month.' directly indicates the label for this checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].CheckBox2are[0]",
+      "standardized_label": "self_employed_rendering_substantial_services_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. Context 'You (are) self-employed rendering substantial services in your trade or business.' directly indicates the label for this checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].CheckBox2arenot[0]",
+      "standardized_label": "not_self_employed_rendering_substantial_services_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens and index. Context 'You (are not) self-employed rendering substantial services in your trade or business.' directly indicates the label for this checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[7].TextField1[94]",
+      "standardized_label": "publication_number_05_10069",
+      "confidence": 70,
+      "reasoning": "Removed form structure tokens and index. The generic 'TextField1' is located near the end of the document, adjacent to the text '(Publication number 05-10069'. Given its small size and context, it's likely a non-fillable display field for this publication number, rather than user input. Confidence is lower due to the ambiguity of a text field potentially being a display."
+    }
+  ]
+}

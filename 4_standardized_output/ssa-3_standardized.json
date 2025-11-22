@@ -2,333 +2,333 @@
   "filename": "ssa-3.pdf",
   "fields": [
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_NameofWageEarner_FLD[0]",
-      "standardized_label": "wage_earner_name",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'NameofWageEarner' and converted to lowercase snake_case 'wage_earner_name'. This aligns with the semantic meaning and the context 'PRINT NAME OF WAGE EARNER OR SELF-EMPLOYED PERSON'."
+      "standardized_label": "name_of_wage_earner",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'PRINT NAME OF WAGE EARNER'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_WageEarnerSSN_FLD[0]",
       "standardized_label": "wage_earner_social_security_number",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'WageEarnerSSN' and converted to lowercase snake_case 'wage_earner_social_security_number'. This aligns with the semantic meaning and the context 'SOCIAL SECURITY NUMBER'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'SOCIAL SECURITY NUMBER'. | auto-fixed wage_earner_ssn → wage_earner_social_security_number"
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_FirstNameofSpouse_FLD[0]",
-      "standardized_label": "spouse_first_name",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'FirstNameofSpouse' and converted to lowercase snake_case 'spouse_first_name' based on the provided example and semantic meaning. The context 'NAME OF SPOUSE (First Name)' confirms this."
+      "standardized_label": "first_name_of_spouse",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'NAME OF SPOUSE (First Name)'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_MaidenName_FLD[0]",
       "standardized_label": "maiden_name",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'MaidenName' and converted to lowercase snake_case 'maiden_name'. This directly reflects the semantic meaning and the context '(Maiden Name, if applicable)'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context '(Maiden Name, if applicable)'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_LastName_FLD[0]",
       "standardized_label": "last_name",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'LastName' and converted to lowercase snake_case 'last_name'. This directly reflects the semantic meaning and the context '(Last Name)'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context '(Last Name)'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfBy_CB1[0]",
-      "standardized_label": "marriage_performed_by_clergyman_or_official",
+      "standardized_label": "marriage_performed_by_clergyman_or_authorized_public_official_checkbox",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB1[0]`). Extracted the core meaning from 'N1MarriagePerfBy' and mapped it to the specific option indicated by 'CB1' and the context: 'Clergyman or Authorized Public Official'. Resulting label is 'marriage_performed_by_clergyman_or_official'."
+      "reasoning": "Identified as a checkbox related to question 1 'Marriage performed by'. Used the context to specify 'Clergyman or Authorized Public Official' and appended '_checkbox'. Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB1[0])."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfBy_CB2[0]",
-      "standardized_label": "marriage_performed_by_other",
+      "standardized_label": "marriage_performed_by_other_checkbox",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB2[0]`). Identified 'N1MarriagePerfBy' as the common root with the previous field. The 'CB2' and context 'Other' indicate this is an alternative option for 'marriage performed by', hence 'marriage_performed_by_other'."
+      "reasoning": "Identified as a checkbox related to question 1 'Marriage performed by'. Used the context 'Other' and appended '_checkbox'. Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB2[0])."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N1MarriagePerfByCB2_FLD[0]",
       "standardized_label": "marriage_performed_by_other_explanation",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'N1MarriagePerfByCB2' as related to the 'marriage_performed_by_other' checkbox. The context 'If other is checked, explain here' clearly indicates this is the explanation field for the 'other' option, leading to 'marriage_performed_by_other_explanation'."
+      "reasoning": "Identified as a text field explaining the 'Other' option for the 'Marriage performed by' question (indicated by 'CB2' in the name and context 'If other is checked, explain here.'). Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N2MarriedPrev_CB1[0]",
-      "standardized_label": "married_before_present_marriage_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB1[0]`). Identified 'N2MarriedPrev' as the core question 'Were you married before your present marriage?'. The 'CB1' and context 'Yes' clearly indicate this is the 'yes' option for that question, hence 'married_before_present_marriage_yes'."
+      "standardized_label": "married_previously_yes_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB1[0]) and extracted 'MarriedPrev' indicating 'married previously'. Context confirms 'Yes' option, so appended '_yes_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_N2MarriedPrev_CB2[0]",
-      "standardized_label": "married_before_present_marriage_no_checkbox",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB2[0]`). Identified 'N2MarriedPrev' as the core question. The 'CB2' and context 'No' clearly indicate this is the 'no' option for that question, hence 'married_before_present_marriage_no'."
+      "standardized_label": "married_previously_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB2[0]) and extracted 'MarriedPrev' indicating 'married previously'. Context confirms 'No' option, so appended '_no_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Whom_FLD[0]",
       "standardized_label": "previous_marriage_1_to_whom_married",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'Marr1Whom' and combined with the context 'PREVIOUS MARRIAGE number 1 TO WHOM MARRIED'. Converted to lowercase snake_case 'previous_marriage_1_to_whom_married'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'marriage 1'. Context 'TO WHOM MARRIED' directly translates to 'to_whom_married'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1When_FLD[0]",
       "standardized_label": "previous_marriage_1_when",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1When' as referring to the 'WHEN' of 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_when'. The context '(M M/D D/Y Y Y Y)' indicates it's a date."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'marriage 1'. Context 'WHEN' directly translates to 'when'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Where_FLD[0]",
       "standardized_label": "previous_marriage_1_where",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1Where' as referring to the 'WHERE' of 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_where'. The context '(City and State)' indicates it's a location."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'marriage 1'. Context 'WHERE' directly translates to 'where'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1Ended_FLD[0]",
       "standardized_label": "previous_marriage_1_how_ended",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1Ended' as referring to 'HOW MARRIAGE ENDED' for 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_how_ended'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'marriage 1'. Context 'HOW MARRIAGE ENDED' directly translates to 'how_ended'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1EndedWhen_FLD[0]",
       "standardized_label": "previous_marriage_1_ended_when",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1EndedWhen' as referring to 'WHEN' the 'PREVIOUS MARRIAGE number 1' ended. Converted to lowercase snake_case 'previous_marriage_1_ended_when'. The context '(M M/D D/Y Y Y Y)' indicates it's a date."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1Ended' indicates 'marriage 1 ended'. Context 'WHEN' specifies the time, so 'ended_when'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1EndedWhere_FLD[0]",
       "standardized_label": "previous_marriage_1_ended_where",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1EndedWhere' as referring to 'WHERE' the 'PREVIOUS MARRIAGE number 1' ended. Converted to lowercase snake_case 'previous_marriage_1_ended_where'. The context '(City and State)' indicates it's a location."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1Ended' indicates 'marriage 1 ended'. Context 'WHERE' specifies the location, so 'ended_where'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1PerfBy_CB1[0]",
-      "standardized_label": "previous_marriage_1_performed_by_clergyman_or_official",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB1[0]`). Extracted the core meaning from 'Marr1PerfBy' and mapped it to the specific option indicated by 'CB1' and the context: 'Clergyman or Public Official'. This field relates to 'PREVIOUS MARRIAGE number 1'. Resulting label is 'previous_marriage_1_performed_by_clergyman_or_official'."
+      "standardized_label": "previous_marriage_1_performed_by_clergyman_or_public_official_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB1[0]). 'Marr1' indicates 'previous marriage 1', and 'PerfBy' for 'performed by'. Context clearly specifies 'Clergyman or Public Official'. Appended '_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1PerfBy_CB2[0]",
-      "standardized_label": "previous_marriage_1_performed_by_other",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB2[0]`). Identified 'Marr1PerfBy' as the common root. The 'CB2' and context 'Other' indicate this is an alternative option for 'marriage performed by' for previous marriage 1, hence 'previous_marriage_1_performed_by_other'."
+      "standardized_label": "previous_marriage_1_performed_by_other_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB2[0]). 'Marr1' indicates 'previous marriage 1', and 'PerfBy' for 'performed by'. Context clearly specifies 'Other'. Appended '_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseDOB_FLD[0]",
       "standardized_label": "previous_marriage_1_spouse_date_of_birth",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1SpouseDOB' as referring to the spouse's date of birth for 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_spouse_date_of_birth'. The context '(or age)' clarifies the type of information."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'previous marriage 1', 'SpouseDOB' for 'spouse's date of birth'. Context confirms 'SPOUSE'S DATE OF BIRTH'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseDOD_FLD[0]",
       "standardized_label": "previous_marriage_1_spouse_date_of_death",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1SpouseDOD' as referring to the spouse's date of death for 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_spouse_date_of_death'. The context 'GIVE DATE OF DEATH IF SPOUSE IS DECEASED' confirms this."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'previous marriage 1', 'SpouseDOD' for 'spouse's date of death'. Context confirms 'DATE OF DEATH IF SPOUSE IS DECEASED'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr1SpouseSSN_FLD[0]",
       "standardized_label": "previous_marriage_1_spouse_social_security_number",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr1SpouseSSN' as referring to the spouse's Social Security Number for 'PREVIOUS MARRIAGE number 1'. Converted to lowercase snake_case 'previous_marriage_1_spouse_social_security_number'. The context confirms the field's purpose."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr1' indicates 'previous marriage 1', 'SpouseSSN' for 'spouse's social security number'. Context confirms 'Spouse's Social Security Number'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Whom_FLD[0]",
       "standardized_label": "previous_marriage_2_to_whom_married",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'Marr2Whom' and combined with the context 'PREVIOUS MARRIAGE number 2 TO WHOM MARRIED'. Converted to lowercase snake_case 'previous_marriage_2_to_whom_married'. This follows the pattern established for previous marriage 1."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2', 'Whom' for 'to whom married'. Context confirms 'PREVIOUS MARRIAGE number 2 TO WHOM MARRIED'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2When_FLD[0]",
       "standardized_label": "previous_marriage_2_when",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2When' as referring to the 'WHEN' of 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_when'. The context '(M M/D D/Y Y Y Y)' indicates it's a date and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2'. Context confirms 'WHEN'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Where_FLD[0]",
       "standardized_label": "previous_marriage_2_where",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2Where' as referring to the 'WHERE' of 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_where'. The context '(City and State)' indicates it's a location and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2'. Context confirms 'WHERE'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2Ended_FLD[0]",
       "standardized_label": "previous_marriage_2_how_ended",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2Ended' as referring to 'HOW MARRIAGE ENDED' for 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_how_ended'. This follows the pattern established for previous marriage 1."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2'. Context 'HOW MARRIAGE ENDED' directly translates to 'how_ended'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2EndedWhen_FLD[0]",
       "standardized_label": "previous_marriage_2_ended_when",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2EndedWhen' as referring to 'WHEN' the 'PREVIOUS MARRIAGE number 2' ended. Converted to lowercase snake_case 'previous_marriage_2_ended_when'. The context '(M M/D D/Y Y Y Y)' indicates it's a date and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2Ended' indicates 'marriage 2 ended'. Context 'WHEN' specifies the time, so 'ended_when'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2EndedWhere_FLD[0]",
       "standardized_label": "previous_marriage_2_ended_where",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2EndedWhere' as referring to 'WHERE' the 'PREVIOUS MARRIAGE number 2' ended. Converted to lowercase snake_case 'previous_marriage_2_ended_where'. The context '(City and State)' indicates it's a location and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2Ended' indicates 'marriage 2 ended'. Context 'WHERE' specifies the location, so 'ended_where'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2PerfBy_CB1[0]",
-      "standardized_label": "previous_marriage_2_performed_by_clergyman_or_official",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB1[0]`). Extracted the core meaning from 'Marr2PerfBy' and mapped it to the specific option indicated by 'CB1' and the context: 'Clergyman or Public Official'. This field relates to 'PREVIOUS MARRIAGE number 2'. Follows the pattern of previous marriage 1."
+      "standardized_label": "previous_marriage_2_performed_by_clergyman_or_public_official_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB1[0]). 'Marr2' indicates 'previous marriage 2', and 'PerfBy' for 'performed by'. Context clearly specifies 'Clergyman or Public Official'. Appended '_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2PerfBy_CB2[0]",
-      "standardized_label": "previous_marriage_2_performed_by_other",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_CB2[0]`). Identified 'Marr2PerfBy' as the common root. The 'CB2' and context 'Other' indicate this is an alternative option for 'marriage performed by' for previous marriage 2, hence 'previous_marriage_2_performed_by_other'. Follows the pattern of previous marriage 1."
+      "standardized_label": "previous_marriage_2_performed_by_other_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _CB2[0]). 'Marr2' indicates 'previous marriage 2', and 'PerfBy' for 'performed by'. Context clearly specifies 'Other'. Appended '_checkbox'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseDOB_FLD[0]",
       "standardized_label": "previous_marriage_2_spouse_date_of_birth",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2SpouseDOB' as referring to the spouse's date of birth for 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_spouse_date_of_birth'. The context '(or age)' clarifies the type of information and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2', 'SpouseDOB' for 'spouse's date of birth'. Context confirms 'SPOUSE'S DATE OF BIRTH'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseDOD_FLD[0]",
       "standardized_label": "previous_marriage_2_spouse_date_of_death",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2SpouseDOD' as referring to the spouse's date of death for 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_spouse_date_of_death'. The context 'GIVE DATE OF DEATH IF SPOUSE IS DECEASED' confirms this and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2', 'SpouseDOD' for 'spouse's date of death'. Context confirms 'DATE OF DEATH IF SPOUSE IS DECEASED'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Marr2SpouseSSN_FLD[0]",
       "standardized_label": "previous_marriage_2_spouse_social_security_number",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Identified 'Marr2SpouseSSN' as referring to the spouse's Social Security Number for 'PREVIOUS MARRIAGE number 2'. Converted to lowercase snake_case 'previous_marriage_2_spouse_social_security_number'. The context confirms the field's purpose and follows the pattern."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]). 'Marr2' indicates 'previous marriage 2', 'SpouseSSN' for 'spouse's social security number'. Context confirms 'Spouse's Social Security Number'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage1[0].P1_Remarks_FLD[0]",
       "standardized_label": "remarks",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage1[0]`, `P1_`, `_FLD[0]`). Extracted 'Remarks' and converted to lowercase snake_case 'remarks'. This directly reflects the semantic meaning, and the context 'REMARKS: (Use this space of this form for information about any other previous marriages, if necessary)' confirms its purpose."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage1[0].P1_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'REMARKS:'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_Signature_FLD[0]",
-      "standardized_label": "wage_earner_signature",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'Signature' and linked it to the primary entity mentioned in the context 'SIGNATURE OF WAGE EARNER OR SELF-EMPLOYED PERSON'. 'Wage earner signature' is a concise and accurate representation in lowercase snake_case."
+      "standardized_label": "signature",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'SIGNATURE OF WAGE EARNER OR SELF-EMPLOYED PERSON'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignDate_FLD[0]",
       "standardized_label": "signature_date",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'SignDate' and converted to lowercase snake_case 'signature_date'. This directly reflects the semantic meaning of a date associated with a signature, which is confirmed by the context 'DATE (MM/DD/Y Y Y Y)' appearing next to the signature field."
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]). 'SignDate' clearly refers to the date of the signature. Converted to lowercase snake_case."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_TelephoneNumber_FLD[0]",
       "standardized_label": "telephone_number",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'TelephoneNumber' and converted to lowercase snake_case 'telephone_number'. This directly reflects the semantic meaning and is confirmed by the context 'TELEPHONE NUMBER (Area Code)'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'TELEPHONE NUMBER'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_MailingAddress_FLD[0]",
       "standardized_label": "mailing_address",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'MailingAddress' and converted to lowercase snake_case 'mailing_address'. This directly reflects the semantic meaning and is confirmed by the context 'MAILING ADDRESS (Number and Street, Apartment number, P O Box, or Rural Route)'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'MAILING ADDRESS'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_City_FLD[0]",
       "standardized_label": "city",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'City' and converted to lowercase snake_case 'city'. This directly reflects the semantic meaning and is confirmed by the context 'CITY'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'CITY'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_State_FLD[0]",
       "standardized_label": "state",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'State' and converted to lowercase snake_case 'state'. This directly reflects the semantic meaning and is confirmed by the context 'STATE'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'STATE'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_ZIPCode_FLD[0]",
       "standardized_label": "zip_code",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'ZIPCode' and converted to lowercase snake_case 'zip_code'. This directly reflects the semantic meaning and is confirmed by the context 'ZIP CODE'."
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted to lowercase snake_case based on field name and context 'ZIP CODE'."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignatureofWitness1_FLD[0]",
-      "standardized_label": "witness_1_signature",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'SignatureofWitness1' and converted to lowercase snake_case 'witness_1_signature'. The context 'SIGNATURE OF WITNESS' confirms this is for the first witness."
+      "standardized_label": "signature_of_witness_1",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted 'SignatureofWitness1' to lowercase snake_case, identifying it as the signature of the first witness based on the field name and context."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_AddressWitness1_FLD[0]",
-      "standardized_label": "witness_1_address",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'AddressWitness1' and converted to lowercase snake_case 'witness_1_address'. The context 'ADDRESS (Number and Street, City, State and ZIP Code)' confirms this is the address for the first witness."
+      "standardized_label": "address_witness_1",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted 'AddressWitness1' to lowercase snake_case, identifying it as the address of the first witness based on the field name and context."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_SignatureofWitness2_FLD[0]",
-      "standardized_label": "witness_2_signature",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'SignatureofWitness2' and converted to lowercase snake_case 'witness_2_signature'. The context '2. SIGNATURE OF WITNESS' confirms this is for the second witness."
+      "standardized_label": "signature_of_witness_2",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted 'SignatureofWitness2' to lowercase snake_case, identifying it as the signature of the second witness based on the field name and context."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_AddressWitness2_FLD[0]",
-      "standardized_label": "witness_2_address",
-      "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'AddressWitness2' and converted to lowercase snake_case 'witness_2_address'. The context 'ADDRESS (Number and Street, City, State and ZIP Code)' confirms this is the address for the second witness."
+      "standardized_label": "address_witness_2",
+      "confidence": 95,
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]) and converted 'AddressWitness2' to lowercase snake_case, identifying it as the address of the second witness based on the field name and context."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_PAReadOnly_FLD[0]",
-      "standardized_label": "privacy_act_statement",
+      "standardized_label": "privacy_act_statement_read_only",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Identified 'PA' as 'Privacy Act' and 'ReadOnly' as descriptive of its function, not its content. The context 'Privacy Act Statement' clearly indicates the semantic meaning. Converted to lowercase snake_case 'privacy_act_statement'."
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]). 'PA' likely stands for 'Privacy Act', which is confirmed by the context 'Privacy Act Statement'. Appended '_read_only' as it's a static text field."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_PRAReadOnly_FLD[0]",
-      "standardized_label": "paperwork_reduction_act_statement",
+      "standardized_label": "paperwork_reduction_act_statement_read_only",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Identified 'PRA' as 'Paperwork Reduction Act' and 'ReadOnly' as descriptive of its function, not its content. The context 'Paperwork Reduction Act Statement' clearly indicates the semantic meaning. Converted to lowercase snake_case 'paperwork_reduction_act_statement'."
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]). 'PRA' likely stands for 'Paperwork Reduction Act', which is confirmed by the context 'Paperwork Reduction Act Statement'. Appended '_read_only' as it's a static text field."
     },
     {
-      "action": "standardize_field_name",
+      "action": "standardize",
       "original_field_name": "topmostSubform[0].BodyPage2[0].P2_EOF_FLD[0]",
-      "standardized_label": "end_of_form",
+      "standardized_label": "end_of_form_message",
       "confidence": 90,
-      "reasoning": "Removed structural identifiers (`topmostSubform[0].BodyPage2[0]`, `P2_`, `_FLD[0]`). Extracted 'EOF' which stands for 'End Of Form'. The context 'You have reached the end of the form.' confirms this meaning. Converted to lowercase snake_case 'end_of_form'."
+      "reasoning": "Removed form structure tokens (topmostSubform[0].BodyPage2[0].P2_, _FLD[0]). 'EOF' stands for 'End Of Form', which is directly confirmed by the context 'You have reached the end of the form.' Labeled as a 'message' to indicate its informational nature."
     }
   ]
 }

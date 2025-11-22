@@ -1,0 +1,257 @@
+{
+  "filename": "ha-85.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ReadOnly_FLD[0]",
+      "standardized_label": "read_only",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ClaimantName_FLD[0]",
+      "standardized_label": "claimant_name",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ClaimantSSN_FLD[0]",
+      "standardized_label": "claimant_ssn",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WageEarnName_FLD[0]",
+      "standardized_label": "wage_earn_name",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ClaimNum_FLD[0]",
+      "standardized_label": "claim_num",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_PrintName_FLD[0]",
+      "standardized_label": "print_name",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_Date1_FLD[0]",
+      "standardized_label": "date1",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_TypeofClaims_FLD[0]",
+      "standardized_label": "type_of_claims",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_BenefitApplied_FLD[0]",
+      "standardized_label": "benefit_applied",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WithdrawReason_FLD[0]",
+      "standardized_label": "withdraw_reason",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ContPage2_CB[0]",
+      "standardized_label": "cont_page2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_Signature_FLD[0]",
+      "standardized_label": "signature",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_SigDate_FLD[0]",
+      "standardized_label": "sig_date",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_PhoneNum_FLD[0]",
+      "standardized_label": "phone_num",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_MailAdd_FLD[0]",
+      "standardized_label": "mail_add",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_CityState_FLD[0]",
+      "standardized_label": "city_state",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_ZIPCode_FLD[0]",
+      "standardized_label": "zip_code",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_County_FLD[0]",
+      "standardized_label": "county",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WitSig1_FLD[0]",
+      "standardized_label": "wit_sig1",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WitAdd1_FLD[0]",
+      "standardized_label": "wit_add1",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WitSig2_FLD[0]",
+      "standardized_label": "wit_sig2",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage1[0].P1_WitAdd2_FLD[0]",
+      "standardized_label": "wit_add2",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_ClaimantSSN_FLD[0]",
+      "standardized_label": "claimant_ssn",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_AddRemarks_FLD[0]",
+      "standardized_label": "add_remarks",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_Approved_CB[0]",
+      "standardized_label": "approved_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_NotApproved_CB[0]",
+      "standardized_label": "not_approved_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_NAReason1_CB[0]",
+      "standardized_label": "na_reason1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_NAReason3_CB[0]",
+      "standardized_label": "na_reason3_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_NAReason4_CB[0]",
+      "standardized_label": "na_reason4_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_EmployeeSig_FLD[0]",
+      "standardized_label": "employee_sig",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_Title1_CB[0]",
+      "standardized_label": "title1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_Title2_CB[0]",
+      "standardized_label": "title2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case and appended '_checkbox' for a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_SpecifyOther_FLD[0]",
+      "standardized_label": "specify_other",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage2[0].P2_Date_FLD[0]",
+      "standardized_label": "date",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_ReadOnly1_FLD[0]",
+      "standardized_label": "read_only1",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].BodyPage3[0].P3_ReadOnly2_FLD[0]",
+      "standardized_label": "read_only2",
+      "confidence": 100,
+      "reasoning": "Removed form structure tokens, page indicators, and field type suffix. Converted to lowercase snake_case."
+    }
+  ]
+}

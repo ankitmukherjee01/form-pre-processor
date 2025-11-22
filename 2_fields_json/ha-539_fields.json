@@ -1,0 +1,727 @@
+{
+  "filename": "ha-539.pdf",
+  "filepath": "1_unlocked_pdfs\\ha-539.pdf",
+  "total_pages": 2,
+  "total_fields": 25,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "form1[0].Page1[0].P1_NameDeceased_FLD[0]",
+          "field_context_on_pdf": "Form H Ay-539 (09-2024) U F. Discontinue Prior Editions. Social Security Administration. Notice Regarding Substitution of Party Upon Death of Claimant. O M B Number 0 9 6 0-0 2 8 8. Page 1 of 2. Office of Hearings Operations. NOTE: Please read the Privacy Act/Paperwork Act statement on reverse and the statements below. Then print, write, or type your response to the statements in the space provided below. If you need additional space, attach a separate page to this form.  Name of Deceased Claimant",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 197.32,
+            "x1": 305.28,
+            "y1": 225.23,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_ClaimFor_FLD[0]",
+          "field_context_on_pdf": "Claim for",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 306.72,
+            "y0": 197.32,
+            "x1": 593.28,
+            "y1": 225.23,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_WEName_FLD[0]",
+          "field_context_on_pdf": "Wage Earner's Name (Leave blank if same as above)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 248.78,
+            "x1": 305.28,
+            "y1": 276.69,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_SSN_FLD[0]",
+          "field_context_on_pdf": "Social Security Number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 306.72,
+            "y0": 248.78,
+            "x1": 593.28,
+            "y1": 276.69,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Widow_CB[0]",
+          "field_context_on_pdf": "I have been informed that the claimant had requested a hearing but died before action on the request was completed. I understand that the deceased claimant's request for hearing will have to be dismissed unless an eligible person is substituted. My relationship to the deceased claimant is: Widow/Widower",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 30.23,
+            "y0": 335.45,
+            "x1": 42.23,
+            "y1": 347.45,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_DivSpouse_CB[0]",
+          "field_context_on_pdf": "Surviving Divorced Spouse",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 165.32,
+            "y0": 335.45,
+            "x1": 177.32,
+            "y1": 347.45,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_WidowDivocrce_CB[0]",
+          "field_context_on_pdf": "If you have checked either of the above boxes and have in your care the deceased's child (children) who is (are) under the age 16 or disabled, check here",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 336.46,
+            "y0": 369.42,
+            "x1": 348.46,
+            "y1": 381.42,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Child_CB[0]",
+          "field_context_on_pdf": "Child",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 30.23,
+            "y0": 393.51,
+            "x1": 42.23,
+            "y1": 405.51,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_DisChild_CB[0]",
+          "field_context_on_pdf": "Disabled Child",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 103.02,
+            "y0": 393.51,
+            "x1": 115.02,
+            "y1": 405.51,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Parent_CB[0]",
+          "field_context_on_pdf": "Parent",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 227.07,
+            "y0": 393.51,
+            "x1": 239.07,
+            "y1": 405.51,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_AdminExecutor_CB[0]",
+          "field_context_on_pdf": "Administrator/Executor of Estate",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 309.91,
+            "y0": 393.51,
+            "x1": 321.91,
+            "y1": 405.51,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Other_CB[0]",
+          "field_context_on_pdf": "Other",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 30.23,
+            "y0": 416.0,
+            "x1": 42.23,
+            "y1": 428.0,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Other_FLD[0]",
+          "field_context_on_pdf": "Describe other selection",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 141.85,
+            "y0": 412.25,
+            "x1": 591.37,
+            "y1": 431.75,
+            "width": 449.52,
+            "height": 19.5
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_CB1_CB[0]",
+          "field_context_on_pdf": "Check either 1. or 2. 1.  I wish to be made a substitute party and to proceed with the hearing requested by the deceased. Check either ay. or b.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 63.5,
+            "y0": 457.79,
+            "x1": 75.5,
+            "y1": 469.79,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_CB1A_CB[0]",
+          "field_context_on_pdf": "ay. I want to come to the hearing in person.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 98.72,
+            "y0": 491.32,
+            "x1": 110.72,
+            "y1": 503.32,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_CB1B_CB[0]",
+          "field_context_on_pdf": "b. I do not want to come to the hearing in person, and I request a decision be made without a hearing.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 98.72,
+            "y0": 514.07,
+            "x1": 110.72,
+            "y1": 526.07,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_CB2_CB[0]",
+          "field_context_on_pdf": "2. I do not wish to proceed with the hearing requested by the deceased, and I ask that the request for hearing be dismissed.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 63.5,
+            "y0": 549.5,
+            "x1": 75.5,
+            "y1": 561.5,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Sig_FLD[0]",
+          "field_context_on_pdf": "Signature (First Name, Middle Initial, Last Name). Ay wet signature is required. Complete the form, print and sign.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.0,
+            "y0": 600.09,
+            "x1": 306.0,
+            "y1": 629.44,
+            "width": 288.0,
+            "height": 29.35
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_Date_FLD[0]",
+          "field_context_on_pdf": "Date (M M/D D/Y Y Y Y)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 306.72,
+            "y0": 600.81,
+            "x1": 593.28,
+            "y1": 628.72,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_PrintName_FLD[0]",
+          "field_context_on_pdf": "Print or Type Full Name",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 652.27,
+            "x1": 305.28,
+            "y1": 680.18,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_PhoneNum_FLD[0]",
+          "field_context_on_pdf": "Area Code and Telephone Number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 306.72,
+            "y0": 652.27,
+            "x1": 593.28,
+            "y1": 680.18,
+            "width": 286.56,
+            "height": 27.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_MailAdd_FLD[0]",
+          "field_context_on_pdf": "Mailing Address (Number and Street Address, P.O. Box or Rural Route)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 703.18,
+            "x1": 592.86,
+            "y1": 726.7,
+            "width": 574.14,
+            "height": 23.52
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].Page1[0].P1_CityStateZIP_FLD[0]",
+          "field_context_on_pdf": "City, State, and ZIP Code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 749.76,
+            "x1": 592.86,
+            "y1": 773.28,
+            "width": 574.14,
+            "height": 23.52
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "form1[0].Page2[0].P2_ReadOnly1_FLD[0]",
+          "field_context_on_pdf": "Page 2 of 2. Privacy Act Notice \rCollection and Use of Personal Information. Sections 205(ay), 1631(e), and 1869(b)(1) and (c) of the Social Security Act, as amended, allow us to collect this information.  Furnishing us this information is voluntary.  However, failing to provide all or part of the information may deny individuals who qualify for benefits under the claim of a deceased individual the right to pursue the claim.  We will use the information you provide to establish a substitute party for the deceased claimant named on the form and determine benefits eligibility. We may also share your information for the following purposes, called routine uses:  Bullet. To specified business and other community members and Federal, State and local agencies for verification of eligibility for benefits under section 1631(e) of the Social Security Act; and  Bullet. To contractors and other Federal Agencies, as necessary, for the purpose of assisting us in the efficient administration of our programs. We will disclose information under this routine use only in situations in which we may enter into a contractual or similar agreement to obtain assistance in accomplishing an SSA function relating to this system of records. In addition, we may share this information in accordance with the Privacy Act and other Federal laws.  For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person’s eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs. Ay list of additional routine uses is available in our Privacy Act System of Records Notices (S O R N) 6 0-0 0 8 9, entitled Claims Folders System, as published in the Federal Register (F R) on October 31, 2019, at 84 F R 5 8 4 2 2; and 6 0-0 0 9 0, entitled Master Beneficiary Record, as published in the F R on January 11, 2006, at 71 F R 1 8 2 6. Additional information, and a full listing of all our S O R Ns, is available on our website at w w w.s s ay.g o v/privacy.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.0,
+            "y0": 29.26,
+            "x1": 39.17,
+            "y1": 54.77,
+            "width": 21.17,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].Page2[0].P2_ReadOnly2_FLD[0]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement - This information collection meets the requirements of 44 U.S.C. § 3 5 0 7, as amended by section 2 of the Paperwork Reduction Act of 1995.  You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number.  We estimate that it will take about 5 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this  collection, including suggestions for reducing this burden to:  SSA, 6401 Security B l v d, Baltimore, M D  21235-6401. You have reached the end of the form. If you tab again you will return to the beginning of the form.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.0,
+            "y0": 600.64,
+            "x1": 39.17,
+            "y1": 626.15,
+            "width": 21.17,
+            "height": 25.51
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

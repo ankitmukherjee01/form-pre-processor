@@ -1,0 +1,979 @@
+{
+  "filename": "ha-85.pdf",
+  "filepath": "1_unlocked_pdfs\\ha-85.pdf",
+  "total_pages": 3,
+  "total_fields": 36,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ReadOnly_FLD[0]",
+          "field_context_on_pdf": "Form H Ay-85 (12-20 24) Discontinue Prior Editions. Social Security Administration. REQUEST TO WITHDRAW A HEARING REQUEST. O M B Number 0 9 6 0-0 7 1 0. Page 1 of 3. Important Notice - This is a request to withdraw your hearing request. The judge will consider this request and decide if dismissing your hearing request is appropriate. If we deny your request, the hearing process will go on as if you had not filed this form. If we approve this request, the hearing process will stop. We will send you a dismissal notice and we will not process your case. The last determination in your case will stay in effect. If you change your mind, you must ask the judge to cancel this request to withdraw within 60 days after you get the dismissal notice. You must give a good reason why the dismissal was wrong. You may also file an appeal with the Appeals Council (Ay C) within 60 days after you get the dismissal notice. Even if you do not ask the judge to cancel your request, and do not file an appeal, the Ay C may set aside the dismissal of your hearing request. This would occur within 60 days after we mail the dismissal notice to you. Do not write in this space",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 583.34,
+            "y0": 164.84,
+            "x1": 591.17,
+            "y1": 180.16,
+            "width": 7.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ClaimantName_FLD[0]",
+          "field_context_on_pdf": "Claimant Name",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 239.08,
+            "x1": 471.78,
+            "y1": 255.78,
+            "width": 453.06,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ClaimantSSN_FLD[0]",
+          "field_context_on_pdf": "Claimant S S N. The information entered here will be used to pre populate a field on page 2.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 473.22,
+            "y0": 239.08,
+            "x1": 593.28,
+            "y1": 255.78,
+            "width": 120.06,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WageEarnName_FLD[0]",
+          "field_context_on_pdf": "Wage Earner Name, If Different (or, if applicable, name of surviving eligible spouse or other individual eligible to receive benefits due a deceased claimant)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 282.89,
+            "x1": 471.78,
+            "y1": 309.78,
+            "width": 453.06,
+            "height": 26.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ClaimNum_FLD[0]",
+          "field_context_on_pdf": "Claimant Claim Number, if Different",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 473.22,
+            "y0": 282.89,
+            "x1": 593.28,
+            "y1": 309.78,
+            "width": 120.06,
+            "height": 26.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_PrintName_FLD[0]",
+          "field_context_on_pdf": "Print Your Name (First name, middle initial, last name)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 324.58,
+            "x1": 471.78,
+            "y1": 341.28,
+            "width": 453.06,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_Date1_FLD[0]",
+          "field_context_on_pdf": "Date of Hearing Request",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 473.22,
+            "y0": 324.58,
+            "x1": 593.28,
+            "y1": 341.28,
+            "width": 120.06,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_TypeofClaims_FLD[0]",
+          "field_context_on_pdf": "Type of Claim(s)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 18.72,
+            "y0": 356.08,
+            "x1": 305.28,
+            "y1": 372.78,
+            "width": 286.56,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_BenefitApplied_FLD[0]",
+          "field_context_on_pdf": "Benefit Applied For",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 306.72,
+            "y0": 356.08,
+            "x1": 593.28,
+            "y1": 372.78,
+            "width": 286.56,
+            "height": 16.7
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WithdrawReason_FLD[0]",
+          "field_context_on_pdf": "I wish to withdraw my hearing request. My request is voluntary. I understand the effects of this request. Namely, a judge may dismiss my hearing request. If the judge does, the last determination in my case will stay in effect, unless the dismissal is set aside. This may result in the potential loss of benefits. I understand that I have 60 days from when I get the dismissal notice to cancel my request or file an appeal with the Appeals Council. My decision affects no other potential parties to my knowledge. I understand that all items relating to my claim will be part of SSA's records. Give reason for withdrawal. (If you need more space, use the second page of the form.)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.0,
+            "y0": 457.58,
+            "x1": 594.0,
+            "y1": 530.74,
+            "width": 576.0,
+            "height": 73.17
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ContPage2_CB[0]",
+          "field_context_on_pdf": "Continued on page 2",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 476.4,
+            "y0": 443.97,
+            "x1": 486.4,
+            "y1": 453.97,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_Signature_FLD[0]",
+          "field_context_on_pdf": "Signature (First name, middle initial, last name) (Write in ink). Ay wet signature is required. Complete the form, print, and sign",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 544.34,
+            "x1": 411.17,
+            "y1": 591.16,
+            "width": 390.33,
+            "height": 46.82
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_SigDate_FLD[0]",
+          "field_context_on_pdf": "Date (M M/D D/Y Y Y Y)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 414.72,
+            "y0": 544.03,
+            "x1": 593.28,
+            "y1": 561.78,
+            "width": 178.56,
+            "height": 17.76
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_PhoneNum_FLD[0]",
+          "field_context_on_pdf": "Telephone Number (include area code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 414.71,
+            "y0": 575.52,
+            "x1": 593.28,
+            "y1": 593.28,
+            "width": 178.57,
+            "height": 17.76
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_MailAdd_FLD[0]",
+          "field_context_on_pdf": "Mailing Address (Number and Street, Apartment Number, P.O. Box, or Rural Route)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 607.77,
+            "x1": 591.16,
+            "y1": 622.67,
+            "width": 570.33,
+            "height": 14.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_CityState_FLD[0]",
+          "field_context_on_pdf": "City and State",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 639.27,
+            "x1": 280.67,
+            "y1": 654.16,
+            "width": 259.83,
+            "height": 14.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_ZIPCode_FLD[0]",
+          "field_context_on_pdf": "ZIP Code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 286.34,
+            "y0": 639.27,
+            "x1": 352.67,
+            "y1": 654.16,
+            "width": 66.33,
+            "height": 14.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_County_FLD[0]",
+          "field_context_on_pdf": "Enter Name of County (if any) in which you now live",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 358.33,
+            "y0": 639.27,
+            "x1": 591.16,
+            "y1": 654.16,
+            "width": 232.83,
+            "height": 14.89
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WitSig1_FLD[0]",
+          "field_context_on_pdf": "Witnesses are required ONLY if this request has been signed by a mark (X) above. If signed by a mark (x), two witnesses to the signing, who know the person making the request, must sign below. Both witnesses must give their full address. 1. Signature of Witness Ay wet signature is required. Complete the form, print, and sign",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 21.08,
+            "y0": 702.27,
+            "x1": 303.29,
+            "y1": 717.34,
+            "width": 282.21,
+            "height": 15.07
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WitAdd1_FLD[0]",
+          "field_context_on_pdf": "Address (Number and Street, City, State, ZIP Code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.24,
+            "y0": 735.25,
+            "x1": 306.12,
+            "y1": 774.0,
+            "width": 287.88,
+            "height": 38.75
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WitSig2_FLD[0]",
+          "field_context_on_pdf": "2.  Signature of Witness. Ay wet signature is required. Complete the form, print, and sign",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 309.5,
+            "y0": 702.27,
+            "x1": 591.16,
+            "y1": 717.34,
+            "width": 281.66,
+            "height": 15.07
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "form1[0].BodyPage1[0].P1_WitAdd2_FLD[0]",
+          "field_context_on_pdf": "Address (Number and Street, City, State, ZIP Code)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 306.67,
+            "y0": 735.25,
+            "x1": 594.0,
+            "y1": 774.0,
+            "width": 287.33,
+            "height": 38.75
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_ClaimantSSN_FLD[0]",
+          "field_context_on_pdf": "Page 2 of 3. Claimant SSN. This field is pre filled from the data entered on page 1",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 474.55,
+            "y0": 39.23,
+            "x1": 591.16,
+            "y1": 51.57,
+            "width": 116.61,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_AddRemarks_FLD[0]",
+          "field_context_on_pdf": "Additional Remarks:",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 18.0,
+            "y0": 72.15,
+            "x1": 594.0,
+            "y1": 598.5,
+            "width": 576.0,
+            "height": 526.35
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_Approved_CB[0]",
+          "field_context_on_pdf": "FOR USE OF SOCIAL SECURITY ADMINISTRATION. Approved",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 20.83,
+            "y0": 629.5,
+            "x1": 30.83,
+            "y1": 639.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_NotApproved_CB[0]",
+          "field_context_on_pdf": "Not Approved",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 20.83,
+            "y0": 647.5,
+            "x1": 30.83,
+            "y1": 657.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_NAReason1_CB[0]",
+          "field_context_on_pdf": "Reason not approved. Claimant Does Not Understand Consequences",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 47.83,
+            "y0": 665.5,
+            "x1": 57.83,
+            "y1": 675.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_NAReason3_CB[0]",
+          "field_context_on_pdf": "Withdrawal Would Harm Interest of Claimant or Other Parties",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 301.0,
+            "y0": 665.5,
+            "x1": 311.0,
+            "y1": 675.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_NAReason4_CB[0]",
+          "field_context_on_pdf": "Other (Attach explanation)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 47.83,
+            "y0": 683.5,
+            "x1": 57.83,
+            "y1": 693.5,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_EmployeeSig_FLD[0]",
+          "field_context_on_pdf": "Signature of SSA Employee. Ay Wet signature is required. Complete the form, print, and sign.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 20.83,
+            "y0": 710.85,
+            "x1": 591.16,
+            "y1": 735.17,
+            "width": 570.33,
+            "height": 24.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_Title1_CB[0]",
+          "field_context_on_pdf": "Title. Judge",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 56.83,
+            "y0": 742.0,
+            "x1": 66.83,
+            "y1": 752.0,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_Title2_CB[0]",
+          "field_context_on_pdf": "Other",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 56.83,
+            "y0": 760.0,
+            "x1": 66.83,
+            "y1": 770.0,
+            "width": 10.0,
+            "height": 10.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_SpecifyOther_FLD[0]",
+          "field_context_on_pdf": "If other is checked (specify)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 146.84,
+            "y0": 758.84,
+            "x1": 411.17,
+            "y1": 771.16,
+            "width": 264.33,
+            "height": 12.33
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "form1[0].BodyPage2[0].P2_Date_FLD[0]",
+          "field_context_on_pdf": "Date (M M/D D/Y Y Y Y)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 416.83,
+            "y0": 751.77,
+            "x1": 591.16,
+            "y1": 771.16,
+            "width": 174.33,
+            "height": 19.39
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "fields": [
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_ReadOnly1_FLD[0]",
+          "field_context_on_pdf": "Page 3 of 3. Privacy Act Statement \rCollection and Use of Personal Information. Sections 205(ay), 1631(d)(1), and 1872 of the Social Security Act, as amended, allow us to collect this information. Furnishing us this information is voluntary. However, failing to provide all or part of the information may prevent us from making an accurate determination regarding your request to withdraw your request for a hearing. We will use the information you provide to determine if dismissing your hearing request is appropriate. We may also share the information for the following purposes, called routine uses: Bullet. To contractors and other Federal agencies, as necessary, for the purpose of assisting SSA in the efficient administration of its programs. We contemplate disclosing information under this routine use only in situations in which SSA may enter into a contractual or similar agreement with a third party to assist in accomplishing an agency function relating to this system of records; and Bullet. To a congressional office in response to an inquiry from that office made at the request of the subject of a record. In addition, we may share this information in accordance with the Privacy Act and other Federal laws. For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person’s eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs.  Ay list of additional routine uses is available in our Privacy Act System of Records Notice(s) (S O R N) 6 0-0 0 0 5, entitled Administrative Law Judge Working File on Claimant Cases, as published in the Federal Register (F R) on April 29, 2009, at 74 F R 1 9 6 1 7, and 6 0-0 0 0 9, entitled Hearings and Appeals Case Control System, as published in the FR on October 13, 1982, at 47 F R 4 5 5 8 9. Additional information, and a full listing of all of our S O R Ns, is available on our website at w w w.s s ay.g o v/privacy.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 556.34,
+            "y0": 53.21,
+            "x1": 564.17,
+            "y1": 68.53,
+            "width": 7.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        },
+        {
+          "field_name": "form1[0].BodyPage3[0].P3_ReadOnly2_FLD[0]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement. This information collection meets the requirements of 44 U.S.C. § 3 5 0 7, as amended by section 2 of the                         Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number. We estimate that it will take about 10 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6 4 0 1 Security B l v d, Baltimore, MD 2 1 2 3 5-6 4 0 1. This is the end of the form. If you tab, you will be at the beginning of the form.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 547.34,
+            "y0": 454.48,
+            "x1": 555.17,
+            "y1": 469.8,
+            "width": 7.83,
+            "height": 15.32
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "filename": "ha-86.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].First[0]",
+      "standardized_label": "claimant_name",
+      "confidence": 100,
+      "reasoning": "Started with context '1. CLAIMANT NAME' and converted to lowercase. Removed numerical prefix. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[0]",
+      "standardized_label": "claimant_ssn",
+      "confidence": 100,
+      "reasoning": "Started with context 'CLAIMANT SSN' and converted to lowercase. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[1]",
+      "standardized_label": "claimant_claim_number",
+      "confidence": 100,
+      "reasoning": "Started with context '3. CLAIMANT CLAIM NUMBER, IF DIFFERENT' and converted to lowercase. Removed numerical prefix. Removed phrase ', if different'. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[2]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 100,
+      "reasoning": "Started with context '2. WAGE EARNER NAME, IF DIFFERENT (or, if applicable, name of surviving \r    eligible spouse or other individual eligible to receive benefits due a deceased \r    claimant)' and converted to lowercase. Removed numerical prefix. Removed phrase ', if different'. Removed specific long parenthetical explanation. Replaced newlines with spaces. Trimmed leading/trailing whitespace. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[3]",
+      "standardized_label": "your_name",
+      "confidence": 100,
+      "reasoning": "Started with context '4. PRINT YOUR NAME (First name, middle initial, last name)' and converted to lowercase. Removed numerical prefix. Removed parenthetical instruction '(first name, middle initial, last name)'. Transformed 'print your name' to 'your name'. Trimmed leading/trailing whitespace. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].DateField3[0]",
+      "standardized_label": "date_appeals_council_review_requested",
+      "confidence": 100,
+      "reasoning": "Started with context '5. DATE APPEALS COUNCIL REVIEW REQUESTED' and converted to lowercase. Removed numerical prefix. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].DateField2[0]",
+      "standardized_label": "date_of_alj_decision",
+      "confidence": 100,
+      "reasoning": "Started with context '6. DATE OF ALJ DECISION' and converted to lowercase. Removed numerical prefix. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[4]",
+      "standardized_label": "reason_for_withdrawal",
+      "confidence": 100,
+      "reasoning": "Started with context 'I wish to withdraw my request for review. My request is voluntary. I understand the effects of this request. Namely, the Appeals Council may dismiss my request for review. If it does, the Administrative Law Judge decision will stay in effect. This may result in the potential loss of benefits. The Appeals Council’s dismissal of this request for review is final and cannot be appealed. My decision affects no other potential parties to my knowledge. I understand that all items relating to my claim will be part \rof SSA’s records. Give reason for withdrawal. (If you need more space, use the reverse of this form.)' and converted to lowercase. Identified 'reason for withdrawal' as the core prompt within a long context. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].CheckBox1[0]",
+      "standardized_label": "continued_on_reverse_checkbox",
+      "confidence": 100,
+      "reasoning": "Started with context 'Continued on reverse' and converted to lowercase. Replaced spaces with single underscores. Appended '_checkbox' because the field type is CheckBox. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[5]",
+      "standardized_label": "signature_of_person_making_request",
+      "confidence": 100,
+      "reasoning": "Started with context 'SIGNATURE OF PERSON MAKING REQUEST (OPTIONAL) Signature (First name, middle initial, last name) (Write in ink) Wet signature required. Fill out form, print and sign in ink.' and converted to lowercase. Extracted the primary intent 'signature of person making request'. Removed parenthetical information and instructional text. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].DateField1[0]",
+      "standardized_label": "date",
+      "confidence": 100,
+      "reasoning": "Started with context 'Date (Month, day, year)' and converted to lowercase. Removed parenthetical instruction. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[6]",
+      "standardized_label": "telephone_number",
+      "confidence": 100,
+      "reasoning": "Started with context 'Telephone Number (Include area code)' and converted to lowercase. Removed parenthetical instruction. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[7]",
+      "standardized_label": "mailing_address",
+      "confidence": 100,
+      "reasoning": "Started with context 'Mailing Address (Number And Street, Apartment number., PO Box, Or Rural Route)' and converted to lowercase. Removed parenthetical instructions. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[8]",
+      "standardized_label": "city_and_state",
+      "confidence": 100,
+      "reasoning": "Started with context 'City and State' and converted to lowercase. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[9]",
+      "standardized_label": "zip_code",
+      "confidence": 100,
+      "reasoning": "Started with context 'ZIP Code' and converted to lowercase. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[10]",
+      "standardized_label": "county_name",
+      "confidence": 100,
+      "reasoning": "Started with context 'Enter Name of County (if any) in which you now live' and converted to lowercase. Extracted the core 'name of county', converting to 'county_name'. Removed instructional and conditional phrases. Replaced spaces and multiple whitespace with single underscores. Also, removed field name index tokens and structural prefixes (e.g., form1[0].#subform[0].) from consideration as the standardized label is derived directly from the clear context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[11]",
+      "standardized_label": "signature_of_witness_1",
+      "confidence": 100,
+      "reasoning": "Extracted '1. Signature of Witness' from the context, removed numerical prefix, and converted to lowercase snake_case. The surrounding text provides instructions, but the field itself is clearly designated for the first witness's signature. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[12]",
+      "standardized_label": "witness_1_address",
+      "confidence": 95,
+      "reasoning": "Context is 'Address (Number and Street, City, State, ZIP Code)'. This field's position is directly below '1. Signature of Witness' and precedes '2. Signature of Witness'. It's highly probable this address corresponds to the first witness. Removed parenthetical instructions and converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[13]",
+      "standardized_label": "witness_2_address",
+      "confidence": 95,
+      "reasoning": "Context is 'Address (Number and Street, City, State, ZIP Code)'. This field's position is directly below '2. Signature of Witness'. It's highly probable this address corresponds to the second witness. Removed parenthetical instructions and converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[14]",
+      "standardized_label": "signature_of_witness_2",
+      "confidence": 100,
+      "reasoning": "Extracted '2. Signature of Witness' from the context, removed numerical prefix, and converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].TextField1[15]",
+      "standardized_label": "do_not_write_in_this_space_checkbox",
+      "confidence": 90,
+      "reasoning": "The field has a very small position but a very long context containing form information, instructions, and an explicit instruction 'Blank section of the form that says Do not write in this space'. The instruction 'Do not write in this space' is the most direct guidance related to user interaction with this specific field. Removed all other boilerplate and converted to lowercase snake_case. Removed field name index tokens and structural prefixes. Confidence is slightly lower due to the large discrepancy between context length and field size, suggesting it might be an informational field rather than a fillable one, but the chosen label reflects the most salient instruction for the field's purpose. | auto-fixed do_not_write_in_this_space → do_not_write_in_this_space_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[16]",
+      "standardized_label": "ssa_ssn",
+      "confidence": 100,
+      "reasoning": "Context 'Page 2 of 3 FOR USE OF SOCIAL SECURITY ADMINISTRATION S S N:' clearly indicates this is an SSN field specifically for administrative use. Converted to lowercase snake_case. Removed page indicator and introductory phrase. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].TextField1[17]",
+      "standardized_label": "additional_remarks",
+      "confidence": 100,
+      "reasoning": "Context 'Additional Remarks:' is straightforward. Converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].TextField1[18]",
+      "standardized_label": "page_number",
+      "confidence": 90,
+      "reasoning": "The field has a very small position, and the context starts with 'Page 3 of 3' followed by a lengthy 'Privacy Act Statement'. Given the small size, it's highly probable this field is intended to display or represent the page number. 'Page number' is a concise and accurate label for this likely purpose. Removed all other boilerplate and converted to lowercase snake_case. Removed field name index tokens and structural prefixes. Confidence is slightly lower due to the large discrepancy between context length and field size, requiring inference based on common form elements."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[2].Last[0]",
+      "standardized_label": "end_of_form",
+      "confidence": 95,
+      "reasoning": "The context primarily contains a 'Paperwork Reduction Act Statement', but the field itself is very small and the concluding sentence 'You are at the end of the form. If you tab again, you will be at the beginning of the form.' strongly suggests its purpose is navigational or structural to indicate the form's conclusion. The field name 'Last[0]' also aligns with this interpretation. 'End of form' is the most concise and functional label based on this specific instruction. Removed all other boilerplate and converted to lowercase snake_case. Removed field name index tokens and structural prefixes."
+    }
+  ]
+}

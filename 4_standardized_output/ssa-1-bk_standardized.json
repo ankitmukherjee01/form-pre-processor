@@ -1,0 +1,1440 @@
+{
+  "filename": "ssa-1-bk.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].TEL_CB[0]",
+      "standardized_label": "tel_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted the remaining name to snake_case, and appended '_checkbox' due to field type."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Supplement_CB[0]",
+      "standardized_label": "supplement_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted the remaining name to snake_case, and appended '_checkbox' due to field type."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q1Name_FLD[0]",
+      "standardized_label": "q1_name",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q2SSN_FLD[0]",
+      "standardized_label": "q2_ssn",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q3Speak_FLD[0]",
+      "standardized_label": "q3_speak",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q3Write_FLD[0]",
+      "standardized_label": "q3_write",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q4aDOB_FLD[0]",
+      "standardized_label": "q4a_dob",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q4bCityState_FLD[0]",
+      "standardized_label": "q4b_city_state",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD'), and converted the remaining name to snake_case (handling digit-letter and camelCase transitions)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5aYes_CB[0]",
+      "standardized_label": "q5a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q5aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5aNo_CB[0]",
+      "standardized_label": "q5a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q5aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5bYes_CB[0]",
+      "standardized_label": "q5b_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q5bYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5bNo_CB[0]",
+      "standardized_label": "q5b_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q5bNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5cCitizen_FLD[0]",
+      "standardized_label": "q5c_citizen",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD') and converted 'Q5cCitizen' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q6NameIfDiff_FLD[0]",
+      "standardized_label": "q6_name_if_diff",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD') and converted 'Q6NameIfDiff' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q7aYes_CB[0]",
+      "standardized_label": "q7a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q7aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q7aNo_CB[0]",
+      "standardized_label": "q7a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q7aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q7bOtherNames_FLD[0]",
+      "standardized_label": "q7b_other_names",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD') and converted 'Q7bOtherNames' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q8aYes_CB[0]",
+      "standardized_label": "q8a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q8aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q8aNo_CB[0]",
+      "standardized_label": "q8a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_CB'), converted 'Q8aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q8bOtherSSN_FLD[0]",
+      "standardized_label": "q8b_other_ssn",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page1[0]', '[0]', '_FLD') and converted 'Q8bOtherSSN' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q9aYes_CB[0]",
+      "standardized_label": "q9a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q9aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q9aNo_CB[0]",
+      "standardized_label": "q9a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q9aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q9bDate_FLD[0]",
+      "standardized_label": "q9b_date",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q9bDate' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q10Yes_CB[0]",
+      "standardized_label": "q10_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q10Yes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q10No_CB[0]",
+      "standardized_label": "q10_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q10No' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q11aYes_CB[0]",
+      "standardized_label": "q11a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q11aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q11aNo_CB[0]",
+      "standardized_label": "q11a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q11aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q11bCountries_FLD[0]",
+      "standardized_label": "q11b_countries",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q11bCountries' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q11cYes_CB[0]",
+      "standardized_label": "q11c_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q11cYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q11cNo_CB[0]",
+      "standardized_label": "q11c_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q11cNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q12Yes_CB[0]",
+      "standardized_label": "q12_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q12Yes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q12No_CB[0]",
+      "standardized_label": "q12_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q12No' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseName_FLD[0]",
+      "standardized_label": "q13a_spouse_name",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseName' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseWhen1_FLD[0]",
+      "standardized_label": "q13a_spouse_when1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseWhen1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseWhere1_FLD[0]",
+      "standardized_label": "q13a_spouse_where1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseWhere1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseEnded_FLD[0]",
+      "standardized_label": "q13a_spouse_ended",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseEnded' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseWhen2_FLD[0]",
+      "standardized_label": "q13a_spouse_when2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseWhen2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseWhere2_FLD[0]",
+      "standardized_label": "q13a_spouse_where2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseWhere2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aClergyman_CB[0]",
+      "standardized_label": "q13a_clergyman_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q13aClergyman' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aOther_CB[0]",
+      "standardized_label": "q13a_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q13aOther' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseDOB_FLD[0]",
+      "standardized_label": "q13a_spouse_dob",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseDOB' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseDOD_FLD[0]",
+      "standardized_label": "q13a_spouse_dod",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseDOD' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13aSpouseSSN_FLD[0]",
+      "standardized_label": "q13a_spouse_ssn",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13aSpouseSSN' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseName_FLD[0]",
+      "standardized_label": "q13b_spouse_name",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseName' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseWhen1_FLD[0]",
+      "standardized_label": "q13b_spouse_when1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseWhen1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseWhere1_FLD[0]",
+      "standardized_label": "q13b_spouse_where1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseWhere1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseEnded_FLD[0]",
+      "standardized_label": "q13b_spouse_ended",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseEnded' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseWhen2_FLD[0]",
+      "standardized_label": "q13b_spouse_when2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseWhen2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseWhere2_FLD[0]",
+      "standardized_label": "q13b_spouse_where2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseWhere2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bClergyman_CB[0]",
+      "standardized_label": "q13b_clergyman_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q13bClergyman' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bOther_CB[0]",
+      "standardized_label": "q13b_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_CB'), converted 'Q13bOther' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseDOB_FLD[0]",
+      "standardized_label": "q13b_spouse_dob",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseDOB' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseDOD_FLD[0]",
+      "standardized_label": "q13b_spouse_dod",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseDOD' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].Q13bSpouseSSN_FLD[0]",
+      "standardized_label": "q13b_spouse_ssn",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page2[0]', '[0]', '_FLD') and converted 'Q13bSpouseSSN' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cWhomMarried_FLD[0]",
+      "standardized_label": "q13c_whom_married",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cWhomMarried' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cWhen1_FLD[0]",
+      "standardized_label": "q13c_when1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cWhen1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cWhere1_FLD[0]",
+      "standardized_label": "q13c_where1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cWhere1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cEnded_FLD[0]",
+      "standardized_label": "q13c_ended",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cEnded' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cWhen2_FLD[0]",
+      "standardized_label": "q13c_when2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cWhen2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cWhere2_FLD[0]",
+      "standardized_label": "q13c_where2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cWhere2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cClergyman_CB[0]",
+      "standardized_label": "q13c_clergyman_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_CB'), converted 'Q13cClergyman' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cOther_CB[0]",
+      "standardized_label": "q13c_other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_CB'), converted 'Q13cOther' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cDOB_FLD[0]",
+      "standardized_label": "q13c_dob",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cDOB' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cDOD_FLD[0]",
+      "standardized_label": "q13c_dod",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cDOD' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q13cSSN_FLD[0]",
+      "standardized_label": "q13c_ssn",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q13cSSN' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].ReadOnly2_FLD[0]",
+      "standardized_label": "read_only2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'ReadOnly2' to snake_case. This appears to be an internal field name, so a direct conversion is appropriate."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name1_FLD[0]",
+      "standardized_label": "q14_name1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name2_FLD[0]",
+      "standardized_label": "q14_name2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name3_FLD[0]",
+      "standardized_label": "q14_name3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name4_FLD[0]",
+      "standardized_label": "q14_name4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name5_FLD[0]",
+      "standardized_label": "q14_name5",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name5' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name6_FLD[0]",
+      "standardized_label": "q14_name6",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name6' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name7_FLD[0]",
+      "standardized_label": "q14_name7",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name7' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q14Name8_FLD[0]",
+      "standardized_label": "q14_name8",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q14Name8' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q15aYes_CB[0]",
+      "standardized_label": "q15a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_CB'), converted 'Q15aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q15aNo_CB[0]",
+      "standardized_label": "q15a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_CB'), converted 'Q15aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Q15b_FLD[0]",
+      "standardized_label": "q15b",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page3[0]', '[0]', '_FLD') and converted 'Q15b' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16NameAddress1_FLD[0]",
+      "standardized_label": "q16_name_address1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16NameAddress1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganMonth1_FLD[0]",
+      "standardized_label": "q16_work_began_month1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganMonth1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganYear1_FLD[0]",
+      "standardized_label": "q16_work_began_year1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganYear1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedMonth1_FLD[0]",
+      "standardized_label": "q16_work_ended_month1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedMonth1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedYear1_FLD[0]",
+      "standardized_label": "q16_work_ended_year1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedYear1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16NameAddress2_FLD[0]",
+      "standardized_label": "q16_name_address2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16NameAddress2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganMonth2_FLD[0]",
+      "standardized_label": "q16_work_began_month2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganMonth2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganYear2_FLD[0]",
+      "standardized_label": "q16_work_began_year2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganYear2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedMonth2_FLD[0]",
+      "standardized_label": "q16_work_ended_month2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedMonth2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedYear2_FLD[0]",
+      "standardized_label": "q16_work_ended_year2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedYear2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16NameAddress3_FLD[0]",
+      "standardized_label": "q16_name_address3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16NameAddress3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganMonth3_FLD[0]",
+      "standardized_label": "q16_work_began_month3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganMonth3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganYear3_FLD[0]",
+      "standardized_label": "q16_work_began_year3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganYear3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedMonth3_FLD[0]",
+      "standardized_label": "q16_work_ended_month3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedMonth3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedYear3_FLD[0]",
+      "standardized_label": "q16_work_ended_year3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedYear3' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16NameAddress4_FLD[0]",
+      "standardized_label": "q16_name_address4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16NameAddress4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganMonth4_FLD[0]",
+      "standardized_label": "q16_work_began_month4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganMonth4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkBeganYear4_FLD[0]",
+      "standardized_label": "q16_work_began_year4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkBeganYear4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedMonth4_FLD[0]",
+      "standardized_label": "q16_work_ended_month4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedMonth4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q16WorkEndedYear4_FLD[0]",
+      "standardized_label": "q16_work_ended_year4",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q16WorkEndedYear4' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17aYes_CB[0]",
+      "standardized_label": "q17a_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17aYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17aNo_CB[0]",
+      "standardized_label": "q17a_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17aNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bThisYear[0]",
+      "standardized_label": "q17b_this_year_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]'), converted 'Q17bThisYear' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bTradeBusiness1_FLD[0]",
+      "standardized_label": "q17b_trade_business1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q17bTradeBusiness1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bYes1_CB[0]",
+      "standardized_label": "q17b_yes1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17bYes1' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bNo1_CB[0]",
+      "standardized_label": "q17b_no1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17bNo1' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bLastYear_CB[0]",
+      "standardized_label": "q17b_last_year_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17bLastYear' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bTradeBusiness2_FLD[0]",
+      "standardized_label": "q17b_trade_business2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q17bTradeBusiness2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bYes2_CB[0]",
+      "standardized_label": "q17b_yes2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17bYes2' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q17bNo2_CB[0]",
+      "standardized_label": "q17b_no2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q17bNo2' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18aAmt_FLD[0]",
+      "standardized_label": "q18a_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q18aAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bAmt_FLD[0]",
+      "standardized_label": "q18b_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q18bAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bNone_CB[0]",
+      "standardized_label": "q18b_none_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bNone' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bAll_CB[0]",
+      "standardized_label": "q18b_all_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bAll' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bJan_CB[0]",
+      "standardized_label": "q18b_jan_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bJan' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bFeb_CB[0]",
+      "standardized_label": "q18b_feb_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bFeb' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bMar_CB[0]",
+      "standardized_label": "q18b_mar_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bMar' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bApr_CB[0]",
+      "standardized_label": "q18b_apr_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bApr' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bMay_CB[0]",
+      "standardized_label": "q18b_may_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bMay' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bJun_CB[0]",
+      "standardized_label": "q18b_jun_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bJun' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bJul_CB[0]",
+      "standardized_label": "q18b_jul_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bJul' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bAug_CB[0]",
+      "standardized_label": "q18b_aug_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bAug' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bSept_CB[0]",
+      "standardized_label": "q18b_sept_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bSept' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bOct_CB[0]",
+      "standardized_label": "q18b_oct_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bOct' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bNov_CB[0]",
+      "standardized_label": "q18b_nov_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bNov' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q18bDec_CB[0]",
+      "standardized_label": "q18b_dec_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q18bDec' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19aAmt_FLD[0]",
+      "standardized_label": "q19a_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q19aAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bAmt_FLD[0]",
+      "standardized_label": "q19b_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q19bAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bNone_CB[0]",
+      "standardized_label": "q19b_none_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bNone' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bAll_CB[0]",
+      "standardized_label": "q19b_all_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bAll' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bJan_CB[0]",
+      "standardized_label": "q19b_jan_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bJan' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bFeb_CB[0]",
+      "standardized_label": "q19b_feb_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bFeb' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bMar_CB[0]",
+      "standardized_label": "q19b_mar_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bMar' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bApr_CB[0]",
+      "standardized_label": "q19b_apr_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bApr' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bMay_CB[0]",
+      "standardized_label": "q19b_may_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bMay' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bJun_CB[0]",
+      "standardized_label": "q19b_jun_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bJun' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bJul_CB[0]",
+      "standardized_label": "q19b_jul_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bJul' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bAug_CB[0]",
+      "standardized_label": "q19b_aug_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bAug' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bSept_CB[0]",
+      "standardized_label": "q19b_sept_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bSept' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bOct_CB[0]",
+      "standardized_label": "q19b_oct_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bOct' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bNov_CB[0]",
+      "standardized_label": "q19b_nov_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bNov' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q19bDec_CB[0]",
+      "standardized_label": "q19b_dec_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q19bDec' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20aAmt_FLD[0]",
+      "standardized_label": "q20a_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q20aAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bAmt_FLD[0]",
+      "standardized_label": "q20b_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_FLD') and converted 'Q20bAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bNone_CB[0]",
+      "standardized_label": "q20b_none_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bNone' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bAll_CB[0]",
+      "standardized_label": "q20b_all_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bAll' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bJan_CB[0]",
+      "standardized_label": "q20b_jan_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bJan' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bFeb_CB[0]",
+      "standardized_label": "q20b_feb_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bFeb' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bMar_CB[0]",
+      "standardized_label": "q20b_mar_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bMar' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bApr_CB[0]",
+      "standardized_label": "q20b_apr_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bApr' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bMay_CB[0]",
+      "standardized_label": "q20b_may_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bMay' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bJun_CB[0]",
+      "standardized_label": "q20b_jun_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bJun' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bJul_CB[0]",
+      "standardized_label": "q20b_jul_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bJul' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bAug_CB[0]",
+      "standardized_label": "q20b_aug_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bAug' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bSept_CB[0]",
+      "standardized_label": "q20b_sept_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bSept' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bOct_CB[0]",
+      "standardized_label": "q20b_oct_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bOct' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bNov_CB[0]",
+      "standardized_label": "q20b_nov_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bNov' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bDec_CB[0]",
+      "standardized_label": "q20b_dec_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bDec' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q21Month_FLD[0]",
+      "standardized_label": "q21_month",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_FLD') and converted 'Q21Month' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22a_CB[0]",
+      "standardized_label": "q22a_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22a' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22b_CB[0]",
+      "standardized_label": "q22b_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22b' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22c_CB[0]",
+      "standardized_label": "q22c_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22c' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22cDate_FLD[0]",
+      "standardized_label": "q22c_date",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_FLD') and converted 'Q22cDate' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bOct_CB[0]",
+      "standardized_label": "q20b_oct_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bOct' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bNov_CB[0]",
+      "standardized_label": "q20b_nov_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bNov' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].Q20bDec_CB[0]",
+      "standardized_label": "q20b_dec_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page4[0]', '[0]', '_CB'), converted 'Q20bDec' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q21Month_FLD[0]",
+      "standardized_label": "q21_month",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_FLD') and converted 'Q21Month' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22a_CB[0]",
+      "standardized_label": "q22a_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22a' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22b_CB[0]",
+      "standardized_label": "q22b_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22b' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22c_CB[0]",
+      "standardized_label": "q22c_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_CB'), converted 'Q22c' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Q22cDate_FLD[0]",
+      "standardized_label": "q22c_date",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page5[0]', '[0]', '_FLD') and converted 'Q22cDate' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].SigPhone_FLD[0]",
+      "standardized_label": "sig_phone",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'SigPhone' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDRoutingNum_FLD[0]",
+      "standardized_label": "dd_routing_num",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'DDRoutingNum' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDAcctNum_FLD[0]",
+      "standardized_label": "dd_acct_num",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'DDAcctNum' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDChecking_CB[0]",
+      "standardized_label": "dd_checking_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_CB'), converted 'DDChecking' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDSavings_CB[0]",
+      "standardized_label": "dd_savings_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_CB'), converted 'DDSavings' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDEnrollYes_CB[0]",
+      "standardized_label": "dd_enroll_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_CB'), converted 'DDEnrollYes' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DDEnrollNo_CB[0]",
+      "standardized_label": "dd_enroll_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_CB'), converted 'DDEnrollNo' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ApplicantAddress_FLD[0]",
+      "standardized_label": "applicant_address",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ApplicantAddress' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ApplicantCityState_FLD[0]",
+      "standardized_label": "applicant_city_state",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ApplicantCityState' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ApplicantZIP_FLD[0]",
+      "standardized_label": "applicant_zip",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ApplicantZIP' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ApplicantCounty_FLD[0]",
+      "standardized_label": "applicant_county",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ApplicantCounty' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ReadOnly2_FLD[0]",
+      "standardized_label": "read_only2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ReadOnly2' to snake_case. This appears to be an internal field name, so a direct conversion is appropriate."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].WitnessAddress1_FLD[0]",
+      "standardized_label": "witness_address1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'WitnessAddress1' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ReadOnly3_FLD[0]",
+      "standardized_label": "read_only3",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'ReadOnly3' to snake_case. This appears to be an internal field name, so a direct conversion is appropriate."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].WitnessAddress2_FLD[0]",
+      "standardized_label": "witness_address2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page7[0]', '[0]', '_FLD') and converted 'WitnessAddress2' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].PhoneNumBefore_FLD[0]",
+      "standardized_label": "phone_num_before",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'PhoneNumBefore' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].PhoneNumAfter_FLD[0]",
+      "standardized_label": "phone_num_after",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'PhoneNumAfter' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].SSAOffice_FLD[0]",
+      "standardized_label": "ssa_office",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'SSAOffice' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].DateClaimReceived_FLD[0]",
+      "standardized_label": "date_claim_received",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'DateClaimReceived' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].YouShouldHearFromUs_FLD[0]",
+      "standardized_label": "you_should_hear_from_us",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'YouShouldHearFromUs' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].ClaimantName_FLD[0]",
+      "standardized_label": "claimant_name",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'ClaimantName' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].ClaimNumber_FLD[0]",
+      "standardized_label": "claim_number",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'ClaimNumber' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].ReadOnly1_FLD[0]",
+      "standardized_label": "read_only1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'ReadOnly1' to snake_case. This appears to be an internal read-only field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page8[0].ReadOnly2_FLD[0]",
+      "standardized_label": "read_only2",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page8[0]', '[0]', '_FLD') and converted 'ReadOnly2' to snake_case. This appears to be an internal read-only field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].ReadOnly1_FLD[0]",
+      "standardized_label": "read_only1",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_FLD') and converted 'ReadOnly1' to snake_case. This appears to be an internal read-only field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].WorkChangesYear_FLD[0]",
+      "standardized_label": "work_changes_year",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_FLD') and converted 'WorkChangesYear' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].WorkChangesAmt_FLD[0]",
+      "standardized_label": "work_changes_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_FLD') and converted 'WorkChangesAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].YouARE1_CB[0]",
+      "standardized_label": "you_are1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_CB'), converted 'YouARE1' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].YouARENOT1_CB[0]",
+      "standardized_label": "you_are_not1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_CB'), converted 'YouARENOT1' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].WagesAmt_FLD[0]",
+      "standardized_label": "wages_amt",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_FLD') and converted 'WagesAmt' to snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].YouARE2_CB[0]",
+      "standardized_label": "you_are2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_CB'), converted 'YouARE2' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page9[0].YouARENOT2_CB[0]",
+      "standardized_label": "you_are_not2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed structural prefixes/suffixes ('topmostSubform[0].Page9[0]', '[0]', '_CB'), converted 'YouARENOT2' to snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "topmostSubform[0].Page9[0].ReadOnly2_FLD[0]",
+      "standardized_label": "topmost_subform_0_page9_0_read_only2_fld_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "topmostSubform[0].Page9[0].ReadOnly3_FLD[0]",
+      "standardized_label": "topmost_subform_0_page9_0_read_only3_fld_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "topmostSubform[0].Page9[0].ReadOnly4_FLD[0]",
+      "standardized_label": "topmost_subform_0_page9_0_read_only4_fld_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "topmostSubform[0].Page9[0].ReadOnly5_FLD[0]",
+      "standardized_label": "topmost_subform_0_page9_0_read_only5_fld_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    },
+    {
+      "action": "auto_fix",
+      "original_field_name": "topmostSubform[0].Page9[0].EndofForm_FLD[0]",
+      "standardized_label": "topmost_subform_0_page9_0_endof_form_fld_0",
+      "confidence": 75,
+      "reasoning": "Auto-fixed label from raw name. Validation: Valid"
+    }
+  ]
+}

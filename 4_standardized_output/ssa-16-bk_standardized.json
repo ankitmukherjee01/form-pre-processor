@@ -1,0 +1,1097 @@
+{
+  "filename": "ssa-16-bk.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].TextField1[0]",
+      "standardized_label": "text_field1",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Converted 'TextField1' to lowercase snake_case. The field name is generic, and the context does not provide a more specific label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N1FLD[0]",
+      "standardized_label": "n1_name",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N1' as a question number and appended 'name' from the context '1. Print your name First name, middle initial, last name'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N2FLD[0]",
+      "standardized_label": "n2_ssn",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N2' as a question number and appended 'ssn' (Social Security Number) from the context '2. Enter your Social Security Number'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N4SpeakFLD[0]",
+      "standardized_label": "n4_language_speak",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Prioritized 'N4' from the field name despite the context referencing 'question 3'. Appended 'language_speak' from the context 'Enter the language you prefer to: speak'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N4WriteFLD[0]",
+      "standardized_label": "n4_language_write",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Consistent with the previous field, prioritized 'N4' and appended 'language_write' from the context 'write' (referring to preferred language). Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N5AFLD[0]",
+      "standardized_label": "n5a_date_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Prioritized 'N5A' from the field name despite the context referencing 'item 4 (ay)'. Appended 'date_of_birth' from the context 'Enter your date of birth'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N5BFLD[0]",
+      "standardized_label": "n5b_place_of_birth",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Prioritized 'N5B' from the field name. Appended 'place_of_birth' from the context 'Enter name of city and state or foreign country where you were born'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N6ACB[0]",
+      "standardized_label": "n6a_us_citizen_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Prioritized 'N6A' from the field name despite the context referencing 'item 5 (ay)'. Appended 'us_citizen' from the context 'Are you a U.S. citizen?'. As the field_type is 'CheckBox', '_checkbox' was appended. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N6ACB[1]",
+      "standardized_label": "n6a_us_citizen_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N6A' as the question identifier. The context 'No' indicates it's the negative option for the 'U.S. citizen' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N6BCB[0]",
+      "standardized_label": "n6b_alien_lawfully_present_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N6B' as the question identifier. Extracted 'alien lawfully present' from the context 'Are you an alien lawfully present in the U S? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N6BCB[1]",
+      "standardized_label": "n6b_alien_lawfully_present_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N6B' as the question identifier. The context 'No' indicates it's the negative option for the 'alien lawfully present' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N6CFLD[0]",
+      "standardized_label": "n6c_lawful_admission_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N6C' as the question identifier. Extracted 'lawful admission date' from the context 'When were you lawfully admitted to the U S?'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N7AFLD[0]",
+      "standardized_label": "n7a_name_at_birth",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Used 'N7A' from the field name, as it reflects the internal form structure. Extracted 'name at birth' from the context 'Enter your name at birth'. Noted discrepancy with context referencing '6. (ay)' but field name is N7A."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N7BCB[0]",
+      "standardized_label": "n7b_other_names_used_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N7B' as the question identifier. Extracted 'other names used' from the context 'Have you used any other names? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N7BCB[1]",
+      "standardized_label": "n7b_other_names_used_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N7B' as the question identifier. The context 'No' indicates it's the negative option for the 'other names used' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N7CFLD[0]",
+      "standardized_label": "n7c_other_names",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N7C' as the question identifier. Extracted 'other names' from the context 'Other name(s) used'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N8ACB[0]",
+      "standardized_label": "n8a_other_ssn_used_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N8A' as the question identifier, overriding the '7 (ay)' from the context which seems to be a numbering mismatch. Extracted 'other ssn used' from the context 'Have you used any other Social Security number(s)? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N8ACB[1]",
+      "standardized_label": "n8a_other_ssn_used_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N8A' as the question identifier. The context 'No.' indicates it's the negative option for the 'other ssn used' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N8BFLD[0]",
+      "standardized_label": "n8b_other_ssns",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N8B' as the question identifier. Extracted 'other ssns' (Social Security numbers) from the context 'Enter Social Security number(s) used.'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N9FLD[0]",
+      "standardized_label": "n9_disability_onset_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N9' as the question identifier. Extracted 'disability onset date' as a concise summary of 'When do you believe your condition(s) became severe enough to keep you from working'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N12CB[0]",
+      "standardized_label": "n12_railroad_industry_work_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N12' as the question identifier, overriding the '9.' from the context. Extracted 'railroad industry work' from the context 'Did you or your spouse (or prior spouse) work in the railroad industry for 5 years or more? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N12CB[1]",
+      "standardized_label": "n12_railroad_industry_work_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N12' as the question identifier. The context 'No' indicates it's the negative option for the 'railroad industry work' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N13ACB[0]",
+      "standardized_label": "n13a_foreign_ss_credits_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N13A' as the question identifier, overriding the '10. (ay)' from the context. Extracted 'foreign ss credits' (Social Security credits) from the context 'Do you have Social Security credits... under another country's Social Security System? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N13ACB[1]",
+      "standardized_label": "n13a_foreign_ss_credits_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N13A' as the question identifier. The context 'No' indicates it's the negative option for the 'foreign ss credits' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N13BFLD[0]",
+      "standardized_label": "n13b_countries",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD' suffix. Identified 'N13B' as the question identifier. Extracted 'countries' from the context 'List the country(ies):'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14ACB[0]",
+      "standardized_label": "n14a_pension_not_covered_ss_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N14A' as the question identifier, overriding the '11. (ay)' from the context. Extracted 'pension not covered ss' (Social Security) from the context 'entitled to, or do you expect to be entitled to, a pension or annuity... not covered by Social Security? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14ACB[1]",
+      "standardized_label": "n14a_pension_not_covered_ss_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[1]' index. Identified 'N14A' as the question identifier. The context 'No' indicates it's the negative option for the 'pension not covered ss' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14BCB[0]",
+      "standardized_label": "n14b_became_entitled_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N14B' as the question identifier. Extracted 'became entitled' from the context 'I became entitled, or expect to become entitled'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14BFLD1[0]",
+      "standardized_label": "n14b_entitled_month",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD1' suffix. Identified 'N14B' as the related question identifier. Extracted 'entitled month' from the context 'beginning month' referring to the entitlement date."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14BFLD2[0]",
+      "standardized_label": "n14b_entitled_year",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD2' suffix. Identified 'N14B' as the related question identifier. Extracted 'entitled year' from the context 'year' referring to the entitlement date."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14CCB[0]",
+      "standardized_label": "n14c_became_eligible_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].' and '[0]' index. Identified 'N14C' as the question identifier. Extracted 'became eligible' from the context 'I became eligible, or expect to become eligible'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14CFLD1[0]",
+      "standardized_label": "n14c_eligible_month",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD1' suffix. Identified 'N14C' as the related question identifier. Extracted 'eligible month' from the context 'beginning month' referring to the eligibility date."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].N14CFLD2[0]",
+      "standardized_label": "n14c_eligible_year",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page1[0].', '[0]' index, and '_FLD2' suffix. Identified 'N14C' as the related question identifier. Extracted 'eligible year' from the context 'year' referring to the eligibility date for pension/annuity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15ACB[0]",
+      "standardized_label": "n15a_ever_married_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[0]' index. Identified 'N15A' as the question identifier, prioritizing the field name structure over the '12. (ay)' in the context. Extracted 'ever married' from the context 'Have you ever been married? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15ACB[1]",
+      "standardized_label": "n15a_ever_married_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[1]' index. Identified 'N15A' as the question identifier. The context 'No' indicates it's the negative option for the 'ever married' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD1[0]",
+      "standardized_label": "n15b_current_marriage_none_if_applicable_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD1' suffix. Identified 'N15B' as the question identifier. Extracted 'current marriage none if applicable' from the context 'If not currently married, write \"None.\" ... Enter None if needed'. | auto-fixed n15b_current_marriage_none_if_applicable → n15b_current_marriage_none_if_applicable_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD2[0]",
+      "standardized_label": "n15b_spouse_name",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD2' suffix. Identified 'N15B' as the question identifier. Extracted 'spouse name' from the context 'Spouse's name (including maiden name)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD3[0]",
+      "standardized_label": "n15b_marriage_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD3' suffix. Identified 'N15B' as the question identifier. Extracted 'marriage date' from the context 'When (Month, day, year)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD4[0]",
+      "standardized_label": "n15b_marriage_location",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD4' suffix. Identified 'N15B' as the question identifier. Extracted 'marriage location' from the context 'Where (Name of City and State)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BCB[0]",
+      "standardized_label": "n15b_marriage_performed_by_clergyman_or_public_official_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[0]' index. Identified 'N15B' as the question identifier. Extracted 'marriage performed by clergyman or public official' from the context. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BCB[1]",
+      "standardized_label": "n15b_marriage_performed_by_other_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[1]' index. Identified 'N15B' as the question identifier for marriage details. The context 'Other check box' indicates this is the 'other' option for the 'marriage performed by' question. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD5[0]",
+      "standardized_label": "n15b_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD5' suffix. Identified 'N15B' as the question identifier. Extracted 'spouse_date_of_birth' from the context 'Spouse's date of birth (or age)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15BFLD6[0]",
+      "standardized_label": "n15b_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD6' suffix. Identified 'N15B' as the question identifier. Extracted 'spouse_ssn' (Social Security Number) from the context 'Spouse's Social Security Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD2[0]",
+      "standardized_label": "n15c_previous_spouse_name",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD2' suffix. Identified 'N15C' as the question identifier, indicating information about a *previous* marriage based on form flow. Extracted 'spouse name' from the context, adding 'previous' for clarity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD3[0]",
+      "standardized_label": "n15c_previous_marriage_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD3' suffix. Identified 'N15C' as the question identifier for a previous marriage. Extracted 'marriage date' from the context 'When (Month, day, year)', adding 'previous' for clarity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD4[0]",
+      "standardized_label": "n15c_previous_marriage_location",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD4' suffix. Identified 'N15C' as the question identifier for a previous marriage. Extracted 'marriage location' from the context 'Where (Name of City and State)', adding 'previous' for clarity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD5[0]",
+      "standardized_label": "n15c_previous_marriage_how_ended",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD5' suffix. Identified 'N15C' as the question identifier for a previous marriage. Extracted 'how marriage ended' from the context."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD6[0]",
+      "standardized_label": "n15c_previous_marriage_end_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD6' suffix. Identified 'N15C' as the question identifier for a previous marriage. Extracted 'marriage end date' from the context 'When (Month, day, year)' in relation to how the marriage ended."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD7[0]",
+      "standardized_label": "n15c_previous_marriage_end_location",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD7' suffix. Identified 'N15C' as the question identifier for previous marriage details. Extracted 'previous marriage end location' from the context 'Where (Name of City and State)' related to how the marriage ended."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CCB[0]",
+      "standardized_label": "n15c_previous_marriage_performed_by_clergyman_or_public_official_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[0]' index. Identified 'N15C' as the question identifier for previous marriage details. Extracted 'previous marriage performed by clergyman or public official' from the context. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CCB[1]",
+      "standardized_label": "n15c_previous_marriage_performed_by_other_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[1]' index. Identified 'N15C' as the question identifier for previous marriage details. The context 'Other if other' indicates this is the 'other' option for the 'marriage performed by' question. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD8[0]",
+      "standardized_label": "n15c_previous_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD8' suffix. Identified 'N15C' as the question identifier for previous marriage details. Extracted 'previous spouse date of birth' from the context 'Spouse's date of birth (or age)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD9[0]",
+      "standardized_label": "n15c_previous_spouse_date_of_death",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD9' suffix. Identified 'N15C' as the question identifier for previous marriage details. Extracted 'previous spouse date of death' from the context 'Date of spouse's death'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD10[0]",
+      "standardized_label": "n15c_previous_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD10' suffix. Identified 'N15C' as the question identifier for previous marriage details. Extracted 'previous spouse ssn' (Social Security Number) from the context 'Spouse's Social Security Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD1[0]",
+      "standardized_label": "n15d_special_marriage_none_if_applicable_checkbox",
+      "confidence": 85,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD1' suffix. Identified 'N15D' as a sub-section for specific marriage information. The context describes complex conditions for this section and explicitly states 'If none, write \"None.\"'. This suggests the field is for indicating 'None' under these conditions. | auto-fixed n15d_special_marriage_none_if_applicable → n15d_special_marriage_none_if_applicable_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD2[0]",
+      "standardized_label": "n15d_spouse_name",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD2' suffix. Identified 'N15D' as the question identifier for specific marriage details. Extracted 'spouse name' from the context 'Spouse's name (including maiden name)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD3[0]",
+      "standardized_label": "n15d_marriage_date",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD3' suffix. Identified 'N15D' as the question identifier. Extracted 'marriage date' from the context 'When (Month, day, year)' relating to the specific marriage details in section D."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD4[0]",
+      "standardized_label": "n15d_marriage_location",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD4' suffix. Identified 'N15D' as the question identifier. Extracted 'marriage location' from the context 'Where (Name of City and State)' relating to the specific marriage details in section D."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD5[0]",
+      "standardized_label": "n15d_divorce_date",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD5' suffix. Identified 'N15D' as the question identifier. Extracted 'divorce date' from the context 'Date of divorce (Month, day, year)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD6[0]",
+      "standardized_label": "n15d_divorce_location",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD6' suffix. Identified 'N15D' as the question identifier. Extracted 'divorce location' from the context 'Where (Name of City and State)' relating to the divorce."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DCB[0]",
+      "standardized_label": "n15d_marriage_performed_by_clergyman_or_public_official_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[0]' index. Identified 'N15D' as the question identifier. Extracted 'marriage performed by clergyman or public official' from the context. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DCB[1]",
+      "standardized_label": "n15d_marriage_performed_by_other_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].' and '[1]' index. Identified 'N15D' as the question identifier. The context 'Other' indicates this is the 'other' option for the 'marriage performed by' question. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD7[0]",
+      "standardized_label": "n15d_spouse_date_of_birth",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD7' suffix. Identified 'N15D' as the question identifier. Extracted 'spouse date of birth' from the context 'Spouse's date of birth (or age)'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD8[0]",
+      "standardized_label": "n15d_spouse_date_of_death",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD8' suffix. Identified 'N15D' as the question identifier. Extracted 'spouse date of death' from the context 'Date of spouse's death'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15DFLD9[0]",
+      "standardized_label": "n15d_spouse_ssn",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD9' suffix. Identified 'N15D' as the question identifier for specific marriage details. Extracted 'spouse_ssn' (Social Security Number) from the context 'Spouse's Social Security Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N16FLD[0]",
+      "standardized_label": "n16_eligible_children_names",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD' suffix. Identified 'N16' as the field's question identifier, despite context mentioning '13.'. The context clearly states 'List below: FULL NAME OF ALL such children who are now or were in the past 12 months UNMARRIED and: [...] eligible for benefits'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].N15CFLD1[0]",
+      "standardized_label": "n15c_other_marriage_none_if_applicable_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page2[0].', '[0]' index, and '_FLD1' suffix. Identified 'N15C' as the question identifier for other marriages. The context 'If none, write \"None.\"' indicates this field is for indicating no applicable marriages for the criteria specified in subsection (c). | auto-fixed n15c_other_marriage_none_if_applicable → n15c_other_marriage_none_if_applicable_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N17ACB[0]",
+      "standardized_label": "n17a_ss_covered_income_1978_present_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N17A' as the question identifier, overriding the '14. (ay)' from the context. Extracted 'ss covered income 1978 present' from the context 'Did you have wages or self-employment income covered under Social Security in all years from 1978 through last year? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N17ACB[1]",
+      "standardized_label": "n17a_ss_covered_income_1978_present_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[1]' index. Identified 'N17A' as the question identifier. The context 'No' indicates it's the negative option for the 'ss covered income 1978 present' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N17BFLD[0]",
+      "standardized_label": "n17b_years_without_ss_covered_income",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].', '[0]' index, and '_FLD' suffix. Identified 'N17B' as the question identifier. Extracted 'years without ss covered income' from the context 'List the years... in which you did not have wages or self-employment income covered under Social Security'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR1C1[0]",
+      "standardized_label": "n18_employer_name_and_address_r1",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier, overriding '15.' from the context. 'TableR1C1' indicates Row 1, Column 1 of a table. The context 'NAME AND ADDRESS OF EMPLOYER' clearly labels this cell. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR1C2[0]",
+      "standardized_label": "n18_work_began_month_r1",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR1C2' indicates Row 1, Column 2 of a table. The context 'Work Began Month' clearly labels this cell. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR1C3[0]",
+      "standardized_label": "n18_work_began_year_r1",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR1C3' indicates Row 1, Column 3. The context 'Year' refers to the 'Work Began Year' based on the column headers."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR1C4[0]",
+      "standardized_label": "n18_work_ended_month_r1",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR1C4' indicates Row 1, Column 4. The context 'Work Ended (If still working show\" Not Ended\") Month' clearly labels this cell."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR1C5[0]",
+      "standardized_label": "n18_work_ended_year_r1",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR1C5' indicates Row 1, Column 5. The context 'Year' refers to the 'Work Ended Year' based on the column headers."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR2C1[0]",
+      "standardized_label": "n18_employer_name_and_address_r2",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR2C1' indicates Row 2, Column 1. The context 'Row 2 name and Address of Employer' clearly labels this cell."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR2C2[0]",
+      "standardized_label": "n18_work_began_month_r2",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR2C2' indicates Row 2, Column 2. The context 'Work Began Month' clearly labels this cell."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR2C3[0]",
+      "standardized_label": "n18_work_began_year_r2",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR2C3' indicates Row 2, Column 3. The context 'Year' refers to the 'Work Began Year' based on the column headers."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR2C4[0]",
+      "standardized_label": "n18_work_ended_month_r2",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR2C4' indicates Row 2, Column 4. The context 'Work Ended (If still working show\" Not Ended\") Month' clearly labels this cell."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR2C5[0]",
+      "standardized_label": "n18_work_ended_year_r2",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR2C5' indicates Row 2, Column 5. The context 'Year' refers to the 'Work Ended Year' based on the column headers."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR3C1[0]",
+      "standardized_label": "n18_employer_name_and_address_r3",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR3C1' indicates Row 3, Column 1 of a table. The context 'Name and address of Employer' clearly labels this cell. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR3C2[0]",
+      "standardized_label": "n18_work_began_month_r3",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR3C2' indicates Row 3, Column 2 of a table. The context 'Work Began Month' clearly labels this cell. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR3C3[0]",
+      "standardized_label": "n18_work_began_year_r3",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR3C3' indicates Row 3, Column 3. The context 'Year' refers to the 'Work Began Year' based on the column headers. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR3C4[0]",
+      "standardized_label": "n18_work_ended_month_r3",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR3C4' indicates Row 3, Column 4. The context 'Work Ended (If still working show\" Not Ended\") Month' clearly labels this cell. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N18TableR3C5[0]",
+      "standardized_label": "n18_work_ended_year_r3",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N18' as the question identifier. 'TableR3C5' indicates Row 3, Column 5. The context 'Year' refers to the 'Work Ended Year' based on the column headers. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20ACB[0]",
+      "standardized_label": "n20a_self_employed_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N20A' as the question identifier based on the field name structure, despite the context showing '16. (ay)'. Extracted 'self employed' from the context 'Were you self-employed this year or last year? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20ACB[1]",
+      "standardized_label": "n20a_self_employed_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[1]' index. Identified 'N20A' as the question identifier. The context 'No' indicates it's the negative option for the 'self employed' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BCB1[0]",
+      "standardized_label": "n20b_self_employed_this_year_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page3[0].' and '[0]' index. Identified 'N20B' as the question identifier. Extracted 'self employed this year' from the context '(b) Check the year (or years) you were self-employed. this year'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BFLD1[0]",
+      "standardized_label": "n20b_self_employed_business_type_this_year",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and `_FLD` suffix. Identified `N20B` as the question number. Extracted 'self employed business type this year' from the context 'In what type of trade/business were you self-employed? this year'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BCB2[0]",
+      "standardized_label": "n20b_self_employed_last_year_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens. Identified `N20B` as the question number. Extracted 'self employed last year' from the context 'Were you self employed. Last year'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BFLD2[0]",
+      "standardized_label": "n20b_self_employed_business_type_last_year",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and `_FLD` suffix. Identified `N20B` as the question number. Extracted 'self employed business type last year' from the context 'In What type of trade/business were you self employed? last year'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BLastYearCB[0]",
+      "standardized_label": "n20b_net_earnings_400_or_more_last_year_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens. Identified `N20B` as the question number. Extracted 'net earnings 400 or more last year' from the context 'Were your net earnings from the trade or business 400 dollars or more last year? Yes'. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N20BLastYearCB[1]",
+      "standardized_label": "n20b_net_earnings_400_or_more_last_year_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed page/index tokens. Identified `N20B` as the question number. The context 'No' indicates it's the negative option for the 'net earnings 400 or more last year' question. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N21AFLD1[0]",
+      "standardized_label": "n21a_total_earnings_last_year_none_if_applicable_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed page/index tokens and `_FLD` suffix. Identified `N21A` as the question number, overriding '17. (ay)'. Extracted 'total earnings last year' and appended '_none_if_applicable' based on the context 'If none, write \"None.\"'. | auto-fixed n21a_total_earnings_last_year_none_if_applicable → n21a_total_earnings_last_year_none_if_applicable_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N21AFLD2[0]",
+      "standardized_label": "n21a_total_earnings_last_year_amount",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and `_FLD` suffix. Identified `N21A` as the question number. Extracted 'total earnings last year amount' from the context 'Amount $' which further specifies the input for the previous question."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N21BFLD1[0]",
+      "standardized_label": "n21b_earnings_this_year_none_if_applicable_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed page/index tokens and `_FLD` suffix. Identified `N21B` as the question number. Extracted 'earnings this year' and appended '_none_if_applicable' based on the context 'If none, write \"None.\"'. | auto-fixed n21b_earnings_this_year_none_if_applicable → n21b_earnings_this_year_none_if_applicable_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N21BFLD2[0]",
+      "standardized_label": "n21b_earnings_this_year_amount",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Identified 'N21B' as the question number. Extracted 'earnings this year amount' from the context 'Amount $' referring to the amount earned so far this year."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N22ACB[0]",
+      "standardized_label": "n22a_still_unable_to_work_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N22A' as the question number, overriding '18. (ay)' from the context. Extracted 'still unable to work' from the context. Appended '_checkbox' as it's a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N22ACB[1]",
+      "standardized_label": "n22a_still_unable_to_work_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N22A' as the question number. The context 'No' indicates it's the negative option for the 'still unable to work' question. Appended '_no_checkbox' as it's a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].N22BFLD[0]",
+      "standardized_label": "n22b_date_became_able_to_work",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Identified 'N22B' as the question number. Extracted 'date became able to work' from the context 'Enter the date you became able to work. Month, Day, Year'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].QTwentytwo[0]",
+      "standardized_label": "q19_work_related_illness_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed page/index tokens. Determined the actual question number is 19 from the context of the paired checkbox. The context 'No' indicates it's the negative option for 'illnesses, injuries, or conditions related to work'. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].QTwentytwo[1]",
+      "standardized_label": "q19_work_related_illness_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens. Determined the actual question number is 19 from the context. Extracted 'work related illness' from the context '19. Are your illnesses, injuries, or conditions related to your work in any way? Yes'. Appended '_checkbox' as it's a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Qtwentythree[0]",
+      "standardized_label": "q20_blind_or_low_vision_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Removed page/index tokens. Determined the actual question number is 20 from the context of the paired checkbox. The context 'No' indicates it's the negative option for 'blind or low vision'. Appended '_no_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page3[0].Qtwentythree[1]",
+      "standardized_label": "q20_blind_or_low_vision_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens. Determined the actual question number is 20 from the context. Extracted 'blind or low vision' from the context '20. Are you blind or do you have low vision even with glasses or contacts? Yes'. Appended '_checkbox' as it's a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24ACB[0]",
+      "standardized_label": "n24a_other_public_disability_benefits_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N24A' as the question identifier, overriding '21. (ay)' in context. Extracted 'other public disability benefits' from the context 'Have you filed, or do you intend to file, for any other public disability benefits... ? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24ACB[1]",
+      "standardized_label": "n24a_other_public_disability_benefits_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[1]' index. Identified 'N24A' as the question identifier. The context 'No' indicates it's the negative option for the 'other public disability benefits' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24BCB1[0]",
+      "standardized_label": "n24b_veterans_admin_benefits_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N24B' as the sub-question identifier. Extracted 'veterans admin benefits' from the context 'Veterans Administration Benefits'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24BCB2[0]",
+      "standardized_label": "n24b_supplemental_security_income_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N24B' as the sub-question identifier. Extracted 'supplemental security income' from the context 'Supplemental Security Income'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24BCB3[0]",
+      "standardized_label": "n24b_welfare_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N24B' as the sub-question identifier. Extracted 'welfare' from the context 'Welfare'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N24BCB4[0]",
+      "standardized_label": "n24b_other_benefits_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N24B' as the sub-question identifier. Extracted 'other benefits' from the context 'Other if other'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25ACB[0]",
+      "standardized_label": "n25a_received_employer_money_after_onset_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N25A' as the question identifier, overriding '22. (ay)' in context. Extracted 'received employer money after onset' from the context 'Did you receive any money from an employer(s) on or after the date in item 8 when you became unable to work because of your illnesses, injuries, or conditions? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25ACB[1]",
+      "standardized_label": "n25a_received_employer_money_after_onset_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[1]' index. Identified 'N25A' as the question identifier. The context 'No' indicates it's the negative option for the 'received employer money after onset' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25AFLD[0]",
+      "standardized_label": "n25a_employer_money_received_amount",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Identified 'N25A' as the question identifier. The context 'Amount $' refers to the amount of money received from an employer after becoming unable to work (from the previous N25A question)."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25BCB[0]",
+      "standardized_label": "n25b_expect_additional_employer_money_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N25B' as the question identifier. Extracted 'expect additional employer money' from the context 'Do you expect to receive any additional money from an employer... Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25BCB[1]",
+      "standardized_label": "n25b_expect_additional_employer_money_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N25B' as the question identifier. The context 'No' indicates it's the negative option for the 'expect additional employer money' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N25BFLD[0]",
+      "standardized_label": "n25b_expected_additional_employer_money_amount",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Identified 'N25B' as the question identifier. The context 'Amount $' refers to the expected additional money from an employer."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N26CB[0]",
+      "standardized_label": "n26_child_under_3_no_earnings_year_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N26' as the question identifier, aligning with the form's internal numbering despite context showing '23.'. Extracted 'child under 3 no earnings year' from the context 'Do you, or did you, have a child under age 3... when you had no earnings? Yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N26CB[1]",
+      "standardized_label": "n26_child_under_3_no_earnings_year_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N26' as the question identifier. The context 'No' indicates it's the negative option for the 'child under 3 no earnings year' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N27CB[0]",
+      "standardized_label": "n27_dependent_parent_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N27' as the question identifier, aligning with the form's internal numbering despite context showing '24.'. Extracted 'dependent parent' from the context 'Do you have a dependent parent who was receiving at least one-half support from you... yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N27CB[1]",
+      "standardized_label": "n27_dependent_parent_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed page/index tokens and '_CB' suffix. Identified 'N27' as the question identifier. The context 'No' indicates it's the negative option for the 'dependent parent' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N28CB[0]",
+      "standardized_label": "n28_parent_grandparent_receiving_ss_benefits_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[0]' index. Identified 'N28' as the question identifier, overriding '25.' in the context. Extracted 'parent grandparent receiving ss benefits' from the context 'do you have a parent... who is receiving social security retirement or disability benefits or who is deceased? ... yes'. Appended '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N28CB[1]",
+      "standardized_label": "n28_parent_grandparent_receiving_ss_benefits_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[1]' index. Identified 'N28' as the question identifier. The context 'No' indicates it's the negative option for the 'parent grandparent receiving ss benefits' question. Appended '_no_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page4[0].N28CB[2]",
+      "standardized_label": "n28_parent_grandparent_receiving_ss_benefits_unknown_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page4[0].' and '[2]' index. Identified 'N28' as the question identifier. The context 'Unknown' indicates it's the unknown option for the 'parent grandparent receiving ss benefits' question. Appended '_unknown_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].RemarksFLD[0]",
+      "standardized_label": "remarks",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index. The name 'RemarksFLD' and context 'REMARKS' clearly indicate the purpose of this field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].SignatureFLD[0]",
+      "standardized_label": "applicant_signature",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index. The name 'SignatureFLD' and context 'SIGNATURE OF APPLICANT' clearly indicate this is for the applicant's signature."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].DateFLD[0]",
+      "standardized_label": "date_signed",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index. The name 'DateFLD' and its proximity to the signature block (even if not immediately adjacent to the signature field name) strongly suggest it is the date the form was signed/completed by the applicant."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].TelephoneFLD[0]",
+      "standardized_label": "contact_phone_number",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index. The name 'TelephoneFLD' and context 'Telephone Number(s) at which you may be contacted during the day.' clearly indicate its purpose."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].RoutingFLD[0]",
+      "standardized_label": "direct_deposit_routing_number",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index. The name 'RoutingFLD' and context 'DIRECT DEPOSIT PAYMENT INFORMATION (FINANCIAL INSTITUTION) Routing Transit Number' clearly identify it as the direct deposit routing number."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].AccountNumberFLD[0]",
+      "standardized_label": "direct_deposit_account_number",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'Account Number' is clearly part of the direct deposit section identified by the preceding field 'RoutingFLD'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].BankAccountCB[0]",
+      "standardized_label": "direct_deposit_checking_account_checkbox",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and 'CB' suffix. The context 'Checking' refers to the type of bank account for direct deposit. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].BankAccountCB[1]",
+      "standardized_label": "direct_deposit_savings_account_checkbox",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[1]' index, and 'CB' suffix. The context 'Savings' refers to the type of bank account for direct deposit. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].DirectDepositCB[0]",
+      "standardized_label": "enroll_direct_express_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and 'CB' suffix. The context 'Enroll in Direct Express' clearly describes the purpose. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].DirectDepositCB[1]",
+      "standardized_label": "direct_deposit_refused_checkbox",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[1]' index, and 'CB' suffix. The context 'Direct Deposit Refused' clearly describes the purpose. Appended '_checkbox' as it's a checkbox."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].ApplicantsAddressFLD[0]",
+      "standardized_label": "applicant_mailing_address",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'Applicant's Mailing Address' clearly indicates the field's purpose."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].CityFLD[0]",
+      "standardized_label": "applicant_mailing_address_city_state",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'City and State' is part of the applicant's mailing address."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].ZIPFLD[0]",
+      "standardized_label": "applicant_mailing_address_zip_code",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'ZIP Code' is part of the applicant's mailing address."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].CountyFLD[0]",
+      "standardized_label": "county_of_residence",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'County (if any) in which you now live' clearly indicates its purpose."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Witness1SignFLD[0]",
+      "standardized_label": "witness1_signature",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context '1. Signature of Witness' clearly indicates this is the first witness's signature field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Witness1AddressFLD[0]",
+      "standardized_label": "witness1_address",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'Address (Number and street, City, State, and ZIP Code)' clearly indicates this is the first witness's address field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Witness2SignFLD[0]",
+      "standardized_label": "witness2_signature",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context '2. Signature of Witness' clearly indicates this is the second witness's signature field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page5[0].Witness2AddressFLD[0]",
+      "standardized_label": "witness2_address",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page5[0].' and '[0]' index, and '_FLD' suffix. The context 'Address (Number and street, City, State and ZIP Code)' clearly indicates this is the second witness's address field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page6[0].PrivacyActPRA[0]",
+      "standardized_label": "privacy_act_statement_text",
+      "confidence": 90,
+      "reasoning": "Removed 'topmostSubform[0].Page6[0].' and '[0]' index. The name 'PrivacyActPRA' and the extensive context 'Privacy Act Statement Collection and Use of Information...' indicate this is a display text field for the privacy act statement, despite being a 'Text' field type."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page6[0].SSALink1[0]",
+      "standardized_label": "ssa_privacy_link_button",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page6[0].' and '[0]' index. The name 'SSALink1' and context 'Link to w w w.s s ay.g o v/privacy web page.' clearly identify this as a button for the SSA privacy policy link."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page6[0].SSALink2[0]",
+      "standardized_label": "ssa_website_link_button",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page6[0].' and '[0]' index. The name 'SSALink2' and context 'Link to w w w.social security.g o v web page.' clearly identify this as a button for the general SSA website link."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page6[0].TextField1[0]",
+      "standardized_label": "paperwork_reduction_act_statement_text",
+      "confidence": 90,
+      "reasoning": "Removed page/index tokens and '[0]' index. The field name is generic, but the context clearly indicates it's a large block of text displaying the 'Paperwork Reduction Act Statement'. Labeled as '_text' as it's not an interactive input field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ContactFLD[0]",
+      "standardized_label": "claim_contact_person",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'claim contact person' from the context 'Person to Contact About Your Claim'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ContactPhoneFLD[0]",
+      "standardized_label": "claim_contact_phone_number",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'claim contact phone number' from the context 'Telephone Number (Include Area Code)' associated with the contact person for the claim."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].SSAOfficeFLD[0]",
+      "standardized_label": "ssa_office",
+      "confidence": 99,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'ssa office' from the context 'SSA Office'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].DateRecdFLD[0]",
+      "standardized_label": "claim_date_received",
+      "confidence": 99,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'claim date received' from the context 'Date Claim Received'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].WithinDaysFLD[0]",
+      "standardized_label": "expected_response_days",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'expected response days' from the context 'You should hear from us within blank line days after you have given us all the information we requested. [...] Enter number of days'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ClaimantFLD[0]",
+      "standardized_label": "claimant_name_for_receipt",
+      "confidence": 98,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. The context 'Claimant' in the receipt section indicates this field is for the claimant's name for identification on the receipt, specifying '_for_receipt' for clarity."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].SSClaimNumberFLD[0]",
+      "standardized_label": "ss_claim_number",
+      "confidence": 99,
+      "reasoning": "Removed page/index tokens and '_FLD' suffix. Extracted 'ss claim number' from the context 'Social Security Claim Number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].SSALink3[0]",
+      "standardized_label": "ssa_report_changes_website_link_button",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page7[0].' and '[0]' index. The name 'SSALink3' and context 'HOW TO REPORT. ... Visiting the section \"my Social Security\" at our web site at ... Link to social security web page.' clearly identify this as a button for reporting changes online."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].SSALink4[0]",
+      "standardized_label": "ssa_general_information_website_link_button",
+      "confidence": 98,
+      "reasoning": "Removed 'topmostSubform[0].Page7[0].' and '[0]' index. The name 'SSALink4' and context 'For general information about Social Security, visit our web site at w w w.social security.g o v. Link to social security web page.' clearly identify this as a button for general information."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].TextField1[0]",
+      "standardized_label": "changes_to_be_reported_text",
+      "confidence": 95,
+      "reasoning": "Removed 'topmostSubform[0].Page7[0].' and '[0]' index. The field name is generic, but the context 'CHANGES TO BE REPORTED AND HOW TO REPORT FAILURE TO REPORT MAY RESULT IN OVERPAYMENTS THAT MUST BE REPAID.' clearly indicates this is a static text section outlining reportable changes."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page7[0].ReadOnlyEOF[0]",
+      "standardized_label": "end_of_form_message_text",
+      "confidence": 99,
+      "reasoning": "Removed 'topmostSubform[0].Page7[0].' and '[0]' index. The name 'ReadOnlyEOF' and context 'You have reached the end of the form. If you tab again, you will be at the beginning of the form.' clearly identify this as a static end-of-form message."
+    }
+  ]
+}

@@ -2,1089 +2,1089 @@
   "filename": "cms-43-508c.pdf",
   "fields": [
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-1",
-      "standardized_label": "social_security_number",
-      "confidence": 90,
-      "reasoning": "The PDF context explicitly states 'Your Social Security Number (or your Medicare Number)', which clearly defines the purpose of the field. The original field name '3-1-1' appears to be an internal ID and lacks semantic meaning for standardization."
+      "standardized_label": "social_security_or_medicare_number",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-1'. Used context 'Your Social Security Number (or your Medicare Number)' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-2",
-      "standardized_label": "full_name",
-      "confidence": 90,
-      "reasoning": "The PDF context clearly specifies 'Your name (last name, first name, middle name)', indicating the field is for the full name of the individual. The original field name '3-1-2' is an internal identifier and does not convey semantic meaning."
+      "standardized_label": "your_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-2'. Used context 'Your name (last name, first name, middle name)' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-3",
       "standardized_label": "name_at_birth",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Name at birth if different than item 1b' directly indicates that this field captures the name an individual had at birth. The original field name '3-1-3' is an internal identifier and is not semantically relevant."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-3'. Used context 'Name at birth if different than item 1b' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-1-4",
-      "standardized_label": "sex_male",
-      "confidence": 90,
-      "reasoning": "The PDF context '1d. Sex. Select here for Male' directly indicates that this checkbox is used to select 'Male' for the sex field. The 'CheckBox' prefix and '3-1-4' are structural identifiers."
+      "standardized_label": "sex_male_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-1-4'. Used context 'Sex. Select here for Male' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-1-5",
-      "standardized_label": "sex_female",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Female' is a direct label for this checkbox, indicating it's used to select 'Female' for the sex field, which is a common companion to a 'Male' checkbox. The 'CheckBox' prefix and '3-1-5' are structural identifiers."
+      "standardized_label": "sex_female_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-1-5'. Used context 'Female' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-6-1",
       "standardized_label": "date_of_birth_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '1e. Date of birth. 2 digit month' explicitly identifies this field as the month component of a date of birth. The '3-1-6-1' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-6-1'. Used context 'Date of birth. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-6-2",
       "standardized_label": "date_of_birth_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly indicates that this field represents the day component of a date. Given the previous field was 'date_of_birth_month', it's clear this is for the date of birth. The '3-1-6-2' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-6-2'. Used context '2 digit day' in conjunction with the previous field's context ('Date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-6-3",
       "standardized_label": "date_of_birth_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly indicates that this field represents the year component of a date. Given the preceding fields were for the month and day of birth, it's clear this is for the date of birth. The '3-1-6-3' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-6-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-7",
       "standardized_label": "state_or_country_of_birth",
-      "confidence": 90,
-      "reasoning": "The PDF context '1f. State or country of birth (spell out - no abbreviations)' explicitly defines the purpose of this field. The original field name '3-1-7' is an internal identifier and lacks semantic meaning."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-7'. Used context 'State or country of birth' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-8",
-      "standardized_label": "mailing_address_street",
-      "confidence": 90,
-      "reasoning": "The PDF context '1g. Mailing address (number and street, PO Box, or route)' directly indicates this field captures the street address portion of a mailing address. The original field name '3-1-8' is an internal identifier."
+      "standardized_label": "mailing_address",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-8'. Used context 'Mailing address' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-9",
-      "standardized_label": "permanent_residence_address_street",
-      "confidence": 90,
-      "reasoning": "The PDF context '1h. Address of permanent residence, if different from your mailing address' clearly indicates this field is for the street address of the permanent residence. The original field name '3-1-9' is an internal identifier."
+      "standardized_label": "permanent_residence_address",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-9'. Used context 'Address of permanent residence' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-10-1",
       "standardized_label": "phone_number_area_code",
-      "confidence": 90,
-      "reasoning": "The PDF context '1i. Phone number. 3 digit area code' explicitly defines this field as the area code component of a phone number. The original field name '3-1-10-1' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-10-1'. Used context 'Phone number. 3 digit area code' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-10-2",
       "standardized_label": "phone_number_prefix",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 3 numbers' directly follows a field for '3 digit area code' as part of '1i. Phone number', indicating it's the next segment (prefix) of the phone number. The original field name '3-1-10-2' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-10-2'. Used context 'next 3 numbers' in conjunction with the preceding field's context 'Phone number' to create a descriptive snake_case label 'phone_number_prefix'. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-1-10-3",
-      "standardized_label": "phone_number_line_number",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the area code and prefix, and is part of the overall 'Phone number' section. This indicates it's the final segment (line number) of the phone number. The original field name '3-1-10-3' is an internal identifier."
+      "standardized_label": "phone_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-1-10-3'. Used context 'last 4 digits' in conjunction with preceding fields' context 'Phone number' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-1",
       "standardized_label": "total_earnings_last_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '2a. How much were your total earnings last year? Enter the total amount of your W2 wages and net earnings.' explicitly defines this field as capturing the total earnings from the previous year. The original field name '3-2-1' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-1'. Used context 'How much were your total earnings last year?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-2",
       "standardized_label": "expected_total_earnings_this_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '2b. How much do you expect your total earnings to be this year? If none, write 'NONE.'' explicitly defines this field as the expected total earnings for the current year. The original field name '3-2-2' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-2'. Used context 'How much do you expect your total earnings to be this year?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-3",
       "standardized_label": "worked_in_railroad_industry_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '2c. Did you or your spouse (or former spouse) work in the railroad industry for 5 years or more? ... Select here for Yes.' clearly indicates this checkbox corresponds to a 'Yes' answer for the question about railroad industry work. The 'CheckBox' prefix and '3-2-3' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-3'. Used context 'Did you or your spouse... work in the railroad industry... Select here for Yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-4",
       "standardized_label": "worked_in_railroad_industry_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about railroad industry work and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-4' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-4'. Used context 'No' in relation to the previous question about railroad industry work to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-5",
-      "standardized_label": "dependent_child_using_parent_work_history_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '2d. Are you a dependent child using your parent’s work history or Social Security/Railroad Retirement Board insured status to qualify for ESRD benefits? Select here for Yes.' explicitly defines this checkbox as the 'Yes' option for the question about dependent children using parent's work history. The 'CheckBox' prefix and '3-2-5' are structural identifiers."
+      "standardized_label": "dependent_child_for_esrd_benefits_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-5'. Used context 'Are you a dependent child using your parent’s work history... to qualify for ESRD benefits? Select here for Yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-6",
-      "standardized_label": "dependent_child_using_parent_work_history_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about dependent children using parent's work history and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-6' are structural identifiers."
+      "standardized_label": "dependent_child_for_esrd_benefits_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-6'. Used context 'No' in relation to the previous question about dependent child for ESRD benefits to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-7",
-      "standardized_label": "mother_full_name",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Mother’s name' clearly indicates that this field is for the full name of the mother. The original field name '3-2-7' is an internal identifier."
+      "standardized_label": "mother_s_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-7'. Used context 'Mother’s name' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-8-1",
-      "standardized_label": "mother_date_of_birth_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Mother's Date of Birth. 2 digit month' explicitly identifies this field as the month component of the mother's date of birth. The '3-2-8-1' is an internal identifier."
+      "standardized_label": "mother_s_date_of_birth_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-8-1'. Used context 'Mother's Date of Birth. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-8-2",
-      "standardized_label": "mother_date_of_birth_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Mother's Date of Birth. 2 digit month', indicating it's the day component of the mother's date of birth. The '3-2-8-2' is an internal identifier."
+      "standardized_label": "mother_s_date_of_birth_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-8-2'. Used context '2 digit day' in conjunction with the preceding field's context 'Mother's Date of Birth' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-8-3",
-      "standardized_label": "mother_date_of_birth_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the mother's date of birth, completing the date of birth information. The '3-2-8-3' is an internal identifier."
+      "standardized_label": "mother_s_date_of_birth_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-8-3'. Used context '4 digit year' in conjunction with preceding fields' context 'Mother's Date of Birth' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-9-1",
-      "standardized_label": "mother_social_security_number_first_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Mother's Social Security Number. first 3 digits' explicitly defines this field as the first three digits of the mother's Social Security Number. The '3-2-9-1' is an internal identifier."
+      "standardized_label": "mother_s_social_security_number_first_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-9-1'. Used context 'Mother's Social Security Number. first 3 digits' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-9-2",
-      "standardized_label": "mother_social_security_number_middle_2_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 2 digits' directly follows a field for the 'first 3 digits' of the 'Mother's Social Security Number', indicating it's the middle segment of the SSN. The '3-2-9-2' is an internal identifier."
+      "standardized_label": "mother_s_social_security_number_middle_2_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-9-2'. Used context 'next 2 digits' in conjunction with the preceding field's context 'Mother's Social Security Number' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-9-3",
-      "standardized_label": "mother_social_security_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Mother's Social Security Number', completing the SSN information. The '3-2-9-3' is an internal identifier."
+      "standardized_label": "mother_s_social_security_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-9-3'. Used context 'last 4 digits' in conjunction with preceding fields' context 'Mother's Social Security Number' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-10-1",
-      "standardized_label": "mother_rrb_number_first_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Mother's Railroad Retirement Board (RRB) Number. First 4 digits' explicitly defines this field as the first segment of the mother's RRB number. The '3-2-10-1' is an internal identifier."
+      "standardized_label": "mother_s_railroad_retirement_board_number_first_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-10-1'. Used context 'Mother's Railroad Retirement Board (RRB) Number. First 4 dsigits' (correcting typo 'dsigits' to 'digits') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-10-2",
-      "standardized_label": "mother_rrb_number_next_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 3 digits' directly follows a field for the 'First 4 digits' of the 'Mother's Railroad Retirement Board (RRB) Number', indicating it's the middle segment of the RRB number. The '3-2-10-2' is an internal identifier."
+      "standardized_label": "mother_s_railroad_retirement_board_number_next_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-10-2'. Used context 'next 3 digits' in conjunction with the preceding field's context 'Mother's Railroad Retirement Board (RRB) Number' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-10-3",
-      "standardized_label": "mother_rrb_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Mother's Railroad Retirement Board (RRB) Number', completing the RRB number information. The '3-2-10-3' is an internal identifier."
+      "standardized_label": "mother_s_railroad_retirement_board_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-10-3'. Used context 'last 4 digits' in conjunction with preceding fields' context 'Mother's Railroad Retirement Board (RRB) Number' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-11",
-      "standardized_label": "father_full_name",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Father’s name' clearly indicates that this field is for the full name of the father. The original field name '3-2-11' is an internal identifier."
+      "standardized_label": "father_s_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-11'. Used context 'Father’s name' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-12-1",
-      "standardized_label": "father_date_of_birth_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Father's Date of Birth. 2 digit month' explicitly identifies this field as the month component of the father's date of birth. The '3-2-12-1' is an internal identifier."
+      "standardized_label": "father_s_date_of_birth_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-12-1'. Used context 'Father's Date of Birth. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-12-2",
-      "standardized_label": "father_date_of_birth_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Father's Date of Birth. 2 digit month', indicating it's the day component of the father's date of birth. The '3-2-12-2' is an internal identifier."
+      "standardized_label": "father_s_date_of_birth_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-12-2'. Used context '2 digit day' in conjunction with the previous field's context ('Father's Date of Birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-12-3",
-      "standardized_label": "father_date_of_birth_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the father's date of birth, completing the date of birth information. The '3-2-12-3' is an internal identifier."
+      "standardized_label": "father_s_date_of_birth_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-12-3'. Used context '4 digit year' in conjunction with previous fields' context ('Father's Date of Birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-1",
-      "standardized_label": "father_social_security_number_first_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Father's Social Security Number. first 3 digits' explicitly defines this field as the first segment of the father's Social Security Number. The '3-2-13-1' is an internal identifier."
+      "standardized_label": "father_s_social_security_number_first_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-1'. Used context 'Father's Social Security Number. first 3 digits' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-2",
-      "standardized_label": "father_social_security_number_middle_2_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 2 digits' directly follows a field for the 'first 3 digits' of the 'Father's Social Security Number', indicating it's the middle segment of the SSN. The '3-2-13-2' is an internal identifier."
+      "standardized_label": "father_s_social_security_number_middle_2_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-2'. Used context 'next 2 digits' in conjunction with the preceding field's context ('Father's Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-3",
-      "standardized_label": "father_social_security_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Father's Social Security Number', completing the SSN information. The '3-2-13-3' is an internal identifier."
+      "standardized_label": "father_s_social_security_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-3'. Used context 'last 4 digits' in conjunction with preceding fields' context ('Father's Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-4",
-      "standardized_label": "father_rrb_number_first_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Father's Railroad Retirement Board (RRB) Number. First 4 digits' explicitly defines this field as the first segment of the father's RRB number. The original field name '3-2-13-4' is an internal identifier. Note the typo 'dsigits' corrected to 'digits'."
+      "standardized_label": "father_s_railroad_retirement_board_number_first_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-4'. Used context 'Father's Railroad Retirement Board (RRB) Number. First 4 dsigits' (correcting typo 'dsigits' to 'digits') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-5",
-      "standardized_label": "father_rrb_number_next_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 3 digits' directly follows a field for the 'First 4 digits' of the 'Father's Railroad Retirement Board (RRB) Number', indicating it's the middle segment of the RRB number. The '3-2-13-5' is an internal identifier."
+      "standardized_label": "father_s_railroad_retirement_board_number_next_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-5'. Used context 'next 3 digits' in conjunction with the preceding field's context ('Father's Railroad Retirement Board (RRB) Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-13-6",
-      "standardized_label": "father_rrb_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Father's Railroad Retirement Board (RRB) Number', completing the RRB number information. The '3-2-13-6' is an internal identifier."
+      "standardized_label": "father_s_railroad_retirement_board_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-13-6'. Used context 'last 4 digits' in conjunction with preceding fields' context ('Father's Railroad Retirement Board (RRB) Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-14",
-      "standardized_label": "parent_worked_in_railroad_industry_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'e. Have either of your parents worked in the railroad industry for 5 years or more? Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about a parent's railroad industry work. The 'CheckBox' prefix and '3-2-14' are structural identifiers."
+      "standardized_label": "parents_worked_in_railroad_industry_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-14'. Used context 'Have either of your parents worked in the railroad industry for 5 years or more? Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-15",
-      "standardized_label": "parent_worked_in_railroad_industry_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about parent's railroad industry work and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-15' are structural identifiers."
+      "standardized_label": "parents_worked_in_railroad_industry_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-15'. Used context 'No' in relation to the previous question about parents working in the railroad industry to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-16",
       "standardized_label": "us_citizen_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '3. Tell us your citizenship. 3a. Are you a United States citizen? (If yes, go to item 4.) Select here for male.' clearly indicates this checkbox is for answering 'Yes' to the question about U.S. citizenship. The 'Select here for male' text appears to be a mislabeling or error in the context extraction for this particular field, as it is logically associated with the 'Are you a United States citizen?' question. The field name 'CheckBox3-2-16' is an internal identifier. Given the context for 3a, the 'yes' is about citizenship, not sex."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-16'. Used context 'Are you a United States citizen?' and interpreted 'Select here for male' as 'Yes' for the checkbox option to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-17",
       "standardized_label": "us_citizen_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about U.S. citizenship and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-17' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-17'. Used context 'No' in relation to the previous question about US citizenship to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-18",
       "standardized_label": "lawfully_present_in_us_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '3b. Are you lawfully present in the U.S.? ... Select here for Yes.' explicitly defines this checkbox as the 'Yes' option for the question about being lawfully present in the U.S. The 'CheckBox' prefix and '3-2-18' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-18'. Used context 'Are you lawfully present in the U.S.? ... Select here for Yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-19",
       "standardized_label": "lawfully_present_in_us_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about being lawfully present in the U.S. and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-19' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-19'. Used context 'No' in relation to the previous question about lawful presence in the U.S. to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-20-1",
-      "standardized_label": "lawfully_present_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '3c. When did you become lawfully present in the U.S.? 2 digit month' explicitly identifies this field as the month component of the date the individual became lawfully present in the U.S. The '3-2-20-1' is an internal identifier."
+      "standardized_label": "lawfully_present_in_us_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-20-1'. Used context 'When did you become lawfully present in the U.S.? 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-20-2",
-      "standardized_label": "lawfully_present_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for '3c. When did you become lawfully present in the U.S.? 2 digit month', indicating it's the day component of that date. The '3-2-20-2' is an internal identifier."
+      "standardized_label": "lawfully_present_in_us_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-20-2'. Used context '2 digit day' in conjunction with the preceding field's context 'When did you become lawfully present in the U.S.?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-20-3",
-      "standardized_label": "lawfully_present_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of '3c. When did you become lawfully present in the U.S.?', completing the date information. The '3-2-20-3' is an internal identifier."
+      "standardized_label": "lawfully_present_in_us_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-20-3'. Used context '4 digit year' in conjunction with previous fields' context ('When did you become lawfully present in the U.S.?') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-21",
-      "standardized_label": "us_resident_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '3d. Are you currently a resident of the U.S.? Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about current U.S. residency. The 'CheckBox' prefix and '3-2-21' are structural identifiers."
+      "standardized_label": "currently_resident_of_us_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-21'. Used context 'Are you currently a resident of the U.S.? Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-22",
-      "standardized_label": "us_resident_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about current U.S. residency and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-22' are structural identifiers."
+      "standardized_label": "currently_resident_of_us_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-22'. Used context 'No' in relation to the previous question about being a resident of the U.S. to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-23-1",
-      "standardized_label": "us_resident_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '3e. When did you become a resident of the U.S.? 2 digit month' explicitly identifies this field as the month component of the date the individual became a U.S. resident. The '3-2-23-1' is an internal identifier."
+      "standardized_label": "became_resident_of_us_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-23-1'. Used context 'When did you become a resident of the U.S.? 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-23-2",
-      "standardized_label": "us_resident_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for '3e. When did you become a resident of the U.S.? 2 digit month', indicating it's the day component of that date. The '3-2-23-2' is an internal identifier."
+      "standardized_label": "became_resident_of_us_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-23-2'. Used context '2 digit day' in conjunction with the preceding field's context 'When did you become a resident of the U.S.?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-23-3",
-      "standardized_label": "us_resident_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of '3e. When did you become a resident of the U.S.?', completing the date information. The '3-2-23-3' is an internal identifier."
+      "standardized_label": "became_resident_of_us_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-23-3'. Used context '4 digit year' in conjunction with previous fields' context 'When did you become a resident of the U.S.?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-24",
-      "standardized_label": "resided_in_us_5_years_without_break_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '3f. Have you resided in the U.S. without a break for the past 5 years? Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about continuous U.S. residency for the past 5 years. The 'CheckBox' prefix and '3-2-24' are structural identifiers."
+      "standardized_label": "resided_in_us_for_past_5_years_without_break_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-24'. Used context 'Have you resided in the U.S. without a break for the past 5 years? Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox3-2-25",
-      "standardized_label": "resided_in_us_5_years_without_break_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about continuous U.S. residency for the past 5 years and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '3-2-25' are structural identifiers."
+      "standardized_label": "resided_in_us_for_past_5_years_without_break_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '3-2-25'. Used context 'No' in relation to the previous question about residing in the U.S. without a break to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-25",
-      "standardized_label": "residency_address_1_street",
-      "confidence": 90,
-      "reasoning": "The PDF context '3g. Enter where you lived for the last 5 years and the dates you lived there. ... Address 1' explicitly defines this field as the street address for the first residency entry. The original field name '3-2-25' is an internal identifier and matches the number for the prior checkbox, indicating reuse or a numbering discrepancy but the context clearly defines its purpose here as an address field."
+      "standardized_label": "address_1_last_5_years",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-25'. Used context 'Address 1' and the preceding main context 'Enter where you lived for the last 5 years' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-26-1",
-      "standardized_label": "residency_address_1_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Started living there. 2 digit month' directly relates to the preceding address field ('Address 1') and clearly indicates this field captures the start month of residency at that address. The '3-2-26-1' is an internal identifier."
+      "standardized_label": "address_1_start_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-26-1'. Used context 'Started living there. 2 digit month' in conjunction with the associated 'Address 1' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-26-2",
-      "standardized_label": "residency_address_1_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the start month of residency at 'Address 1', completing the start date information. The '3-2-26-2' is an internal identifier."
+      "standardized_label": "address_1_start_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-26-2'. Used context '4 digit year' in conjunction with the associated 'Address 1' and 'Started living there' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-27-1",
-      "standardized_label": "residency_address_1_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Stopped living there. 2 digit month' directly relates to the 'Address 1' entry and clearly indicates this field captures the end month of residency at that address. The '3-2-27-1' is an internal identifier."
+      "standardized_label": "address_1_stop_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-27-1'. Used context 'Stopped living there. 2 digit month' in conjunction with the associated 'Address 1' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-27-2",
-      "standardized_label": "residency_address_1_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the end month of residency at 'Address 1', completing the end date information. The '3-2-27-2' is an internal identifier."
+      "standardized_label": "address_1_stop_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-27-2'. Used context '4 digit year' in conjunction with the associated 'Address 1' and 'Stopped living there' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-28",
-      "standardized_label": "residency_address_2_street",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Address 2' clearly indicates this field is for the street address of the second residency entry, following directly from the previous residency address section. The original field name '3-2-28' is an internal identifier."
+      "standardized_label": "address_2_last_5_years",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-28'. Used context 'Address 2' and the preceding main context 'Enter where you lived for the last 5 years' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-29-1",
-      "standardized_label": "residency_address_2_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Started living there. 2 digit month' directly relates to the preceding address field ('Address 2') and clearly indicates this field captures the start month of residency at that address. The '3-2-29-1' is an internal identifier."
+      "standardized_label": "address_2_start_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-29-1'. Used context 'Started living there. 2 digit month' in conjunction with the associated 'Address 2' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-29-2",
-      "standardized_label": "residency_address_2_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the start month of residency at 'Address 2', completing the start date information. The '3-2-29-2' is an internal identifier."
+      "standardized_label": "address_2_start_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-29-2'. Used context '4 digit year' in conjunction with the associated 'Address 2' and 'Started living there' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-30-1",
-      "standardized_label": "residency_address_2_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Stopped living there. 2 digit month' directly relates to the 'Address 2' entry and clearly indicates this field captures the end month of residency at that address. The '3-2-30-1' is an internal identifier."
+      "standardized_label": "address_2_stop_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-30-1'. Used context 'Stopped living there. 2 digit month' in conjunction with the inferred 'Address 2' from the sequence of fields to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-30-2",
-      "standardized_label": "residency_address_2_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the end month of residency at 'Address 2', completing the end date information. The '3-2-30-2' is an internal identifier."
+      "standardized_label": "address_2_stop_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-30-2'. Used context '4 digit year' in conjunction with the inferred 'Address 2' and 'Stopped living there' from the sequence of fields to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-31",
-      "standardized_label": "residency_address_3_street",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Address 3' clearly indicates this field is for the street address of the third residency entry, continuing the sequence from previous address fields. The original field name '3-2-31' is an internal identifier."
+      "standardized_label": "address_3_last_5_years",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-31'. Used context 'Address 3' and the preceding main context 'Enter where you lived for the last 5 years' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-32-1",
-      "standardized_label": "residency_address_3_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Started living there. 2 digit month' directly relates to the preceding address field ('Address 3') and clearly indicates this field captures the start month of residency at that address. The '3-2-32-1' is an internal identifier."
+      "standardized_label": "address_3_start_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-32-1'. Used context 'Started living there. 2 digit month' in conjunction with the associated 'Address 3' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-32-2",
-      "standardized_label": "residency_address_3_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the start month of residency at 'Address 3', completing the start date information. The '3-2-32-2' is an internal identifier."
+      "standardized_label": "address_3_start_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-32-2'. Used context '4 digit year' in conjunction with the associated 'Address 3' and 'Started living there' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-33-1",
-      "standardized_label": "residency_address_3_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Stopped living there. 2 digit month' directly relates to the 'Address 3' entry and clearly indicates this field captures the end month of residency at that address. The '3-2-33-1' is an internal identifier."
+      "standardized_label": "address_3_stop_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-33-1'. Used context 'Stopped living there. 2 digit month' in conjunction with the associated 'Address 3' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-33-2",
-      "standardized_label": "residency_address_3_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the end month of residency at 'Address 3', completing the end date information. The '3-2-33-2' is an internal identifier."
+      "standardized_label": "address_3_stop_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-33-2'. Used context '4 digit year' in conjunction with the associated 'Address 3' and 'Stopped living there' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-34",
-      "standardized_label": "residency_address_4_street",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Address 4' clearly indicates this field is for the street address of the fourth residency entry, continuing the sequence from previous address fields. The original field name '3-2-34' is an internal identifier."
+      "standardized_label": "address_4_last_5_years",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-34'. Used context 'Address 4' and the preceding main context 'Enter where you lived for the last 5 years' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-35-1",
-      "standardized_label": "residency_address_4_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Started living there. 2 digit month' directly relates to the preceding address field ('Address 4') and clearly indicates this field captures the start month of residency at that address. The '3-2-35-1' is an internal identifier."
+      "standardized_label": "address_4_start_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-35-1'. Inferred 'Address 4' from the sequence of address fields. Used context 'Started living there. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-35-2",
-      "standardized_label": "residency_address_4_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the start month of residency at 'Address 4', completing the start date information. The '3-2-35-2' is an internal identifier."
+      "standardized_label": "address_4_start_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-35-2'. Inferred 'Address 4' and 'start date' from the sequence. Used context '4 digit year' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-36-1",
-      "standardized_label": "residency_address_4_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context 'Stopped living there. 2 digit month' directly relates to the 'Address 4' entry and clearly indicates this field captures the end month of residency at that address. The '3-2-36-1' is an internal identifier."
+      "standardized_label": "address_4_stop_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-36-1'. Inferred 'Address 4' from the sequence of address fields. Used context 'Stopped living there. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "3-2-36-2",
-      "standardized_label": "residency_address_4_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows a field for the end month of residency at 'Address 4', completing the end date information. The '3-2-36-2' is an internal identifier."
+      "standardized_label": "address_4_stop_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '3-2-36-2'. Inferred 'Address 4' and 'stop date' from the sequence. Used context '4 digit year' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-1",
       "standardized_label": "currently_married_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '4a. Are you currently married? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about current marital status. The 'CheckBox' prefix and '4-4-1' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-1'. Used context 'Are you currently married? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-2",
       "standardized_label": "currently_married_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about current marital status and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-4-2' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-2'. Used context 'No' in relation to the previous question about marital status to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-3",
-      "standardized_label": "spouse_full_name",
-      "confidence": 90,
-      "reasoning": "The PDF context '4b. Spouse’s name (last name, first name, middle name)' clearly indicates this field is for the full name of the spouse. The original field name '4-4-3' is an internal identifier."
+      "standardized_label": "spouse_s_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-3'. Used context 'Spouse’s name (last name, first name, middle name)' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-4-1",
-      "standardized_label": "spouse_date_of_birth_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4c. Spouse’s date of birth. 2 digit month' explicitly identifies this field as the month component of the spouse's date of birth. The '4-4-4-1' is an internal identifier."
+      "standardized_label": "spouse_s_date_of_birth_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-4-1'. Used context 'Spouse’s date of birth. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-4-2",
-      "standardized_label": "spouse_date_of_birth_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Spouse’s date of birth. 2 digit month', indicating it's the day component of the spouse's date of birth. The '4-4-4-2' is an internal identifier."
+      "standardized_label": "spouse_s_date_of_birth_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-4-2'. Used context '2 digit day' in conjunction with the previous field's context ('Spouse’s date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-4-3",
-      "standardized_label": "spouse_date_of_birth_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the spouse's date of birth, completing the date of birth information. The '4-4-4-3' is an internal identifier."
+      "standardized_label": "spouse_s_date_of_birth_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-4-3'. Used context '4 digit year' in conjunction with previous fields' context ('Spouse’s date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-5-1",
-      "standardized_label": "spouse_social_security_number_first_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context '4d. Spouse’s Social Security Number. First 3 digits' explicitly defines this field as the first segment of the spouse's Social Security Number. The '4-4-5-1' is an internal identifier."
+      "standardized_label": "spouse_s_social_security_number_first_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-5-1'. Used context 'Spouse’s Social Security Number. First 3 digits' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-5-2",
-      "standardized_label": "spouse_social_security_number_middle_2_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 2 digits' directly follows a field for the 'First 3 digits' of the 'Spouse’s Social Security Number', indicating it's the middle segment of the SSN. The '4-4-5-2' is an internal identifier."
+      "standardized_label": "spouse_s_social_security_number_middle_2_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-5-2'. Used context 'next 2 digits' in conjunction with the preceding field's context ('Spouse’s Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-5-3",
-      "standardized_label": "spouse_social_security_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Spouse’s Social Security Number', completing the SSN information. The '4-4-5-3' is an internal identifier."
+      "standardized_label": "spouse_s_social_security_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-5-3'. Used context 'last 4 digits' in conjunction with preceding fields' context ('Spouse’s Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-6-1",
       "standardized_label": "date_of_marriage_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4e. Date of marriage. 2 digit month' explicitly identifies this field as the month component of the date of marriage. The '4-4-6-1' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-6-1'. Used context 'Date of marriage. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-6-2",
       "standardized_label": "date_of_marriage_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Date of marriage. 2 digit month', indicating it's the day component of the date of marriage. The '4-4-6-2' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-6-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Date of marriage') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-6-3",
       "standardized_label": "date_of_marriage_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the date of marriage, completing the date information. The '4-4-6-3' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-6-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date of marriage') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-7",
-      "standardized_label": "spouse_worked_or_gets_railroad_benefits_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '4f. Does your spouse (or did your spouse) work for a railroad or get railroad benefits? Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about the spouse's railroad work or benefits. The 'CheckBox' prefix and '4-4-7' are structural identifiers."
+      "standardized_label": "spouse_railroad_work_or_benefits_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-7'. Used context 'Does your spouse (or did your spouse) work for a railroad or get railroad benefits? Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-8",
-      "standardized_label": "spouse_worked_or_gets_railroad_benefits_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about a spouse's railroad work or benefits and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-4-8' are structural identifiers."
+      "standardized_label": "spouse_railroad_work_or_benefits_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-8'. Used context 'No' in relation to the previous question about spouse's railroad work/benefits to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-9",
-      "standardized_label": "former_marriage_10_years_or_ended_in_death_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '4g. If you’re not married now, did you have a former marriage that lasted 10 or more years OR ended in death? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about a qualifying former marriage. The 'CheckBox' prefix and '4-4-9' are structural identifiers."
+      "standardized_label": "former_marriage_10_plus_years_or_ended_in_death_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-9'. Used context 'did you have a former marriage that lasted 10 or more years OR ended in death? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-10",
-      "standardized_label": "former_marriage_10_years_or_ended_in_death_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about a qualifying former marriage and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-4-10' are structural identifiers."
+      "standardized_label": "former_marriage_10_plus_years_or_ended_in_death_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-10'. Used context 'No' in relation to the previous question about former marriage duration/ending to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-11",
-      "standardized_label": "former_spouse_full_name",
-      "confidence": 90,
-      "reasoning": "The PDF context '4h. Name of former spouse (last name, first name, middle name)' clearly indicates this field is for the full name of a former spouse. The original field name '4-4-11' is an internal identifier."
+      "standardized_label": "former_spouse_s_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-11'. Used context 'Name of former spouse (last name, first name, middle name)' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-12-1",
-      "standardized_label": "former_spouse_date_of_birth_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4i. Former spouse’s date of birth. 2 digit month' explicitly identifies this field as the month component of the former spouse's date of birth. The '4-4-12-1' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_birth_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-12-1'. Used context 'Former spouse’s date of birth. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-12-2",
-      "standardized_label": "former_spouse_date_of_birth_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Former spouse’s date of birth. 2 digit month', indicating it's the day component of the former spouse's date of birth. The '4-4-12-2' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_birth_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-12-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Former spouse’s date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-12-3",
-      "standardized_label": "former_spouse_date_of_birth_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the former spouse's date of birth, completing the date information. The '4-4-12-3' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_birth_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-12-3'. Used context '4 digit year' in conjunction with previous fields' context ('Former spouse’s date of birth') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-13-1",
-      "standardized_label": "former_spouse_social_security_number_first_3_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context '4j. Former spouse’s Social Security Number. First 3 digits' explicitly defines this field as the first segment of the former spouse's Social Security Number. The '4-4-13-1' is an internal identifier."
+      "standardized_label": "former_spouse_s_social_security_number_first_3_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-13-1'. Used context 'Former spouse’s Social Security Number. First 3 digits' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-13-2",
-      "standardized_label": "former_spouse_social_security_number_middle_2_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'next 2 digits' directly follows a field for the 'First 3 digits' of the 'Former spouse’s Social Security Number', indicating it's the middle segment of the SSN. The '4-4-13-2' is an internal identifier."
+      "standardized_label": "former_spouse_s_social_security_number_middle_2_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-13-2'. Used context 'next 2 digits' in conjunction with the preceding field's context ('Former spouse’s Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-13-3",
-      "standardized_label": "former_spouse_social_security_number_last_4_digits",
-      "confidence": 90,
-      "reasoning": "The PDF context 'last 4 digits' directly follows fields for the first and middle segments of the 'Former spouse’s Social Security Number', completing the SSN information. The '4-4-13-3' is an internal identifier."
+      "standardized_label": "former_spouse_s_social_security_number_last_4_digits",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-13-3'. Used context 'last 4 digits' in conjunction with preceding fields' context ('Former spouse’s Social Security Number') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-14-1",
-      "standardized_label": "former_marriage_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4k. Date of former marriage. 2 digit month' explicitly identifies this field as the month component of the date of the former marriage. The '4-4-14-1' is an internal identifier."
+      "standardized_label": "date_of_former_marriage_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-14-1'. Used context 'Date of former marriage. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-14-2",
-      "standardized_label": "former_marriage_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Date of former marriage. 2 digit month', indicating it's the day component of the former marriage date. The '4-4-14-2' is an internal identifier."
+      "standardized_label": "date_of_former_marriage_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-14-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Date of former marriage') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-14-3",
-      "standardized_label": "former_marriage_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the date of the former marriage, completing the date information. The '4-4-14-3' is an internal identifier."
+      "standardized_label": "date_of_former_marriage_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-14-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date of former marriage') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-15-1",
-      "standardized_label": "former_marriage_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4l. Date former marriage ended. 2 digit month' explicitly identifies this field as the month component of the date the former marriage ended. The '4-4-15-1' is an internal identifier."
+      "standardized_label": "date_former_marriage_ended_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-15-1'. Used context 'Date former marriage ended. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-15-2",
-      "standardized_label": "former_marriage_end_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Date former marriage ended. 2 digit month', indicating it's the day component of the former marriage end date. The '4-4-15-2' is an internal identifier."
+      "standardized_label": "date_former_marriage_ended_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-15-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Date former marriage ended') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-15-3",
-      "standardized_label": "former_marriage_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the date the former marriage ended, completing the date information. The '4-4-15-3' is an internal identifier."
+      "standardized_label": "date_former_marriage_ended_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-15-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date former marriage ended') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-16-1",
-      "standardized_label": "former_spouse_date_of_death_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '4m. Date of former spouse’s death, if deceased. 2 digit month' explicitly identifies this field as the month component of the former spouse's date of death. The '4-4-16-1' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_death_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-16-1'. Used context 'Date of former spouse’s death, if deceased. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-16-2",
-      "standardized_label": "former_spouse_date_of_death_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Date of former spouse’s death, if deceased. 2 digit month', indicating it's the day component of the former spouse's date of death. The '4-4-16-2' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_death_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-16-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Date of former spouse’s death') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-4-16-3",
-      "standardized_label": "former_spouse_date_of_death_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the former spouse's date of death, completing the date information. The '4-4-16-3' is an internal identifier."
+      "standardized_label": "former_spouse_s_date_of_death_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-4-16-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date of former spouse’s death') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-17",
-      "standardized_label": "another_former_marriage_10_years_or_ended_in_death_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '4n. Do you have another marriage that lasted 10 years or ended in death? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about having another qualifying former marriage. The 'CheckBox' prefix and '4-4-17' are structural identifiers."
+      "standardized_label": "another_marriage_10_plus_years_or_ended_in_death_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-17'. Used context 'Do you have another marriage that lasted 10 years or ended in death? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-4-18",
-      "standardized_label": "another_former_marriage_10_years_or_ended_in_death_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about having another qualifying former marriage and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-4-18' are structural identifiers."
+      "standardized_label": "another_marriage_10_plus_years_or_ended_in_death_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-4-18'. Used context 'No' in relation to the previous question about another marriage to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-1",
       "standardized_label": "received_regularly_scheduled_dialysis_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '5a. Have you received regularly scheduled dialysis? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about regularly scheduled dialysis. The 'CheckBox' prefix and '4-5-1' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-1'. Used context 'Have you received regularly scheduled dialysis? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-2",
       "standardized_label": "received_regularly_scheduled_dialysis_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about regularly scheduled dialysis and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-5-2' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-2'. Used context 'No' in relation to the previous question about regularly scheduled dialysis to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-3-1",
-      "standardized_label": "dialysis_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '5b. When did dialysis begin? 2 digit month' explicitly identifies this field as the month component of the dialysis start date. The '4-5-3-1' is an internal identifier."
+      "standardized_label": "dialysis_begin_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-3-1'. Used context 'When did dialysis begin? 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-3-2",
-      "standardized_label": "dialysis_start_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'When did dialysis begin? 2 digit month', indicating it's the day component of the dialysis start date. The '4-5-3-2' is an internal identifier."
+      "standardized_label": "dialysis_begin_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-3-2'. Used context '2 digit day' in conjunction with the previous field's context ('When did dialysis begin?') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-3-3",
-      "standardized_label": "dialysis_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the dialysis start date, completing the date information. The '4-5-3-3' is an internal identifier."
+      "standardized_label": "dialysis_begin_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-3-3'. Used context '4 digit year' in conjunction with previous fields' context ('When did dialysis begin?') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-4",
       "standardized_label": "dialysis_ended_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '5c. Has dialysis ended? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about whether dialysis has ended. The 'CheckBox' prefix and '4-5-4' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-4'. Used context 'Has dialysis ended? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-5",
       "standardized_label": "dialysis_ended_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about whether dialysis has ended and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-5-5' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-5'. Used context 'No' in relation to the previous question about dialysis ending to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-6-1",
       "standardized_label": "dialysis_end_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '5d. When did dialysis end? 2 digit month' explicitly identifies this field as the month component of the dialysis end date. The '4-5-6-1' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-6-1'. Used context 'When did dialysis end? 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-6-2",
       "standardized_label": "dialysis_end_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'When did dialysis end? 2 digit month', indicating it's the day component of the dialysis end date. The '4-5-6-2' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-6-2'. Used context '2 digit day' in conjunction with the previous field's context ('When did dialysis end?') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-6-3",
       "standardized_label": "dialysis_end_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the dialysis end date, completing the date information. The '4-5-6-3' is an internal identifier."
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-6-3'. Used context '4 digit year' in conjunction with previous fields' context ('When did dialysis end?') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-7",
-      "standardized_label": "participated_in_self_dialysis_training_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '5e. Have you participated in (or do you expect to participate in) a Select here for yes.' is incomplete but is followed by an option for 'self-dialysis training program'. Assuming it refers to the upcoming options, this 'Yes' checkbox is likely for the question about participation in a self-dialysis training program. The 'CheckBox' prefix and '4-5-7' are structural identifiers."
+      "standardized_label": "participated_in_self_dialysis_training_program_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-7'. Used context 'Have you participated in (or do you expect to participate in) a' and inferred 'self-dialysis training program' from item 5f to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-8",
-      "standardized_label": "participated_in_self_dialysis_training_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a 'Yes' checkbox for a question about self-dialysis training program participation, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-5-8' are structural identifiers."
+      "standardized_label": "participated_in_self_dialysis_training_program_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-8'. Used context 'No' in relation to the previous question about self-dialysis training program participation to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-9-1",
-      "standardized_label": "self_dialysis_training_start_date_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '5f. When did you start or when do you plan to start participation in a self-dialysis training program? 2 digit month' explicitly identifies this field as the month component of the start date for self-dialysis training. The '4-5-9-1' is an internal identifier."
+      "standardized_label": "self_dialysis_training_program_start_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-9-1'. Used context 'When did you start or when do you plan to start participation in a self-dialysis training program? 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-9-2",
-      "standardized_label": "self_dialysis_training_start_date_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'When did you start or when do you plan to start participation in a self-dialysis training program? 2 digit month', indicating it's the day component of that start date. The '4-5-9-2' is an internal identifier."
+      "standardized_label": "self_dialysis_training_program_start_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-9-2'. Used context '2 digit day' in conjunction with the preceding field's context ('self-dialysis training program start date') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-9-3",
-      "standardized_label": "self_dialysis_training_start_date_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the self-dialysis training start date, completing the date information. The '4-5-9-3' is an internal identifier."
+      "standardized_label": "self_dialysis_training_program_start_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-9-3'. Used context '4 digit year' in conjunction with preceding fields' context ('self-dialysis training program start date') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-10",
       "standardized_label": "received_kidney_transplant_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '5g. Have you received a kidney transplant? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about receiving a kidney transplant. The 'CheckBox' prefix and '4-5-10' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-10'. Used context 'Have you received a kidney transplant? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-11",
       "standardized_label": "received_kidney_transplant_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about receiving a kidney transplant and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-5-11' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-11'. Used context 'No' in relation to the previous question about receiving a kidney transplant to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-12-1",
-      "standardized_label": "kidney_transplant_date_1_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '5h. Enter date(s) of transplant(s). 2 digit month' explicitly identifies this field as the month component of the first kidney transplant date. The '4-5-12-1' is an internal identifier."
+      "standardized_label": "transplant_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-12-1'. Used context 'Enter date(s) of transplant(s). 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-12-2",
-      "standardized_label": "kidney_transplant_date_1_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Enter date(s) of transplant(s). 2 digit month', indicating it's the day component of the first kidney transplant date. The '4-5-12-2' is an internal identifier."
+      "standardized_label": "transplant_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-12-2'. Used context '2 digit day' in conjunction with the preceding field's context ('Enter date(s) of transplant(s)') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-12-3",
-      "standardized_label": "kidney_transplant_date_1_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the first kidney transplant date, completing the date information. The '4-5-12-3' is an internal identifier."
+      "standardized_label": "transplant_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-12-3'. Used context '4 digit year' in conjunction with previous fields' context ('Enter date(s) of transplant(s)') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-13",
-      "standardized_label": "hospitalized_month_before_transplant_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '5i. Were you in the hospital for related procedures the month before you got the kidney transplant? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about hospitalization before a kidney transplant. The 'CheckBox' prefix and '4-5-13' are structural identifiers."
+      "standardized_label": "hospitalized_before_kidney_transplant_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-13'. Used context 'Were you in the hospital for related procedures the month before you got the kidney transplant? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-5-14",
-      "standardized_label": "hospitalized_month_before_transplant_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about hospitalization before a kidney transplant and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-5-14' are structural identifiers."
+      "standardized_label": "hospitalized_before_kidney_transplant_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-5-14'. Used context 'No' in relation to the previous question about hospitalization before kidney transplant to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-15-1",
-      "standardized_label": "hospitalization_date_1_month",
-      "confidence": 90,
-      "reasoning": "The PDF context '5j. Enter date(s) of hospitalization. 2 digit month' explicitly identifies this field as the month component of the first hospitalization date. This relates to the prior question about hospitalization before a kidney transplant. The '4-5-15-1' is an internal identifier."
+      "standardized_label": "hospitalization_date_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-15-1'. Used context 'Enter date(s) of hospitalization. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-15-2",
-      "standardized_label": "hospitalization_date_1_day",
-      "confidence": 90,
-      "reasoning": "The PDF context '2 digit day' directly follows a field for 'Enter date(s) of hospitalization. 2 digit month', indicating it's the day component of the first hospitalization date. The '4-5-15-2' is an internal identifier."
+      "standardized_label": "hospitalization_date_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-15-2'. Used context '2 digit day' in conjunction with the previous field's context ('Enter date(s) of hospitalization') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "4-5-15-3",
-      "standardized_label": "hospitalization_date_1_year",
-      "confidence": 90,
-      "reasoning": "The PDF context '4 digit year' directly follows fields for the month and day of the first hospitalization date, completing the date information. The '4-5-15-3' is an internal identifier."
+      "standardized_label": "hospitalization_date_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '4-5-15-3'. Used context '4 digit year' in conjunction with previous fields' context ('Enter date(s) of hospitalization') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-6-1",
       "standardized_label": "sign_up_for_medicare_part_b_yes_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context '6a. Do you want to sign up for Medicare Part B? ... Select here for yes.' explicitly defines this checkbox as the 'Yes' option for the question about signing up for Medicare Part B. The 'CheckBox' prefix and '4-6-1' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-6-1'. Used context 'Do you want to sign up for Medicare Part B? ... Select here for yes.' to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "standardize_field",
+      "action": "standardize",
       "original_field_name": "CheckBox4-6-2",
       "standardized_label": "sign_up_for_medicare_part_b_no_checkbox",
-      "confidence": 90,
-      "reasoning": "The PDF context 'No' directly follows a question about signing up for Medicare Part B and a 'Yes' checkbox, indicating this checkbox corresponds to a 'No' answer for that question. The 'CheckBox' prefix and '4-6-2' are structural identifiers."
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-6-2'. Used context 'No' in relation to the previous question about signing up for Medicare Part B to create a descriptive snake_case label. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "CheckBox4-6-3",
-      "standardized_label": "CheckBox4-6-3",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 209.571714ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n}\n]"
+      "standardized_label": "first_month_of_coverage_earliest_possible_month_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-6-3'. Used context 'The earliest possible month (you must pay all premiums for any past months of coverage)' to create a descriptive snake_case label for the first month of coverage option. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "CheckBox4-6-4",
-      "standardized_label": "CheckBox4-6-4",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.755873828s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+      "standardized_label": "first_month_of_coverage_application_filed_month_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-6-4'. Used context 'The month this application is filed' to create a descriptive snake_case label for the first month of coverage option. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "CheckBox4-6-5",
-      "standardized_label": "CheckBox4-6-5",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 59.314707972s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+      "standardized_label": "first_month_of_coverage_application_processed_month_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'CheckBox' prefix and generic field ID '4-6-5'. Used context 'The month this application is processed' to create a descriptive snake_case label for the first month of coverage option. Appended '_checkbox' as field type is CheckBox."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-7-1",
-      "standardized_label": "5-7-1",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.915749191s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      "standardized_label": "remarks",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-7-1'. Used context '7. Remarks' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-1",
-      "standardized_label": "5-8-1",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.483447162s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      "standardized_label": "preparer_name_and_relationship",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-1'. Used context 'If you’re completing this application for someone else, what’s your name and your relationship to the person applying?' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-2",
-      "standardized_label": "5-8-2",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 58.056152409s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      "standardized_label": "applicant_signature",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-2'. Used context 'Written signature (Do not print)' and field type Signature to create a descriptive snake_case label, assuming it's the applicant's signature. Field type is Signature, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-3-1",
-      "standardized_label": "5-8-3-1",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 57.640801998s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+      "standardized_label": "date_signed_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-3-1'. Used context 'Date signed. 2 digit month' to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-3-2",
-      "standardized_label": "5-8-3-2",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 57.231624605s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+      "standardized_label": "date_signed_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-3-2'. Used context '2 digit day' in conjunction with the previous field's context ('Date signed') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-4",
-      "standardized_label": "5-8-4",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.823814539s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+      "standardized_label": "witness_name",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-4'. Used context 'Name of witness (first and last name)' to create a concise snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-5",
-      "standardized_label": "5-8-5",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 56.410214415s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+      "standardized_label": "witness_signature",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-5'. Used context 'Signature of witness' to create a concise snake_case label. Field type is Signature, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-6-1",
-      "standardized_label": "5-8-6-1",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.998219841s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      "standardized_label": "witness_date_signed_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-6-1'. Used context 'Date signed. 2 digit month' and inferred it refers to the witness's date signed, to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-6-2",
-      "standardized_label": "5-8-6-2",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.576218045s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      "standardized_label": "witness_date_signed_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-6-2'. Used context '2 digit day' in conjunction with the previous field's context ('witness's Date signed') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-7",
-      "standardized_label": "5-8-7",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 55.139430393s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      "standardized_label": "applicant_signature_2",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-7'. Used context 'Signature of applicant'. Differentiated from a previous 'applicant_signature' by appending '_2' as this appears to be a separate or secondary signature block for the applicant. Field type is Signature, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-8-1",
-      "standardized_label": "5-8-8-1",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.722193527s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+      "standardized_label": "applicant_signature_2_date_signed_month",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-8-1'. Used context 'Date signed. 2 digit month' and inferred it refers to the second applicant's signature date, to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-8-2",
-      "standardized_label": "5-8-8-2",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 54.304763355s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+      "standardized_label": "applicant_signature_2_date_signed_day",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-8-2'. Used context '2 digit day' in conjunction with the previous fields' context ('second applicant signature date signed') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-3-3",
-      "standardized_label": "5-8-3-3",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.892212642s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+      "standardized_label": "date_signed_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-3-3'. Used context '4 digit year' in conjunction with previous fields' context ('Date signed' for the preparer) to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-6-3",
-      "standardized_label": "5-8-6-3",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.466072078s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+      "standardized_label": "witness_date_signed_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-6-3'. Used context '4 digit year' in conjunction with previous fields' context ('witness_date_signed') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     },
     {
-      "action": "keep_original",
+      "action": "standardize",
       "original_field_name": "5-8-8-3",
-      "standardized_label": "5-8-8-3",
-      "confidence": 0,
-      "reasoning": "Error during analysis: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count, limit: 1000000\nPlease retry in 53.046415765s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count\"\n  quota_id: \"GenerateContentPaidTierInputTokensPerModelPerMinute\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 1000000\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+      "standardized_label": "applicant_signature_2_date_signed_year",
+      "confidence": 100,
+      "reasoning": "Removed generic field ID '5-8-8-3'. Used context '4 digit year' in conjunction with previous fields' context ('applicant_signature_2_date_signed') to create a descriptive snake_case label. Field type is Text, so no '_checkbox' suffix."
     }
   ]
 }

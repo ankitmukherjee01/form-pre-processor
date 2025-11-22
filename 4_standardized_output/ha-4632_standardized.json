@@ -1,0 +1,187 @@
+{
+  "filename": "ha-4632.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Claimant_FLD[0]",
+      "standardized_label": "claimant",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_WageEarner_FLD[0]",
+      "standardized_label": "wage_earner_name",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted to lowercase snake_case. | auto-fixed wage_earner → wage_earner_name"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Lasttime_Date[0]",
+      "standardized_label": "lasttime",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', type token '_Date', and array index '[0]'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Namemed1_FLD[0]",
+      "standardized_label": "namemed1",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '1' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Datefirst1_Date[0]",
+      "standardized_label": "datefirst1",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', type token '_Date', and array index '[0]'. Preserved the numeric suffix '1' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Daily1_FLD[0]",
+      "standardized_label": "daily1",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '1' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Reason1_FLD[0]",
+      "standardized_label": "reason1",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '1' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NameofPhy1_FLD[0]",
+      "standardized_label": "name_of_phy1",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '1' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NameofMed2_FLD[0]",
+      "standardized_label": "name_of_med2",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '2' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_DateFirst2_Date[0]",
+      "standardized_label": "date_first2",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', type token '_Date', and array index '[0]'. Preserved the numeric suffix '2' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Daily2_FLD[0]",
+      "standardized_label": "daily2",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '2' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Reason2_FLD[0]",
+      "standardized_label": "reason2",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '2' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NameofPhy2_FLD[0]",
+      "standardized_label": "name_of_phy2",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '2' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NameofMed3_FLD[0]",
+      "standardized_label": "name_of_med3",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '3' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_DateFirst3_Date[0]",
+      "standardized_label": "date_first3",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', type token '_Date', and array index '[0]'. Preserved the numeric suffix '3' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Daily3_FLD[0]",
+      "standardized_label": "daily3",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '3' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Reason3_FLD[0]",
+      "standardized_label": "reason3",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '3' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NamofPhy3_FLD[0]",
+      "standardized_label": "name_of_phy3",
+      "confidence": 95,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Corrected 'NamofPhy' to 'name_of_phy' for clarity and converted to lowercase snake_case, preserving the numeric suffix '3'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Nameofmed4_FLD[0]",
+      "standardized_label": "name_of_med4",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted 'Nameofmed' to 'name_of_med' and preserved the numeric suffix '4'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_datefirst4_FLD[0]",
+      "standardized_label": "date_first4",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted 'datefirst' to 'date_first' and preserved the numeric suffix '4'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Daily4_FLD[0]",
+      "standardized_label": "daily4",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '4' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Reason4_FLD[0]",
+      "standardized_label": "reason4",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Preserved the numeric suffix '4' indicating a list item. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_NameofPhy4_FLD[0]",
+      "standardized_label": "name_of_phy4",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted 'NameofPhy' to 'name_of_phy' and preserved the numeric suffix '4'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[0].P1_Listmeds_FLD[0]",
+      "standardized_label": "list_meds",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P1_', field token '_FLD', and array index '[0]'. Converted 'Listmeds' to 'list_meds'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_PAText_FLD[0]",
+      "standardized_label": "pa_text",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P2_', field token '_FLD', and array index '[0]'. Converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].#subform[1].P2_PRAText_FLD[0]",
+      "standardized_label": "pra_text",
+      "confidence": 98,
+      "reasoning": "Removed form/subform prefixes, page token 'P2_', field token '_FLD', and array index '[0]'. Converted to lowercase snake_case."
+    }
+  ]
+}

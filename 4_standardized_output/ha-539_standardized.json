@@ -1,0 +1,180 @@
+{
+  "filename": "ha-539.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_NameDeceased_FLD[0]",
+      "standardized_label": "name_deceased",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_ClaimFor_FLD[0]",
+      "standardized_label": "claim_for",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_WEName_FLD[0]",
+      "standardized_label": "we_name",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_SSN_FLD[0]",
+      "standardized_label": "social_security_number",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case. | auto-fixed ssn → social_security_number"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Widow_CB[0]",
+      "standardized_label": "widow_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_DivSpouse_CB[0]",
+      "standardized_label": "div_spouse_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_WidowDivocrce_CB[0]",
+      "standardized_label": "widow_divocrce_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field. The typo 'Divocrce' from the original field name was preserved."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Child_CB[0]",
+      "standardized_label": "child_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_DisChild_CB[0]",
+      "standardized_label": "dis_child_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Parent_CB[0]",
+      "standardized_label": "parent_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_AdminExecutor_CB[0]",
+      "standardized_label": "admin_executor_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Other_CB[0]",
+      "standardized_label": "other_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Other_FLD[0]",
+      "standardized_label": "other",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_CB1_CB[0]",
+      "standardized_label": "cb1_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_CB1A_CB[0]",
+      "standardized_label": "cb1a_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_CB1B_CB[0]",
+      "standardized_label": "cb1b_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_CB2_CB[0]",
+      "standardized_label": "cb2_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_CB[0]' tokens, converted to lowercase snake_case, and appended '_checkbox' as it is a checkbox field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Sig_FLD[0]",
+      "standardized_label": "sig",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_Date_FLD[0]",
+      "standardized_label": "date",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_PrintName_FLD[0]",
+      "standardized_label": "print_name",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_PhoneNum_FLD[0]",
+      "standardized_label": "phone_num",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_MailAdd_FLD[0]",
+      "standardized_label": "mail_add",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page1[0].P1_CityStateZIP_FLD[0]",
+      "standardized_label": "city_state_zip",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page1[0].', 'P1_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page2[0].P2_ReadOnly1_FLD[0]",
+      "standardized_label": "read_only1",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page2[0].', 'P2_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "form1[0].Page2[0].P2_ReadOnly2_FLD[0]",
+      "standardized_label": "read_only2",
+      "confidence": 100,
+      "reasoning": "Removed 'form1[0].Page2[0].', 'P2_', and '_FLD[0]' tokens, then converted to lowercase snake_case."
+    }
+  ]
+}

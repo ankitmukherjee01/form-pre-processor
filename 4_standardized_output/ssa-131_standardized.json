@@ -1,0 +1,285 @@
+{
+  "filename": "ssa-131.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].TaxYear[0]",
+      "standardized_label": "tax_year",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'tax year'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].EmployeeName[0]",
+      "standardized_label": "employee_name",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'employee name'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].EmployeesSSN[0]",
+      "standardized_label": "employees_ssn",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'employee's social security number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].SSAClaim[0]",
+      "standardized_label": "ssa_claim",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'social security administration claim number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Employer[0]",
+      "standardized_label": "employer",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'employer'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Address[0]",
+      "standardized_label": "address",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'address'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].EmployerID[0]",
+      "standardized_label": "employer_id",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'Employer identification number'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].RetirementDate[0]",
+      "standardized_label": "retirement_date",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'Retirement date'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].DateEmployee[0]",
+      "standardized_label": "date_employee",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context 'Date employee last performed services'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].IftheDates[0]",
+      "standardized_label": "date_difference_explanation",
+      "confidence": 95,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]'. The field name 'IftheDates' is ambiguous for an input field; used the context 'if the dates ... please explain the difference' to derive a concise and descriptive label 'date_difference_explanation'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[0]",
+      "standardized_label": "dollar",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].', index token '[0]', and converted to lowercase snake_case. Confirmed by context ending with 'dollar sign' for an amount field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[0]",
+      "standardized_label": "sick_pay_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[0]'. Identified as a checkbox and used the context 'sick pay' for the label, appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[1]",
+      "standardized_label": "severance_pay_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[1]'. Identified as a checkbox and used the context 'severance pay' for the label, appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[2]",
+      "standardized_label": "bonus_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[2]'. Identified as a checkbox and used the context 'bonus' for the label, appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[3]",
+      "standardized_label": "deferred_compensation_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[3]'. Identified as a checkbox and used the context 'deferred compensation' for the label, appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[4]",
+      "standardized_label": "other_explain_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[4]'. Identified as a checkbox and used the context 'other (explain)' for the label, converting to snake_case and appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[1]",
+      "standardized_label": "other_explanation",
+      "confidence": 95,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[1]'. The original field name 'Dollar' is generic, so used the context 'Explain other check box selection.' to create a more descriptive label 'other_explanation'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5YesNo[0]",
+      "standardized_label": "payments_after_tax_year_yes_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[0]'. Identified as a checkbox. Used the context '5. Will payments listed in item \"4\" be made for years after the tax year? Yes.' to create a descriptive label, including 'yes' and '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Q5YesNo[1]",
+      "standardized_label": "payments_after_tax_year_no_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[1]'. Identified as a checkbox. Used the context 'no' in relation to the previous question's context to create a descriptive label, including 'no' and '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[2]",
+      "standardized_label": "amount_1",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[2]'. Used the context 'Amount 1.' to create a concise label for the first amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[3]",
+      "standardized_label": "year_amount_1_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[3]'. Used the context 'year in which you will pay amount 1.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[4]",
+      "standardized_label": "amount_2",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[4]'. Used the context 'amount 2.' to create a concise label for the second amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[5]",
+      "standardized_label": "year_amount_2_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[5]'. Used the context 'year in which you will pay amount 2.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[6]",
+      "standardized_label": "amount_3",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[6]'. Used the context 'amount 3.' to create a concise label for the third amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[7]",
+      "standardized_label": "year_amount_3_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[7]'. Used the context 'year in which you will pay amount 3.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[8]",
+      "standardized_label": "amount_4",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[8]'. Used the context 'amount 4.' to create a concise label for the fourth amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[9]",
+      "standardized_label": "year_amount_4_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[9]'. Used the context 'year in which you will pay amount 4.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[10]",
+      "standardized_label": "amount_5",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[10]'. Used the context 'amount 5.' to create a concise label for the fifth amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[11]",
+      "standardized_label": "year_amount_5_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[11]'. Used the context 'year in which you will pay amount 5.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[12]",
+      "standardized_label": "amount_6",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[12]'. Used the context 'amount 6.' to create a concise label for the sixth amount field in a list."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[13]",
+      "standardized_label": "year_amount_6_paid",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[13]'. Used the context 'year in which you will pay amount 6.' to create a concise and descriptive label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[14]",
+      "standardized_label": "non_qualified_deferred_compensation_wages_earned_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[14]'. The field name 'Dollar' is generic, but the context 'Non qualified deferred compensation and section 457 plans only. ... enter the amount of wages earned by the employee during the tax year.' clearly identifies the purpose. | auto-fixed non_qualified_deferred_compensation_wages_earned → non_qualified_deferred_compensation_wages_earned_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Dollar[15]",
+      "standardized_label": "signature",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[15]'. The field name 'Dollar' is generic, but the context 'Signature. A wet signature is required.' clearly indicates this is the signature field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Title[1]",
+      "standardized_label": "title",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[1]'. The context 'title' confirms the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].Date[0]",
+      "standardized_label": "date",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[0]'. The context 'date' confirms the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].PhoneNumber[0]",
+      "standardized_label": "phone_number",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[0]'. The context 'phone number' confirms the label."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page1[0].CheckBox2[5]",
+      "standardized_label": "vacation_pay_checkbox",
+      "confidence": 100,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page1[0].' and index token '[5]'. Identified as a checkbox and used the context 'vacation pay' for the label, appending '_checkbox'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].PhoneNumber[0]",
+      "standardized_label": "page_2_phone_number_1",
+      "confidence": 30,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page2[0].' and index token '[0]'. The context provided is a general 'EMPLOYER INSTRUCTIONS' for Page 2, not specific to a phone number field. The field's position is also very small and unusual for a standard input. This suggests it might be an OCR artifact or a misidentified text element. However, it must be mapped. To ensure a unique and descriptive label, 'page_2_phone_number_1' is used to disambiguate from a potential 'phone_number' on Page 1 and other similar fields on Page 2, while acknowledging the low certainty of its function as a user-fillable field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].PhoneNumber[1]",
+      "standardized_label": "page_2_phone_number_2",
+      "confidence": 25,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page2[0].' and index token '[1]'. Similar to the previous field, the context is a general 'PRIVACY ACT STATEMENT', not specific to a phone number field. The field's position is very small and unusual. This strongly suggests it is an OCR artifact or misidentified text. To ensure uniqueness, 'page_2_phone_number_2' is used, with very low confidence in its function as an actual input field."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "topmostSubform[0].Page2[0].PhoneNumber[2]",
+      "standardized_label": "page_2_phone_number_3",
+      "confidence": 25,
+      "reasoning": "Removed common prefix 'topmostSubform[0].Page2[0].' and index token '[2]'. Similar to the previous fields, the context is a general 'Paperwork Reduction Act Statement', not specific to a phone number field. The field's position is very small and unusual. This strongly suggests it is an OCR artifact or misidentified text. To ensure uniqueness, 'page_2_phone_number_3' is used, with very low confidence in its function as an actual input field."
+    }
+  ]
+}

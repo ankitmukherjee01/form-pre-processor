@@ -1,0 +1,683 @@
+{
+  "filename": "CMS-10798-Fillable enabled 508-final.pdf",
+  "filepath": "1_unlocked_pdfs\\CMS-10798-Fillable enabled 508-final.pdf",
+  "total_pages": 3,
+  "total_fields": 26,
+  "pages": [
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "1. Medicare Number/SSN",
+          "field_context_on_pdf": "1. Medicare Number/SSN",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 41.04,
+            "y0": 92.22,
+            "x1": 581.16,
+            "y1": 111.9,
+            "width": 540.12,
+            "height": 19.68
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "2 Your Name Last Name First Name Middle Name",
+          "field_context_on_pdf": "2. Your Name (Last Name, First Name, Middle Name",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 37.73,
+            "y0": 126.57,
+            "x1": 577.85,
+            "y1": 146.25,
+            "width": 540.12,
+            "height": 19.68
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "3 Mailing Address Number and Street PO Box or Route",
+          "field_context_on_pdf": "3. Mailing Address (Number and Street, P.O. Box, or Route",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 36.0,
+            "y0": 162.39,
+            "x1": 576.12,
+            "y1": 182.4,
+            "width": 540.12,
+            "height": 20.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "City",
+          "field_context_on_pdf": "City",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 35.37,
+            "y0": 198.24,
+            "x1": 395.92,
+            "y1": 218.55,
+            "width": 360.55,
+            "height": 20.31
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "State",
+          "field_context_on_pdf": "State",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 404.76,
+            "y0": 201.84,
+            "x1": 436.32,
+            "y1": 217.2,
+            "width": 31.56,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Zip Code",
+          "field_context_on_pdf": "Zip Code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 463.08,
+            "y0": 201.84,
+            "x1": 542.16,
+            "y1": 217.2,
+            "width": 79.08,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 5,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Permanent Address (if different from Mailing address)",
+          "field_context_on_pdf": "Permanent Address (if different from Mailing address)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 36.0,
+            "y0": 234.96,
+            "x1": 568.56,
+            "y1": 254.64,
+            "width": 532.56,
+            "height": 19.68
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "City_2",
+          "field_context_on_pdf": "City",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 38.04,
+            "y0": 270.54,
+            "x1": 396.07,
+            "y1": 289.59,
+            "width": 358.03,
+            "height": 19.05
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "State_2",
+          "field_context_on_pdf": "State",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 404.76,
+            "y0": 273.84,
+            "x1": 436.32,
+            "y1": 289.2,
+            "width": 31.56,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Zip Code_2",
+          "field_context_on_pdf": "Zip Code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 463.08,
+            "y0": 273.84,
+            "x1": 542.16,
+            "y1": 289.2,
+            "width": 79.08,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 5,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "5 Phone Number- including area code",
+          "field_context_on_pdf": "5. Phone Number -(including area code",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 47.04,
+            "y0": 309.84,
+            "x1": 94.32,
+            "y1": 325.2,
+            "width": 47.28,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 3,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "5 Phone Number- first 3 digits",
+          "field_context_on_pdf": " first 3 digits",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 106.26,
+            "y0": 309.84,
+            "x1": 153.66,
+            "y1": 325.2,
+            "width": 47.4,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 3,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "phone number- last 4 digits",
+          "field_context_on_pdf": " last 4 digits",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 171.12,
+            "y0": 309.84,
+            "x1": 234.36,
+            "y1": 325.2,
+            "width": 63.24,
+            "height": 15.36
+          },
+          "text_format": 0,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Check Yes or No",
+          "field_context_on_pdf": "Check Yes or No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "RadioButton",
+          "field_type_code": 5,
+          "field_value": "Off",
+          "field_flags": 49152,
+          "rect": {
+            "x0": 450.92,
+            "y0": 360.68,
+            "x1": 461.36,
+            "y1": 371.12,
+            "width": 10.44,
+            "height": 10.44
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "Check Yes or No",
+          "field_context_on_pdf": "Check Yes or No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "RadioButton",
+          "field_type_code": 5,
+          "field_value": "Off",
+          "field_flags": 49152,
+          "rect": {
+            "x0": 488.36,
+            "y0": 360.56,
+            "x1": 498.8,
+            "y1": 371.0,
+            "width": 10.44,
+            "height": 10.44
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "Check Yes or No2",
+          "field_context_on_pdf": "Check Yes or No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "RadioButton",
+          "field_type_code": 5,
+          "field_value": "Off",
+          "field_flags": 49152,
+          "rect": {
+            "x0": 450.38,
+            "y0": 374.04,
+            "x1": 460.82,
+            "y1": 384.48,
+            "width": 10.44,
+            "height": 10.44
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "Signature (Do Not Print)_es_:signature",
+          "field_context_on_pdf": "Signature (Do Not Print)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Signature",
+          "field_type_code": 6,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 98.04,
+            "y0": 514.36,
+            "x1": 391.59,
+            "y1": 536.86,
+            "width": 293.56,
+            "height": 22.5
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Date Signed- month 1",
+          "field_context_on_pdf": "Date Signed- month",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 404.12,
+            "y0": 520.91,
+            "x1": 435.68,
+            "y1": 535.13,
+            "width": 31.56,
+            "height": 14.22
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Check Yes or No2",
+          "field_context_on_pdf": "Check Yes or No",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "RadioButton",
+          "field_type_code": 5,
+          "field_value": "Off",
+          "field_flags": 49152,
+          "rect": {
+            "x0": 487.82,
+            "y0": 373.92,
+            "x1": 498.26,
+            "y1": 384.36,
+            "width": 10.44,
+            "height": 10.44
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 2
+        },
+        {
+          "field_name": "date signed- date 1",
+          "field_context_on_pdf": "date",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 449.96,
+            "y0": 519.65,
+            "x1": 481.4,
+            "y1": 535.13,
+            "width": 31.44,
+            "height": 15.48
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "date signed- year 1",
+          "field_context_on_pdf": "year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 495.68,
+            "y0": 519.65,
+            "x1": 558.8,
+            "y1": 535.13,
+            "width": 63.12,
+            "height": 15.48
+          },
+          "text_format": 0,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Signature of Witness_es_:signature",
+          "field_context_on_pdf": "Signature of Witness",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Signature",
+          "field_type_code": 6,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 42.97,
+            "y0": 589.78,
+            "x1": 396.3,
+            "y1": 610.87,
+            "width": 353.33,
+            "height": 21.09
+          },
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Date Signed_2- month",
+          "field_context_on_pdf": "Date Signed",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 404.12,
+            "y0": 594.89,
+            "x1": 435.68,
+            "y1": 610.37,
+            "width": 31.56,
+            "height": 15.48
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "date signed day 2",
+          "field_context_on_pdf": "date signed day",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 449.96,
+            "y0": 594.89,
+            "x1": 481.4,
+            "y1": 610.37,
+            "width": 31.44,
+            "height": 15.48
+          },
+          "text_format": 0,
+          "text_maxlen": 2,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "date signed year2",
+          "field_context_on_pdf": "date signed year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 25165824,
+          "rect": {
+            "x0": 495.68,
+            "y0": 594.89,
+            "x1": 558.8,
+            "y1": 610.37,
+            "width": 63.12,
+            "height": 15.48
+          },
+          "text_format": 0,
+          "text_maxlen": 4,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "Address of Witness",
+          "field_context_on_pdf": "Address of Witness",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 41.6,
+            "y0": 623.65,
+            "x1": 581.08,
+            "y1": 645.65,
+            "width": 539.48,
+            "height": 22.0
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "filename": "CMS-10798-Fillable enabled 508-final.pdf",
+  "fields": [
+    {
+      "action": "standardize",
+      "original_field_name": "1. Medicare Number/SSN",
+      "standardized_label": "medicare_number_or_ssn",
+      "confidence": 95,
+      "reasoning": "Removed numeric prefix '1.', replaced '/' with '_or_', and converted to lowercase snake_case for conciseness."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "2 Your Name Last Name First Name Middle Name",
+      "standardized_label": "your_name",
+      "confidence": 90,
+      "reasoning": "Removed numeric prefix '2' and extraneous descriptive text (Last Name, First Name, Middle Name) to derive the core field name 'Your Name', then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "3 Mailing Address Number and Street PO Box or Route",
+      "standardized_label": "mailing_address",
+      "confidence": 90,
+      "reasoning": "Removed numeric prefix '3' and descriptive components (Number and Street PO Box or Route) to derive the core field name 'Mailing Address', then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "City",
+      "standardized_label": "city",
+      "confidence": 100,
+      "reasoning": "Converted to lowercase snake_case. Field name was already concise."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "State",
+      "standardized_label": "state",
+      "confidence": 100,
+      "reasoning": "Converted to lowercase snake_case. Field name was already concise."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Zip Code",
+      "standardized_label": "zip_code",
+      "confidence": 100,
+      "reasoning": "Converted to lowercase snake_case, replacing space with underscore."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Permanent Address (if different from Mailing address)",
+      "standardized_label": "permanent_address",
+      "confidence": 95,
+      "reasoning": "Removed descriptive parenthetical text and converted to lowercase snake_case for conciseness."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "City_2",
+      "standardized_label": "city",
+      "confidence": 95,
+      "reasoning": "Removed numeric index token '_2' and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "State_2",
+      "standardized_label": "state",
+      "confidence": 95,
+      "reasoning": "Removed numeric index token '_2' and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Zip Code_2",
+      "standardized_label": "zip_code",
+      "confidence": 95,
+      "reasoning": "Removed numeric index token '_2' and converted to lowercase snake_case, replacing space with underscore."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "5 Phone Number- including area code",
+      "standardized_label": "phone_number",
+      "confidence": 90,
+      "reasoning": "Removed numeric prefix '5', removed descriptive text '- including area code' for conciseness, and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "5 Phone Number- first 3 digits",
+      "standardized_label": "phone_number_first_3_digits",
+      "confidence": 90,
+      "reasoning": "Removed numeric prefix '5', kept the specific detail 'first 3 digits' to differentiate from other phone number parts, and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "phone number- last 4 digits",
+      "standardized_label": "phone_number_last_4_digits",
+      "confidence": 95,
+      "reasoning": "Converted to lowercase snake_case, replacing spaces and hyphens with underscores, and kept the specific detail 'last 4 digits'."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Check Yes or No",
+      "standardized_label": "check_yes_or_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Converted to lowercase snake_case. This field represents another choice within the same radio button group for a 'Yes/No' question. | auto-fixed check_yes_or_no → check_yes_or_no_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Check Yes or No",
+      "standardized_label": "check_yes_or_no_checkbox",
+      "confidence": 90,
+      "reasoning": "Converted to lowercase snake_case. This field represents another choice within the same radio button group for a 'Yes/No' question. | auto-fixed check_yes_or_no → check_yes_or_no_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Check Yes or No2",
+      "standardized_label": "check_yes_or_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed numeric index token '2' and converted to lowercase snake_case. This field likely represents a third choice or a duplicate named variant within the 'Yes/No' radio button group. | auto-fixed check_yes_or_no → check_yes_or_no_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Signature (Do Not Print)_es_:signature",
+      "standardized_label": "signature",
+      "confidence": 95,
+      "reasoning": "Removed PDF internal token '_es_:signature' and descriptive parenthetical text '(Do Not Print)' for conciseness, then converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Date Signed- month 1",
+      "standardized_label": "date_signed_month",
+      "confidence": 95,
+      "reasoning": "Removed numeric index '1' and converted to lowercase snake_case, replacing hyphen with underscore."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Check Yes or No2",
+      "standardized_label": "check_yes_or_no_checkbox",
+      "confidence": 95,
+      "reasoning": "Removed numeric index token '2' and converted to lowercase snake_case. This field likely represents a third choice or a duplicate named variant within the 'Yes/No' radio button group. | auto-fixed check_yes_or_no → check_yes_or_no_checkbox"
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "date signed- date 1",
+      "standardized_label": "date_signed_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric index '1', changed 'date' to 'day' for clarity as a date component, and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "date signed- year 1",
+      "standardized_label": "date_signed_year",
+      "confidence": 95,
+      "reasoning": "Removed numeric index '1' and converted to lowercase snake_case, replacing hyphen with underscore."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Signature of Witness_es_:signature",
+      "standardized_label": "signature_of_witness",
+      "confidence": 95,
+      "reasoning": "Removed PDF internal token '_es_:signature' and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Date Signed_2- month",
+      "standardized_label": "witness_date_signed_month",
+      "confidence": 90,
+      "reasoning": "Removed numeric index '_2', inferred 'witness' prefix from context following 'Signature of Witness', and converted to lowercase snake_case, replacing hyphen with underscore."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "date signed day 2",
+      "standardized_label": "witness_date_signed_day",
+      "confidence": 90,
+      "reasoning": "Removed numeric index '2', inferred 'witness' prefix from context, and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "date signed year2",
+      "standardized_label": "witness_date_signed_year",
+      "confidence": 90,
+      "reasoning": "Removed numeric index '2', inferred 'witness' prefix from context, and converted to lowercase snake_case."
+    },
+    {
+      "action": "standardize",
+      "original_field_name": "Address of Witness",
+      "standardized_label": "address_of_witness",
+      "confidence": 100,
+      "reasoning": "Converted to lowercase snake_case, replacing spaces with underscores."
+    }
+  ]
+}

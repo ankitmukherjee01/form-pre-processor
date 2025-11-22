@@ -1,0 +1,1074 @@
+{
+  "filename": "ssa-131.pdf",
+  "filepath": "1_unlocked_pdfs\\ssa-131.pdf",
+  "total_pages": 2,
+  "total_fields": 40,
+  "pages": [
+    {
+      "page_number": 1,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page1[0].TaxYear[0]",
+          "field_context_on_pdf": "Form S S Ay 131  05-2023 u f discontinue prior editions social security administration employer report of special wage payments page 1 of 2 o m b number 0 9 6 0 - 0 5 6 5 Part one - to be completed by s s ay / employer: tax year",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.12,
+            "y0": 117.41,
+            "x1": 66.15,
+            "y1": 153.41,
+            "width": 47.03,
+            "height": 36.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].EmployeeName[0]",
+          "field_context_on_pdf": "employee name",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 65.49,
+            "y0": 117.41,
+            "x1": 299.34,
+            "y1": 153.41,
+            "width": 233.85,
+            "height": 36.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].EmployeesSSN[0]",
+          "field_context_on_pdf": "employee's social security number",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 298.68,
+            "y0": 117.41,
+            "x1": 445.08,
+            "y1": 153.41,
+            "width": 146.4,
+            "height": 36.01
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].SSAClaim[0]",
+          "field_context_on_pdf": "social security administration claim number (to be completed by s s ay)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 445.09,
+            "y0": 127.64,
+            "x1": 591.47,
+            "y1": 153.41,
+            "width": 146.38,
+            "height": 25.78
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Employer[0]",
+          "field_context_on_pdf": "employer",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.12,
+            "y0": 166.52,
+            "x1": 264.99,
+            "y1": 195.38,
+            "width": 245.88,
+            "height": 28.85
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Address[0]",
+          "field_context_on_pdf": "address",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 264.36,
+            "y0": 166.52,
+            "x1": 591.46,
+            "y1": 195.38,
+            "width": 327.1,
+            "height": 28.85
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].EmployerID[0]",
+          "field_context_on_pdf": "part 2 - to be completed by employer: employees are sometime paid wages in a year subsequent to the year that the wages were earned. The most common types of payments are accumulated (for prior years) vacation pay or sick pay paid after retirement; deferred compensation; severance pay (when paid on account of retirement) and bonuses - paid pursuant to a prior agreement or contract. Wages which are earned in a year prior to the year they are paid usually do not affect benefits payable under the social security annual earnings test. However, for the social security administration to pay benefits accurately, these prior year amounts must be reported to us. The above named individual has filed for social security benefits. To ensure that correct social security benefits are paid, please complete the information below and return this form to the social security administration. (please see reverse side for instructions for the completion of this form.) 1. Employer identification number ( e i n)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.12,
+            "y0": 359.48,
+            "x1": 176.91,
+            "y1": 384.39,
+            "width": 157.79,
+            "height": 24.91
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].RetirementDate[0]",
+          "field_context_on_pdf": "2. Retirement date \r    (M M/D D/Y Y Y Y )",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 176.68,
+            "y0": 359.48,
+            "x1": 332.76,
+            "y1": 384.39,
+            "width": 156.08,
+            "height": 24.92
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].DateEmployee[0]",
+          "field_context_on_pdf": "3. Date employee last performed services \r    (M M/D D/Y Y Y Y )",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 332.37,
+            "y0": 359.48,
+            "x1": 592.12,
+            "y1": 384.39,
+            "width": 259.75,
+            "height": 24.92
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].IftheDates[0]",
+          "field_context_on_pdf": "if the dates in items 2 and 3 are not the same, please explain the difference.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8392704,
+          "rect": {
+            "x0": 19.73,
+            "y0": 397.16,
+            "x1": 592.07,
+            "y1": 425.96,
+            "width": 572.34,
+            "height": 28.8
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[0]",
+          "field_context_on_pdf": "4. For wages paid to the employee in the \"tax year\" (see Part one above), enter the amount that was for services performed prior to the tax year; or was not attributable to services rendered during the tax year; or was paid on account of retirement: dollar sign.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 477.87,
+            "y0": 437.96,
+            "x1": 591.47,
+            "y1": 458.72,
+            "width": 113.59,
+            "height": 20.76
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[0]",
+          "field_context_on_pdf": "sick pay",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 221.12,
+            "y0": 498.66,
+            "x1": 233.12,
+            "y1": 510.66,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[1]",
+          "field_context_on_pdf": "severance pay",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 404.75,
+            "y0": 498.66,
+            "x1": 416.75,
+            "y1": 510.66,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[2]",
+          "field_context_on_pdf": "bonus",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 37.15,
+            "y0": 519.07,
+            "x1": 49.15,
+            "y1": 531.07,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[3]",
+          "field_context_on_pdf": "deferred compensation",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 221.12,
+            "y0": 519.07,
+            "x1": 233.12,
+            "y1": 531.07,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[4]",
+          "field_context_on_pdf": "other (explain)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 37.15,
+            "y0": 540.07,
+            "x1": 49.15,
+            "y1": 552.07,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[1]",
+          "field_context_on_pdf": "Explain other check box selection.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 135.67,
+            "y0": 538.9,
+            "x1": 592.99,
+            "y1": 553.89,
+            "width": 457.32,
+            "height": 14.99
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Q5YesNo[0]",
+          "field_context_on_pdf": "5. Will payments listed in item \"4\" be made for years after the tax year? Yes.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 451.36,
+            "y0": 566.76,
+            "x1": 463.36,
+            "y1": 578.76,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "Yes"
+            ],
+            "down": [
+              "Off",
+              "Yes"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Q5YesNo[1]",
+          "field_context_on_pdf": "no",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 530.76,
+            "y0": 566.76,
+            "x1": 542.76,
+            "y1": 578.76,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "No"
+            ],
+            "down": [
+              "No",
+              "Off"
+            ]
+          },
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[2]",
+          "field_context_on_pdf": "If answered Yes, please show the amounts and years in which these amounts will be paid, if known. this is a table with two columns and six rows. the title of first column is amount and the title of the second column is year. Amount 1. ",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.04,
+            "y0": 609.37,
+            "x1": 162.15,
+            "y1": 624.97,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[3]",
+          "field_context_on_pdf": "year in which you will pay amount 1.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 162.07,
+            "y0": 609.37,
+            "x1": 305.17,
+            "y1": 624.97,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[4]",
+          "field_context_on_pdf": "amount 2.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.04,
+            "y0": 625.58,
+            "x1": 162.15,
+            "y1": 641.19,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[5]",
+          "field_context_on_pdf": "year in which you will pay amount 2.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 162.07,
+            "y0": 625.58,
+            "x1": 305.17,
+            "y1": 641.19,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[6]",
+          "field_context_on_pdf": "amount 3.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.04,
+            "y0": 641.16,
+            "x1": 162.15,
+            "y1": 656.77,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[7]",
+          "field_context_on_pdf": "year in which you will pay amount 3.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 162.07,
+            "y0": 641.16,
+            "x1": 305.17,
+            "y1": 656.77,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[8]",
+          "field_context_on_pdf": "amount 4.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 305.43,
+            "y0": 609.37,
+            "x1": 448.53,
+            "y1": 624.97,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[9]",
+          "field_context_on_pdf": "year in which you will pay amount 4.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 448.54,
+            "y0": 609.37,
+            "x1": 591.47,
+            "y1": 624.97,
+            "width": 142.93,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[10]",
+          "field_context_on_pdf": "amount 5.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 305.43,
+            "y0": 625.58,
+            "x1": 448.53,
+            "y1": 641.19,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[11]",
+          "field_context_on_pdf": "year in which you will pay amount 5.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 448.36,
+            "y0": 625.58,
+            "x1": 591.46,
+            "y1": 641.19,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[12]",
+          "field_context_on_pdf": "amount 6.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 305.43,
+            "y0": 641.16,
+            "x1": 448.53,
+            "y1": 656.77,
+            "width": 143.1,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[13]",
+          "field_context_on_pdf": "year in which you will pay amount 6.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 448.54,
+            "y0": 641.16,
+            "x1": 591.47,
+            "y1": 656.77,
+            "width": 142.93,
+            "height": 15.6
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[14]",
+          "field_context_on_pdf": "6. Non qualified deferred compensation and section 457 plans only. If payments and deferrals                                                         occurred during the tax year, enter the amount of wages earned by the employee during the tax year.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 477.52,
+            "y0": 664.07,
+            "x1": 591.46,
+            "y1": 684.83,
+            "width": 113.93,
+            "height": 20.76
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Dollar[15]",
+          "field_context_on_pdf": "Signature. A wet signature is required. Print this form and sign in ink",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 68.69,
+            "y0": 698.17,
+            "x1": 591.46,
+            "y1": 723.98,
+            "width": 522.77,
+            "height": 25.81
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Title[1]",
+          "field_context_on_pdf": "title",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 19.12,
+            "y0": 740.95,
+            "x1": 250.11,
+            "y1": 764.78,
+            "width": 230.99,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].Date[0]",
+          "field_context_on_pdf": "date",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 250.11,
+            "y0": 740.95,
+            "x1": 376.41,
+            "y1": 764.78,
+            "width": 126.3,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].PhoneNumber[0]",
+          "field_context_on_pdf": "phone number (over)",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 376.42,
+            "y0": 740.95,
+            "x1": 591.46,
+            "y1": 764.78,
+            "width": 215.05,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 1
+        },
+        {
+          "field_name": "topmostSubform[0].Page1[0].CheckBox2[5]",
+          "field_context_on_pdf": "Check the type(s) of wages paid in the tax year but for services performed in a prior year or were paid on account of retirement. vacation pay.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "CheckBox",
+          "field_type_code": 2,
+          "field_value": "",
+          "field_flags": 0,
+          "rect": {
+            "x0": 37.15,
+            "y0": 498.66,
+            "x1": 49.15,
+            "y1": 510.66,
+            "width": 12.0,
+            "height": 12.0
+          },
+          "is_checked": false,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": {
+            "normal": [
+              "1"
+            ],
+            "down": [
+              "1",
+              "Off"
+            ]
+          },
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "fields": [
+        {
+          "field_name": "topmostSubform[0].Page2[0].PhoneNumber[0]",
+          "field_context_on_pdf": "Page 2 of 2 EMPLOYER INSTRUCTIONS FOR COMPLETING SPECIAL WAGE PAYMENT FORM 1.  Provide the E I N that was used or will be used to report the employee's wages on the Form W-2.\r2.  Enter the date the employee retired. Enter \"Not Retired\" if the employee has not retired.\r3.  Enter the date that the employee last performed services; was not expected to return to work; and was not subject to recall to   \r     render additional services. This date should be the same as or earlier than the date in item \"2.\" Enter \"Not Retired\" if the \r     employee has not retired.\r4.  Enter the wages that were paid to the employee in the tax year that were for services that were performed in years prior to the tax year or that were paid on account of retirement. \r\rExamples (not all inclusive) of payments to be included:      • Payments in lieu of vacation that were earned in a year prior to the tax year.\r      • Accumulated sick payments which were paid in a lump sum based on \"retirement\" as the sole condition of payment.\r      • Accumulated sick payments paid at or after the date in item 3, which were earned in a year prior to the tax year.\r      • Payments \"on account of retirement\"--dismissal, severance or termination pay paid because of retirement.\r      • Bonuses which are paid pursuant to a prior contract, agreement or promise causing the employee to expect  such payments \r        regularly; or announced to induce the employee to work more steadily, rapidly or efficiently  or to remain with the employer.\r      • Stock Options.\rDo not include in item \"4\" payments:\r      • For annual, sick, holiday or vacation pay if used (absence from work) prior to the date of retirement (earlier of items \"2\" or \"3\").\r      • That were reported or will be reported under \"Nonqualified Plans\" on the Form W-2.\r      • That were deducted from the employee's wages and paid to a deferred compensation plan (e.g., 401k).\r      • Employees health and dental plan benefits (non-covered/non-taxable for Social Security Wages).\r      • Bonuses earned and paid in the tax year.\r\r5.  Check whether payments listed in item 4 will be made for years after the tax year. If yes, please show the amounts and years   \r     in which these will be paid, if known.\r\r6.  Nonqualified deferred compensation and section 457 plans only.  If you were unable to report nonqualified deferred compensation or section 457 plan payments and deferrals (contributions) on Form W-2 because both payments and deferrals occurred during the year, show the amount of wages  earned  by the employee during the tax year. Generally, the wages earned will be the compensation reported in block 1 of Form W-2 less payments from a nonqualified deferred compensation (or 457) plan, but including any amounts deferred under the plan during the tax year (See IRS Publication 957).",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 587.52,
+            "y0": 73.44,
+            "x1": 604.68,
+            "y1": 97.27,
+            "width": 17.16,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].PhoneNumber[1]",
+          "field_context_on_pdf": " PRIVACY ACT STATEMENT \rCollection and Use of Personal Information\r\rSections 203(f), 205(c) and 233 of the Social Security Act, as amended, allow us to collect this information. Furnishing us this information is voluntary. However, failing to provide all or part of the information may prevent us from making an accurate determination regarding the amount of Social Security benefits payable to the individual for the year in question.\r\rWe will use the information you provide to make a determination concerning the amount of Social Security benefits payable to the individual. We may also share this information for the following purposes, called routine uses:\r\r• To any source that has, or is expected to have, information that the Social Security Administration (SSA) needs in order to \r  establish or verify a person’s eligibility for a certificate of coverage under a Social Security agreement authorized by section 233 \r  of the Social Act; and \r\r• To contractors and other Federal agencies, as necessary, for the purpose of assisting the SSA in the efficient administration of  \r  our programs.\r\rIn addition, we may share this information in accordance with the Privacy Act and other Federal laws. For example, where authorized, we may use and disclose this information in computer matching programs, in which our records are compared with other records to establish or verify a person’s eligibility for Federal benefit programs and for repayment of incorrect or delinquent debts under these programs.\r\rA list of additional routine uses is available in our Privacy Act System of Records Notice (S O R N) 60-0059, entitled Earnings Recordings and Self-Employment Income System, as published in the Federal Register (FR) on January 11, 2006, at 71 FR 1819. Additional information, and a full listing of all of our S O R N s, is available on our website at www.ssa.gov/privacy.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 551.83,
+            "y0": 408.0,
+            "x1": 568.99,
+            "y1": 431.83,
+            "width": 17.16,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        },
+        {
+          "field_name": "topmostSubform[0].Page2[0].PhoneNumber[2]",
+          "field_context_on_pdf": "Paperwork Reduction Act Statement                                                                - This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (O M B) control number. We estimate that it will take about 20 minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding this burden estimate or any other aspect of this collection, including suggestions for reducing this burden to: SSA, 6401 Security Blvd, Baltimore, MD 21235-6401. You are at the end of the form. If you tab again, you will tab to a link. Tab again and you will be at the beginning of the form.",
+          "field_context_detected": null,
+          "field_context_all_directions": {},
+          "field_type": "Text",
+          "field_type_code": 7,
+          "field_value": "",
+          "field_flags": 8388608,
+          "rect": {
+            "x0": 550.46,
+            "y0": 696.67,
+            "x1": 567.63,
+            "y1": 720.5,
+            "width": 17.16,
+            "height": 23.83
+          },
+          "text_format": 0,
+          "text_maxlen": 0,
+          "is_readonly": false,
+          "is_required": false,
+          "is_no_export": false,
+          "button_states": null,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}
